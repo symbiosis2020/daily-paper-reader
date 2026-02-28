@@ -21,7 +21,7 @@ RANKED_DIR = os.path.join(ARCHIVE_DIR, "rank")
 CONFIG_FILE = os.path.join(ROOT_DIR, "config.yaml")
 
 DEFAULT_FILTER_MODEL = os.getenv("BLT_FILTER_MODEL") or "gemini-3-flash-preview-nothinking"
-DEFAULT_FILTER_CONCURRENCY = 8
+DEFAULT_FILTER_CONCURRENCY = 4
 
 
 def log(message: str) -> None:

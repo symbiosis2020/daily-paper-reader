@@ -6,6 +6,7 @@ import html
 import json
 import math
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import re
 import tempfile
 import time
@@ -30,6 +31,8 @@ BLT_MODEL = os.getenv("BLT_SUMMARY_MODEL", "gemini-3-flash-preview")
 LLM_CLIENT = None
 if BLT_API_KEY:
     LLM_CLIENT = BltClient(api_key=BLT_API_KEY, model=BLT_MODEL)
+
+DEFAULT_DOCS_CONCURRENCY = 4
 
 
 def call_blt_text(
@@ -2168,6 +2171,12 @@ def main() -> None:
         default=None,
         help="单篇模式：可选，手动覆盖论文标题。",
     )
+    parser.add_argument(
+        "--docs-concurrency",
+        type=int,
+        default=DEFAULT_DOCS_CONCURRENCY,
+        help="step6 每篇论文并发生成数量。",
+    )
     args = parser.parse_args()
 
     date_str = args.date or TODAY_STR
@@ -2278,6 +2287,42 @@ def main() -> None:
 
     deep_entries: List[Tuple[str, str, List[Tuple[str, str]]]] = []
     quick_entries: List[Tuple[str, str, List[Tuple[str, str]]]] = []
+    docs_concurrency = max(1, int(args.docs_concurrency))
+
+    def _process_section(
+        section: str,
+        papers: List[Dict[str, Any]],
+    ) -> List[Tuple[str, str, List[Tuple[str, str]]]]:
+        if not papers:
+            return []
+        max_workers = max(1, docs_concurrency)
+        futures: Dict[Any, Tuple[int, Dict[str, Any]]] = {}
+        results: List[Tuple[int, Tuple[str, str, List[Tuple[str, str]]]]] = []
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            for index, paper in enumerate(papers):
+                future = executor.submit(
+                    process_paper,
+                    paper,
+                    section,
+                    date_str,
+                    docs_dir,
+                    args.glance_only,
+                    args.force_glance,
+                )
+                futures[future] = (index, paper)
+
+            for future in as_completed(futures):
+                index, paper = futures[future]
+                try:
+                    pid, title = future.result()
+                except Exception as e:
+                    log(f"[WARN] 生成{section}论文失败：{e}")
+                    continue
+                section_tags = extract_sidebar_tags(paper)
+                results.append((index, (pid, title, section_tags)))
+
+        results.sort(key=lambda item: item[0])
+        return [v for _, v in results]
 
     if args.sidebar_only:
         log_substep("6.2", "跳过生成文章（仅更新侧边栏）", "SKIP")
@@ -2295,29 +2340,11 @@ def main() -> None:
         log_substep("6.3", "跳过生成文章（仅更新侧边栏）", "SKIP")
     else:
         log_substep("6.2", "生成精读区文章", "START")
-        for paper in deep_list:
-            pid, title = process_paper(
-                paper,
-                "deep",
-                date_str,
-                docs_dir,
-                glance_only=args.glance_only,
-                force_glance=args.force_glance,
-            )
-            deep_entries.append((pid, title, extract_sidebar_tags(paper)))
+        deep_entries = _process_section("deep", deep_list)
         log_substep("6.2", "生成精读区文章", "END")
 
         log_substep("6.3", "生成速读区文章", "START")
-        for paper in quick_list:
-            pid, title = process_paper(
-                paper,
-                "quick",
-                date_str,
-                docs_dir,
-                glance_only=args.glance_only,
-                force_glance=args.force_glance,
-            )
-            quick_entries.append((pid, title, extract_sidebar_tags(paper)))
+        quick_entries = _process_section("quick", quick_list)
         log_substep("6.3", "生成速读区文章", "END")
 
     log_substep("6.4", "生成当日日报并同步首页 README", "START")
