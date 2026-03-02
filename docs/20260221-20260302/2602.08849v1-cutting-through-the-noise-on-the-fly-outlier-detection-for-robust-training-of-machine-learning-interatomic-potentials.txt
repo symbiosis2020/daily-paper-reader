@@ -1,0 +1,849 @@
+Title: Cutting Through the Noise: On-the-fly Outlier Detection for Robust Training of Machine Learning Interatomic Potentials
+
+URL Source: https://arxiv.org/pdf/2602.08849v1
+
+Published Time: Tue, 10 Feb 2026 03:43:53 GMT
+
+Number of Pages: 12
+
+Markdown Content:
+# Cutting Through the Noise: On-the-fly Outlier Detection for Robust Training of Machine Learning Interatomic Potentials 
+
+Terry C. W. Lam, 1, 2 Niamh O’Neill, 3, 1, 2 Christoph Schran, 1, 2, a) and Lars L. Schaaf 1, 2, b) 
+
+> 1)
+
+Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, CB3 0HE, United Kingdom 
+
+> 2)
+
+Lennard-Jones Centre, University of Cambridge, Trinity Lane, Cambridge, CB2 1TN, United Kingdom 
+
+> 3)
+
+Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, United Kingdom 
+
+(Dated: 10 February 2026) 
+
+The accuracy of machine learning interatomic potentials suffers from reference data that contains numerical noise. Often originating from unconverged or inconsistent electronic-structure calculations, this noise is challenging to identify. Existing mitigation strategies such as manual filtering or iterative refinement of outliers, require either substantial expert effort or multiple expensive retraining cycles, making them difficult to scale to large datasets. Here, we introduce an on-the-fly outlier detection scheme that automatically down-weights noisy samples, without requiring additional reference calculations. By tracking the loss distribution via an exponential moving average, this unsupervised method identifies outliers throughout a single training run. We show that this approach prevents overfitting and matches the performance of iterative refinement baselines with significantly reduced overhead. The method’s effectiveness is demonstrated by recovering accurate physical observables for liquid water from unconverged reference data, including diffusion coefficients. Furthermore, we validate its scalability by training a foundation model for organic chemistry on the SPICE dataset, where it reduces energy errors by a factor of three. This framework provides a simple, automated solution for training robust models on imperfect datasets across dataset sizes. 
+
+I. INTRODUCTION 
+
+Machine learning interatomic potentials (MLIPs) are routinely employed to circumvent the high computational cost of ab initio quantum chemistry methods, with min-imal sacrifice in accuracy. 1–9 Trained on reference data, MLIPs predict the potential energy of an atomic con-figuration directly from the constituent atoms’ positions and elemental identities. By bypassing the need to solve the electronic Schr¨ odinger equation (or approximations thereof) at each time step, MLIPs can accelerate atomic simulations by orders of magnitude while generally ex-hibiting linear scaling with system size. 9–11 
+
+Previously, significant effort was required to curate rel-evant training datasets. To automate the procedure, active learning approaches were often employed to iter-atively improve models. 12–22 This process typically in-volves computing reference energies and forces for new configurations sampled from simulations run with prelim-inary versions of the MLIP. This approach generally re-sulted in models trained for specific applications. 21,23–26 
+
+Recently, a new paradigm has emerged with models trained on large, diverse reference datasets, resulting in so-called ‘foundation models’. 27–37 These models offer strong out-of-the-box performance across a wide range of applications, from materials science to organic chem-istry. Furthermore, they have demonstrated strong gen-eralisability. For instance, models trained exclusively on 
+
+> a) Electronic mail: cs2121@cam.ac.uk
+> b) Electronic mail: lls34@cam.ac.uk
+
+small crystal structures can successfully simulate systems with structural and chemical complexity far exceeding the training data, such as carbon capture in porous ma-terials or peptides in aqueous solution. 32 For additional accuracy, foundation models can be fine-tuned on a small set of configurations, requiring less data than training a model from scratch. 38 
+
+Despite this progress, MLIPs often struggle when trained on noisy data, which is becoming even more prob-lematic in the large data regime. 39–43 Such noise can be random or systematic, frequently originating from numerical errors in the reference electronic structure method or mismatches in the electronic structure set-tings for different systems. The sources of these er-rors are manifold and method-dependent. For example, reference calculations based on density functional the-ory (DFT) may suffer from incomplete self-consistent field (SCF) convergence. 44,45 Concurrently, other high-accuracy methods, such as variational (VMC) and diffu-sion (DMC) Monte Carlo, are intrinsically stochastic and introduce inherent noise into the reference forces and en-ergies. 46,47 In the context of foundation models, it is dif-ficult to avoid all sources of noise when the dataset sizes exceeds millions of configurations. Current strategies to mitigate the impact of noisy data primarily involve manual filtering 33,41,45 or itera-tive refinement. 32,33 Manual filtering is labour-intensive, requires domain-specific chemical expertise, and risks the erroneous removal of valuable data points. 33 In the con-text of foundation models trained on hundreds of millions of configurations, such a manual approach quickly be-comes infeasible. An alternative strategy involves train-
+
+> arXiv:2602.08849v1 [stat.ML] 9 Feb 2026
+
+2Moving avg.        
+
+> Loss per
+> config ℓ
+> μσ2
+> μN-1μN
+> σN-1
+> 2σN
+> 2
+> Per config weights
+> w(ℓ, μN,σ2N)
+> Batch loss
+> ℓ’= Σw2ℓ
+> Last batch
+> Next batch
+> ……
+> Bootstrapping
+> MACE Training
+
+b
+
+> Total batch
+> loss
+> i
+> i
+> Update
+> model
+> parameters
+> Batch
+> output
+> Identify
+> outliers
+> Penalise
+> outliers with
+> low weight
+> Gather
+> statistics of
+> training
+
+a 1 2 3
+
+> 1
+> 2
+> 3
+> If threshold statistics
+> are updated
+
+FIG. 1. On-the-fly outlier detection. (a) A high level overview of the steps for detecting outliers in the training data and down weighting their impact on the training loss. (b) A overview of the changes in the training procedure, showing normal MLIP train-ing steps (top) and the new on-the-fly bootstrapping technique (bottom). Number labels indicate which parts of the training modifications correspond to the high level overview in (a). 
+
+ing an initial MLIP on the entire dataset and subse-quently filtering configurations on which the model ex-hibits high prediction errors. The underlying assump-tion is that the MLIP, constrained by smoothness, will fit the average data behavior and thus identify noisy configurations as high-error outliers. This method func-tions for us as an iterative refinement baseline. 32,33 Iter-ative refinement, however, is computationally expensive as it requires repeated training cycles on the same large datasets. In this paper, we introduce an on-the-fly outlier de-tection approach that requires neither model refitting, nor chemical expertise. The core concept is to system-atically down-weight suspected noisy data points within each batch during training. A data point’s probability of being an outlier is evaluated based on its deviation from a tracked error distribution, which is maintained using an exponential moving average (EMA) of batch errors (e.g., being 3 σ outside the EMA-derived mean). This strat-egy enables noise-resilient fitting in a single training run. For our development, we draw inspiration from applica-tions in the broader machine learning community. 48–53 In this context, our approach can be classified as a dynamic bootstrapping technique, 48 where loss weights vary be-tween one (full trust in the reference data) and zero, depending on the assessed likelihood of the label being noisy. We find that this noise detection method reduces over-fitting, leads to improved physical observables, and ac-celerates training in the foundation model regime. We test the approach on marginally noisy data, finding that standard ‘vanilla’ training leads to a higher validation loss than our proposed method. When the training set is re-evaluated with more converged reference DFT set-tings, our model, trained on the original noisy data, accu-rately predicts energies and forces when compared to the converged data. Furthermore, we show that the improve-ments in validation root-mean-square error (RMSE) di-rectly impacts the accuracy of observables derived from simulations, such as calculated diffusion coefficients. Fi-nally, we apply the approach to training an organic force field foundation model on the SPICE 2.0 dataset, 39,40 
+
+where the resulting model achieves energy errors a fac-tor of three lower than the vanilla model. This auto-mated noise-resilience technique provides a practical so-lution for both training large-scale, next-generation foun-dation models from scratch and for performing robust fine-tuning, thereby accelerating Machine-learning(ML)-driven molecular and materials discovery. 
+
+II. METHOD Overview of Noise-resilient Training 
+
+The proposed on-the-fly outlier detection for training noise-resilient MLIPs consists of three steps, as visualised in Fig. 1. Firstly, we track the average and standard de-viation of the loss throughout training. Metrics for the loss distribution as a function of epoch are needed for de-termining outliers. Secondly, at each batch we determine the likelihood of a given configuration being an outlier based on the training example’s loss compared to the determined loss distribution of previous examples. The higher the loss compared to the mean and standard devi-ation, the more likely a configuration is assumed to have been mislabelled. Finally, we reweigh all training config-urations based on their probability of being noisy data, before computing the loss. This way the impact of noisy outliers on training performance is mitigated Below we outline each of these steps in detail. Our implementation of on-the-fly noise detection arises from the key consideration that outliers take longer to learn. 48,54,55 We show this empirically in Fig. 3, where the distinct splitting of noisy and clean training data shows key differences in training dynamics. We explore this behaviour in further detail in the results section. 
+
+Training Loss Modification 
+
+The standard training objective for an MLIP mini-mizes a loss function Ltotal , which is a weighted sum of various observables, usually including energy ( ℓE ), force (ℓF ), and stress ( ℓS ) components. For a batch of NB310 0 10 1 10 2 10 3          
+
+> Epoch
+> 10 2
+> 10 1
+> Training force error (eV/Å)
+> Noisy Clean
+> Early epoch
+> Middle epoch
+> Late epoch
+> Early Middle Late
+> 0.0 0.5 1.0
+> Force error (eV/Å)
+> 0.0
+> 0.5
+> 1.0
+> wi
+> 0.0 0.5 1.0
+> Force error (eV/Å)
+> 0.0
+> 0.5
+> 1.0
+> 0.0 0.5 1.0
+> Force error (eV/Å)
+> 0.0
+> 0.5
+> 1.0
+> Config
+> weights
+
+a
+
+b
+
+FIG. 2. Noise-resilient training on a revMD17 dataset. (a) Log-log plots of the error evolution with epoch in the 2000-epoch training. Each line represents one configuration, and are coloured according to whether the labels were from revMD17 (‘clean’, green), or from MD17 (‘noisy’, red). (b) Force error distribution at early ( ∼10 0), middle ( ∼10 1) and late epochs ( ∼10 2). The assignment of the bootstrapping weights based on the force error shown. 
+
+configurations, this is expressed as: 
+
+Ltotal = 1
+
+NBNBX
+
+> i=1
+
+Li (1) = 1
+
+NBNBX
+
+> i=1
+
+(λE ℓE,i + λF ℓF,i + λS ℓS,i ) (2) where Li is the total loss for configuration i, and λ terms are hyper-parameters that balance the contribution of each component (e.g., ℓF,i is the mean squared error of the forces for configuration i). To mitigate overfitting on noisy reference data, we in-troduce a dynamic bootstrapping scheme. 48,50 This mod-ifies the loss function by applying a per-configuration weight, wi, which represents the model’s assessed proba-bility that configuration i is “clean” (i.e., not an outlier) resulting in the modified loss function, L′,
+
+L′ = 1
+
+NBNBX
+
+> i=1
+
+w2 
+
+> i
+
+Li. (3) The squared-weight formulation highlights parallels to fitting on a “soft” target label, 49,50 when the L2 loss is considered. Fitting on the loss L′ can be interpreted as fitting on y′
+
+> i, ref
+
+, which interpolates between the poten-tially noisy dataset reference yi, ref and the model’s own prediction yi, pred , such that 
+
+y′ 
+
+> i, ref
+
+≡ wiyi, ref + (1 − wi)yi, pred . (4) 
+
+On-the-fly Weight Estimation 
+
+The weights wi are determined on-the-fly during train-ing based on each configuration’s loss Li relative to the loss distribution across the training dataset. We model the distribution of loss after β batches P (L) as a single Gaussian, 
+
+Lβ ∼ N (μβ , σ 2 
+
+> β
+
+), (5) where μβ and σ2 
+
+> β
+
+are the average and variance of the loss over the entire dataset of the model with weights after β
+
+batches of training. This allows for simple identification of outliers based on the standard score ( zi,β = ( Li,β −
+
+μβ )/σ β ), where Li,β is the loss for configuration i in batch 
+
+β.Determining the average and variance of the loss across the entire dataset at each step would result in significant overhead. Using the instantaneous batch mean, with batch sizes as low as 8, results in noisy estimates. We therefore dynamically track the parameters of this dis-tribution, by maintaining an exponential moving average (EMA) of the mean ( μ) and variance ( σ2) of the batch losses 
+
+μβ = (1 − α)μβ−1 + αμ batch (6) 
+
+σ2 
+
+> β
+
+= (1 − α)σ2 
+
+> β−1
+
++ ασ 2batch , (7) where β is the batch index, μbatch and σ2batch are the mean and variance of the current batch, and α is the EMA decay rate. The rate α is set relative to the number of training batches per epoch, n (e.g., α ≈ 0.99 for n > 100), ensuring a smooth average that is robust to transient batch-to-batch fluctuations. As visible in Appendix A, this results in a smoothly decaying μ and σ throughout training. Using the tracked μβ and σβ , we compute a z-score for each configuration i in the current batch β: zi,β =(Li,β − μβ )/σ β . The weight wi,β is then assigned using a smoothed thresholding function based on the Gaussian cumulative distribution function 
+
+wi,β (zi,β ) = 12
+
+
+
+1 + erf 
+
+ zt − zi,β 
+
+√2
+
+ 
+
+, (8) where erf( x) is the error function and zt is a hyperpa-rameter defining the z-score threshold for outlier detec-tion (e.g., zt = 3). This function smoothly transitions 
+
+wi,β from 1 (for zi,β ≪ zt, presumed clean) to 0 (for 
+
+zi,β ≫ zt, presumed noisy). zt can be chosen to reflect the percentage of outliers and the relative error distri-bution. In practice, we find that the performance is not sensitive to the exact setting of zt (see Appendix B). During training, we monitor the batch-averaged weight 
+
+⟨wi⟩. A warning is issued if ⟨wi⟩ drops below a prede-fined value, ensuring that the mean gradient magnitude remains sufficient for stable model convergence. As the separation between clean and noisy sample losses often becomes more distinct in later epochs as seen in Fig. 2, 40 500 1000 1500 2000       
+
+> Epoch
+> 10 2
+> 10 1
+> Force error (eV / Å)
+> 0500 1000 1500 2000
+> Epoch
+
+Without bootstrap Bootstrap (ours)      
+
+> No overfitting
+> Overfitting
+> Noisy (train) Clean (train) Noisy (re-evaluated) Validation
+> FIG. 3. Bootstrapping prevents overfitting. Force error curves of the noisy samples (red), clean samples (green), and samples in the validation set (blue), as a function of epoch, without and with bootstrapping applied. Thick line represents median and shaded area represents inter-quartile range (IQR). This training error is defined as the RMSE with respect to the reference (potentially false) forces the training sees. The noisy training data is re-evaluated with more converged reference method. Comparisons between the models predictions and the unseen re-evaluated noisy configurations (orange), indicates that the noise resilient model is able to predict the true forces at validation accuracy.
+
+these statistics can be updated less frequently than at the start to reduce computational overhead. Previous approaches in image classification have used more complicated bimodal distributions, to model the loss distribution across a dataset containing outliers. 48,56 
+
+We find that a simple z-score approach avoids numeri-cal instabilities of fitting more flexible distributions such as Gaussian mixture models 57 or Beta mixture models, 58 
+
+since the typically outlier abundance is only a small frac-tion ( ≲ 10%) of the dataset. A single Gaussian robustly captures the central tendency of the data, allowing high-loss noisy samples to be identified as statistical outliers in the distribution’s tail. While generally applicable to all MLIPs, we have im-plemented this approach for on-the-fly outlier detection in the MACE framework. 59 While further details are pro-vided in Sec. IV, it is important to note that this imple-mentation can be easily scaled to multi-GPU inference.  
+
+> III. RESULTS
+
+In this section, we evaluate the proposed noise-resilient training approach across a range of tasks and dataset scales. We begin with controlled benchmarks in which noisy training labels are paired with independently con-verged reference labels for validation. We then com-pare against a standard iterative refinement baseline. Fi-nally, we assess whether the approach improves down-stream physical observables and remains effective in the foundation-model regime. 
+
+> Bootstrapping reduces over-fitting
+
+To evaluate the effectiveness of noise-resilient train-ing in preventing overfitting, we constructed a syn-thetic dataset based on the MD17 and revised MD17 (revMD17) datasets. Both MD17 60 and revMD17 42 
+
+share the same configurations, but revMD17 improves upon MD17 by removing all the numerical noise present in the original data. We utilized the revMD17 dataset as the ground truth but replaced the labels of 10% of the configurations with values from the noisy MD17 dataset. This introduces a source of systematic error distinct from random Gaussian noise and reminiscent of typical errors in electronic structure datasets. We then trained MACE models on this mixed dataset, both with and without the proposed bootstrapping mechanism. Fig. 2 shows the progress of the training run with boot-strapping, to illustrate the training dynamics of our pro-posed method. In particular, we compare the loss dis-tribution for early, middle and late epochs. In early epochs it is difficult to distinguish between noisy and clean data. As the model performance improves the noisy data clearly separates as outliers. The weights of each configuration as a function of error included in panel b show how noisy data is effectively down-weighed over the course of the training process. We next demonstrate in Fig. 3 that bootstrapping ef-fectively prevents the model from fitting the noisy labels. In the standard training regime (without bootstrapping), the training error on the noisy subset decreases contin-uously. However, the error with respect to the hidden 5ground truth (revMD17) eventually increases after reach-ing a minimum, confirming that the model is overfitting to the incorrect MD17 labels. In contrast, the bootstrapped model successfully iden-tifies these outliers. As shown in Fig 2 b), the loss weights for the noisy configurations rapidly drop toward zero by the 10th epoch. Consequently, the training error on this subset plateaus at approximately 300 meV/˚ A, which cor-responds to the inherent discrepancy between the MD17 and revMD17 evaluations. Crucially, while the model at-tenuates the noisy training labels (by setting wi ≈ 0), its predictions for these configurations converge accurately toward the unseen ground-truth forces. Finally, preventing overfitting on the noisy outliers sig-nificantly improves performance on the clean data. As training progresses, the standard model degrades on the validation set due to the noise-induced distortion of the potential energy surface. Conversely, the bootstrapped model maintains high accuracy, achieving a final median force error of 27.0 meV/˚ A on the re-evaluated validation set, which is a more than three-fold improvement over the 94.0 meV/˚ A error observed in the standard model. 
+
+Bootstrapping outperforms iterative refinement 
+
+To assess the computational efficiency of our on-the-fly approach, we benchmarked it against a standard iterative refinement strategy. 32,33 As illustrated in Fig. 4 a), this baseline method relies on the assumption that a trained model will exhibit high prediction errors on noisy outliers due to smoothness constraints. The procedure involves training an initial model on the entire dataset, calculating the prediction errors for all training configurations, and assigning static weights based on these errors via Eq. (8). A subsequent model is then trained on this re-weighted dataset. We repeated this full training and re-weighting cycle over four generations to track the convergence of the data cleaning process. Fig. 4 b) compares the validation errors of the iter-ative generations against our single-shot bootstrapped model. While both methods eventually converge to a similar error of approximately 25–30 meV/˚ A, our ap-proach achieves this accuracy in a single training run. In contrast, the iterative baseline requires multiple com-putationally expensive retraining cycles to reach compa-rable performance. For completeness, we also refine the bootstrapped model over multiple iterations, following the same procedure of removing high outlier data points after each run. As visible in Fig. 4 b), the performance of the model doesn’t improve nor degrade. This shows that once the dataset has been filtered using the boot-strapping method by setting wi ≈ 0 to noisy samples, repetitive fittings do not result in the bootstrapping er-roneously down-weighing clean samples. Furthermore, the iterative approach is highly sensitive to the stopping criteria of the previous model. If the pre-vious model is trained too long without noise filtering, Training 
+
+> …
+> MACE Training
+> …
+> MACE
+> …
+
+a Iterative refinement     
+
+> Re -weight each config
+> based on final error
+> Re -weight each config
+> based on final error 01234
+> Number of iterations
+> 0
+> 20
+> 40
+> 60
+> 80
+> 100
+> 120
+> Actual error (meV / Å)
+> Without iterative refinement
+> Bootstrapped
+> Vanilla
+> Vanilla (early stop)
+
+b
+
+FIG. 4. Noise-resilient training compared to iterative refine-ment. (a) The schematics of iterative refinement , which in-volves re-evaluating the weights and then repeating the training for multiple cycles. The weight calculation is the same as boot-strapping without the need for an EMA. (b) The first model (step 0) is trained respectively with (green, ‘bootstrapped’) and with-out (red, ‘vanilla’) bootstrapping. Distillation is done 4 times. Force error with error bars (median and IQR) at the end of the 2000 epochs is plotted. Bootstrapping reaches the minimum force error ( ∼ 30 meV/˚ A) without requiring refinement, while at least 2 refinement steps were required for a normal MACE model to reach this accuracy. A one-step refinement is also per-formed by stopping the initial training early at the 240th epoch (blue). 
+
+it overfits the outliers, resulting in incorrect weights for the next model. The boostrapping approach does not suffer from the same limitations. By continually updat-ing outlier probabilities during the training process, the dynamic bootstrapping method eliminates the need for such manual tuning and prevents the initial overfitting of noisy data. Based on these findings, we test the itera-tive refinement baseline, but when stopping the training early. As visible in Fig. 4 b) (blue line) this improves the performance slightly. Nevertheless, it does not reach the bootstrapped accuracy and incurs almost twice the computational cost. Furthermore it requires a manual selection of ”early stopping criteria”. We show in Ap-pendix B, that the bootstrapping approach is not very sensitive to the threshold, and hence requires minimal care when setting the hyper-parameters. 650 100 150 200 250 300 350                    
+
+> Force error (meV / Å)
+> 0
+> 100
+> 200
+> 300
+> 400
+> 500
+> Frequency
+> Force errors
+> 20
+> 0
+> 20
+> DFT forces (eV / Å)
+> 20 020
+> Reference forces (eV / Å)
+> 1.0
+> 0.5
+> 0.0
+> 0.5
+> Residuals (eV / Å)
+> Bootstrap Noisy
+> 0.0
+> 0.5
+> 1.0
+> 1.5
+> 2.0
+> 2.5
+> D (10  9 m2/s)
+> Reference
+> Self-diffusion
+> 0.0
+> 0.5
+> 1.0
+> 1.5
+> 2.0
+> 2.5
+> 3.0
+> g(r)
+> 23456
+> r (Å)
+> 0.4
+> 0.2
+> 0.0
+> 0.2
+> 0.4
+> Residuals
+> 0.0
+> 0.5
+> 1.0
+> 1.5
+> 2.0
+> g(r)
+> 0123456
+> r (Å)
+> 0.3
+> 0.2
+> 0.1
+> 0.0
+> 0.1
+> 0.2
+> 0.3
+> Residuals
+> 0.0
+> 0.5
+> 1.0
+> 1.5
+> 2.0
+> g(r)
+> Bootstrap
+> Noisy
+> Reference
+> 0123456
+> r (Å)
+> 0.2
+> 0.1
+> 0.0
+> 0.1
+> 0.2
+> Residuals
+
+b
+
+c
+
+a
+
+O-O H-O H-H 
+
+FIG. 5. Effect on observables of bulk water simulations. (a) (left) Histogram plot of RMSE forces produced by DFT in a certain loose convergence threshold and (right) the distribution of the forces and the residuals. (b) The self-diffusion coefficient of water at 298 K and 1 atm obtained in the classical MD simulation in NVT conditions, for a noisy dataset (red), and the noisy dataset trained with bootstrapping (green). Reference value computed from a clean dataset indicated as dotted line. (c) Radial distribution functions for (left) O-O, (middle) O-H, and (right) H-H interatomic distances in bulk liquid water at 298 K and 1 atm, taken from a classical MD simulation in NVT conditions. Black dotted line plots the reference value. Residuals shown at the bottom. 
+
+Bootstrapping improves physical observables 
+
+Benchmarking MLIPs solely on validation set errors is often insufficient, as these metrics do not guarantee the stability or accuracy of derived physical observables dur-ing molecular dynamics (MD) simulations. 61–63 To assess the practical utility of noise-resilient training, we evalu-ated the recovery of macroscopic properties of liquid wa-ter, for a system of 126 water molecules, relative to a clean dataset. This allows the approach to be tested in a condensed phase system rather than on gas phase cluster as in the previous section. To emulate a realistic scenario where high-throughput DFT calculations fail to fully converge, we generated a “noisy” dataset using loose SCF convergence thresh-olds. We contrast this with a “clean” dataset gener-ated using tight convergence settings. A comparison of the two reveals a multi-modal error distribution in the forces (Fig. 5 a)), where approximately 12% of the loosely converged configurations exhibit large force er-rors ( ≳ 200 meV/˚ A), classifying them as outliers. For our subsequent assessment, we trained three models: a reference model (trained on clean data), a standard 
+
+model (trained on noisy data), and a bootstrapped model (trained on noisy data with our outlier detection scheme). We first examined the dynamical properties of the sys-tem by computing the self-diffusion coefficient, D, from the mean squared displacement (Fig. 5 b)). 64 The refer-70 10 20 30 40             
+
+> Epoch
+> 10
+> 20
+> 30
+> 40
+> 50
+> RMSE Energy (meV/atom)
+> Without bootstrap
+> With bootstrap
+> 010 20 30 40
+> Epoch
+> 40
+> 60
+> 80
+> 100
+> RMSE Force (meV/Å)  Without bootstrap
+> With bootstrap
+> 010 20 30 40
+> Epoch
+> 0
+> 1
+> 2
+> 3
+> 4
+> Without bootstrap With bootstrap
+> 010 20 30 40
+> Epoch
+> 0
+> 1
+> 2
+> 3
+> 4
+> Without bootstrap With bootstrap
+
+aHigh weights 
+
+b Low weights 
+
+> (outliers)
+> SPICE
+> Dataset
+
+FIG. 6. Noise-resilient training applied to the SPICEv2 40 dataset. (a) Top panels: The evolution of the RMSE energy and forces training with boostrapping (green) and without bootstrapping (red) in the training lasting 40 epochs. Each quantity is averaged over an epoch, so the value . Bottom panels: The ratio of error without bootstrapping relative to with bootstrapping. The ratio increases steadily up to 3 in energy, and maintains a value close to 1 in forces. (b) Examples of molecules from the SPICEv2 39,40 
+
+dataset with different per-config weights. Here ones with particularly low weights (i.e. classified as outliers) and high weights are shown, showcasing the ability for on-the-fly noise detection to filter configurations. 
+
+ence model yields a value of (2 .31 ± 0.05) × 10 −9 m2/s. The standard model significantly underestimates diffusiv-ity, measuring (1 .79 ± 0.01) × 10 −9 m2/s, exhibiting a de-viation of 0 .52 ×10 −9 m2/s. In contrast, the bootstrapped 
+
+model recovers a value of (2 .11 ± 0.06) × 10 −9 m2/s, de-viating from the reference by only 0 .20 × 10 −9 m2/s. This demonstrates that force errors have a significant im-pact on dynamical observables and that the bootstrapped model successfully filters the unphysical forces improving diffusion. This improvement extends to structural properties, as quantified by the radial distribution functions (RDFs) for O-O, O-H, and H-H pairs, shown in Fig. 5 c). The 
+
+standard model predicts a slightly over-structured liq-uid, a known artifact of overfitting to erroneous forces. 65 
+
+The bootstrapped model corrects this behavior, reducing the residuals with respect to the reference RDF, partic-ularly near the coordination peaks, while differences re-main. These results confirm that noise-resilient training allows for the recovery of accurate dynamical and correc-tion of structural properties from unconverged training data, preventing the propagation of systematic electronic structure errors into macroscopic observables. 
+
+Bootstrapping applies to foundation models 
+
+Finally, we demonstrate the utility of on-the-fly out-lier detection in the regime of foundation models. While these models exhibit broad generalizability across chem-ical space, their accuracy is often compromised by the inclusion of outliers and unphysical structures inherent to large-scale datasets. 45,66 As the diversity of the train-ing data increases, the probability of encountering ar-tifacts from failed or unconverged ab initio calculations rises. Eliminating these data points is critical to prevent model degradation. We applied our dynamic bootstrapping approach to the training of a MACE foundation model on the SPICE dataset. 39,40 This dataset contains over 2 .0 million con-figurations of drug-like molecules and proteins spanning 17 chemical elements. Previous assessments have noted quality issues within SPICE, including configurations with significant non-zero net forces and large errors as-sociated with heavier halogens. 45 
+
+In Fig. 6 a) we compare the performance of the boot-strapped model against a standard baseline over 40 train-ing epochs. In the absence of a re-computed “clean” ref-erence for this scale of data, we rely on validation RMSE to assess convergence stability. We take select configu-rations from Kuryla et al. cleaned subset as the valida-tion set. 45 The bootstrapped model exhibits a significant improvement in energy prediction accuracy, achieving a validation RMSE 2 .5 times lower than the baseline in the first epoch. This performance gap widens to a fac-tor of 3 .0 by the 40th epoch. The immediate divergence of the loss curves highlights the efficiency of the online filtering, which identifies outliers within the first pass of the dataset. While the force RMSE remains comparable between the two methods (ratio ≈ 0.98), the substantial reduction in energy error suggests that the bootstrapping successfully isolated high-energy outliers that otherwise dominate the loss function. To validate the physical basis of this filtering, we ex-amined configurations assigned low confidence weights 
+
+wi by the model in Fig. 6 b). The method correctly identified unphysical structures, such as atoms with over-lapping van der Waals radii or sterically clashing con-formations, particularly in phosphorus-containing com-pounds. These high-energy artifacts distort the learn-8ing of the interatomic interactions. By systematically down-weighting these samples, the model avoids overfit-ting to unphysical geometries with difficult to converge electronic structure. We note that while distinguishing between complex, “hard-to-learn” chemistry and erro-neous data is non-trivial, 67 the magnitude of errors as-sociated with steric clashes typically far exceeds that of valid but complex chemical environments. These results indicate that noise-resilient training ef-fectively scales to the foundation model regime. The ap-proach robustly identifies and mitigates the impact of outliers in large, diverse datasets, significantly improv-ing validation accuracy without the need for manual cu-ration.  
+
+> IV. CONCLUSION
+
+In this work, we introduce an automated, on-the-fly outlier detection scheme that enables the robust train-ing of MLIPs on noisy datasets. By leveraging the dis-tinct training dynamics of noisy versus clean data, we identify outliers based on their slower convergence rates relative to the noiseless data. This approach systemati-cally down-weights suspected outliers without requiring prior chemical knowledge or computationally expensive iterative retraining cycles. Our results demonstrate that this dynamic bootstrap-ping prevents the model from overfitting to noisy sam-ples, thereby achieving lower error rates on the under-lying clean data. Notably, the model is able to recover ground-truth forces despite being trained on noisy la-bels. Furthermore, evaluations on a water dataset con-taining poorly converged DFT calculations reveal that filtering outliers corrects the prediction of physical prop-erties in molecular dynamics simulations. We observe improvement in the calculated self-diffusion constant and marginal improvements of radial distribution functions compared to the baseline. Finally, we demonstrate the scalability of noise-resilient training to the foundation-model regime, where the method successfully filters un-physical chemical structures and reduced energy predic-tion errors. This automated noise-resilience training procedure provides a new, practical solution for training on im-perfect datasets with almost zero overhead, offering a pathway toward robust ML-driven molecular discovery without the need for extensive manual curation. 
+
+> COMPUTATIONAL DETAILS
+
+In this section, we provide additional information on the training datasets and the proposed method. Further-more, we list detailed settings for the molecular dynamics simulations underlying Sec. III. 
+
+> Details of the Datasets
+
+revMD17 : The original MD17 contained trajectories of ten molecules, 60 and was re-evaluated in revMD17 with PBE/def2-SVP level of theory 42 using tighter SCF convergence plus denser DFT integration grid. 1000 spaced samples of Aspirin were chosen, and 10% of the forces were replaced by the values computed in MD17. Among the molecules, Aspirin was chosen for its relative complexity. 59 The discrepancy in the forces of samples from the MD17 dataset show discrepancy with that from revMD17 between 250 to 350 meV/˚ A. 
+
+H2O: Density Functional Theory (DFT) calculations were performed with FHI-AIMs, 68 on a periodic box (of size 15 .835 ˚ A) containing 126 water molecules with the revPBE functional. 69,70 In contrast to a tight threshold of ρ = 10 −3 e/a 30 (charge density) and F = 10 −5 eV/˚ A(force) used to generate a reference dataset, we have used 
+
+ρ = 10 3 e/a 30 and F = 0 .24 eV/˚ A to emulate a poorly converged DFT setup. In total 1616 configurations were generated, and errors are shown in Fig. 5 a). 
+
+SPICE : The version 2.0 of the dataset was used, com-puted in the Psi4 software with the ωB97M-D3(BJ) DFT functional and def2-TZVPPD basis set. 39,40 As a noise free validation set we use the manually filtered set from Ref. 45. 
+
+> Training MACE
+
+To showcase the developed approach, we have im-plemented it for the MACE architecture, which utilises many-body messages and equivariant features, 59,71 show-ing high data efficiency and robust performance. 72 
+
+For the three datasets considered, we used different hyperparameters in MACE to reflect the complexity of the training data. The MACE models trained on the revMD17 dataset and the water dataset comprise of 2 message passing layers with 128 channels and a 4 ˚ A cut-off, as well as Lmax = 1 (equivariant messages). As there is a constant offset in total energy around ≈ 950 meV per atom per configuration overall in MD17 compared to revMD17, we trained only on the forces of the dataset. However, we train on both energies and forces in the wa-ter dataset, and stage two training was activated after 1500 epochs. 72 For each dataset, 15% was held back as a validation set, and the training was run for 2000 epochs. For the training runs on the SPICE 2.0 dataset, 512 channels and a 6 ˚ A cutoff were used. 4 NVIDIA H200 GPUs are employed in parallel to train for 24 hours. In addition to the workflow given in Fig. 1 b), the statistics of the training process ( μ and σ2) are collected at the end of each epoch from all GPUs to take the average and redistribute, as each GPU will process different batches in parallel. Given the simplicity of the outlier detection process, it will not add significant computational cost to the training of foundation models, which require sizeable effort to train to begin with. 9
+
+Molecular Dynamics Simulations 
+
+With the resulting water MACE model, MD simu-lations were performed to obtain structural properties and diffusion coefficients. All MD simulations were per-formed using the Large-scale Atomic/Molecular Mas-sively Parallel Simulator (LAMMPS) code, 73 coupled with the Symmetrix 74 library, using the symmetrix/mace 
+
+pair style. All simulation boxes contained 126 water molecules and were performed at 298 K enforced by the CSVR thermostat with a temperature relaxation time of 0.1 ps. 75 Simulations in the canonical (NVT) ensem-ble used a 0.5 fs timestep, for a total of a 0.5 ns sim-ulation. The diffusion coefficient was obtained from the mean squared displacement, fitting on a window between the first 0.01 ns to 0.1 ns. 
+
+ACKNOWLEDGMENTS 
+
+The authors thank Shoaib Ahmed Siddiqui for the ini-tial discussions that inspired this project, as well as Rokas Elijoˇ sius, Ilyes Batatia, and Domantas Kuryla for their insights regarding noise filtering in MLIP training data. T.C.W.L. kindly acknowledges support from the Cambridge Undergraduate Research Opportunities Pro-gramme and from Corpus Christi College, Cambridge for a Travel Grant. N.O.N acknowledges financial support from the Gates Cambridge Trust. C.S. acknowledges fi-nancial support from the Royal Society, grant number RGS/R2/242614, the UKRI Critical Mass grant, project reference EP/V062654/1, and the Isaac Newton Trust, award number G122390. L.L.S. would like to acknowl-edge support from Wolfson College, Cambridge through a Junior Research Fellowship. We are grateful for computational support and re-sources from the UK national high-performance comput-ing service, Advanced Research Computing High End Re-source (ARCHER2) through the APP59749: ML4HetCat project. This work was also performed using resources provided by the Cambridge Service for Data Driven Dis-covery (CSD3) operated by the University of Cambridge Research Computing Service (www.csd3.cam.ac.uk), pro-vided by Dell EMC and Intel using Tier-2 funding from the Engineering and Physical Sciences Research Coun-cil (capital grant EP/T022159/1), and DiRAC fund-ing from the Science and Technology Facilities Coun-cil (www.dirac.ac.uk). Access to CSD3 was obtained through a University of Cambridge EPSRC Core Equip-ment Award EP/X034712/1 
+
+DATA AND CODE AVAILABILITY 
+
+All datasets used for training and benchmarking are taken from the literature and publicly available. Precise train, validation, test splits will be made available upon publication via Zenodo. Noise-resilient training has been implemented as part of the MACE framework. The code will be published as a pull-request to the main MACE code-base www.github.com/ACEsuit/mace upon publi-cation. 
+
+COMPETING INTERESTS 
+
+The authors declare no competing interests. 
+
+REFERENCES 
+
+> 1
+
+J. Behler and M. Parrinello, Phys. Rev. Lett. 98 , 146401 (2007). 
+
+> 2
+
+A. P. Bart´ ok, M. C. Payne, R. Kondor, and G. Cs´ anyi, Phys. Rev. Lett. 104 , 136403 (2010). 
+
+> 3
+
+A. Thompson, L. Swiler, C. Trott, S. Foiles, and G. Tucker, J. Comput. Phys. 285 , 316–330 (2015). 
+
+> 4
+
+J. Behler, J. Chem. Phys. 145 , 170901 (2016). 
+
+> 5
+
+K. T. Sch¨ utt, H. E. Sauceda, P.-J. Kindermans, A. Tkatchenko, and K.-R. M¨ uller, J. Chem. Phys. 148 , 241722 (2018). 
+
+> 6
+
+R. Drautz, Phys. Rev. B 99 , 014104 (2019). 
+
+> 7
+
+A. von Lilienfeld and K. Burke, Nat. Commun. 11 (2020), 10.1038/s41467-020-18556-9. 
+
+> 8
+
+S. Batzner, A. Musaelian, L. Sun, M. Geiger, J. Mailoa, M. Ko-rnbluth, N. Molinari, T. Smidt, and B. Kozinsky, Nat. Commun. 
+
+13 (2022), 10.1038/s41467-022-29939-5. 
+
+> 9
+
+F. L. Thiemann, N. O’Neill, V. Kapil, A. Michaelides, and C. Schran, J. Phys. Condens. Matter 37 , 073002 (2024). 
+
+> 10
+
+A. P. Bart´ ok, S. De, C. Poelking, N. Bernstein, J. R. Kermode, G. Cs´ anyi, and M. Ceriotti, Sci. Adv. 3 (2017), 10.1126/sci-adv.1701816. 
+
+> 11
+
+O. T. Unke, S. Chmiela, H. E. Sauceda, M. Gastegger, I. Poltavsky, K. T. Sch¨ utt, A. Tkatchenko, and K.-R. M¨ uller, Chem. Rev. 121 , 10142 (2021), pMID: 33705118. 
+
+> 12
+
+J. S. Smith, B. Nebgen, N. Lubbers, O. Isayev, and A. E. Roit-berg, J. Chem. Phys. 148 (2018), 10.1063/1.5023802. 
+
+> 13
+
+E. V. Podryabinkin, E. V. Tikhonov, A. V. Shapeev, and A. R. Oganov, Phys. Rev. B 99 (2019), 10.1103/physrevb.99.064114. 
+
+> 14
+
+L. Zhang, D.-Y. Lin, H. Wang, R. Car, and W. E, Phys. Rev. Mater. 3, 023804 (2019). 
+
+> 15
+
+C. Schran, K. Brezina, and O. Marsalek, The Journal of Chemical Physics 153 , 104105 (2020). 
+
+> 16
+
+J. Vandermause, S. B. Torrisi, S. Batzner, Y. Xie, L. Sun, A. M. Kolpak, and B. Kozinsky, npj Comput. Mater. 6 (2020), 10.1038/s41524-020-0283-z. 
+
+> 17
+
+G. Sivaraman, A. N. Krishnamoorthy, M. Baur, C. Holm, M. Stan, G. Cs´ anyi, C. Benmore, and ´A. V´ azquez-Mayagoitia, npj Comput. Mater. 6 (2020), 10.1038/s41524-020-00367-7. 
+
+> 18
+
+C. Schran, F. L. Thiemann, P. Rowe, E. A. M¨ uller, O. Marsalek, and A. Michaelides, Proceedings of the National Academy of Sci-ences 118 , e2110077118 (2021). 
+
+> 19
+
+T. A. Young, T. Johnston-Wood, V. L. Deringer, and F. Duarte, Chem. Sci. 12 , 10944–10955 (2021). 
+
+> 20
+
+J. Vandermause, Y. Xie, J. S. Lim, C. J. Owen, and B. Kozinsky, Nat. Commun. 13 (2022), 10.1038/s41467-022-32294-0. 
+
+> 21
+
+L. L. Schaaf, E. Fako, S. De, A. Sch¨ afer, and G. Cs´ anyi, npj Comput. Mater. 9 (2023), 10.1038/s41524-023-01124-2. 
+
+> 22
+
+C. van der Oord, M. Sachs, D. P. Kov´ acs, C. Ortner, and G. Cs´ anyi, npj Comput. Mater. 9 (2023), 10.1038/s41524-023-01104-6. 
+
+> 23
+
+V. L. Deringer, M. A. Caro, and G. Cs´ anyi, Adv. Mater. 31 ,1902765 (2019). 
+
+> 24
+
+I. S. Novikov, K. Gubaev, E. V. Podryabinkin, and A. V. Shapeev, Mach. Learn.: Sci. Technol. 2, 025002 (2021). 10 
+
+> 25
+
+B. J. Rhodes, L. L. Schaaf, M. E. Zick, S. M. Pugh, J. S. Hilliard, S. Sharma, C. R. Wade, P. J. Milner, G. Cs´ anyi, and A. C. Forse, ChemPhysChem 26 (2024), 10.1002/cphc.202400941. 
+
+> 26
+
+N. Stolte, J. Daru, H. Forbert, D. Marx, and J. Behler, J. Chem. Theory Comput. 21 , 886–899 (2025). 
+
+> 27
+
+B. Deng, P. Zhong, K. Jun, J. Riebesell, K. Han, C. Bartel, and G. Ceder, Nat. Mach. Intell. 5 (2023), 10.1038/s42256-023-00716-3. 
+
+> 28
+
+C. Chen and S. P. Ong, Nat. Comput. Sci. 2, 718 (2022). 
+
+> 29
+
+A. Merchant, S. Batzner, S. Schoenholz, M. Aykol, G. Cheon, and E. Cubuk, Nature 624 , 1 (2023). 
+
+> 30
+
+A. Bochkarev, Y. Lysogorskiy, and R. Drautz, Phys. Rev. X 14 ,021036 (2024). 
+
+> 31
+
+L. Barroso-Luque, M. Shuaibi, X. Fu, B. M. Wood, M. Dzamba, M. Gao, A. Rizvi, C. L. Zitnick, and Z. W. Ulissi, “Open Mate-rials 2024 (OMat24) Inorganic Materials Dataset and Models,” (2024), arXiv:2410.12771 [cond-mat.mtrl-sci]. 
+
+> 32
+
+I. Batatia, P. Benner, Y. Chiang, A. M. Elena, D. P. Kov´ acs, J. Riebesell, X. R. Advincula, M. Asta, M. Avaylon, W. J. Bald-win, F. Berger, N. Bernstein, A. Bhowmik, F. Bigi, S. M. Blau, V. C˘ arare, M. Ceriotti, S. Chong, J. P. Darby, S. De, F. D. Pia, V. L. Deringer, R. Elijoˇ sius, Z. El-Machachi, F. Falcioni, E. Fako, A. C. Ferrari, J. L. A. Gardner, M. J. Gawkowski, A. Genreith-Schriever, J. George, R. E. A. Goodall, J. Grandel, C. P. Grey, P. Grigorev, S. Han, W. Handley, H. H. Heenen, K. Hermansson, C. Holm, C. H. Ho, S. Hofmann, J. Jaafar, K. S. Jakob, H. Jung, V. Kapil, A. D. Kaplan, N. Karimitari, J. R. Kermode, P. Kourtis, N. Kroupa, J. Kullgren, M. C. Kuner, D. Kuryla, G. Liepuoniute, C. Lin, J. T. Margraf, I.-B. Magd˘ au, A. Michaelides, J. H. Moore, A. A. Naik, S. P. Niblett, S. W. Norwood, N. O’Neill, C. Ortner, K. A. Persson, K. Reuter, A. S. Rosen, L. A. M. Rosset, L. L. Schaaf, C. Schran, B. X. Shi, E. Sivonxay, T. K. Stenczel, V. Svahn, C. Sutton, T. D. Swin-burne, J. Tilly, C. van der Oord, S. Vargas, E. Varga-Umbrich, T. Vegge, M. Vondr´ ak, Y. Wang, W. C. Witt, T. Wolf, F. Zills, and G. Cs´ anyi, “A foundation model for atomistic materials chemistry,” (2025), arXiv:2401.00096 [physics.chem-ph]. 
+
+> 33
+
+D. P. Kov´ acs, J. H. Moore, N. J. Browning, I. Batatia, J. T. Horton, Y. Pu, V. Kapil, W. C. Witt, I.-B. Magd˘ au, D. J. Cole, and G. Cs´ anyi, J. Am. Chem. Soc. 147 , 17598 (2025), pMID: 40387214. 
+
+> 34
+
+Z. Qiao, M. Welborn, A. Anandkumar, F. R. Manby, and I. Miller, Thomas F., J. Chem. Phys. 153 , 124111 (2020). 
+
+> 35
+
+B. M. Wood, M. Dzamba, X. Fu, M. Gao, M. Shuaibi, L. Barroso-Luque, K. Abdelmaqsoud, V. Gharakhanyan, J. R. Kitchin, D. S. Levine, K. Michel, A. Sriram, T. Cohen, A. Das, A. Rizvi, S. J. Sahoo, Z. W. Ulissi, and C. L. Zitnick, “Uma: A family of uni-versal models for atoms,” (2025), arXiv:2506.23971 [cs.LG]. 
+
+> 36
+
+T. Pl´ e, O. Adjoua, A. Benali, E. Posenitskiy, C. Villot, L. La-gard` ere, and J.-P. Piquemal, “A foundation model for accurate atomistic simulations in drug design,” (2025). 
+
+> 37
+
+I. Batatia, C. Lin, J. Hart, E. Kasoar, A. M. Elena, S. W. Nor-wood, T. Wolf, and G. Cs´ anyi, arXiv preprint arXiv:2510.25380 (2025). 
+
+> 38
+
+I. Batatia, C. Lin, J. Hart, E. Kasoar, A. M. Elena, S. W. Nor-wood, T. Wolf, and G. Cs´ anyi, “Cross learning between elec-tronic structure theories for unifying molecular, surface, and in-organic crystal foundation force fields,” (2025), arXiv:2510.25380 [physics.chem-ph]. 
+
+> 39
+
+P. Eastman, P. Behara, D. Dotson, R. Galvelis, J. Herr, J. Hor-ton, Y. Mao, J. Chodera, B. Pritchard, Y. Wang, G. Fabritiis, and T. Markland, Scientific Data 10 (2023), 10.1038/s41597-022-01882-6. 
+
+> 40
+
+P. Eastman, B. P. Pritchard, J. D. Chodera, and T. E. Markland, J. Chem. Theory Comput. 20 , 8583 (2024), pMID: 39318326. 
+
+> 41
+
+D. S. Levine, M. Shuaibi, E. W. C. Spotte-Smith, M. G. Taylor, M. R. Hasyim, K. Michel, I. Batatia, G. Cs´ anyi, M. Dzamba, P. Eastman, N. C. Frey, X. Fu, V. Gharakhanyan, A. S. Krish-napriyan, J. A. Rackers, S. Raja, A. Rizvi, A. S. Rosen, Z. Ulissi, S. Vargas, C. L. Zitnick, S. M. Blau, and B. M. Wood, “The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models,” (2025), arXiv:2505.08762 [physics.chem-ph]. 
+
+> 42
+
+A. Christensen and A. von Lilienfeld, Mach. Learn.: Sci. Technol. 
+
+1, 045018 (2020). 
+
+> 43
+
+L. Chanussot, A. Das, S. Goyal, T. Lavril, M. Shuaibi, M. Riv-iere, K. Tran, J. Heras-Domingo, C. Ho, W. Hu, A. Palizhati, A. Sriram, B. Wood, J. Yoon, D. Parikh, C. L. Zitnick, and Z. Ulissi, ACS Catalysis 11 , 6059 (2021). 
+
+> 44
+
+K. Lejaeghere, G. Bihlmayer, T. Bj¨ orkman, P. Blaha, S. Bl¨ ugel, V. Blum, D. Caliste, I. E. Castelli, S. J. Clark, A. D. Corso, S. de Gironcoli, T. Deutsch, J. K. Dewhurst, I. D. Marco, C. Draxl, M. Dulak, O. Eriksson, J. A. Flores-Livas, K. F. Gar-rity, L. Genovese, P. Giannozzi, M. Giantomassi, S. Goedecker, X. Gonze, O. Gr˚ an¨ as, E. K. U. Gross, A. Gulans, F. Gygi, D. R. Hamann, P. J. Hasnip, N. A. W. Holzwarth, D. Iu¸ san, D. B. Jochym, F. Jollet, D. Jones, G. Kresse, K. Koepernik, E. K¨ u¸ c¨ ukbenli, Y. O. Kvashnin, I. L. M. Locht, S. Lubeck, M. Marsman, N. Marzari, U. Nitzsche, L. Nordstr¨ om, T. Ozaki, L. Paulatto, C. J. Pickard, W. Poelmans, M. I. J. Probert, K. Refson, M. Richter, G.-M. Rignanese, S. Saha, M. Scheffler, M. Schlipf, K. Schwarz, S. Sharma, F. Tavazza, P. Thunstr¨ om, A. Tkatchenko, M. Torrent, D. Vanderbilt, M. J. van Setten, V. V. Speybroeck, J. M. Wills, J. R. Yates, G.-X. Zhang, and S. Cottenier, Science 351 , aad3000 (2016). 
+
+> 45
+
+D. Kuryla, F. Berger, G. Cs´ anyi, and A. Michaelides, “How Ac-curate Are DFT Forces? Unexpectedly Large Uncertainties in Molecular Datasets,” (2025), arXiv:2510.19774 [physics.chem-ph]. 
+
+> 46
+
+A. Zen, Y. Luo, G. Mazzola, L. Guidoni, and S. Sorella, J. Chem. Phys. 142 , 144111 (2015). 
+
+> 47
+
+E. Slootman, I. Poltavsky, R. Shinde, J. Cocomello, S. Moroni, A. Tkatchenko, and C. Filippi, J. Chem. Theory Comput. 20 ,6020 (2024), pMID: 39003522. 
+
+> 48
+
+E. Arazo, D. Ortego, P. Albert, N. O’Connor, and K. McGuin-ness, in International Conference on Machine Learning (2019). 
+
+> 49
+
+Y. Zhou, X. Li, F. Liu, Q. Wei, X. Chen, L. Yu, C. Xie, M. P. Lungren, and L. Xing, in Proceedings of the IEEE/CVF Con-ference on Computer Vision and Pattern Recognition (CVPR) 
+
+(2024) pp. 14153–14162. 
+
+> 50
+
+S. Reed, H. Lee, C. Szegedy, D. Erhan, and A. Rabinovich, in 
+
+International Conference on Learning Representations (ICLR) 
+
+(2015). 
+
+> 51
+
+B. Han, Q. Yao, X. Yu, G. Niu, M. Xu, W. Hu, I. W. Tsang, and M. Sugiyama, in Advances in Neural Information Processing Systems (NeurIPS) (2018) pp. 8536–8546. 
+
+> 52
+
+H. Song, M. Kim, D. Park, Y. Shin, and J.-G. Lee, IEEE Trans. Neural Netw. Learn. Syst. 34 , 8135 (2023). 
+
+> 53
+
+A. Bukharin, T. Liu, S. Wang, S. Zuo, W. Gao, W. Yan, and T. Zhao, in NeurIPS 2023 AI for Science Workshop (2023). 
+
+> 54
+
+D. Arpit, S. Jastrzebski, N. Ballas, D. Krueger, E. Bengio, M. S. Kanwal, T. Maharaj, A. Fischer, A. C. Courville, Y. Bengio, and S. Lacoste-Julien, in Proceedings of the 34th International Con-ference on Machine Learning (ICML) , Proceedings of Machine Learning Research, Vol. 70 (PMLR, 2017) pp. 233–242. 
+
+> 55
+
+C. Zhang, S. Bengio, M. Hardt, B. Recht, and O. Vinyals, Com-mun. ACM 64 , 107–115 (2021). 
+
+> 56
+
+J. Li, R. Socher, and S. C. H. Hoi, in International Conference on Learning Representations (ICLR) (2020). 
+
+> 57
+
+H. Permuter, J. Francos, and I. Jermyn, Pattern Recogn. 39 , 695 (2006), graph-based Representations. 
+
+> 58
+
+Z. Ma and A. Leijon, IEEE Transactions on Pattern Analysis and Machine Intelligence 33 , 2160 (2011). 
+
+> 59
+
+I. Batatia, D. P. Kovacs, G. Simm, C. Ortner, and G. Csanyi, in 
+
+Advances in Neural Information Processing Systems , Vol. 35, edited by S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh (Curran Associates, Inc., 2022) pp. 11423– 11436. 
+
+> 60
+
+S. Chmiela, A. Tkatchenko, H. E. Sauceda, I. Poltavsky, K. T. Sch¨ utt, and K.-R. M¨ uller, Sci. Adv. 3, e1603015 (2017). 11 
+
+> 61
+
+M. E. Tuckerman, Statistical Mechanics: Theory and Molecular Simulation (Oxford University Press, 2023). 
+
+> 62
+
+X. Fu, Z. Wu, W. Wang, T. Xie, S. Keten, R. Gomez-Bombarelli, and T. Jaakkola, Transactions on Machine Learning Research (2023), survey Certification. 
+
+> 63
+
+S. Stocker, J. Gasteiger, F. Becker, S. G¨ unnemann, and J. T. Margraf, Mach. Learn.: Sci. Technol. 3, 045010 (2022). 
+
+> 64
+
+D. Ernst and J. K¨ ohler, Physical Chemistry Chemical Physics 
+
+15 , 845 (2013). 
+
+> 65
+
+M. Chen, H.-Y. Ko, R. C. Remsing, M. F. C. Andrade, B. Santra, Z. Sun, A. Selloni, R. Car, M. L. Klein, J. P. Perdew, and X. Wu, Proc. Natl. Acad. Sci. U. S. A. 114 , 10846 (2017). 
+
+> 66
+
+B. Focassio, L. P. M. Freitas, and G. R. Schleder, ACS Appl. Mater. Interfaces 17 , 13111 (2025), pMID: 38990833. 
+
+> 67
+
+B. Smart and G. Carneiro, 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) , 5333–5343 (2023). 
+
+> 68
+
+V. Blum, R. Gehrke, F. Hanke, P. Havu, V. Havu, X. Ren, K. Reuter, and M. Scheffler, Comput. Phys. Commun. 180 , 2175 (2009). 
+
+> 69
+
+J. P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev. Lett. 77 ,3865 (1996). 
+
+> 70
+
+Y. Zhang and W. Yang, Phys. Rev. Lett. 80 , 890 (1998). 
+
+> 71
+
+I. Batatia, S. Batzner, D. P. Kov´ acs, A. Musaelian, G. N. C. Simm, R. Drautz, C. Ortner, B. Kozinsky, and G. Cs´ anyi, “The Design Space of E(3)-Equivariant Atom-Centered Interatomic Potentials,” (2022), arXiv:2205.06643. 
+
+> 72
+
+D. P. Kov´ acs, I. Batatia, E. S. Arany, and G. Cs´ anyi, J. Chem. Phys. 159 , 044118 (2023). 
+
+> 73
+
+A. P. Thompson, H. M. Aktulga, R. Berger, D. S. Bolintineanu, W. M. Brown, P. S. Crozier, P. J. in ’t Veld, A. Kohlmeyer, S. G. Moore, T. D. Nguyen, R. Shan, M. J. Stevens, J. Tranchida, C. Trott, and S. J. Plimpton, Comput. Phys. Commun. 271 ,108171 (2022). 
+
+> 74
+
+W. Witt, “Symmetrix,” (2025). 
+
+> 75
+
+G. Bussi, D. Donadio, and M. Parrinello, The Journal of chemical physics 126 (2007). 
+
+APPENDIX Appendix A: Smooth weight estimation: EMA of σ and μ
+
+During Training Run 
+
+An exponential moving average is applied to the mean and standard deviation of the loss Li, as detailed in Eq. (6) and (7). We show how this leads to a smooth trend of these two quantities during training. Figure 7 shows the tracked statistics during the training of the revMD17 dataset. 10 0 10 1 10 2 10 3 10 4 10 5  
+
+> Batches processed (85 per epoch)
+> 10 2
+> 10 1
+> 10 0
+> Forces loss (eV 2 / Å 2)
+> mean
+> standard deviation
+
+FIG. 7. Smoothened average of the training statistics. The exponential moving average of the mean and standard deviation of the forces loss as a function of the number of batches pro-cessed, trained on the revMD17 dataset, where in each epoch 85 batches are processed. 12 
+
+Appendix B: Sensitivity Analysis of Bootstrapping Threshold zt
+
+We trained models based on the same revMD17 dataset with on-the-fly outlier detection using a range of boot-strapping thresholds zt (see Eq. (8) for the definition) between 0 .0 and 3 .0. The final force error (after 2000 epochs) with respect to the re-evaluated revMD17 set are shown in Figure 8. The graph shows that the effec-tiveness of bootstrapping is insensitive of the threshold for thresholds zt ≲ 2.2. (Given that outliers comprise 10% of the whole dataset, we would expect zt ≈ 1.28 to be most representative.) This allows flexibility in zt
+
+without full knowledge of how noisy the dataset is. 0.0 0.5 1.0 1.5 2.0 2.5 3.0  
+
+> Bootstrapping threshold zt
+> 20
+> 30
+> 40
+> 50
+> 60
+> 70
+> Force error (meV / Å)
+
+FIG. 8. Sensitivity analysis of the bootstrapping threshold 
+
+zt. The median of the final force error with respect to the re-evaluated revMD17 for bootstrapping thresholds in the range 
+
+[0 .0, 3.0] . The shaded region represents the IQR.
