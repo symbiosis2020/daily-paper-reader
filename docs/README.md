@@ -6,62 +6,62 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-30 ~ 2026-04-08
-- 运行时间：2026-04-08 05:57:53 UTC
+- 最新运行日期：2026-04-08
+- 运行时间：2026-04-08 20:40:36 UTC
 - 运行状态：成功
 - 本次总论文数：14
-- 精读区：4
-- 速读区：10
+- 精读区：3
+- 速读区：11
 
 ### 今日简报（AI）
-本期聚焦狼疮性肾炎，揭示紫外线如何通过中性粒细胞胞外诱捕网引发皮肤与肾脏炎症，并发布首个大规模人群血液与组织图谱。最值得关注的是系统性红斑狼疮的局部触发与远端器官损伤机制，以及其多组学细胞图谱资源。建议读者关注自身免疫病中环境因素与全身性影响的前沿研究。
-- 详情：[/20260330-20260408/README](/20260330-20260408/README)
+今日聚焦狼疮性肾炎与肾脏细胞模型研究，共精读2篇、速读11篇。最值得关注的是狼疮性肾炎人群图谱揭示了血液与组织特征，以及转录组方法优化了肾脏细胞培养模型的鉴定。建议关注狼疮肾病机制与细胞模型验证的后续临床转化进展。
+- 详情：[/202604/08/README](/202604/08/README)
 
 ### 精读区论文标签
-1. [Neutrophil Extracellular Traps Drive Inflammation in Local Skin and Distant Kidneys in UVB-Irradiated Lupus-Prone Mice](/20260330-20260408/biorxiv-10-1101-2023-12-23-572573-v3-neutrophil-extracellular-traps-drive-inflammation-in-local-skin-and-distant-kidneys-in-uvb-irradiated-lupus-prone-mice)  
-   标签：评分：8.0/10、query:q6
-   evidence：皮肤-肾脏轴中的中性粒细胞胞外陷阱形成导致蛋白尿和肾脏炎症
-2. [A population-scale atlas of blood and tissue in lupus nephritis](/20260330-20260408/biorxiv-10-1101-2025-08-11-669754-v3-a-population-scale-atlas-of-blood-and-tissue-in-lupus-nephritis)  
-   标签：评分：8.0/10、query:q6
-   evidence：狼疮性肾炎肾脏组织中的免疫系统相互作用
-3. [In situ visualization of autophagy suggests vesicle fusion can contribute to phagophore expansion](/20260330-20260408/biorxiv-10-64898-2026-03-29-715079-v1-in-situ-visualization-of-autophagy-suggests-vesicle-fusion-can-contribute-to-phagophore-expansion)  
-   标签：评分：8.0/10、query:q5
-   evidence：自噬和吞噬泡扩张的原位可视化
-4. [Transcriptome-based cell type assignment for kidney cell culture models](/20260330-20260408/biorxiv-10-64898-2026-03-30-715265-v1-transcriptome-based-cell-type-assignment-for-kidney-cell-culture-models)  
+1. [A population-scale atlas of blood and tissue in lupus nephritis](/202604/08/biorxiv-10-1101-2025-08-11-669754-v3-a-population-scale-atlas-of-blood-and-tissue-in-lupus-nephritis)  
+   标签：评分：9.0/10、query:q6
+   evidence：狼疮性肾炎肾活检中的免疫和组织细胞状态
+2. [Transcriptome-based cell type assignment for kidney cell culture models](/202604/08/biorxiv-10-64898-2026-03-30-715265-v1-transcriptome-based-cell-type-assignment-for-kidney-cell-culture-models)  
    标签：评分：8.0/10、query:profile-1
-   evidence：基于转录组的肾脏细胞培养模型（包括足细胞）细胞类型鉴定
+   evidence：基于转录组的肾脏细胞模型细胞类型分配
+3. [Early impact of gestational protein restriction on nephrogenesis in male mouse offspring: Role of Autophagy and Apoptosis Mechanisms](/202604/08/biorxiv-10-64898-2026-04-01-715956-v1-early-impact-of-gestational-protein-restriction-on-nephrogenesis-in-male-mouse-offspring-role-of-autophagy-and-apoptosis-mechanisms)  
+   标签：评分：8.0/10、query:profile-1
+   evidence：研究胚胎肾脏发育过程中肾单位减少的自噬和凋亡机制
 
 ### 速读区论文标签
-1. [Targeting Protease-activated Receptor 4 (PAR4) Protects Against Acute Kidney Injury (AKI) in Ischemia Reperfusion Injury](/20260330-20260408/biorxiv-10-64898-2026-03-27-714572-v1-targeting-protease-activated-receptor-4-par4-protects-against-acute-kidney-injury-aki-in-ischemia-reperfusion-injury)  
-   标签：评分：7.0/10、query:q2
-   evidence：PAR4 信号传导促进急性肾损伤进展
-2. [Rab12 is a regulator of mitophagy and mitochondrial homeostasis](/20260330-20260408/biorxiv-10-64898-2026-03-29-715103-v1-rab12-is-a-regulator-of-mitophagy-and-mitochondrial-homeostasis)  
+1. [Neutrophil Extracellular Traps Drive Inflammation in Local Skin and Distant Kidneys in UVB-Irradiated Lupus-Prone Mice](/202604/08/biorxiv-10-1101-2023-12-23-572573-v3-neutrophil-extracellular-traps-drive-inflammation-in-local-skin-and-distant-kidneys-in-uvb-irradiated-lupus-prone-mice)  
+   标签：评分：7.0/10、query:q6
+   evidence：狼疮中免疫介导的肾脏炎症和蛋白尿
+2. [AAV-Delivered RNAi Targeting Mutant LDB3 Prevents and Reverses Myofibrillar Myopathy through Mechanosignaling Restoration](/202604/08/biorxiv-10-64898-2026-03-28-715031-v1-aav-delivered-rnai-targeting-mutant-ldb3-prevents-and-reverses-myofibrillar-myopathy-through-mechanosignaling-restoration)  
    标签：评分：7.0/10、query:q5
-   evidence：Rab12对线粒体自噬和线粒体稳态的调节
-3. [Synthetic budding morphogenesis by optogenetic receptor tyrosine kinase signaling](/20260330-20260408/biorxiv-10-64898-2026-03-31-715459-v1-synthetic-budding-morphogenesis-by-optogenetic-receptor-tyrosine-kinase-signaling)  
-   标签：评分：7.0/10、query:profile-1
-   evidence：肾脏类器官形态发生与RET信号控制
-4. [A non-invasive approach for understanding localized force generation in 3D tissues](/20260330-20260408/biorxiv-10-64898-2026-04-01-715811-v1-a-non-invasive-approach-for-understanding-localized-force-generation-in-3d-tissues)  
+   evidence：恢复机械信号传导和伴侣辅助的选择性自噬
+3. [Rab12 is a regulator of mitophagy and mitochondrial homeostasis](/202604/08/biorxiv-10-64898-2026-03-29-715103-v1-rab12-is-a-regulator-of-mitophagy-and-mitochondrial-homeostasis)  
+   标签：评分：7.0/10、query:q5
+   evidence：Rab12作为线粒体自噬和线粒体稳态的调节因子
+4. [Regulation of Nucleus Pulposus Cell Phenotype Through RhoA Signaling and Microenvironment](/202604/08/biorxiv-10-64898-2026-04-05-716233-v1-regulation-of-nucleus-pulposus-cell-phenotype-through-rhoa-signaling-and-microenvironment)  
    标签：评分：7.0/10、query:q9
-   evidence：3D上皮细胞中细胞骨架组织与粘附的耦合
-5. [Molecularly-guided spatial proteomics captures single-cell identity of the healthy and diseased nervous system](/20260330-20260408/biorxiv-10-1101-2025-02-10-637505-v2-molecularly-guided-spatial-proteomics-captures-single-cell-identity-of-the-healthy-and-diseased-nervous-system)  
-   标签：评分：6.0/10、query:q7
-   evidence：用于单细胞分辨率分析健康和疾病组织的空间蛋白质组学
-6. [Pirfenidone treatment attenuates fibrosis in autosomal dominant polycystic kidney disease](/20260330-20260408/biorxiv-10-1101-2025-08-25-672225-v2-pirfenidone-treatment-attenuates-fibrosis-in-autosomal-dominant-polycystic-kidney-disease)  
+   evidence：RhoA信号调节细胞骨架收缩力和细胞表型
+5. [Systematic analysis of RhoGAP expression and function in border cell morphology and migration](/202604/08/biorxiv-10-64898-2026-04-07-717016-v1-systematic-analysis-of-rhogap-expression-and-function-in-border-cell-morphology-and-migration)  
+   标签：评分：7.0/10、query:q9
+   evidence：Rho家族GTPases和GAPs是控制细胞形态的信号传导和细胞骨架网络的核心
+6. [Analysis of multicellular anatomical structures from spatial omics data using sosta](/202604/08/biorxiv-10-1101-2025-10-13-682065-v3-analysis-of-multicellular-anatomical-structures-from-spatial-omics-data-using-sosta)  
    标签：评分：6.0/10、query:profile-1
-   evidence：ADPKD中的肾脏疾病机制和纤维化
-7. [Intercellular communication is a heritable dimension of human tissue architecture](/20260330-20260408/biorxiv-10-64898-2026-03-29-715138-v1-intercellular-communication-is-a-heritable-dimension-of-human-tissue-architecture)  
+   evidence：分析空间组学数据中多细胞解剖结构的工具
+7. [CellWHISPER disentangles direct cell-cell communication from structural proximity](/202604/08/biorxiv-10-64898-2026-01-07-697982-v2-cellwhisper-disentangles-direct-cell-cell-communication-from-structural-proximity)  
    标签：评分：6.0/10、query:q7
-   evidence：EdgeMap 整合空间转录组学和 GWAS 以绘制疾病相关的细胞间通讯图谱
-8. [A stage-resolved map of dynamic septin interactions required for infection by the rice blast fungus](/20260330-20260408/biorxiv-10-64898-2026-04-02-716073-v1-a-stage-resolved-map-of-dynamic-septin-interactions-required-for-infection-by-the-rice-blast-fungus)  
-   标签：评分：6.0/10、query:q9
-   evidence：Septin GTP酶作为重要的细胞骨架调节因子和相互作用因子
-9. [Plekha7 promotes retina organization and inhibits inflammation and photoreceptor loss](/20260330-20260408/biorxiv-10-64898-2026-04-03-716333-v1-plekha7-promotes-retina-organization-and-inhibits-inflammation-and-photoreceptor-loss)  
-   标签：评分：6.0/10、query:q9
-   evidence：Plekha7调节细胞间连接和钙粘蛋白运输
-10. [Damage sensing recruitment of a lipid phosphatase couples lysosomal membrane repair to proteostatic adaptation](/20260330-20260408/biorxiv-10-64898-2026-04-04-716461-v1-damage-sensing-recruitment-of-a-lipid-phosphatase-couples-lysosomal-membrane-repair-to-proteostatic-adaptation)  
+   evidence：推断组织疾病中细胞间通讯的方法学桥梁
+8. [CAPZ, but not canonical autophagy, regulates the endosomal-exosomal trafficking of plasma membrane PD-L1](/202604/08/biorxiv-10-64898-2026-03-12-711228-v2-capz-but-not-canonical-autophagy-regulates-the-endosomal-exosomal-trafficking-of-plasma-membrane-pd-l1)  
+   标签：评分：6.0/10、query:q5
+   evidence：研究经典自噬机制在膜蛋白内体-外泌体运输中的作用
+9. [Treatment of murine autoimmune myocarditis with a novel monoclonal antibody that targets multiple inflammatory pathways](/202604/08/biorxiv-10-64898-2026-03-27-714891-v1-treatment-of-murine-autoimmune-myocarditis-with-a-novel-monoclonal-antibody-that-targets-multiple-inflammatory-pathways)  
+   标签：评分：6.0/10、query:q6
+   evidence：针对炎症通路和免疫细胞耗竭的单克隆抗体
+10. [Intercellular communication is a heritable dimension of human tissue architecture](/202604/08/biorxiv-10-64898-2026-03-29-715138-v1-intercellular-communication-is-a-heritable-dimension-of-human-tissue-architecture)  
    标签：评分：6.0/10、query:q7
-   evidence：溶酶体膜修复和蛋白质稳态适应机制
+   evidence：EdgeMap整合空间转录组学和GWAS，将遗传风险映射到细胞间通讯通道
+11. [A non-invasive approach for understanding localized force generation in 3D tissues](/202604/08/biorxiv-10-64898-2026-04-01-715811-v1-a-non-invasive-approach-for-understanding-localized-force-generation-in-3d-tissues)  
+   标签：评分：6.0/10、query:q3
+   evidence：探测3D上皮组织中局部力和细胞骨架组织的方法
 
 
 <div class="dpr-home-promo-card">

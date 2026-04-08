@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-12-711228-v2/fig-001.webp",
+      "caption": "Figure 1. Internalized PD-L1 associates with LC3-positive vesicles but traffics independently of canonical autophagy. (A) HeLa cells were subjected to antibody-feeding assays to label cell surface PD-L1 at 4°C followed by internalization at 37°C for the indicated times. Immunofluorescence analysis shows colocalization of internalized PD-L1 with LC3B. Quantification of Manders’ coefficients is shown at right. (B) Colocalization of internalized PDL1 with RAB5-positive early endosomes in control or LC3B knockdown cells. Quantification of colocalization coefficients is shown. (C–D) Colocalization of internalized PD-L1 with EEA1 (C) and LAMP1 (D) in control and ATG7-deficient cells at indicated time points. Quantification of colocalization coefficients is shown. The bar graphs in panels (A-D) show data that represent the mean ± s.e.m of three independent experiments, and the asterisks indicate significant differences at ** P < 0.01. 'ns' indicates that data were not significantly different.",
+      "page": 22,
+      "index": 1,
+      "width": 976,
+      "height": 887
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-12-711228-v2/fig-002.webp",
+      "caption": "Figure 5. CAPZ promotes incorporation of PD-L1 into CD63-positive compartments and restrains PD-L1 recycling to the plasma membrane. (A) HeLa cells coexpressing CAPZβGFP and CD63-mCherry were analyzed by confocal microscopy. Representative images show partial overlap of CAPZβ-positive structures with CD63-positive compartments. Insets show enlarged views of the boxed regions. Scale bars, 5 μm. (B) Control (NTC) and CAPZβ-deficient HeLa cells were labeled for cell surface PD-L1 and chased at 37 °C for the indicated times,",
+      "page": 32,
+      "index": 2,
+      "width": 976,
+      "height": 1148
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-12-711228-v2/fig-003.webp",
+      "caption": "Figure 2. 6J1 promotes PD-L1 accumulation in LC3-positive structures, whereas trafficking of PD-L1 to early endosomes is autophagy-independent. (A) HeLa cells coexpressing PD-L1-GFP and LC3-RFP were treated with DMSO or 6J1 (1 mM) and analyzed by confocal microscopy. Scale bar, 10 μm. (B) Control and ATG5-deficient HeLa cells were treated with DMSO or 6J1 (1 mM), followed by immunostaining for endogenous PD-L1 and LC3B. Scale bar, 10 μm. (C) Control and LC3B-deficient HeLa cells were treated with DMSO or 6J1 (1 mM), followed by immunostaining for PD-L1 and Rab5. Scale bar, 10 μm. (D) Control",
+      "page": 24,
+      "index": 3,
+      "width": 976,
+      "height": 1104
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-12-711228-v2/fig-004.webp",
+      "caption": "Figure 4. CAPZ is required for endosomal trafficking of internalized PD-L1. (A) HeLa cells expressing CAPZβ-mCherry (CAPZβ-mc) were labeled for cell surface PD-L1 and chased at 37 °C for the indicated times. Representative confocal images and quantification of colocalization of internalized PD-L1 with CAPZβ-positive structures are shown. Scale bars, 5 μm. (B) HeLa cells expressing CAPZβ-mCherry were treated with DMSO or 6J1, followed by analysis of PD-L1 and CAPZβ localization. Representative images and quantification of the colocalization of PD-L1 with CAPZβ-positive structures are shown. Scale bars, 5 μm. (C) Immunoblot analysis of CAPZβ expression in control and CAPZβ-deficient HeLa cells. HSP90 was used as a loading control. (D) Control (NTC) and CAPZβ-deficient HeLa cells were labeled for cell surface PD-L1 and chased for the indicated times, followed by immunostaining for PDL1 and EEA1. Representative images and quantification of the colocalization of internalized PDL1 with the early endosomal marker EEA1 are shown. Scale bars, 10 μm. (E) Control (NTC) and CAPZβ-deficient HeLa cells were labeled for cell surface PD-L1 and chased for the indicated times, followed by immunostaining for PD-L1 and LAMP1. Representative images and quantification of the colocalization of internalized PD-L1 with the late endosomal/lysosomal marker LAMP1 are shown. Scale bars, 5 μm. Data are presented as mean ± SEM. Statistical significance was analyzed as indicated in the figure. **p < 0.01; ****p < 0.0001.",
+      "page": 31,
+      "index": 4,
+      "width": 647,
+      "height": 317
+    }
+  ]
+}

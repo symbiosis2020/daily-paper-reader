@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-1101-2025-10-13-682065-v3/fig-001.webp",
+      "caption": "Fig 1. Structure-based analysis of spatial omics data. a) Spatial arrangements reflect functions across scale, ranging from the subcellular to the organ level. b) An example histopathology image that illustrates diverse multicellular anatomical structures in the transition from healthy intestinal epithelium to premalignant lesions (taken from [10]). c) Spatial omics technologies are used to study biological phenomena across different scales, ranging from subcellular to multicellular, with correlation also present at different scales. d) Illustrated workflow of density-based reconstruction of anatomical structures using a threshold on the point pattern intensity of cell centroids as implemented in the sosta package, followed by the analysis of anatomical structures by quantifying geometric features, or by using anatomical structure information as a reference scale for downstream analysis. Illustrations in a and c were adapted from Servier Medical Art, licensed under CC-BY 4.0.",
+      "page": 3,
+      "index": 1,
+      "width": 705,
+      "height": 497
+    }
+  ]
+}

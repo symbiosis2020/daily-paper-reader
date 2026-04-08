@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-05-716233-v1/fig-001.webp",
+      "caption": "Figure 5. RNA sequencing of NP cells treated with CT04. A) PCA plot of CT04-treated NP cells vs. untreated cells, which clustered from each other with 739 DEGs in the volcano plot. B) Top 15 EnrichR pathways showed enrichment of pathways related to cell cycle, ECM organization, and Rho GTPases. The 36 DEGs contributing to ECM organization ranked by log2(fold change) are plotted. C) GSEA Reactome revealed upregulation of ECM and keratinization pathways and downregulation of Rho GTPase and contraction pathways. D) PCR analysis revealed a two-fold increase of ACAN expression and a decrease in COL1 expression. **p<0.01, **** p<0.0001",
+      "page": 25,
+      "index": 1,
+      "width": 897,
+      "height": 937
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-05-716233-v1/fig-002.webp",
+      "caption": "Figure 6. RhoA signaling and CN03 treatment of NP cells in alginate for 1- and 7- days. A) Over time in 3D alginate culture, expression of actomyosin genes decreased. B) Imaging flow cytometry analysis showed that 1-day CN03 treatment increased pMLC and actin intensity, decreased cell area, and increased cell circularity. C) 1-day CN03 treatment increased actomyosin and ACAN gene expression, but this was not sustained out to 7 days. D) Daily addition of CN03 for 7 days increased RHOA, MYH10, MYL6, ACAN, and KRT19 expression compared to untreated. *p<0.05, **p<0.01, ***p<0.001, ****p<0.0001",
+      "page": 26,
+      "index": 2,
+      "width": 976,
+      "height": 958
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-05-716233-v1/fig-003.webp",
+      "caption": "Table 1. Primer sequences for RT-qPCR.",
+      "page": 21,
+      "index": 3,
+      "width": 999,
+      "height": 426
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-05-716233-v1/fig-004.webp",
+      "caption": "Figure 2. Dose response of NP cells in 2D to CN03 and CT04 treatment. Higher doses of CN03 A) increased RhoA activity and B) increased expression of actomyosin genes in NP cells in 2D. CT04 treatment C) decreased active (2μg/ml only) and total RhoA content and D) decreased expression of actomyosin genes. *p<0.05, **p<0.01, ***p < 0.001, **** p<0.0001",
+      "page": 22,
+      "index": 4,
+      "width": 1001,
+      "height": 574
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-05-716233-v1/fig-005.webp",
+      "caption": "Figure 3. 2D Imaging of cells treated with CN03 and CT04. Treatment with CN03 increased pMLC and actin intensity but did not affect cell area. Treatment with CT04 decreased pMLC intensity, actin intensity, and cell area. ****p<0.0001",
+      "page": 23,
+      "index": 5,
+      "width": 827,
+      "height": 647
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-05-716233-v1/fig-006.webp",
+      "caption": "Figure 4. RNA sequencing of NP cells treated with CN03. A) CN03-treated NP cells clustered from the untreated cells in the PCA plot, with 191 DEGs in the volcano plot. B) Top 15 EnrichR pathways showed cholesterol synthesis, ECM organization, and GPCR signaling. The ECM organization pathway had 12 contributing DEGs. C) GSEA using Reactome showed upregulation of Rho GTPase pathways and downregulation of GPCR signaling pathways.",
+      "page": 24,
+      "index": 6,
+      "width": 797,
+      "height": 951
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-05-716233-v1/fig-007.webp",
+      "caption": "Figure 1. RhoA signaling pathway. RhoA signals downstream ROCK and mDia. ROCK increases phosphorylation of myosin light chain (MLC) and signals LIMK, which inhibits cofilin and allows for actin polymerization. mDia also influences actin polymerization. Myosin II and actin interact to alter cellular contractility.",
+      "page": 20,
+      "index": 7,
+      "width": 604,
+      "height": 839
+    }
+  ]
+}
