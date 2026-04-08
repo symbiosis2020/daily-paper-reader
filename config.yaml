@@ -25,3 +25,58 @@ subscriptions:
     stage: A
     diff_threshold_pct: 15
   keyword_recall_mode: or
+  intent_profiles:
+    - tag: 足细胞病
+      description: 找足细胞病的机制研究
+      enabled: true
+      paper_sources:
+        - biorxiv
+      keywords:
+        - keyword: podocyte disease
+          keyword_cn: 足细胞病
+          query: podocyte disease mechanisms
+        - keyword: podocyte injury
+          keyword_cn: 足细胞损伤
+          query: podocyte injury mechanisms
+        - keyword: podocyte cytoskeleton
+          keyword_cn: 足细胞骨架
+          query: podocyte cytoskeleton structure and function
+        - keyword: podocyte apoptosis
+          keyword_cn: 足细胞凋亡
+          query: podocyte apoptosis pathways
+        - keyword: podocyte autophagy
+          keyword_cn: 足细胞自噬
+          query: podocyte autophagy regulation
+        - keyword: immune-mediated podocytopathy
+          keyword_cn: 免疫介导的足细胞病
+          query: immune system interactions and injury in podocyte diseases
+      intent_queries:
+        - query: molecular and cellular mechanisms underlying podocyte injury and disease
+          query_cn: 足细胞损伤和疾病的分子与细胞机制
+          enabled: true
+          source: manual
+          note: ''
+        - query: pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis
+          query_cn: 足细胞病和局灶节段性肾小球硬化的致病通路
+          enabled: true
+          source: manual
+          note: ''
+        - query: signaling networks and cytoskeletal regulation in podocyte function and dysfunction
+          query_cn: 足细胞功能与功能障碍中的信号网络和细胞骨架调控
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-04-08T05:40:06.421Z'
+source_backends:
+  biorxiv:
+    papers_table: biorxiv_papers
+    use_vector_rpc: true
+    vector_rpc: match_biorxiv_papers_exact
+    vector_rpc_exact: match_biorxiv_papers_exact
+    use_bm25_rpc: true
+    bm25_rpc: match_biorxiv_papers_bm25
+    schema: public
+    kind: supabase
+    enabled: true
+    url: https://lyucdwgefyfbmaiopjbk.supabase.co
+    anon_key: sb_publishable_lX-oi64Uxyd7SIVv3_w2Uw_MTOojeKq
