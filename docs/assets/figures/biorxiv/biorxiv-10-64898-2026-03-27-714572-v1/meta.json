@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-001.webp",
+      "caption": "Figure 4. PAR4 antagonist, VU6073819, protects WT mice against kidney injury and inflammation markers. Dose dependent effect in immune cell markers, kidney injury markers, and inflammatory markers demonstrating protection of disease progression when administered VU6073819. Mean ± SEM, the number of animals/groups differed due to survival rate. 5 mg/kg treatment group was the only group to maintain all 10 mice from the start of the study. One-way ANOVA; Tukey post hoc analysis. *P ≤ 0.05, **P ≤ 0.01, ***P ≤ 0.001.",
+      "page": 15,
+      "index": 1,
+      "width": 1132,
+      "height": 316
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-002.webp",
+      "caption": "Figure 3. PAR4 antagonist, VU6073819, protects WT mice against kidney injury. Dose dependent effect in blood urea nitrogen (BUN) levels demonstrating protection of disease progression when administered VU6073819. Mean ± SEM, the number of animals/groups differed due to survival rate. 5 mg/kg treatment group was the only group to maintain all 10 mice from the start of the study. One-way ANOVA; Tukey post hoc analysis. *P ≤ 0.05, ***P ≤ 0.001.",
+      "page": 14,
+      "index": 2,
+      "width": 1132,
+      "height": 588
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-003.webp",
+      "caption": "Figure 7. Immune cell infiltration quantification in kidneys after IRI. A) Neutrophil infiltration quantified by Ly6g staining of kidney sections and blinded histological analysis. Welche’s t test; two tailed; **P≤0.01 B) Macrophage infiltration measured by F4/80 staining of kidney sections and blinded histological analysis. Welche’s t test; two tailed; **P ≤ 0.001.",
+      "page": 18,
+      "index": 3,
+      "width": 1132,
+      "height": 871
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-004.webp",
+      "caption": "Figure 2. PAR4 antagonist protects WT mice against a mouse of AKI. WT mice were dosed with vehicle or PAR4 antagonist at 1mg/kg or 5 mg/kg by I.P. injection and BID. Blood samples were taken on day 2, 3, and 6 of the 8-day study. Mice were pre-treated with PAR4 antagonist or vehicle prior to ischemia-reperfusion injury (IRI). A) Dose dependent effect seen in body weight change and B) and survival curve analysis. Mean ± SEM, N = 10 per treatment group. Mean ± SEM; N = 10. Two-way ANOVA, Šídák's post hoc shows significant difference in body weight change (A). Kaplan-Meier survival analysis, followed by Log-rank test shows significance between vehicle treated and 5 mg/kg treated mice in survival, providing a p-value. (**P ≤ 0.001).",
+      "page": 13,
+      "index": 4,
+      "width": 1129,
+      "height": 493
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-005.webp",
+      "caption": "Figure 8. Fibrosis quantification of kidneys after IRI. A) Representative images for vehicle and VU6073819 fibrosis visualized by Sirius Red staining 8 days following IRI. Sirius Red quantification expressed as percent area shows decreased fibrosis in VU6073819 compared with vehicle mice. ***P < 0.001 Welch’s t test, n = 3-5. Scale bar = 50 μm. n indicates the number of mice for each experiment. B) mRNA of fibrosis markers for vehicle and VU6073819 8 days following IRI. One-way ANOVA; Tukey post hoc analysis. *P ≤ 0.05, **P ≤ 0.01, ***P ≤ 0.001.",
+      "page": 19,
+      "index": 5,
+      "width": 1132,
+      "height": 942
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-006.webp",
+      "caption": "Figure 6. Kidney tubular injury score for 5 mg/kg VU6073819-treated mice at time of sacrifice, Day 8. Observed by Periodic acid Schiff staining and blinded histological analysis. Scale bar: 50 M. Mean ± SEM, N=5 in 5 mg/kg treatment group, and N=3 in vehicle treatment group. Welche’s t test; two-tailed; ***P ≤ 0.001.",
+      "page": 17,
+      "index": 6,
+      "width": 1132,
+      "height": 423
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-007.webp",
+      "caption": "Figure 1. PAR4 expression increases in kidney distal tubule epithelial cells post unilateral ureteral obstruction (UUO) surgery. Representative images of PAR4 induction following UUO in WT C57/Bl6 mice over time (n = 10 in wild-type mice). PAR4 staining was minimal in control kidney and in the contralateral control kidney remained low even at 11 days. Scale bar = 50 μm. UUO, unilateral ureter obstruction; WT, wild type. n indicates the number of mice for each experiment.",
+      "page": 12,
+      "index": 7,
+      "width": 1129,
+      "height": 213
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-008.webp",
+      "caption": "Figure 9. PAR4 expression localized to the renal collecting duct in human acute interstitial nephritis (AIN). Representative human kidney images stained with 14H6 PAR4",
+      "page": 20,
+      "index": 8,
+      "width": 979,
+      "height": 664
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-27-714572-v1/fig-009.webp",
+      "caption": "Figure 5. Plasma concentration of 4A6L for 1 mg/kg and 5 mg/kg doses at time of sacrifice, Day 3 and Day 8. The concentration of 4A6L was above the IC50 of the compound (IC50 = 45 nM). Mean ± SEM, N=8 in 1 mg/kg treatment group, and N=10 in 5 mg/kg treatment group.",
+      "page": 16,
+      "index": 9,
+      "width": 814,
+      "height": 548
+    }
+  ]
+}

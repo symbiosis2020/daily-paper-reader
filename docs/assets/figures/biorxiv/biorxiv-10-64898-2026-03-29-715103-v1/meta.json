@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715103-v1/fig-001.webp",
+      "caption": "Figure 6. Rab12 knockdown does not alter mitochondrial bioenergetics. (A) Representative graph of the Seahorse bioenergetic MitoStress Test (Agilent Biosciences, Santa Clara, CA, USA) conducted on mt-mKeima/YFP-Parkin HeLa cells pre-transfected with an siRNA against Rab12 (siRab12) or a scramble control (siScr) for 72 h prior to Seahorse analysis. (B) Extrapolated data from the MitoStress Test of siScr-transfected cells against siRab12-transfected cells, showing basal respiration (basal resp), ATP-linked respiration (ATP-linked resp), maximal respiration (max resp), proton leak, reserve capacity (reserve cap), and non-mitochondrial respiration (non-mito resp). Data was analyzed using a two-way ANOVA with Bonferroni’s multiple comparisons test. n = 4 biological replicates. Data are presented as mean ± SEM.",
+      "page": 34,
+      "index": 1,
+      "width": 1064,
+      "height": 900
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715103-v1/fig-002.webp",
+      "caption": "Figure 5. Rab12 knockdown increases mitochondrial content and decreases mitochondrial membrane potential at baseline. (A and B) mt-mKeima/YFP-Parkin HeLa cells were transfected with siRNA against Rab12 (siRab12) or a scramble siRNA control (siScr) for 72 h. Mitochondrial content was analyzed by quantifying median fluorescence intensity (MFI) of mt-mKeima in siScr- vs siRab12-transfected samples (- FCCP) and both samples were then acutely treated with FCCP and measured once more (+ FCCP). (C and D) mt-mKeima/YFP-Parkin HeLa cells transfected with siRab12 or siScr for 72 h were collected and stained with TMRM. MFI of TMRM was calculated for siScr and siRab12 samples before and after FCCP treatment to measure mitochondrial membrane potential. **p<0.01, ***p<0.001, ****p<0.0001, as determined by two-way ANOVA with Bonferroni’s multiple comparisons test. n = 4 biological replicates. Data are presented as mean ± SEM.",
+      "page": 33,
+      "index": 2,
+      "width": 1014,
+      "height": 914
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715103-v1/fig-003.webp",
+      "caption": "Figure 7. Rab12 knockdown decreases mtDNA damage levels in mt-mKeima/YFP-Parkin HeLa cells. (A) mtmKeima/YFP-Parkin HeLa were transfected with siRNA against Rab12 (siRab12) or a scramble control siRNA (siScr) for 72 h. Mito DNADX analysis of mtDNA lesion frequency showed that Rab12 knockdown caused a significant decrease in mtDNA lesions relative to siScr transfection. n = 3 biological replicates. *p < 0.01, as determined by unpaired t-test. (B) No differences in steady state of mtDNA copy number was observed between conditions. n = 3 biological replicates. Data are presented as mean ± SEM.",
+      "page": 35,
+      "index": 3,
+      "width": 1126,
+      "height": 429
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715103-v1/fig-004.webp",
+      "caption": "Figure 2. An siRNA-based screen of Rab family proteins for mitophagy effectors. mt-mKeima/YFP-Parkin HeLa cells were reverse transfected with siRNAs against the notated Rab GTPase family members for 24 h. Following transfection, cells were treated with vehicle or 30 μM FCCP for 4h to induce mitophagy. Cells were immediately live-cell imaged on a confocal microscope for mt-mKeima-based mitophagy analysis to analyze impact of Rab target knockdown on mitophagic flux. Results are graphed as average mt-mKeima (pH 4-5) positive foci per cell, normalized to respective plate scramble (Scr) siRNA controls. All plates also included an siRNA against PINK1 as a positive control for mitophagy impairment. Candidates with a ≥50% increase are presented in blue, and those with a ≥50% decrease in mitophagy readout are presented in red. n = 3 replicates (except Rab2B and Rab15: n = 2 replicates). Data are presented as mean ± SEM.",
+      "page": 28,
+      "index": 4,
+      "width": 1141,
+      "height": 289
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715103-v1/fig-005.webp",
+      "caption": "Table 1: siRNA library plate details for Rab family protein targets. siRNA library information for Rab family proteins analyzed in our siRNA mitophagy screen. Plate barcodes for sets of 4 siRNAs against each gene of interest, plate ID, and gene information are listed.",
+      "page": 36,
+      "index": 5,
+      "width": 1083,
+      "height": 1154
+    }
+  ]
+}

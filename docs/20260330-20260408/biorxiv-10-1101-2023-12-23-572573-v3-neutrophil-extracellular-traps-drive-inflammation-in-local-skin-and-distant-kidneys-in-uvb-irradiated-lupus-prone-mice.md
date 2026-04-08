@@ -22,6 +22,15 @@ conclusion: 该研究揭示了紫外线B通过PKC驱动的核膜破裂促进NETs
 
 意义：本研究探索了SLE中一个机制性的皮肤-肾脏轴，揭示了UVB诱导的皮肤炎症与全身性疾病恶化之间的因果关系。我们证明PKC驱动的核膜破裂对促炎NETs的释放至关重要，而CXCR4介导的非NETosis中性粒细胞的运输是全身播散的关键途径。这些发现阐明了中性粒细胞如何通过传播NET驱动的炎症级联反应，从局部皮肤炎症的启动者转变为全身性肾损伤效应器。这项工作提出了治疗范式向精确调控中性粒细胞迁移和NETosis动力学的转变方向。通过揭示这些未被充分探索的通路，本研究为阻断光敏性SLE进展提供了一个分子框架，具有减轻不可逆终末器官损伤并改善临床结局的潜力。
 
+## 速览
+**TLDR**：本研究揭示了紫外线B（UVB）照射如何通过中性粒细胞胞外诱捕网（NETs）驱动狼疮易感小鼠的皮肤-肾脏轴炎症。研究发现，UVB通过PKC依赖的核膜破裂促进局部NETs释放炎性因子；同时诱导皮肤中性粒细胞表达迁移受体CXCR4，使其能够迁移至肾脏并进行NETosis，从而将预存的炎性介质（如细胞因子和补体C3）系统性播散至肾脏，导致肾损伤。基因或药物阻断CXCR4可有效减轻这一过程。该工作阐明了环境暴露引发系统性狼疮的新机制，并指出了核膜调控和中性粒细胞迁移作为潜在治疗靶点。 \
+**Motivation**：阳光（UVB）是系统性红斑狼疮（SLE）的主要环境诱因，但皮肤炎症如何导致内脏器官损伤的机制尚不清楚。 \
+**Method**：在狼疮易感小鼠模型中，通过基因敲除（Pkc、Cxcr4）和药理学抑制CXCR4，结合光转换时空追踪技术，研究了UVB照射后皮肤与肾脏的炎症机制。 \
+**Result**：UVB照射通过PKC驱动核膜破裂促进NETs释放引发局部炎症；同时诱导皮肤中性粒细胞表达CXCR4并迁移至肾脏进行NETosis，释放预存的细胞因子和补体C3，驱动肾脏损伤；阻断CXCR4可减轻这种器官间迁移和肾损伤。 \
+**Conclusion**：该研究揭示了PKC驱动的核膜破裂和CXCR4介导的中性粒细胞迁移是光敏性SLE中未被充分探索的治疗靶点，为通过精确调控中性粒细胞迁移和NETosis动力学来阻断疾病进展提供了分子框架。
+
+---
+
 ## Abstract
 Sunlight is a primary environmental trigger for systemic lupus erythematosus (SLE). However, the mechanisms linking cutaneous inflammation to internal organ damage remain unclear. Here, we identify a critical role for neutrophil extracellular trap (NET) formation in a pathogenic skin-kidney axis that drives UVB-induced lupus flares. In asymptomatic lupus-prone mice, UVB irradiation elicited concurrent skin and kidney inflammation, characterized by neutrophil infiltration, NET formation, release of NET-associated cytokines and complement C3, and proteinuria. Importantly, targeting nuclear envelope rupture[-]a critical structural step enabling nuclear chromatin release during NETosis[-]through Pkc genetic deletion significantly attenuated NET formation, skin and kidney inflammation, and proteinuria in UVB-irradiated MRL/lpr;Pkc-/-mice. Beyond local NETosis, UVB primed skin-infiltrating neutrophils to express the migration receptor CXCR4 alongside proinflammatory cytokines and C3. Using spatiotemporal tracking via photoconversion, we revealed that a subset of non-NETting, CXCR4-expressing neutrophils migrated from the skin to the kidneys, where they underwent NETosis to release their pre-expressed cytokines and C3, thereby driving renal inflammation and injury. Genetic Cxcr4 deficiency impaired this inter-organ trafficking, attenuating renal neutrophil infiltration and proteinuria in UVB-irradiated kikGR;Cxcr4+/- mice. Pharmacological CXCR4 inhibition further validated the therapeutic potential of blocking this migratory axis, attenuating lupus skin and kidney inflammation in UVB-irradiated lupus-prone mice. By linking environmental UVB exposure to systemic lupus outcomes through PKC-driven nuclear envelope rupture for proinflammatory NET release and CXCR4-mediated neutrophil trafficking for systemic dissemination, this work provides strong mechanistic evidence for a skin-kidney axis in SLE. These findings identify nuclear envelope regulation and neutrophil trafficking as previously underexplored therapeutic targets for photosensitive SLE.
 

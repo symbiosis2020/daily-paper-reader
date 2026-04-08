@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-31-715459-v1/fig-001.webp",
+      "caption": "Figure 3. Blue light stimulation of optoRET drives ERK-dependent symmetry breaking in epithelial cysts.",
+      "page": 11,
+      "index": 1,
+      "width": 974,
+      "height": 1079
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-31-715459-v1/fig-002.webp",
+      "caption": "Figure 4. Blue light stimulation of optoRET drives ERK signaling and ligand-independent budding in iUB organoids.",
+      "page": 15,
+      "index": 2,
+      "width": 937,
+      "height": 667
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-31-715459-v1/fig-003.webp",
+      "caption": "Figure 2. GDNF-RET sustains ERK signaling and tip identity among a tip progenitor population.",
+      "page": 8,
+      "index": 3,
+      "width": 974,
+      "height": 954
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-31-715459-v1/fig-004.webp",
+      "caption": "Figure 5. Spatially patterned optoRET stimulation drives asymmetric budding in iUB organoids. A. Strategy for targeted optogenetic stimulation of iUB-optoRET organoids.",
+      "page": 17,
+      "index": 4,
+      "width": 981,
+      "height": 908
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-31-715459-v1/fig-005.webp",
+      "caption": "Figure 1. GDNF-RET signaling tunes branching in mouse and human ureteric bud tissues. A. GDNF-RET signaling interactions involved in kidney branching.",
+      "page": 5,
+      "index": 5,
+      "width": 974,
+      "height": 990
+    }
+  ]
+}

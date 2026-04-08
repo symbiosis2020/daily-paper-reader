@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-1101-2025-08-25-672225-v2/fig-001.webp",
+      "caption": "Figure 2: Effect of PFD on expression of structural fibrous-ECM proteins and cell adhesive ECM glycoproteins in human ADPKD renal myofibroblasts. (A) Dot plots representing the snRNA-seq- KIT dataset for human ADPKD (n=8) and human normal control (n=6) kidneys. Gene expression for structural fibrous ECM proteins and (B) cell adhesive ECM-glycoproteins are shown. The size (diameter) of each dot reflects the percentage of cells expressing the gene, while the color intensity indicates the average expression level compared to all cell types. (C) Effect of PFD (0.5mg/ml for 24h) or vehicle treatment on mRNA levels of structural fibrous ECM proteins and (D) cell adhesive ECM-glycoproteins in human ADPKD myofibroblasts. *P<0.05, **P<0.01 by Unpaired t-test with Welch’s correction.",
+      "page": 30,
+      "index": 1,
+      "width": 966,
+      "height": 622
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-1101-2025-08-25-672225-v2/fig-002.webp",
+      "caption": "Figure 1: Effect of PFD on human ADPKD renal myofibroblasts. (A) Human ADPKD myofibroblasts stained for vimentin (denotes mesenchymal cells), αSMA (denotes myofibroblasts), and pan-cytokeratin (epithelail cell marker). (B) In human ADPKD myofibroblasts, cell viability assessed by MTT assay after PFD treatment for 24hrs. (C) Time course of cell viability in human myofibroblasts cells treated with 0.5mg/ml PFD. (D) Cell proliferation measured by BrdU assay after treatment with vehicle or PFD (0.5mg/ml for 24hrs). (E) Migration assay in cells treated with vehicle or PFD (0.5mg/ml), and (F) Quantification of migration. (G) Gel contractility assay in cells treated with vehicle or PFD (0.5mg/ml). (H) Relative area of the collagen lattice. *P<0.05, **P<0.01, ***P<0.001 by Unpaired t-test with Welch’s correction.",
+      "page": 29,
+      "index": 2,
+      "width": 956,
+      "height": 683
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-1101-2025-08-25-672225-v2/fig-003.webp",
+      "caption": "Figure 6: Effect of PFD on cyst growth in RC/RC mice: (A) Kidneys to body weight ratios, (B) Total kidney weight, (C) Cystic index, (D) Cyst number and (E) BUN. (F) Representative images of H&E staining (Scale bar 1mm), (G) Magnified images (Scale bar 100µm). *P<0.05, **P<0.01, ***P<0.001 by Unpaired t-test with Welch’s correction for C and D; and by ordinary one-way ANOVA with Tukey’s multiple comparison test in A, B and E.",
+      "page": 34,
+      "index": 3,
+      "width": 966,
+      "height": 710
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-1101-2025-08-25-672225-v2/fig-004.webp",
+      "caption": "Figure 5: Effect of PFD on profibrotic cell signaling. (A) Western blot analysis on whole kidney tissue lysate for, (A) pSMAD3/SMAD3 and b catenin and (B)",
+      "page": 33,
+      "index": 4,
+      "width": 948,
+      "height": 677
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-1101-2025-08-25-672225-v2/fig-005.webp",
+      "caption": "Figure 4: Effect of PFD on ECM modulating enzymes and matricellular proteins in ADPKD. (A) Dot plots representing the snRNA-seq KIT dataset as in Fig. 2 show gene expression of ECM-modulating enzymes, and (B) matricellular proteins. (C) In human ADPKD renal myofibroblasts, the effect of PFD (0.5mg/ml for 24h) or vehicle treatment on mRNA levels of ECM modulating enzymes, and (D) matricellular proteins. (E) In RC/RC mouse kidney tissues, mRNA levels of ECM modulating enzymes and (F) matricellular proteins. *P<0.05, **P<0.01 by Unpaired t-test with Welch’s correction.",
+      "page": 32,
+      "index": 5,
+      "width": 958,
+      "height": 728
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-1101-2025-08-25-672225-v2/fig-006.webp",
+      "caption": "Figure 3: Effect of PFD on fibrosis in RC/RC mouse kidneys: (A) Kidney mRNA levels of structural fibrous ECM proteins, and (B) cell adhesive-ECM glycoproteins. (C) Sirius Red staining of mouse kidney tissue (Scale bar 1mm), and (D) Quantitation of Sirius Red staining. (E) Kidney tissue immunostained for Collagen 1A (green) and DAPI (nuclei, blue) (Scale bar 100µm), and (F) αSMA (red) (Scale bar 100µm). (G) αSMA mRNA levels relative to 18S in kidney tissue. (H) Western blot analysis of the whole kidney tissue lysate, and (I) Densitometry of immunoblots. *P<0.05, **P<0.01, ***P<0.001 by ordinary one-way ANOVA in G, and Unpaired t-test with Welch’s correction in all others. Star symbols in figures C, E and F represent cysts.",
+      "page": 31,
+      "index": 6,
+      "width": 955,
+      "height": 740
+    }
+  ]
+}

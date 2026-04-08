@@ -1,15 +1,15 @@
 {
   "mode": "standard",
-  "generated_at": "2026-04-08T05:44:47.905403+00:00",
+  "generated_at": "2026-04-08T05:53:26.166225+00:00",
   "stats": {
     "mode": "standard",
     "tag_count": 1,
-    "deep_divecandidates": 3,
+    "deep_divecandidates": 4,
     "deep_cap": 6,
-    "deep_selected": 3,
-    "quick_candidates": 5,
+    "deep_selected": 4,
+    "quick_candidates": 10,
     "quick_skim_target": 11,
-    "quick_selected": 5
+    "quick_selected": 10
   },
   "deep_dive": [
     {
@@ -43,20 +43,61 @@
         "keyword:足细胞病",
         "query:足细胞病"
       ],
-      "llm_score": 9.0,
-      "llm_evidence_en": "transcriptome-based cell type assignment for kidney cell culture models",
-      "llm_evidence_cn": "基于转录组的肾脏细胞培养模型细胞类型分配",
-      "llm_evidence": "基于转录组的肾脏细胞培养模型细胞类型分配",
-      "canonical_evidence": "基于转录组的肾脏细胞培养模型细胞类型分配",
-      "llm_tldr_en": "A tool to match kidney cell lines to native cell types, directly enabling podocyte disease research.",
-      "llm_tldr_cn": "一种将肾脏细胞系与天然细胞类型匹配的工具，直接助力足细胞疾病研究。",
-      "llm_tldr": "一种将肾脏细胞系与天然细胞类型匹配的工具，直接助力足细胞疾病研究。",
+      "llm_score": 8.0,
+      "llm_evidence_en": "Transcriptome-based cell type assignment for kidney cell culture models including podocytes",
+      "llm_evidence_cn": "基于转录组的肾脏细胞培养模型（包括足细胞）细胞类型鉴定",
+      "llm_evidence": "基于转录组的肾脏细胞培养模型（包括足细胞）细胞类型鉴定",
+      "canonical_evidence": "基于转录组的肾脏细胞培养模型（包括足细胞）细胞类型鉴定",
+      "llm_tldr_en": "Provides a tool to validate kidney cell lines against primary cells to improve disease modeling accuracy.",
+      "llm_tldr_cn": "提供了一种验证肾脏细胞系与原代细胞一致性的工具，以提高疾病建模的准确性。",
+      "llm_tldr": "提供了一种验证肾脏细胞系与原代细胞一致性的工具，以提高疾病建模的准确性。",
       "llm_tags": [
         "query:profile-1:composite"
       ],
       "matched_query_tag": "query:profile-1:composite",
       "matched_query_text": "Papers central to 找足细胞病的机制研究, especially work that connects or combines: podocyte disease mechanisms; podocyte injury mechanisms; podocyte cytoskeleton structure and function; podocyte apoptosis pathways; podocyte autophagy regulation; immune system interactions and injury in podocyte diseases; molecular and cellular mechanisms underlying podocyte injury and disease; pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis; signaling networks and cytoskeletal regulation in podocyte function and dysfunction.",
       "matched_requirement_id": "req-composite-profile-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-03-29-715079-v1",
+      "source": "biorxiv",
+      "title": "In situ visualization of autophagy suggests vesicle fusion can contribute to phagophore expansion",
+      "abstract": "The autophagy core machinery mediates the enclosure of cytosolic cargo destined for degradation in the lysosome. The Atg9-Atg2-Atg18 complex coordinates phagophore expansion via directed lipid transfer until closure of the phagophore rim. Using an Atg2 variant (Atg2-PM4) as a model of decelerated autophagosome biogenesis, we visualized the morphological states prior to autophagosome closure by cryogenic correlative light and electron microscopy in S. cerevisiae. Using in situ cryo-electron tomography, we find an enlarged rim morphology of an expanding phagophore in Atg2-PM4 cells in comparison with Atg2 wildtype condition. Analysis of segmented rim membrane features as well as surrounding and attached vesicles suggest that the enlarged rims are a result of cytosolic vesicles fusing with the growing phagophore. High-resolution imaging in this study shows that, apart from the initial nucleation phase, vesicle fusion can also contribute to phagophore expansion during later stages of autophagosome biogenesis.",
+      "authors": [
+        "Ortmann de Percin Northumberland, C.",
+        "Licheva, M.",
+        "Dabrowski, R.",
+        "Gomez-Sanchez, R.",
+        "Berkamp, S.",
+        "Schonnenbeck, P.",
+        "Graef, M.",
+        "Kraft, C.",
+        "Sachse, C."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-03-30T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.03.29.715079v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "In situ visualization of autophagy and phagophore expansion",
+      "llm_evidence_cn": "自噬和吞噬泡扩张的原位可视化",
+      "llm_evidence": "自噬和吞噬泡扩张的原位可视化",
+      "canonical_evidence": "自噬和吞噬泡扩张的原位可视化",
+      "llm_tldr_en": "Visualizes the morphological states of autophagosome biogenesis and vesicle fusion using cryo-ET.",
+      "llm_tldr_cn": "利用冷冻电子断层扫描技术可视化了自噬体生物发生和囊泡融合的形态状态。",
+      "llm_tldr": "利用冷冻电子断层扫描技术可视化了自噬体生物发生和囊泡融合的形态状态。",
+      "llm_tags": [
+        "query:q5"
+      ],
+      "matched_query_tag": "query:q5",
+      "matched_query_text": "podocyte autophagy regulation",
+      "matched_requirement_id": "req-5",
       "selection_source": "fresh_fetch"
     },
     {
@@ -84,13 +125,13 @@
         "query:足细胞病"
       ],
       "llm_score": 8.0,
-      "llm_evidence_en": "Immune system interactions driving kidney inflammation and proteinuria in lupus",
-      "llm_evidence_cn": "狼疮中驱动肾脏炎症和蛋白尿的免疫系统相互作用",
-      "llm_evidence": "狼疮中驱动肾脏炎症和蛋白尿的免疫系统相互作用",
-      "canonical_evidence": "狼疮中驱动肾脏炎症和蛋白尿的免疫系统相互作用",
-      "llm_tldr_en": "Identifies a skin-kidney axis where neutrophil extracellular traps drive kidney injury and proteinuria.",
-      "llm_tldr_cn": "确定了中性粒细胞胞外陷阱驱动肾损伤和蛋白尿的皮-肾轴。",
-      "llm_tldr": "确定了中性粒细胞胞外陷阱驱动肾损伤和蛋白尿的皮-肾轴。",
+      "llm_evidence_en": "NET formation in skin-kidney axis causing proteinuria and kidney inflammation",
+      "llm_evidence_cn": "皮肤-肾脏轴中的中性粒细胞胞外陷阱形成导致蛋白尿和肾脏炎症",
+      "llm_evidence": "皮肤-肾脏轴中的中性粒细胞胞外陷阱形成导致蛋白尿和肾脏炎症",
+      "canonical_evidence": "皮肤-肾脏轴中的中性粒细胞胞外陷阱形成导致蛋白尿和肾脏炎症",
+      "llm_tldr_en": "Identifies NETs as a driver of kidney injury and proteinuria in lupus, linking immune response to renal damage.",
+      "llm_tldr_cn": "确定了中性粒细胞胞外陷阱是狼疮肾损伤和蛋白尿的驱动因素，将免疫反应与肾损害联系起来。",
+      "llm_tldr": "确定了中性粒细胞胞外陷阱是狼疮肾损伤和蛋白尿的驱动因素，将免疫反应与肾损害联系起来。",
       "llm_tags": [
         "query:q6"
       ],
@@ -155,13 +196,13 @@
         "query:足细胞病"
       ],
       "llm_score": 8.0,
-      "llm_evidence_en": "single-cell atlas of kidney biopsies in lupus nephritis identifying immune and tissue cell states",
-      "llm_evidence_cn": "狼疮性肾炎肾活检单细胞图谱，识别免疫和组织细胞状态",
-      "llm_evidence": "狼疮性肾炎肾活检单细胞图谱，识别免疫和组织细胞状态",
-      "canonical_evidence": "狼疮性肾炎肾活检单细胞图谱，识别免疫和组织细胞状态",
-      "llm_tldr_en": "Provides a large-scale single-cell atlas of lupus nephritis to identify immune drivers of renal disease.",
-      "llm_tldr_cn": "提供狼疮性肾炎的大规模单细胞图谱，以识别肾脏疾病的免疫驱动因素。",
-      "llm_tldr": "提供狼疮性肾炎的大规模单细胞图谱，以识别肾脏疾病的免疫驱动因素。",
+      "llm_evidence_en": "immune system interactions in lupus nephritis kidney tissue",
+      "llm_evidence_cn": "狼疮性肾炎肾脏组织中的免疫系统相互作用",
+      "llm_evidence": "狼疮性肾炎肾脏组织中的免疫系统相互作用",
+      "canonical_evidence": "狼疮性肾炎肾脏组织中的免疫系统相互作用",
+      "llm_tldr_en": "A single-cell atlas of lupus nephritis identifying immune and stromal cell states in renal tissue.",
+      "llm_tldr_cn": "狼疮性肾炎单细胞图谱，鉴定了肾脏组织中的免疫和间质细胞状态。",
+      "llm_tldr": "狼疮性肾炎单细胞图谱，鉴定了肾脏组织中的免疫和间质细胞状态。",
       "llm_tags": [
         "query:q6"
       ],
@@ -172,6 +213,264 @@
     }
   ],
   "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-03-27-714572-v1",
+      "source": "biorxiv",
+      "title": "Targeting Protease-activated Receptor 4 (PAR4) Protects Against Acute Kidney Injury (AKI) in Ischemia Reperfusion Injury",
+      "abstract": "Acute kidney injury (AKI) is a serious and common clinical syndrome that currently has no effective treatment. Emerging evidence links coagulation pathways to kidney injury, particularly through coagulation proteases. Protease-activated receptors (PARs) are a family of G-protein coupled receptors (GPCRs) that are activated by proteolytic cleavage of their N termini, exposing a tethered ligand that initiates receptor signaling. PARs have been shown to play a major role in inflammation, vascular regulation, and tissue injury. PARs play key roles in inflammation, vascular regulation, and tissue injury. Previous work from the Hamm laboratory demonstrated that PAR4 contributes to AKI progression, as PAR4 knockout mice were protected in both unilateral ureteral obstruction and ischemia-reperfusion-based models of kidney disease.\n\nIn this study, we investigated the potential of a PAR4 antagonist, VU6073819, at mitigating AKI progression in an ischemia-reperfusion injury (IRI) mouse model. PAR4 antagonism not only alleviated kidney injury and inflammatory response, but it significantly improved the survival. These findings identify PAR4 as a promising therapeutic target for AKI.",
+      "authors": [
+        "Webb, E. M.",
+        "Cao, S.",
+        "Pan, Y.",
+        "Zhang, M.-Z.",
+        "Harris, R.",
+        "Boutaud, O.",
+        "Bouchard, J. L.",
+        "Jones, C. K.",
+        "Lindsley, C. W.",
+        "Hamm, H. E."
+      ],
+      "primary_category": "pharmacology and toxicology",
+      "categories": [
+        "pharmacology and toxicology"
+      ],
+      "published": "2026-03-30T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.03.27.714572v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "PAR4 signaling contributes to acute kidney injury progression",
+      "llm_evidence_cn": "PAR4 信号传导促进急性肾损伤进展",
+      "llm_evidence": "PAR4 信号传导促进急性肾损伤进展",
+      "canonical_evidence": "PAR4 信号传导促进急性肾损伤进展",
+      "llm_tldr_en": "Demonstrates that targeting PAR4 protects against acute kidney injury by modulating inflammation and tissue damage.",
+      "llm_tldr_cn": "证明靶向 PAR4 可通过调节炎症和组织损伤来预防急性肾损伤。",
+      "llm_tldr": "证明靶向 PAR4 可通过调节炎症和组织损伤来预防急性肾损伤。",
+      "llm_tags": [
+        "query:q2"
+      ],
+      "matched_query_tag": "query:q2",
+      "matched_query_text": "podocyte injury mechanisms",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-1101-2025-02-10-637505-v2",
+      "source": "biorxiv",
+      "title": "Molecularly-guided spatial proteomics captures single-cell identity of the healthy and diseased nervous system",
+      "abstract": "Single-cell spatial proteomics (scSP) holds substantial potential for profiling healthy and diseased tissues. The emerging method of molecularly-guided unbiased scSP has mostly been applied to peripheral somatic tissues. Here, we optimize and apply scSP to the healthy and diseased mammalian brain, using molecularly-guided laser capture microdissection and unbiased mass spectrometry. We systematically evaluate the effects of tissue fixation, marker staining, and sample input size on proteome coverage and quantitative accuracy. We benchmark this workflow by profiling region-specific neuronal proteomes and describing the response of non-neuronal cells to acute brain injury. Across these applications, we integrate complementary transcriptomic resources to evaluate cross-modality trends and refine neuronal proteomic results by filtering out protein signals likely arising from non-neuronal cells, an essential consideration in heterogeneous tissues such as the brain. Finally, we leverage this approach to resolve proteomic differences between dopaminergic neuron subpopulations with differential vulnerability to Parkinsons disease and to uncover disease-specific disruptions in -synuclein-aggregate-bearing single dopaminergic neurons. Together, these data demonstrate the utility of scSP in neuroscience research for understanding fundamental biology and the molecular drivers of neurological conditions.",
+      "authors": [
+        "Dutta, S.",
+        "Pang, M.",
+        "Coughlin, G. M.",
+        "Gudavalli, S.",
+        "Roukes, M. L.",
+        "Chou, T.-F.",
+        "Gradinaru, V."
+      ],
+      "primary_category": "neuroscience",
+      "categories": [
+        "neuroscience"
+      ],
+      "published": "2026-03-30T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2025.02.10.637505v2.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Spatial proteomics for profiling healthy and diseased tissues at single-cell resolution",
+      "llm_evidence_cn": "用于单细胞分辨率分析健康和疾病组织的空间蛋白质组学",
+      "llm_evidence": "用于单细胞分辨率分析健康和疾病组织的空间蛋白质组学",
+      "canonical_evidence": "用于单细胞分辨率分析健康和疾病组织的空间蛋白质组学",
+      "llm_tldr_en": "Optimizes single-cell spatial proteomics to capture cell identity in disease, a tool useful for podocyte research.",
+      "llm_tldr_cn": "优化单细胞空间蛋白质组学以捕捉疾病中的细胞身份，是足细胞研究的有用工具。",
+      "llm_tldr": "优化单细胞空间蛋白质组学以捕捉疾病中的细胞身份，是足细胞研究的有用工具。",
+      "llm_tags": [
+        "query:q7"
+      ],
+      "matched_query_tag": "query:q7",
+      "matched_query_text": "molecular and cellular mechanisms underlying podocyte injury and disease",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-03-29-715103-v1",
+      "source": "biorxiv",
+      "title": "Rab12 is a regulator of mitophagy and mitochondrial homeostasis",
+      "abstract": "Rab GTPases orchestrate vesicular trafficking, but their contributions to mitochondrial quality control are not fully defined, despite links to multiple mitochondria-related human diseases. We conducted a family-wide siRNA-based screen using mt-mKeima/YFP-Parkin HeLa cells to identify regulators of depolarization-induced mitophagy. The screen identified several candidate Rabs, and follow-up studies validated Rab12 as a negative regulator of mitophagy. Rab12 knockdown or knockout augments clearance of damaged mitochondria basally and/or after FCCP-induced depolarization, with findings reproduced across distinct cell types. Rab12 depletion increased mitochondrial content, lowered mitochondrial membrane potential, and reduced mitochondrial DNA damage, without detectable changes in overall cellular bioenergetic capacity. Together, these results indicate that Rab12 restrains mitophagic engagement and its loss permits accumulation of lower-functioning mitochondria that are hypersensitive to mitophagy-inducing stress. Rab12 thus emerges as a novel effector linking vesicular trafficking machinery and mitochondrial homeostasis, with potential implications for neurodegenerative disorders and other Rab-associated diseases.",
+      "authors": [
+        "Richbourg, T.",
+        "George, A.",
+        "Bitar, A.",
+        "Ryde, I. T.",
+        "Farrell, C.",
+        "Malankhanova, T.",
+        "Liu, J.",
+        "Buck, S. A.",
+        "Barraza, I.",
+        "Kim, S. Y. A.",
+        "Nie, X.",
+        "West, A. B.",
+        "Meyer, J. N.",
+        "Sanders, L. H."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-03-31T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.03.29.715103v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Rab12 regulation of mitophagy and mitochondrial homeostasis",
+      "llm_evidence_cn": "Rab12对线粒体自噬和线粒体稳态的调节",
+      "llm_evidence": "Rab12对线粒体自噬和线粒体稳态的调节",
+      "canonical_evidence": "Rab12对线粒体自噬和线粒体稳态的调节",
+      "llm_tldr_en": "Identifies Rab12 as a negative regulator of mitophagy, impacting mitochondrial quality control and homeostasis.",
+      "llm_tldr_cn": "确定Rab12是线粒体自噬的负调节因子，影响线粒体质量控制和稳态。",
+      "llm_tldr": "确定Rab12是线粒体自噬的负调节因子，影响线粒体质量控制和稳态。",
+      "llm_tags": [
+        "query:q5"
+      ],
+      "matched_query_tag": "query:q5",
+      "matched_query_text": "podocyte autophagy regulation",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-1101-2025-08-25-672225-v2",
+      "source": "biorxiv",
+      "title": "Pirfenidone treatment attenuates fibrosis in autosomal dominant polycystic kidney disease",
+      "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) is a leading genetic cause of kidney failure, marked by progressive cyst expansion, inflammation and fibrosis. Renal fibrosis, characterized by myofibroblast activation and excessive extracellular matrix (ECM) deposition is a central driver of disease progression in ADPKD, yet targeted anti-fibrotic therapies remain limited. Here, we evaluated the therapeutic potential of pirfenidone to suppress fibrosis and disease progression in ADPKD. To define the ECM in human ADPKD kidneys, we analyzed snRNA-seq data and found that fibroblasts are the principal source of fibrous and adhesive ECM in ADPKD kidneys, exhibiting higher ECM gene expression than normal controls. In vitro, primary culture human ADPKD renal myofibroblasts showed a similar profibrotic gene expression profile, and pirfenidone treatment suppressed ECM gene expression, cell proliferation, migration and contractility. In the Pkd1RC/RC mouse model of ADPKD, pirfenidone treatment significantly reduced renal fibrosis, myofibroblast accumulation, ECM deposition, pro-fibrotic gene expression and associated cell signaling pathways. Pirfenidone also decreased kidney-to-body weight ratio and improved kidney function in Pkd1RC/RC mice, without altering cyst burden. Collectively, these findings demonstrate that pirfenidone attenuates renal fibrosis and improves kidney function in ADPKD by targeting myofibroblast activation and ECM production, supporting a complementary therapeutic approach to cyst-directed therapies.",
+      "authors": [
+        "Remadevi, V.",
+        "Jamadar, A.",
+        "Varghese, M. M.",
+        "Yang, H.",
+        "Gunewardena, S.",
+        "Wallace, D.",
+        "Rao, R."
+      ],
+      "primary_category": "molecular biology",
+      "categories": [
+        "molecular biology"
+      ],
+      "published": "2026-03-31T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2025.08.25.672225v2.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "kidney disease mechanisms and fibrosis in ADPKD",
+      "llm_evidence_cn": "ADPKD中的肾脏疾病机制和纤维化",
+      "llm_evidence": "ADPKD中的肾脏疾病机制和纤维化",
+      "canonical_evidence": "ADPKD中的肾脏疾病机制和纤维化",
+      "llm_tldr_en": "Evaluates pirfenidone for treating renal fibrosis in polycystic kidney disease using single-nucleus RNA-seq.",
+      "llm_tldr_cn": "利用单核RNA测序评估吡非尼酮治疗多囊肾病肾纤维化的疗效。",
+      "llm_tldr": "利用单核RNA测序评估吡非尼酮治疗多囊肾病肾纤维化的疗效。",
+      "llm_tags": [
+        "query:profile-1:composite"
+      ],
+      "matched_query_tag": "query:profile-1:composite",
+      "matched_query_text": "Papers central to 找足细胞病的机制研究, especially work that connects or combines: podocyte disease mechanisms; podocyte injury mechanisms; podocyte cytoskeleton structure and function; podocyte apoptosis pathways; podocyte autophagy regulation; immune system interactions and injury in podocyte diseases; molecular and cellular mechanisms underlying podocyte injury and disease; pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis; signaling networks and cytoskeletal regulation in podocyte function and dysfunction.",
+      "matched_requirement_id": "req-composite-profile-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-03-31-715459-v1",
+      "source": "biorxiv",
+      "title": "Synthetic budding morphogenesis by optogenetic receptor tyrosine kinase signaling",
+      "abstract": "The mammalian kidney relies on a branched network of collecting ducts for fluid transport and homeostasis. Replicating this network in vitro would parallelize function in synthetic replacement kidneys, yet current organoids have limited branching capacity. Here, we establish a developmentally-informed strategy to control organoid budding through optogenetic control of a receptor tyrosine kinase, RET. We first show pharmacological manipulation of RET signaling controls the extent of branching in mouse embryonic kidneys and human stem cell-derived kidney organoids. Next, we develop an optogenetic RET receptor (optoRET) that signals in a ligand-independent manner via blue light-mediated clustering. Epithelial cells expressing optoRET reproduce stereotyped RET signaling, scattering, and symmetry breaking in response to blue light. Human kidney organoids undergo budding with controllable orientation in response to spatially patterned optoRET stimulation. Our results establish ligand-free optogenetic control of branching and inspire new synthetic biology strategies for epithelial organoid design.\n\nHighlightsGDNF-RET controls branching and tip cell state in mouse and human kidney tissues.\n\nOptoRET reproduces endogenous RET signaling and morphogenesis in cell lines.\n\nOptoRET enables ligand-free budding in human renal epithelial organoids.\n\nSpatially patterned optoRET stimulation controls budding orientation.",
+      "authors": [
+        "Prahl, L. S.",
+        "Canlla, R.",
+        "Huang, A. Z.",
+        "Alber, D. S.",
+        "Shefter, S. L.",
+        "Davis, S. N.",
+        "Grindel, S. H.",
+        "Huang, Z.",
+        "Mumford, T. R.",
+        "Benman, W.",
+        "Bugaj, L. J.",
+        "McCracken, K.",
+        "Hughes, A. J."
+      ],
+      "primary_category": "bioengineering",
+      "categories": [
+        "bioengineering"
+      ],
+      "published": "2026-04-02T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715459v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Kidney organoid morphogenesis and RET signaling control",
+      "llm_evidence_cn": "肾脏类器官形态发生与RET信号控制",
+      "llm_evidence": "肾脏类器官形态发生与RET信号控制",
+      "canonical_evidence": "肾脏类器官形态发生与RET信号控制",
+      "llm_tldr_en": "Uses optogenetics to control RET signaling and branching morphogenesis in kidney organoids.",
+      "llm_tldr_cn": "利用光遗传学技术控制肾脏类器官中的RET信号传导和分支形态发生。",
+      "llm_tldr": "利用光遗传学技术控制肾脏类器官中的RET信号传导和分支形态发生。",
+      "llm_tags": [
+        "query:profile-1:composite"
+      ],
+      "matched_query_tag": "query:profile-1:composite",
+      "matched_query_text": "Papers central to 找足细胞病的机制研究, especially work that connects or combines: podocyte disease mechanisms; podocyte injury mechanisms; podocyte cytoskeleton structure and function; podocyte apoptosis pathways; podocyte autophagy regulation; immune system interactions and injury in podocyte diseases; molecular and cellular mechanisms underlying podocyte injury and disease; pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis; signaling networks and cytoskeletal regulation in podocyte function and dysfunction.",
+      "matched_requirement_id": "req-composite-profile-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-03-29-715138-v1",
+      "source": "biorxiv",
+      "title": "Intercellular communication is a heritable dimension of human tissue architecture",
+      "abstract": "Methods that map genetic risk to cells identify disease-relevant tissues and cell types but cannot test whether genetic effects concentrate at molecular interfaces between cells. Here we introduce EdgeMap, which integrates spatial transcriptomics with GWAS summary statistics to partition trait heritability into cell-intrinsic and intercellular components and to resolve the intercellular signal into specific ligand-receptor channels. Across 17 traits and five human tissues, edge heritability is enriched in biologically coherent trait-tissue pairings (3.8-fold; P = 4.4 x 10-6) and replicates across independent tissue sections, GWAS cohorts, and cell-segmented Visium HD. Per-pair decomposition identifies 67 trait-specific channels (FDR < 0.10) organized into convergent pathway families--neurexin-neuroligin synaptic signaling in bipolar disorder, vascular adhesion in cardiovascular traits, and lipoprotein-clearance pathways in liver. Most edge genes are absent from standard gene-level prioritization, supporting intercellular communication as a complementary dimension of genetic architecture.",
+      "authors": [
+        "Yang, C.",
+        "Zhang, X.",
+        "Chen, J."
+      ],
+      "primary_category": "genetics",
+      "categories": [
+        "genetics"
+      ],
+      "published": "2026-03-31T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.03.29.715138v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "EdgeMap integrates spatial transcriptomics and GWAS to map disease-relevant intercellular communication",
+      "llm_evidence_cn": "EdgeMap 整合空间转录组学和 GWAS 以绘制疾病相关的细胞间通讯图谱",
+      "llm_evidence": "EdgeMap 整合空间转录组学和 GWAS 以绘制疾病相关的细胞间通讯图谱",
+      "canonical_evidence": "EdgeMap 整合空间转录组学和 GWAS 以绘制疾病相关的细胞间通讯图谱",
+      "llm_tldr_en": "A new method to map genetic risk to intercellular communication, potentially applicable to podocyte-cell interactions.",
+      "llm_tldr_cn": "一种将遗传风险映射到细胞间通讯的新方法，可能适用于足细胞与其他细胞的相互作用研究。",
+      "llm_tldr": "一种将遗传风险映射到细胞间通讯的新方法，可能适用于足细胞与其他细胞的相互作用研究。",
+      "llm_tags": [
+        "query:q7"
+      ],
+      "matched_query_tag": "query:q7",
+      "matched_query_text": "molecular and cellular mechanisms underlying podocyte injury and disease",
+      "matched_requirement_id": "req-7",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
     {
       "id": "biorxiv-10-64898-2026-04-01-715811-v1",
       "source": "biorxiv",
@@ -200,13 +499,13 @@
         "query:足细胞病"
       ],
       "llm_score": 7.0,
-      "llm_evidence_en": "mechanical forces coupling cytoskeletal organization to adhesion dynamics",
-      "llm_evidence_cn": "机械力将细胞骨架组织与粘附动力学耦合",
-      "llm_evidence": "机械力将细胞骨架组织与粘附动力学耦合",
-      "canonical_evidence": "机械力将细胞骨架组织与粘附动力学耦合",
-      "llm_tldr_en": "A new non-invasive method probes localized force generation and cytoskeletal organization in 3D tissues.",
-      "llm_tldr_cn": "一种非侵入性新方法可探测3D组织中的局部力产生和细胞骨架组织。",
-      "llm_tldr": "一种非侵入性新方法可探测3D组织中的局部力产生和细胞骨架组织。",
+      "llm_evidence_en": "Coupling cytoskeletal organization to adhesion in 3D epithelia",
+      "llm_evidence_cn": "3D上皮细胞中细胞骨架组织与粘附的耦合",
+      "llm_evidence": "3D上皮细胞中细胞骨架组织与粘附的耦合",
+      "canonical_evidence": "3D上皮细胞中细胞骨架组织与粘附的耦合",
+      "llm_tldr_en": "Introduces a non-invasive strategy to probe localized force generation and cytoskeletal dynamics in 3D tissues.",
+      "llm_tldr_cn": "介绍了一种探测3D组织中局部力产生和细胞骨架动力学的非侵入性策略。",
+      "llm_tldr": "介绍了一种探测3D组织中局部力产生和细胞骨架动力学的非侵入性策略。",
       "llm_tags": [
         "query:q9"
       ],
@@ -217,176 +516,132 @@
       "quick_tier": "7"
     },
     {
-      "id": "biorxiv-10-1101-2025-05-20-655050-v2",
+      "id": "biorxiv-10-64898-2026-04-02-716073-v1",
       "source": "biorxiv",
-      "title": "A Goldilocks principle of JAK/STAT signaling governs airway epithelial homeostasis and stress adaptation in Drosophila",
-      "abstract": "Airway epithelia must maintain barrier integrity while continuously adapting to changing environmental conditions. This requires key signaling pathways in airway epithelia to operate within a tightly controlled functional range. Here, we show that airway epithelial homeostasis in Drosophila depends on balanced JAK/STAT signaling. Basal pathway activity is constitutively present in differentiated epithelial cells and is necessary for cell survival, epithelial integrity and stress resistance. In accordance with this role as a stress responsive regulator in epithelial biology, environmental stressors, including hypoxia, cigarette smoke, and cold exposure, induce JAK/STAT signaling. In contrast, sustained pathway activation is associated with airway remodeling characterized by epithelial thickening, luminal narrowing, and altered cellular organization. Transcriptomic analysis reveals that sustained activation is associated with a coordinated epithelial stress program integrating immune signaling, proteostasis, and metabolic adaptation. Cross-species comparisons with murine and human datasets suggest that key aspects of this response are conserved. Pharmacological inhibition demonstrates that remodeling depends on continued pathway activity and can be partially reversed in vivo. Together, our findings support a model in which airway epithelial homeostasis depends on maintaining JAK/STAT signaling within a defined functional range. This \"Goldilocks\" principle provides a conceptual framework for understanding how epithelial stress responses are balanced under physiological and pathological conditions.\n\nGraphical abstract",
+      "title": "A stage-resolved map of dynamic septin interactions required for infection by the rice blast fungus",
+      "abstract": "Septin GTPases are essential cytoskeletal regulators that organize membranes and scaffold protein complexes to control cytokinesis, polarity, and morphogenesis. How septins execute these functions remains poorly understood, and comprehensive, stage-resolved interaction maps are lacking. Here, we define a quantitative, time-resolved septin interactome in the rice blast fungus Magnaporthe oryzae using immunoprecipitation coupled to mass spectrometry. We map more than 350 interactors of septins Sep3, Sep4, Sep5 and Sep6, revealing a dynamic network required for appressorium-mediated plant infection. Beyond canonical roles in cytoskeletal organisation and polarity, septins associate with proteins linked to membrane remodelling, metabolism, and virulence, deployed during host invasion. Integration with ultra-high-throughput yeast two-hybrid analysis defines a high-confidence septin interactome and identifies previously uncharacterised factors, including Msi1, a BAR domain protein required for invasive growth. Together, these findings establish septins as dynamic organisers of infection-related processes and provide a framework for understanding how cytoskeletal scaffolds coordinate fungal pathogenesis.",
       "authors": [
-        "Niu, X.",
-        "Fink, C.",
-        "Kallsen, K.",
-        "Shi, L.",
-        "Mincheva, V.",
-        "Franzenburg, S.",
-        "Prange, R. D.",
-        "He, J.",
-        "Bhandari, A.",
-        "Bruchhaus, I.",
-        "Heine, H.",
-        "Bossen, J. M.",
-        "Roeder, T."
+        "Eisermann, I.",
+        "Sahu, N.",
+        "Garduno-Rosales, M.",
+        "Derbyshire, P.",
+        "Menke, F. L. H.",
+        "Ma, W.",
+        "Talbot, N. J."
       ],
       "primary_category": "cell biology",
       "categories": [
         "cell biology"
       ],
-      "published": "2026-04-01T00:00:00+00:00",
-      "link": "https://www.biorxiv.org/content/10.1101/2025.05.20.655050v2.full.pdf",
+      "published": "2026-04-03T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716073v1.full.pdf",
       "tags": [
         "keyword:足细胞病",
         "query:足细胞病"
       ],
       "llm_score": 6.0,
-      "llm_evidence_en": "signaling pathways governing epithelial homeostasis and barrier integrity",
-      "llm_evidence_cn": "控制上皮稳态和屏障完整性的信号通路",
-      "llm_evidence": "控制上皮稳态和屏障完整性的信号通路",
-      "canonical_evidence": "控制上皮稳态和屏障完整性的信号通路",
-      "llm_tldr_en": "Balanced JAK/STAT signaling is essential for maintaining airway epithelial integrity and stress adaptation.",
-      "llm_tldr_cn": "平衡的JAK/STAT信号对于维持气道上皮完整性和压力适应至关重要。",
-      "llm_tldr": "平衡的JAK/STAT信号对于维持气道上皮完整性和压力适应至关重要。",
+      "llm_evidence_en": "Septin GTPases as essential cytoskeletal regulators and interactors",
+      "llm_evidence_cn": "Septin GTP酶作为重要的细胞骨架调节因子和相互作用因子",
+      "llm_evidence": "Septin GTP酶作为重要的细胞骨架调节因子和相互作用因子",
+      "canonical_evidence": "Septin GTP酶作为重要的细胞骨架调节因子和相互作用因子",
+      "llm_tldr_en": "Maps the septin interactome to reveal its role in cytoskeletal organization and membrane remodeling.",
+      "llm_tldr_cn": "绘制了septin相互作用组图谱，揭示了其在细胞骨架组织和膜重塑中的作用。",
+      "llm_tldr": "绘制了septin相互作用组图谱，揭示了其在细胞骨架组织和膜重塑中的作用。",
+      "llm_tags": [
+        "query:q9"
+      ],
+      "matched_query_tag": "query:q9",
+      "matched_query_text": "signaling networks and cytoskeletal regulation in podocyte function and dysfunction",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-04-03-716333-v1",
+      "source": "biorxiv",
+      "title": "Plekha7 promotes retina organization and inhibits inflammation and photoreceptor loss",
+      "abstract": "Plekha7 associates with p120 catenin and localizes at apical cell-cell junctions where it has been implicated in junction stabilization. However, it's in vivo function and underlying mechanisms of action remain unclear. Here, we show that constitutive Plekha7 loss in mice disrupts retinal organization, reduces retinal thickness, and induces RPE multinucleation, microglia infiltration, and photoreceptor loss. Plekha7 deficiency reduces the accumulation of cadherin-catenin complexes at apical junctions without altering overall cadherin levels, indicating a defect in junctional maintenance. Mechanistically, PLEKHA7 regulates cadherin trafficking by limiting levels of endocytosed E-cadherin, thereby maintaining junctional cadherin pools. Notably, these effects are largely independent of p120 catenin. In addition, further Plekha7 roles in the regulation of centrosome, cilia, microtubule dynamics, and cytokinesis, likely contribute to the phenotypic changes induced by Plekha7 knockout. These findings establish Plekha7 as a key regulator of cadherin trafficking and epithelial organization with relevance to retinal disease.",
+      "authors": [
+        "Cooper, L. M.",
+        "Chen, J.",
+        "Lu, R.",
+        "Feathers, R. W.",
+        "Lin, W.-H.",
+        "Anastasiadis, P. Z."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-04-07T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.03.716333v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Plekha7 regulates cell-cell junctions and cadherin trafficking",
+      "llm_evidence_cn": "Plekha7调节细胞间连接和钙粘蛋白运输",
+      "llm_evidence": "Plekha7调节细胞间连接和钙粘蛋白运输",
+      "canonical_evidence": "Plekha7调节细胞间连接和钙粘蛋白运输",
+      "llm_tldr_en": "Shows Plekha7 maintains epithelial organization by regulating junctional cadherin trafficking and stabilization.",
+      "llm_tldr_cn": "研究表明Plekha7通过调节连接处钙粘蛋白的运输和稳定来维持上皮组织结构。",
+      "llm_tldr": "研究表明Plekha7通过调节连接处钙粘蛋白的运输和稳定来维持上皮组织结构。",
+      "llm_tags": [
+        "query:q9"
+      ],
+      "matched_query_tag": "query:q9",
+      "matched_query_text": "signaling networks and cytoskeletal regulation in podocyte function and dysfunction",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-04-04-716461-v1",
+      "source": "biorxiv",
+      "title": "Damage sensing recruitment of a lipid phosphatase couples lysosomal membrane repair to proteostatic adaptation",
+      "abstract": "Restoration of organellar membrane integrity is critical for maintaining cellular homeostasis. Lysosomal membrane damage activates local repair machineries and global stress responses, but how signaling lipid metabolism is engaged by damage sensors to support and mechanistically link these processes remains poorly understood. Here we show that the phosphoinositide phosphatase MTMR14 is recruited to damaged lysosomes through calcium dependent binding to sphingomyelin. At these sites, MTMR14 promotes local PI(3)P hydrolysis and supports PI(4)P accumulation, thereby facilitating formation of ER/ lysosome contact sites associated with membrane repair, without affecting ESCRT recruitment. MTMR14 dependent lipid remodelling causes reduced mTORC1 signalling and a decrease in global protein synthesis, consistent with an acute proteostatic adaptation to lysosomal injury. Cells lacking MTMR14 display impaired damage induced lipid remodelling, altered repair associated structures, sustained protein synthesis, and increased sensitivity to lysosomal injury, all of which can be mitigated by mTORC1/S6K inhibition. Our findings identify damage sensing recruitment of MTMR14 and local PI(3)P turnover on damaged lysosomes as a phosphoinositide module that promotes lysosomal membrane integrity and homeostasis while functionally linking nutrient signalling to proteostasis under membrane stress.",
+      "authors": [
+        "Su, Y.",
+        "Mello-Vieira, J.",
+        "Puchkov, D. P.",
+        "Dornan, G. D.",
+        "Ruwolt, M.",
+        "Suedhoff, E.",
+        "Adeosun, O. A.",
+        "Vogel, H.",
+        "Suendermann, S.",
+        "Schuermann, A.",
+        "Holthuis, J.",
+        "Liu, F.",
+        "Dikic, I.",
+        "Ebner, M.",
+        "Haucke, V."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-04-05T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.04.716461v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Lysosomal membrane repair and proteostatic adaptation mechanisms",
+      "llm_evidence_cn": "溶酶体膜修复和蛋白质稳态适应机制",
+      "llm_evidence": "溶酶体膜修复和蛋白质稳态适应机制",
+      "canonical_evidence": "溶酶体膜修复和蛋白质稳态适应机制",
+      "llm_tldr_en": "Reveals how MTMR14 couples lysosomal membrane repair to proteostatic adaptation via lipid remodeling.",
+      "llm_tldr_cn": "揭示了MTMR14如何通过脂质重塑将溶酶体膜修复与蛋白质稳态适应联系起来。",
+      "llm_tldr": "揭示了MTMR14如何通过脂质重塑将溶酶体膜修复与蛋白质稳态适应联系起来。",
       "llm_tags": [
         "query:q7"
       ],
       "matched_query_tag": "query:q7",
       "matched_query_text": "molecular and cellular mechanisms underlying podocyte injury and disease",
       "matched_requirement_id": "req-7",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "6"
-    },
-    {
-      "id": "biorxiv-10-64898-2026-03-26-714406-v1",
-      "source": "biorxiv",
-      "title": "Tubulin glycylation regulates microtubule-protein interactions that are key for ciliary stability and trafficking",
-      "abstract": "Tubulin glycylation, a cilia-specific posttranslational modification is emerging as a potentially key regulator of ciliary axonemal microtubules. However, insights into the functional consequences of glycylation have remained limited. Here, using in vitro reconstitution assays with unmodified or custom-glycylated tubulin, we provide a systematic mechanistic analysis of glycylation-dependent regulation of motors and microtubule-associated proteins. Our studies highlight that glycylation selectively enhances ciliary kinesin-2 motility while reducing kinesin-1 activity, suggesting a role in promoting efficient intraflagellar transport along axonemal microtubules. Moreover, glycylation protects microtubules from decay by suppressing the activities of the depolymerase MCAK and severing enzyme spastin, thereby enhancing stability. Notably, this regulation is dependent on the proportion of glycylation on the microtubule surface, coupled with concomitant reduction of glutamylation. Thus, by generating microtubule surfaces with distinct biochemical states, we establish that combinatorial modification patterns define functional microtubule properties especially in cilia. Together, our findings provide the first comprehensive mechanistic framework for tubulin glycylation in regulating molecular motors and MAPs in cilia, establishing glycylation as a key determinant of motor selectivity and microtubule stability within the axoneme.",
-      "authors": [
-        "Mullick, S.",
-        "Suresh Kumar, C.",
-        "Dey, S.",
-        "Koushik, P. B.",
-        "Ganie, R.",
-        "Mahanty, S.",
-        "Sirajuddin, M.",
-        "Gadadhar, S."
-      ],
-      "primary_category": "biochemistry",
-      "categories": [
-        "biochemistry"
-      ],
-      "published": "2026-03-30T00:00:00+00:00",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.03.26.714406v1.full.pdf",
-      "tags": [
-        "keyword:足细胞病",
-        "query:足细胞病"
-      ],
-      "llm_score": 6.0,
-      "llm_evidence_en": "tubulin modification and microtubule-protein interactions in cytoskeleton",
-      "llm_evidence_cn": "细胞骨架中微管蛋白修饰与微管-蛋白质相互作用",
-      "llm_evidence": "细胞骨架中微管蛋白修饰与微管-蛋白质相互作用",
-      "canonical_evidence": "细胞骨架中微管蛋白修饰与微管-蛋白质相互作用",
-      "llm_tldr_en": "Tubulin glycylation regulates ciliary microtubule stability and motor protein trafficking.",
-      "llm_tldr_cn": "微管蛋白甘氨酰化调节纤毛微管稳定性和马达蛋白运输。",
-      "llm_tldr": "微管蛋白甘氨酰化调节纤毛微管稳定性和马达蛋白运输。",
-      "llm_tags": [
-        "query:q3"
-      ],
-      "matched_query_tag": "query:q3",
-      "matched_query_text": "podocyte cytoskeleton structure and function",
-      "matched_requirement_id": "req-3",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "6"
-    },
-    {
-      "id": "biorxiv-10-64898-2026-03-28-715031-v1",
-      "source": "biorxiv",
-      "title": "AAV-Delivered RNAi Targeting Mutant LDB3 Prevents and Reverses Myofibrillar Myopathy through Mechanosignaling Restoration",
-      "abstract": "The autosomal dominant p.Ala165Val mutation in LIM Domain Binding Protein 3 (LDB3) causes myofibrillar myopathy marked by Z-disc disruption, accumulation of filamin-C (FLNc) and chaperone proteins, and progressive muscle weakness. We previously showed that this mutation interferes with the LDB3-protein kinase C alpha (PKC)-FLNc mechanosensing axis and impairs chaperone-assisted selective autophagy (CASA), establishing a gain-of-function mechanism. In this study, we examined whether mutant allele-specific knockdown could reverse the disease or mitigate disease progression in-vivo. A single intramuscular-injection of an AAV9-delivered microRNA-based shRNA produced substantial knockdown of mutant Ldb3 transcripts and protein in Ldb3Ala165Val/+ knock-in mice treated either before or after the onset of pathology. Treatment after disease onset reduced filamin-C and CASA protein aggregates and improved muscle strength, whereas early intervention prevented development of molecular and histological features of myopathy. Phosphoproteomic profiling further showed broad remodeling of dysregulated phosphorylation networks, including restoration of PKC-responsive sites and normalization of altered sarcomeric and cytoskeletal signaling observed in Ldb3Ala165Val/+ mice. These findings identify disruption of the LDB3-PKC-FLNc mechanosensing pathway as a central disease driver and suggest that restoring this signaling axis may complement mutant allelespecific RNA interference (RNAi). Overall, our results support RNAi as a promising therapeutic strategy for dominant LDB3-related myofibrillar myopathy.",
-      "authors": [
-        "Pathak, P.",
-        "Palmeri, J.",
-        "Hale, J.",
-        "Sabu-Kurian, A.",
-        "Peiravi, M.",
-        "Springer, D. A.",
-        "Li, Y.",
-        "Johnson, K. R.",
-        "Mankodi, A."
-      ],
-      "primary_category": "neuroscience",
-      "categories": [
-        "neuroscience"
-      ],
-      "published": "2026-03-31T00:00:00+00:00",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.03.28.715031v1.full.pdf",
-      "tags": [
-        "keyword:足细胞病",
-        "query:足细胞病"
-      ],
-      "llm_score": 6.0,
-      "llm_evidence_en": "restoration of chaperone-assisted selective autophagy in disease",
-      "llm_evidence_cn": "恢复疾病中伴侣蛋白辅助的选择性自噬",
-      "llm_evidence": "恢复疾病中伴侣蛋白辅助的选择性自噬",
-      "canonical_evidence": "恢复疾病中伴侣蛋白辅助的选择性自噬",
-      "llm_tldr_en": "RNAi targeting mutant LDB3 restores mechanosignaling and autophagy in myofibrillar myopathy.",
-      "llm_tldr_cn": "针对突变LDB3的RNAi可恢复肌原纤维肌病中的机械信号传导和自噬。",
-      "llm_tldr": "针对突变LDB3的RNAi可恢复肌原纤维肌病中的机械信号传导和自噬。",
-      "llm_tags": [
-        "query:q5"
-      ],
-      "matched_query_tag": "query:q5",
-      "matched_query_text": "podocyte autophagy regulation",
-      "matched_requirement_id": "req-5",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "6"
-    },
-    {
-      "id": "biorxiv-10-64898-2026-03-29-715079-v1",
-      "source": "biorxiv",
-      "title": "In situ visualization of autophagy suggests vesicle fusion can contribute to phagophore expansion",
-      "abstract": "The autophagy core machinery mediates the enclosure of cytosolic cargo destined for degradation in the lysosome. The Atg9-Atg2-Atg18 complex coordinates phagophore expansion via directed lipid transfer until closure of the phagophore rim. Using an Atg2 variant (Atg2-PM4) as a model of decelerated autophagosome biogenesis, we visualized the morphological states prior to autophagosome closure by cryogenic correlative light and electron microscopy in S. cerevisiae. Using in situ cryo-electron tomography, we find an enlarged rim morphology of an expanding phagophore in Atg2-PM4 cells in comparison with Atg2 wildtype condition. Analysis of segmented rim membrane features as well as surrounding and attached vesicles suggest that the enlarged rims are a result of cytosolic vesicles fusing with the growing phagophore. High-resolution imaging in this study shows that, apart from the initial nucleation phase, vesicle fusion can also contribute to phagophore expansion during later stages of autophagosome biogenesis.",
-      "authors": [
-        "Ortmann de Percin Northumberland, C.",
-        "Licheva, M.",
-        "Dabrowski, R.",
-        "Gomez-Sanchez, R.",
-        "Berkamp, S.",
-        "Schonnenbeck, P.",
-        "Graef, M.",
-        "Kraft, C.",
-        "Sachse, C."
-      ],
-      "primary_category": "cell biology",
-      "categories": [
-        "cell biology"
-      ],
-      "published": "2026-03-30T00:00:00+00:00",
-      "link": "https://www.biorxiv.org/content/10.64898/2026.03.29.715079v1.full.pdf",
-      "tags": [
-        "keyword:足细胞病"
-      ],
-      "llm_score": 6.0,
-      "llm_evidence_en": "visualization of autophagy machinery and phagophore expansion",
-      "llm_evidence_cn": "自噬机制和吞噬泡扩张的可视化",
-      "llm_evidence": "自噬机制和吞噬泡扩张的可视化",
-      "canonical_evidence": "自噬机制和吞噬泡扩张的可视化",
-      "llm_tldr_en": "In situ cryo-ET suggests vesicle fusion contributes to phagophore expansion during autophagy.",
-      "llm_tldr_cn": "原位冷冻电子断层扫描表明囊泡融合有助于自噬过程中的吞噬泡扩张。",
-      "llm_tldr": "原位冷冻电子断层扫描表明囊泡融合有助于自噬过程中的吞噬泡扩张。",
-      "llm_tags": [
-        "query:q5"
-      ],
-      "matched_query_tag": "query:q5",
-      "matched_query_text": "podocyte autophagy regulation",
-      "matched_requirement_id": "req-5",
       "selection_source": "fresh_fetch",
       "quick_tier": "6"
     }
