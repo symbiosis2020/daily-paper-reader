@@ -1,0 +1,24 @@
+---
+title: AAV-Delivered RNAi Targeting Mutant LDB3 Prevents and Reverses Myofibrillar Myopathy through Mechanosignaling Restoration
+title_zh: AAV递送的靶向突变体LDB3的RNAi通过恢复机械信号传导预防和逆转肌原纤维肌病
+authors: "Pathak, P., Palmeri, J., Hale, J., Sabu-Kurian, A., Peiravi, M., Springer, D. A., Li, Y., Johnson, K. R., Mankodi, A."
+date: 2026-03-31
+pdf: "https://www.biorxiv.org/content/10.64898/2026.03.28.715031v1.full.pdf"
+tags: ["query:q5"]
+score: 6.0
+evidence: 恢复疾病中伴侣蛋白辅助的选择性自噬
+tldr: 本研究针对由LIM结构域结合蛋白3（LDB3）p.Ala165Val突变引起的显性遗传性肌原纤维肌病。该突变通过干扰LDB3-PKC-FLNc机械传感轴和损害伴侣辅助选择性自噬（CASA）导致疾病。研究采用AAV9递送的基于microRNA的shRNA进行突变等位基因特异性敲低，在疾病发生前后对小鼠模型进行治疗。结果显示，治疗后减少了蛋白聚集、改善了肌肉力量，并重塑了失调的磷酸化网络。结论是RNAi是一种有前景的治疗策略，恢复该信号轴可能补充等位基因特异性干扰。
+source: biorxiv
+selection_source: fresh_fetch
+figures_json: "[{\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-001.webp\", \"caption\": \"\", \"page\": 60, \"index\": 1, \"width\": 2400, \"height\": 2577}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-002.webp\", \"caption\": \"\", \"page\": 61, \"index\": 2, \"width\": 2400, \"height\": 3300}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-003.webp\", \"caption\": \"\", \"page\": 62, \"index\": 3, \"width\": 1952, \"height\": 3300}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-004.webp\", \"caption\": \"\", \"page\": 63, \"index\": 4, \"width\": 2400, \"height\": 1440}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-005.webp\", \"caption\": \"\", \"page\": 64, \"index\": 5, \"width\": 2400, \"height\": 1757}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-006.webp\", \"caption\": \"\", \"page\": 65, \"index\": 6, \"width\": 1952, \"height\": 3300}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-007.webp\", \"caption\": \"\", \"page\": 66, \"index\": 7, \"width\": 2398, \"height\": 1572}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-64898-2026-03-28-715031-v1/fig-008.webp\", \"caption\": \"\", \"page\": 67, \"index\": 8, \"width\": 2400, \"height\": 3300}]"
+motivation: 研究旨在探索突变等位基因特异性敲低是否能逆转或缓解体内由LDB3 p.Ala165Val突变引起的肌原纤维肌病的进展。
+method: 使用AAV9递送的基于microRNA的shRNA进行突变等位基因特异性敲低，在疾病发生前后对Ldb3Ala165Val/+敲入小鼠进行单次肌肉注射治疗。
+result: 治疗后减少了filamin-C和CASA蛋白聚集，改善了肌肉力量；早期干预预防了肌病的分子和组织学特征；磷酸化蛋白质组分析显示磷酸化网络广泛重塑，包括PKC反应位点的恢复。
+conclusion: 研究结果表明，RNAi是一种有前景的治疗策略，可治疗由LDB3突变引起的显性肌原纤维肌病。
+---
+
+## 摘要
+LIM结构域结合蛋白3（LDB3）中的常染色体显性p.Ala165Val突变会导致肌原纤维肌病，其特征包括Z盘破坏、细丝蛋白C（FLNc）和伴侣蛋白的积累以及进行性肌无力。我们先前研究表明，该突变干扰了LDB3-蛋白激酶Cα（PKC）-FLNc机械传感轴并损害伴侣辅助选择性自噬（CASA），从而确立了一种功能获得性机制。本研究探讨了在体内通过突变等位基因特异性敲低能否逆转疾病或减缓疾病进展。在病理发生前或发生后，对Ldb3Ala165Val/+敲入小鼠单次肌肉注射AAV9递送的基于microRNA的shRNA，可显著敲低突变型Ldb3转录本和蛋白质。发病后治疗减少了细丝蛋白C和CASA蛋白聚集物并改善了肌力，而早期干预则阻止了肌病分子和组织学特征的发展。磷酸化蛋白质组学分析进一步显示，失调的磷酸化网络发生广泛重塑，包括PKC响应位点的恢复以及Ldb3Ala165Val/+小鼠中观察到的异常肌节和细胞骨架信号传导的正常化。这些发现表明LDB3-PKC-FLNc机械传感通路破坏是核心疾病驱动因素，并提示恢复该信号轴可能补充突变等位基因特异性RNA干扰（RNAi）。总体而言，我们的结果支持RNAi作为显性LDB3相关肌原纤维肌病的一种有前景的治疗策略。
+
+## Abstract
+The autosomal dominant p.Ala165Val mutation in LIM Domain Binding Protein 3 (LDB3) causes myofibrillar myopathy marked by Z-disc disruption, accumulation of filamin-C (FLNc) and chaperone proteins, and progressive muscle weakness. We previously showed that this mutation interferes with the LDB3-protein kinase C alpha (PKC)-FLNc mechanosensing axis and impairs chaperone-assisted selective autophagy (CASA), establishing a gain-of-function mechanism. In this study, we examined whether mutant allele-specific knockdown could reverse the disease or mitigate disease progression in-vivo. A single intramuscular-injection of an AAV9-delivered microRNA-based shRNA produced substantial knockdown of mutant Ldb3 transcripts and protein in Ldb3Ala165Val/+ knock-in mice treated either before or after the onset of pathology. Treatment after disease onset reduced filamin-C and CASA protein aggregates and improved muscle strength, whereas early intervention prevented development of molecular and histological features of myopathy. Phosphoproteomic profiling further showed broad remodeling of dysregulated phosphorylation networks, including restoration of PKC-responsive sites and normalization of altered sarcomeric and cytoskeletal signaling observed in Ldb3Ala165Val/+ mice. These findings identify disruption of the LDB3-PKC-FLNc mechanosensing pathway as a central disease driver and suggest that restoring this signaling axis may complement mutant allelespecific RNA interference (RNAi). Overall, our results support RNAi as a promising therapeutic strategy for dominant LDB3-related myofibrillar myopathy.

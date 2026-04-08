@@ -1,0 +1,3503 @@
+Title: A Goldilocks principle of JAK/STAT signaling governs airway epithelial homeostasis and stress adaptation in Drosophila
+
+URL Source: https://www.biorxiv.org/content/10.1101/2025.05.20.655050v2.full.pdf
+
+Number of Pages: 34
+
+Markdown Content:
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+1
+
+> A Goldilocks principle of JAK/STAT signaling governs airway
+
+1
+
+> epithelial homeostasis and stress adaptation in  Drosophila
+
+2
+
+3
+
+> Xiao Niu 1, 2 , Christine Fink 1, Kimberley Kallsen 3, 4 , Leizhi Shi 1, 5 , Viktoria Mincheva 1,
+
+4
+
+> Sören Franzenburg 6, Ruben Prange 1, Jingjing He 1, Anita Bhandari 1, Iris Bruchhaus 7,
+
+5
+
+> Holger Heine 2, 8 , Judith Bossen 1, 8* , Thomas Roeder 1, 8*
+
+6
+
+7
+
+> 1Kiel University, Zoology, Dept. of Molecular Physiology, Kiel, Germany
+
+8
+
+> 2Current address: Weifang Medical University, College of Life Science and
+
+9
+
+> Technology, Weifang, China
+
+10 
+
+> 3Research Center Borstel – Leibniz Lung Center, Div. of Innate Immunity, Borstel,
+
+11 
+
+> Germany
+
+12 
+
+> 4Current address: Boehringer Ingelheim, Ingelheim, Germany
+
+13 
+
+> 5Department of Thoracic Surgery, Linyi People’s Hospital, Linyi, Shandong, 276000,
+
+14 
+
+> China
+
+15 
+
+> 6Kiel University, IKMB, Kiel, Germany
+
+16 
+
+> 7Bernhard Nocht Institute for Tropical Medicine, Hamburg, Germany
+
+17 
+
+> 8German Center for Lung Research, Airway Research Center North, Kiel, Germany
+
+18 
+
+> *Correspondence: Judith Bossen, email: jbossen@zoologie.uni-kiel.de; Thomas
+
+19 
+
+> Roeder, email: troeder@zoologie.uni-kiel.de
+
+20 
+
+21 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+2
+
+22 
+
+> Graphical abstract
+
+23 
+
+24 
+
+25 
+
+26 
+
+27 
+
+.CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+> 3
+> Summary
+
+28 
+
+> Airway epithelia must maintain barrier integrity while continuously adapting to
+
+29 
+
+> changing environmental conditions. This requires key signaling pathways in airway
+
+30 
+
+> epithelia to operate within a tightly controlled functional range. Here, we show that
+
+31 
+
+> airway epithelial homeostasis in  Drosophila  depends on balanced JAK/STAT signaling.
+
+32 
+
+> Basal pathway activity is constitutively present in differentiated epithelial cells and is
+
+33 
+
+> necessary for cell survival, epithelial integrity and stress resistance. In accordance
+
+34 
+
+> with this role as a stress responsive regulator in epithelial biology, environmental
+
+35 
+
+> stressors, including hypoxia, cigarette smoke, and cold exposure, induce JAK/STAT
+
+36 
+
+> signaling.  In  contrast,  sustained  pathway  activation  is  associated  with  airway
+
+37 
+
+> remodeling characterized by epithelial thickening, luminal narrowing, and altered
+
+38 
+
+> cellular organization. Transcriptomic analysis reveals that sustained activation is
+
+39 
+
+> associated  with  a coordinated  epithelial  stress  program  integrating  immune
+
+40 
+
+> signaling, proteostasis, and metabolic adaptation. Cross-species comparisons with
+
+41 
+
+> murine and human datasets suggest that key aspects of this response are conserved.
+
+42 
+
+> Pharmacological inhibition demonstrates that remodeling depends on continued
+
+43 
+
+> pathway activity and can be partially reversed  in vivo . Together, our findings support
+
+44 
+
+> a model in which airway epithelial homeostasis depends on maintaining JAK/STAT
+
+45 
+
+> signaling within a defined functional range. This “Goldilocks” principle provides a
+
+46 
+
+> conceptual  framework  for  understanding  how  epithelial  stress  responses  are
+
+47 
+
+> balanced under physiological and pathological conditions.
+
+48 
+
+49   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 4
+> Introduction
+
+50 
+
+> Airway epithelia form the first barrier between the organism and the external
+
+51 
+
+> environment and are therefore continuously exposed to environmental stressors,
+
+52 
+
+> including  pathogens,  pollutants,  and  fluctuations  in  oxygen  availability[1,  2].
+
+53 
+
+> Maintaining epithelial integrity under these conditions requires the coordinated
+
+54 
+
+> regulation of signaling pathways that govern epithelial survival, stress responses, and
+
+55 
+
+> tissue architecture[3, 4]. Dysregulation of epithelial signaling can lead to pathological
+
+56 
+
+> remodeling processes that contribute to chronic airway diseases, including asthma
+
+57 
+
+> and chronic obstructive pulmonary disease [5-7]. Understanding how epithelial
+
+58 
+
+> signaling pathways maintain airway homeostasis while enabling adaptive responses
+
+59 
+
+> to environmental stress, therefore, represents a fundamental challenge in lung
+
+60 
+
+> research.
+
+61 
+
+> Among the signaling pathways implicated in epithelial regulation, the JAK/STAT
+
+62 
+
+> signaling pathway plays a central role in epithelial stress responses and tissue
+
+63 
+
+> remodeling across metazoans[8, 9]. In mammalian airways, JAK/STAT signaling is
+
+64 
+
+> activated  by  inflammatory  cytokines  and  has  been  implicated  in  epithelial
+
+65 
+
+> proliferation,  immune  responses,  and  airway  remodeling  during  chronic  lung
+
+66 
+
+> disease[9-11]. However, despite extensive work in mammalian systems, it remains
+
+67 
+
+> unclear how JAK/STAT signaling contributes to airway epithelial homeostasis under
+
+68 
+
+> physiological conditions and how different levels of pathway activity affect epithelial
+
+69 
+
+> structure and function[12-15]
+
+[4] .70 
+
+> The  Drosophila  tracheal system provides a powerful in vivo model to study airway
+
+71 
+
+> epithelial biology. The fly airway epithelium shares key structural and functional
+
+72 
+
+> features  with  mammalian  airway  epithelia  while  offering  unparalleled  genetic
+
+73 
+
+> accessibility to manipulate signaling pathways directly in epithelial cells
+
+[16-21] .74 
+
+> Previous work has established that JAK/STAT signaling is important during tracheal
+
+75 
+
+> morphogenesis[22-24] and that it regulates epithelial responses to infection and
+
+76 
+
+> injury in multiple tissues in  Drosophila [25, 26]. However, the role of this pathway in
+
+77 
+
+> maintaining  airway  epithelial  homeostasis  and  coordinating  responses  to
+
+78 
+
+> environmental stress has not been systematically investigated.
+
+79 
+
+> Here, we use the genetically tractable  Drosophila  airway system to examine how
+
+80 
+
+> JAK/STAT signaling regulates epithelial homeostasis. We show that basal pathway
+
+81 
+
+> activity contributes to epithelial integrity, whereas sustained activation is associated
+
+82 
+
+> with structural remodeling. Furthermore, we demonstrate that environmental stress
+
+83 
+
+> dynamically  modulates  pathway activity and  that  chronic  activation  induces  a
+
+84 
+
+> coordinated epithelial stress program. Based on these findings, we propose that
+
+85 
+
+> airway epithelia require a “Goldilocks” level of JAK/STAT signaling, in which balanced
+
+86 
+
+> pathway activity maintains homeostasis while insufficient or excessive signaling
+
+87 
+
+> disrupts tissue integrity.
+
+88 
+
+89 
+
+90   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 5
+> Results
+
+91 
+
+> To investigate how JAK/STAT signaling regulates airway epithelial homeostasis, we
+
+92 
+
+> combined genetic, environmental, and transcriptomic approaches in the  Drosophila
+
+93 
+
+> airway system. We first assessed basal pathway activity and its requirement for
+
+94 
+
+> epithelial integrity. We then examined how environmental stress modulates pathway
+
+95 
+
+> activity, followed by analysis of the structural and molecular consequences of
+
+96 
+
+> sustained pathway activation. Finally, we tested whether pharmacological inhibition
+
+97 
+
+> can reverse the observed remodeling phenotypes.
+
+98 
+
+99 
+
+> JAK/STAT Signaling Is Present throughout the Larval Tracheal System
+
+100 
+
+> To determine whether JAK/STAT signaling is active under physiological conditions,
+
+101 
+
+> we examined pathway activity using a STAT-responsive transcriptional reporter (Fig.
+
+102 
+
+> 1A).  Under  basal  conditions,  the  trachea  of  third-instar  Drosophila  larvae  (L3)
+
+103 
+
+> displayed near-ubiquitous reporter activity across all tracheal compartments (Fig. 1B-
+
+104 
+
+> E).  However,  marked  regional  differences  in  signal  intensity  were  evident.
+
+105 
+
+> Specifically, JAK/STAT signaling was enriched in defined zones of the larval tracheal
+
+106 
+
+> system, including the dorsal trunks, spiracular branches (SB), and Tr2, regions
+
+107 
+
+> previously associated with regenerative capacity 26,27  (Fig. 1D, E). In contrast, tracheal
+
+108 
+
+> regions fated for apoptosis during metamorphosis (e.g., Tr10) exhibited only minimal
+
+109 
+
+> reporter activity (Fig. 1C), highlighting a functional correlation between JAK/STAT
+
+110 
+
+> activity and tissue maintenance.
+
+111 
+
+> In adult flies, reporter analysis revealed sustained pathway activity throughout the
+
+112 
+
+> airway  network  (Fig.  1F),  confirming  a role  for  JAK/STAT  signaling  beyond
+
+113 
+
+> developmental morphogenesis. Transcriptional mapping of  upd2  further localized
+
+114 
+
+> ligand expression to SB and Tr2 tracheoblasts (Fig. S1), consistent with an epithelial-
+
+115 
+
+> intrinsic autocrine regulatory circuit.
+
+116 
+
+> These  observations  indicate  that  JAK/STAT  signaling  is  constitutively  active  in
+
+117 
+
+> differentiated airway epithelial cells, suggesting a potential role in maintaining
+
+118 
+
+> epithelial  homeostasis.  We  next asked  whether  this  basal  pathway  activity  is
+
+119 
+
+> functionally required for airway epithelial integrity.
+
+120 121 
+
+> Basal JAK/STAT signaling is required for airway epithelial homeostasis
+
+122 
+
+> To assess the functional relevance of basal pathway activity, we reduced pathway
+
+123 
+
+> activity in airway epithelial cells. We selectively inhibited the pathway in airway
+
+124 
+
+> epithelial cells using the TARGET system
+
+[27] to drive a dominant-negative  Domeless 125 
+
+> receptor allele (Dome.DN) (Fig. 2A). Early (embryo) pathway blockade caused larval
+
+126 
+
+> lethality (Fig. 2B) and led to severe architectural defects, including loss of dorsal
+
+127 
+
+> trunks and segmental fusion (Fig. 2C).
+
+In larval trachea, inhibition of JAK/STAT 128 
+
+signaling (here, driven by nach-Gal4)  induced epithelial defects characterized by 129 
+
+liquid-filled airways, a phenotype that is apparent as a lack of visible trachea in the 130 
+
+> animals, as liquid filling pushes away the air and thus the differences in refractive
+
+131   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 6
+> indexes between the two media (Fig. 2D, yellow arrows).
+
+Moreover, the outcome of 132 
+
+the tracheal activation of JAK/STAT signaling critically depended on the time of 133 
+
+activation (Fig. S2). At the level of single epithelial cel ls (here, driven by the vvl-134 
+
+> coin system)
+
+strong changes in cell structure, reminiscent of apoptosis, occurred 135 
+
+(Fig. 2E), which was confirmed by cleaved Dcp-1 staining (Fig. 2F–G). 136 
+
+> In  adults,  trachea-specific  pathway  inhibition  reduced  organismal  lifespan  and
+
+137 
+
+> sensitized  animals  to  chronic  CSE  exposure,  but  not  to  hypoxia  (Fig.  2H–J),
+
+138 
+
+> highlighting  stress-specific  functional  dependencies.  Here,  CSE  and  reduced
+
+139 
+
+> JAK/STAT activity independently reduced lifespan. These findings demonstrate that
+
+140 
+
+> basal JAK/STAT signaling is required to maintain airway epithelial integrity and
+
+141 
+
+> organismal  stress  tolerance.  Because  airway  epithelia  constantly  encounter
+
+142 
+
+> environmental  challenges,  we  next  investigated  whether  JAK/STAT  signaling
+
+143 
+
+> responds dynamically to stress.
+
+144 
+
+145 
+
+> Environmental stress activates JAK/STAT signaling in airway epithelial cells
+
+146 
+
+> To determine whether environmental stress regulates epithelial JAK/STAT signaling,
+
+147 
+
+> we exposed animals to several physiologically relevant stress conditions. To evaluate
+
+148 
+
+> the responsiveness of airway epithelial cells to environmental insults, we employed a
+
+149 
+
+> GFP-based reporter driven by STAT92E activation in  Drosophila . Exposure to airborne
+
+150 
+
+> stressors, including cold air, hypoxia, and cigarette smoke extract (CSE), triggered
+
+151 
+
+> robust and reproducible pathway activation in larval tracheae (Fig. 3A, B) . Similar
+
+152 
+
+> results were observed in adult flies (Fig. 3C, D). Quantitative imaging confirmed a
+
+153 
+
+> significant increase in reporter fluorescence under all tested stress conditions.
+
+154 
+
+> Strikingly, pathway activation co-localized with elevated expression of the cytokine
+
+155 
+
+> upd3 , and  upd2  was additionally induced by CSE, whereas other stressors induced
+
+156 
+
+> much smaller effects (Fig. S3). To test whether a simple intra-organ signaling system
+
+157 
+
+> is operative, we subjected flies expressing the STAT-reporter, concurrently with RNAi
+
+158 
+
+> targeting either upd2 or upd3, to hypoxia. Here, we found no rescue of the hypoxia-
+
+159 
+
+> induced STAT-activation by the RNAi against these most important ligands of the
+
+160 
+
+> pathway (Fig. 3E, F), which implies that this system is more complex, including other
+
+161 
+
+> sources of the unpaired ligands or plasticity among different unpaired ligands
+
+162 
+
+> replacing each other.
+
+163 
+
+> These results demonstrate that airway epithelial JAK/STAT signaling functions as a
+
+164 
+
+> stress-responsive signaling pathway activated by environmental challenges. We next
+
+165 
+
+> asked  how  sustained  pathway  activation  affects  the  structure  of  the  airway
+
+166 
+
+> epithelium.
+
+167 
+
+168 
+
+> Chronic JAK/STAT activation drives airway epithelial remodeling
+
+169 
+
+> To determine the consequences of sustained pathway activation, we chronically
+
+170 
+
+> activated JAK/STAT signaling in airway epithelial cells. Therefore, we overexpressed
+
+171   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 7
+> either  Hop.CA  (constitutively active JAK) or the cytokine  upd3  (Fig. 4A). Both
+
+172 
+
+> perturbations induced at the embryonic state led to embryonic or early larval lethality
+
+173 
+
+> (Fig. 4B, C). The structural analysis of these perturbations revealed severe epithelial
+
+174 
+
+> disruption. Here,  upd3  overexpression yielded more severe epithelial disruption than
+
+175 
+
+> Hop.CA  overexpression (Fig. 4D-E). Conditional activation of the pathway in larvae via
+
+176 
+
+> the TARGET system resulted in structural changes in the tracheal system (Fig. 4F, G).
+
+177 
+
+> Here, structural defects became apparent, including airway stenoses. A closer
+
+178 
+
+> analysis of the structural changes of the dorsal trunks of L3 larvae using a mosaic
+
+179 
+
+> system based vvl-coin revealed a narrowing of the airway lumen only in the affected
+
+180 
+
+> epithelial cells (Fig. 4F, G). A detailed analysis of the chitinous intima of the larval
+
+181 
+
+> trachea showed that the usually highly regular taenidial structure was strongly
+
+182 
+
+> impaired and characterized by irregularities (Fig. S4).
+
+183 
+
+> These findings indicate that excessive JAK/STAT signaling induces pathological airway
+
+184 
+
+> remodeling,  suggesting  that  epithelial  homeostasis  requires  tightly  controlled
+
+185 
+
+> pathway activity. We next sought to determine the cellular mechanisms underlying
+
+186 
+
+> this remodeling phenotype.
+
+187 
+
+188 
+
+> JAK/STAT hyperactivation alters cell structure and junctional organization
+
+189 
+
+> In response to JAK/STAT activation, the tracheal epithelial cells exhibited pronounced
+
+190 
+
+> epithelial thickening. This thickening response was observed in response to  Hop.CA
+
+191 
+
+> and  upd3  overexpression, with much higher thickening in response to  Hop.CA  (Fig.
+
+192 
+
+> 4H, I). In addition to the other structural defects observed, the localization of
+
+193 
+
+> junctional proteins and epithelial polarity markers was analyzed in control and
+
+194 
+
+> Hop.CA -expressing airway epithelial cells. This phenotype was fully cell-autonomous,
+
+195 
+
+> as demonstrated by mosaic analysis (Fig. 4L), and driven by increased cell volume
+
+196 
+
+> rather than hyperplasia (Fig. S5). We observed locally occurring thickening of the
+
+197 
+
+> epithelium to strong CSE application (Fig. 4K), resembling reactions to infection in
+
+198 
+
+> the larval airway epithelium [28]. Furthermore, weaker expression drivers ( nach -Gal4)
+
+199 
+
+> produced the same phenotype with reduced severity (Fig. S6). Epithelial thickening in
+
+200 
+
+> the trachea also occurs in response to activation of the IMD pathway (TNF-
+
+α receptor 201 
+
+> equivalent, induced by  btl-Gal4 , UAS-PGRP-LC ) [29]. To test, if JAK/STAT pathway
+
+202 
+
+> activation uses the same mechanisms, we blocked STAT expression while activating
+
+203 
+
+> the IMD pathway and found no phenotype rescue (Fig. S6E).
+
+204 
+
+> To investigate cellular mechanisms underlying epithelial remodeling, we examined
+
+205 
+
+> the localization of junctional proteins (Coracle (Cora) and Armadillo (Arm)). In control
+
+206 
+
+> tissues, these proteins were restricted to cell–cell boundaries. In contrast, sustained
+
+207 
+
+> JAK/STAT activation was associated with intracellular accumulation of junctional
+
+208 
+
+> components, suggesting altered protein trafficking or localization. Using mosaic
+
+209 
+
+> analysis, we observed intracellular accumulation of Arm and Cora, respectively, in
+
+210 
+
+> affected cells (Fig. 4M-P), which is not seen in control cells. To investigate the
+
+211   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 8
+> molecular  programs  underlying  these  structural  changes,  we  next  performed
+
+212 
+
+> transcriptomic analysis of airway epithelial cells with activated JAK/STAT signaling.
+
+213 
+
+214 
+
+> Sustained JAK/STAT Activation induces a Coordinated Transcriptional Response
+
+215 
+
+> Transcriptomic analysis of airway epithelial cells with sustained JAK/STAT activation
+
+216 
+
+> identified widespread changes in gene expression. RNAseq data are deposited in the
+
+217 
+
+> GEO database (GSE212132). Upregulated genes included canonical pathway targets as
+
+218 
+
+> well as genes associated with immune responses, stress pathways, and metabolism.
+
+219 
+
+> Downregulated genes were enriched for functions related to tissue structure and
+
+220 
+
+> differentiation (Fig. 5A–B). A closer analysis revealed major upregulated genes (Table
+
+221 
+
+> 1) and the KEGG pathways involved (Table S1). Transcription factor binding site
+
+222 
+
+> analyses revealed STAT92e as one of the hits (Table 2).
+
+223 
+
+> Comparison with previously described gene sets revealed partial overlap with
+
+224 
+
+> immune  and  stress-related  transcriptional  programs  (Trabid-deficiency,  tracheal
+
+225 
+
+> infection, and PGRP-LE overexpression signatures [29-31]). These findings suggest
+
+226 
+
+> that  JAK/STAT activation  induces  a composite  transcriptional  state  integrating
+
+227 
+
+> multiple regulatory pathways. The corrected Trabid gene set (n = 890) showed a
+
+228 
+
+> substantial overlap of 291 genes with the Hop dataset (32.7% of the Trabid set;
+
+229 
+
+> Jaccard index = 0.113). Hypergeometric testing revealed a >2-fold enrichment over
+
+230 
+
+> random expectation (expected ≈127 genes; observed = 291; p < 10⁻¹⁰⁰), indicating
+
+231 
+
+> strong  biological  convergence.  The  overlapping  genes  included  canonical
+
+232 
+
+> antimicrobial  peptides  (e.g.,  Drs , IM4 ),  heat  shock  proteins  (Hsp22 , Hsp70Bb ),
+
+233 
+
+> cytochrome P450 enzymes, and lipid metabolic regulators, consistent with activation
+
+234 
+
+> of immune, stress, and metabolic remodeling programs. Comparisons with Infection
+
+235 
+
+> and PGRP-LE signatures revealed partial but not complete overlap, supporting the
+
+236 
+
+> interpretation that Hop activation induces an infection-like state that extends beyond
+
+237 
+
+> classical Imd pathway activation.
+
+238 
+
+> Together, these findings demonstrate that Hop signaling engages a composite
+
+239 
+
+> transcriptional program integrating immune activation, proteotoxic stress responses,
+
+240 
+
+> and metabolic reprogramming.
+
+241 
+
+242 
+
+> Cross-Species  Comparison  Reveals  Conserved  Features  of  Epithelial  Stress
+
+243 
+
+> Responses
+
+244 
+
+> To assess the broader relevance of these transcriptional changes, we compared the
+
+245 
+
+> Drosophila  dataset with gene expression profiles from murine asthma models and
+
+246 
+
+> cytokine-stimulated  human  airway  epithelia.  These  analyses  revealed  shared
+
+247 
+
+> features, including activation of immune signaling, oxidative stress responses, and
+
+248 
+
+> alterations in epithelial transport and metabolism. To enable the direct comparison,
+
+249 
+
+> we generated lists of mouse homologs of the regulated  Drosophila  genes using the
+
+250 
+
+> DIOPT online tool [32]. The overlaps are highly significant (Fig. 5C, D), with more than
+
+251 
+
+> 15-20% overlap with the mouse data. Constitutive Hop/JAK signaling induces a
+
+252   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 9
+> transcriptional program characterized by activation of innate immune effectors,
+
+253 
+
+> antimicrobial  peptides,  stress  responses,  and  secretory  pathway  components,
+
+254 
+
+> accompanied by extensive remodeling of metabolism and trafficking. We evaluated
+
+255 
+
+> this murine dataset by testing cytokine genes and selected genes involved in
+
+256 
+
+> vesicular transport by qRT-PCR (Fig. 5E).  The direct comparison with the acute
+
+257 
+
+> mouse asthma model revealed a common signature for the upregulated genes,
+
+258 
+
+> including 1) antimicrobial/innate immune activation, 2) extensive cytokine signaling,
+
+259 
+
+> 3) oxidative stress response, and 4) increased secretory activity. Downregulated are
+
+260 
+
+> especially programs associated with tissue differentiation and metabolic homeostasis
+
+261 
+
+> (Fig. 5F).
+
+262 
+
+> Furthermore, we compared the RNAseq data with those derived from human airways
+
+263 
+
+> subjected to a strong and specific JAK/STAT stimulus, namely IL-6 transsignaling [33].
+
+264 
+
+> Again, we observed an overlap in the DEGs with the  Drosophila  data transformed
+
+265 
+
+> using the DIOPT pipeline (Fig. 5G). Commonalities of the differentially expressed
+
+266 
+
+> genes comprise a coordinated transcriptional program characterized by activation of
+
+267 
+
+> ER stress, inflammatory signaling, epithelial transport, and metabolic pathways.
+
+268 
+
+> Genes involved in the unfolded protein response and ER proteostasis ( HSPA5,
+
+269 
+
+> HSP90B1, HYOU1, ATF4, ERP44 ) and ER–Golgi trafficking ( SEC23B, SEC31B, COPB1 ) were
+
+270 
+
+> enriched. Concurrently, key components of innate immune signaling and NF-κB
+
+271 
+
+> activation ( TLR1, IRAK1, IRAK4, RELA, RELB, BIRC3 ) and oxidative stress regulators
+
+272 
+
+> (NOX1, DUOX1, DUOX2, PRDX4, CAT ) were detected. The gene set also included
+
+273 
+
+> epithelial transport and barrier-associated genes such as  CFTR, SCNN1A/B/G, SLC26A9,
+
+274 
+
+> and  AQP3/AQP4 , together with extracellular matrix and adhesion genes ( FBLN1,
+
+275 
+
+> EFEMP1, LAMC2, ITGA family ). Additionally, enzymes of the mevalonate and lipid
+
+276 
+
+> metabolism pathways ( HMGCR, HMGCS1, MVD, PLIN2/3/4/5 ) were enriched, indicating
+
+277 
+
+> coordinated metabolic remodeling (Fig. 5H, I).
+
+278 
+
+> While these comparisons are based on orthology mapping and do not imply direct
+
+279 
+
+> equivalence, they suggest that key aspects of epithelial stress responses may be
+
+280 
+
+> conserved  across  species.  Finally,  we  asked  whether  the  airway  remodeling
+
+281 
+
+> phenotype can be rescued by pharmacological intervention.
+
+282 
+
+283 
+
+> Pharmacological Inhibition of JAK/STAT Reverses Epithelial Remodeling
+
+284 
+
+> To determine whether airway remodeling depends on sustained pathway activation,
+
+285 
+
+> we  tested  whether  pharmacological  inhibition  of  JAK  signaling  could  reverse
+
+286 
+
+> epithelial defects. Treatment of  Hop.CA -expressing flies with a JAK inhibitors with a
+
+287 
+
+> JAK1-like profile (Oclacitinib, Baricitinib, and Filgotinib) reduced epithelial thickening.
+
+288 
+
+> Other JAK inhibitors with a different pharmacological profile (Tofacitinib, CYT387,
+
+289 
+
+> Ruxolitinib) failed to rescue the phenotype (Fig. 6A).
+
+290 
+
+291   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 10
+> Summary
+
+292 
+
+> Together, these results demonstrate that airway epithelial homeostasis requires
+
+293 
+
+> JAK/STAT signaling to operate within a narrow functional range. Basal signaling
+
+294 
+
+> maintains epithelial integrity and stress resistance, whereas chronic hyperactivation
+
+295 
+
+> induces  pathological  airway  remodeling  through  conserved  epithelial  stress
+
+296 
+
+> programs (Fig. 6C, D). Together, these findings demonstrate that airway epithelial
+
+297 
+
+> homeostasis requires JAK/STAT signaling to operate within a narrow functional
+
+298 
+
+> range. Basal pathway activity supports epithelial integrity and stress resistance,
+
+299 
+
+> whereas  sustained  hyperactivation  disrupts  epithelial  architecture  and  induces
+
+300 
+
+> conserved airway remodeling programs.
+
+301 302 303 
+
+> Discussion
+
+304 
+
+> Basal Homeostasis and Epithelial Viability
+
+305 
+
+> Leveraging the genetically streamlined architecture of  Drosophila melanogaster , this
+
+306 
+
+> study uncovers the bifunctional role of the JAK/STAT cascade in airway epithelia.
+
+307 
+
+> Because the system relies on a single receptor (Domeless), kinase (Hopscotch), and
+
+308 
+
+> transcription factor (STAT92E) [34], we circumvented vertebrate redundancy [35] to
+
+309 
+
+> dissect pathway dynamics at high resolution. Our data indicate that JAK/STAT
+
+310 
+
+> signaling operates within a narrow functional range in airway epithelial cells. Basal
+
+311 
+
+> pathway activity is required to maintain epithelial integrity and organismal stress
+
+312 
+
+> resistance, whereas sustained hyperactivation induces structural remodeling and
+
+313 
+
+> disrupts epithelial organization. Together, these findings support a “Goldilocks”
+
+314 
+
+> model in which balanced JAK/STAT signaling preserves airway homeostasis, while
+
+315 
+
+> both insufficient and excessive activity impairs epithelial function.
+
+316 
+
+> This requirement for basal activity perfectly aligns with recent mammalian findings
+
+317 
+
+> demonstrating  that tonic JAK/STAT  signaling is critical for maintaining cellular
+
+318 
+
+> homeostasis and identity across immune and epithelial compartments [36, 37].
+
+319 
+
+> Furthermore, our observation that early pathway disruption causes catastrophic
+
+320 
+
+> architectural defects during tracheal tube formation echoes vertebrate studies
+
+321 
+
+> establishing STAT3 as a fundamental requirement for lung organogenesis and
+
+322 
+
+> epithelial lineage maintenance [12, 38].
+
+323 
+
+324 
+
+> Stress Responsiveness and Dynamic Signaling
+
+325 
+
+> The airway epithelium represents the primary interface between the organism and
+
+326 
+
+> environmental stressors [39]. In this study, exposure to hypoxia, cold air, and
+
+327 
+
+> cigarette smoke extract (CSE) induced robust activation of JAK/STAT signaling in
+
+328 
+
+> airway epithelial cells. This response was associated with increased expression of
+
+329 
+
+> Upd ligands, suggesting that epithelial cells actively participate in amplifying stress
+
+330   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 11
+> signals, but that they are not the only source of upd expression in response to
+
+331 
+
+> stressors.
+
+332 
+
+> These findings indicate that JAK/STAT signaling functions as a stress-responsive
+
+333 
+
+> pathway in airway epithelia. Importantly, our data suggest that both insufficient and
+
+334 
+
+> excessive pathway activity are detrimental: reduced signaling sensitizes the organism
+
+335 
+
+> to stress, whereas sustained activation is associated with structural remodeling.
+
+336 
+
+> Together, this supports a model in which airway epithelial homeostasis depends on
+
+337 
+
+> maintaining JAK/STAT signaling within a defined functional range.
+
+338 
+
+339 
+
+> A Goldilocks Principle of JAK/STAT Signaling in Airway Epithelia
+
+340 
+
+> Our findings support a “Goldilocks” principle  of JAK/STAT signaling  in airway
+
+341 
+
+> epithelia, in which both insufficient and excessive pathway activity compromise
+
+342 
+
+> tissue integrity. Basal signaling appears to support epithelial survival and stress
+
+343 
+
+> resistance, whereas chronic hyperactivation is associated with epithelial remodeling
+
+344 
+
+> and functional disruption.
+
+345 
+
+> This conceptual framework provides a unifying explanation for the dual roles of
+
+346 
+
+> JAK/STAT signaling observed in both physiological and pathological contexts. While
+
+347 
+
+> acute activation likely supports adaptive responses, sustained signaling may shift the
+
+348 
+
+> system toward a maladaptive state. This echoes the delicate balance of the JAK/STAT
+
+349 
+
+> pathway in airway epithelia [12]. If the pathway fails to activate, the organism is
+
+350 
+
+> heavily sensitized to chronic stress. Conversely, as seen in chronic lung conditions like
+
+351 
+
+> asthma and COPD where the JAK/STAT pathway remains persistently hyperactive [10,
+
+352 
+
+> 40], the protective stress response transforms into pathology.
+
+353 
+
+354 
+
+> Stress-Induced Transcriptional Reprogramming
+
+355 
+
+> Transcriptomic profiling of airway epithelial cells with sustained JAK/STAT activation
+
+356 
+
+> revealed a coordinated transcriptional response characterized by upregulation of
+
+357 
+
+> innate immune effectors, stress response pathways, and metabolic regulators. These
+
+358 
+
+> findings suggest that chronic pathway activation induces a broad epithelial stress
+
+359 
+
+> program rather than a purely immune-specific response.
+
+360 
+
+> Comparison with previously described gene sets, including immune and stress-
+
+361 
+
+> related signatures, revealed significant overlap, indicating that JAK/STAT activation
+
+362 
+
+> engages conserved regulatory modules [30, 31]. The transcriptional reprogramming
+
+363 
+
+> induced by sustained JAK/STAT activation seems to fundamentally alter the cellular
+
+364 
+
+> identity, shifting it into a systemic, stress-adapted state that closely mimics the
+
+365 
+
+> inflammatory landscapes seen in idiopathic pulmonary fibrosis and acute lung injury
+
+366 
+
+> [41, 42]. However, these overlaps are based on orthology mapping and should be
+
+367 
+
+> interpreted cautiously, as species-specific differences in gene regulation are not fully
+
+368 
+
+> captured.
+
+369 
+
+370 
+
+> Molecular Mechanisms Underlying Airway Remodeling
+
+371   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 12
+> Our  data  support  a model  in  which  sustained JAK/STAT  activation  induces  a
+
+372 
+
+> coordinated stress response that increases secretory demand and proteostatic load
+
+373 
+
+> within epithelial cells. This imbalance is likely to affect vesicular trafficking and
+
+374 
+
+> protein localization, as suggested by the intracellular accumulation of junctional
+
+375 
+
+> proteins such as Coracle and Armadillo.
+
+376 
+
+> These  observations  are  consistent  with  impaired  trafficking  and  junctional
+
+377 
+
+> organization  contributing  to  epithelial  thickening  and  lumen  narrowing.  This
+
+378 
+
+> illustrates how the transcriptomic shift toward increased, yet defective, secretory
+
+379 
+
+> activity  compromises  the  delivery  of  critical  structural  components,  ultimately
+
+380 
+
+> leading to barrier failure and organismal lethality, a structural decline reminiscent to
+
+381 
+
+> the epithelial-to-mesenchymal transition (EMT) seen in progressive lung disease [43].
+
+382 
+
+> While the present study does not establish a direct causal sequence between these
+
+383 
+
+> processes,  the  data  support  a mechanistic  link  between  sustained  pathway
+
+384 
+
+> activation, cellular stress responses, and structural remodeling.
+
+385 
+
+386 
+
+> Conservation Across Species and Disease Contexts
+
+387 
+
+> Cross-species comparisons revealed overlap between the transcriptional signatures
+
+388 
+
+> induced by JAK/STAT activation in  Drosophila  and those observed in murine asthma
+
+389 
+
+> models and cytokine-stimulated human airway epithelia. These shared features
+
+390 
+
+> include activation of immune signaling pathways, stress responses, and alterations in
+
+391 
+
+> epithelial transport and metabolism.
+
+392 
+
+> While these comparisons rely on computational mapping and do not imply direct
+
+393 
+
+> equivalence, they suggest that core aspects of epithelial stress responses may be
+
+394 
+
+> conserved across species. This supports the use of the  Drosophila  airway system as a
+
+395 
+
+> model to investigate general principles of epithelial remodeling.
+
+396 
+
+397 
+
+> Pharmacological Modulation and Translational Implications
+
+398 
+
+> Pharmacological  inhibition  experiments  demonstrated  that  airway  remodeling
+
+399 
+
+> induced by sustained JAK/STAT activation can be partially reversed in vivo. Notably,
+
+400 
+
+> inhibitors with higher specificity toward JAK1-like activity showed greater efficacy in
+
+401 
+
+> reducing epithelial thickening. These results precisely mirror the specific kinase
+
+402 
+
+> binding profiles established in vertebrate models [44-46]. This functional divergence
+
+403 
+
+> suggests that the hyperactive  Drosophila  Hop.CA kinase shares a profound structural
+
+404 
+
+> or functional homology with vertebrate JAK1, establishing this in vivo model as a
+
+405 
+
+> highly specific screening platform for next-generation, JAK1-targeted respiratory
+
+406 
+
+> therapeutics [16, 17, 47]. Although inhibition of the JAK/STAT signaling pathway is
+
+407 
+
+> currently being actively explored as a therapeutic strategy, particularly for chronic
+
+408 
+
+> forms of asthma that are refractory to conventional treatments [48], it may interfere
+
+409 
+
+> with the regenerative capacity of the airway epithelium [13]. Thus, therapeutic
+
+410 
+
+> strategies will likely require careful modulation rather than complete inhibition.
+
+411 
+
+412   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 13
+> Conclusion
+
+413 
+
+> In summary, our findings define a narrow functional window for JAK/STAT signaling
+
+414 
+
+> in airway epithelia, in which balanced pathway activity is required to maintain
+
+415 
+
+> epithelial integrity and stress resilience. Deviations from this balance—either through
+
+416 
+
+> insufficient or excessive signaling—lead to epithelial dysfunction and structural
+
+417 
+
+> remodeling.  This  “Goldilocks”  principle  provides  a conceptual  framework  for
+
+418 
+
+> understanding  how  epithelial  tissues  integrate  environmental  signals  while
+
+419 
+
+> preserving homeostasis and offers insights into conserved mechanisms underlying
+
+420 
+
+> airway disease.
+
+421 
+
+422 
+
+423 
+
+> Materials and Methods
+
+424 
+
+> Drosophila  strains and husbandry
+
+425 
+
+> STAT92E-GFP  was used to monitor the pathway's activation [49]; the Gal4-UAS
+
+426 
+
+> system [50] targeted ectopic expression to the tracheal system. The Gal4 drivers
+
+427 
+
+> included:  btl-Gal4, UAS-GFP  on the 3rd chromosome, and  btl-Gal4, UAS-GFP  on the 2nd
+
+428 
+
+> chromosome (obtained from the Leptin group, Heidelberg, Germany);  upd2-Gal4 ;
+
+429 
+
+> upd3-Gal4 [19] ; nach-Gal4 [51] . The UAS responders consisted of:  UAS-LacZ.nls  (BDSC
+
+430 
+
+> 3956),  UAS-domeΔcyt2.1  (Dome.DN ), and  UAS-Hop.CA  (UAS-hopTumL ), which were
+
+431 
+
+> obtained from N. Perrimon [22, 52]. The  UAS-upd3  was constructed in our lab.  TubP-
+
+432 
+
+> Gal80[ts]  (BDSC 7018) was obtained from the Bloomington stock center. Unless
+
+433 
+
+> otherwise stated, the flies were raised on standard medium at 25 °C with 50–60%
+
+434 
+
+> relative humidity under a 12:12  h light/dark cycle as described earlier [53].
+
+435 
+
+436 
+
+> Coin-FLP expression system
+
+437 
+
+> Vvl-FLP/CyO;  btl-moe.mRFP  (BDSC  64233),  tubP-Gal80[ts]  and  CoinFLP-Gal4,  UAS-
+
+438 
+
+> 2xEGFP  (BDSC 58751) were used to construct animals for the tracheal mosaic analysis.
+
+439 
+
+> Ventral veins lacking ( vvl ) was expressed in larval tracheal clones that covered
+
+440 
+
+> approximately 30 to 80% of the trachea [54, 55]. The genotype of the flies was  vvl-
+
+441 
+
+> FLP , CoinFLP-Gal4 , UAS-2xEGFP /CyO  (vvl-coin ) and  vvl-FLP , CoinFLP-Gal4 , UAS-
+
+442 
+
+> 2xEGFP /CyO ; tub-Gal80[ts]  (vvl-coin.ts ).
+
+443 
+
+444 
+
+> Developmental viability
+
+445 
+
+> For the developmental viability of eggs, they were collected overnight and not
+
+446 
+
+> physically handled in any way. The number of hatched eggs and pupae were counted
+
+447 
+
+> starting two days after collection. Each group had four replicates that included more
+
+448 
+
+> than 20 eggs. Tub-Gal80 [ts] was used to limit UAS responder expression during the
+
+449 
+
+> larval stage to study the developmental viability of larvae. Animals were raised at 18
+
+450 
+
+> °C to keep the UAS responder gene silent. Larvae at different instar stages were
+
+451 
+
+> transferred to a new medium at 29 °C. In this study, four replicates were typically
+
+452   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 14
+> performed with 30 larvae each. The stage of the larvae was determined by the
+
+453 
+
+> appearance of the anterior spiracles.
+
+454 
+
+455 
+
+> Determination of epithelial thickness
+
+456 
+
+> The L2 and L3 larvae trachea were carefully dissected from the posterior side of the
+
+457 
+
+> body in PBS. The isolated trachea were immersed in 50% glycerol, and digital images
+
+458 
+
+> were captured within 15 min. L2 larvae were distinguished from L3 larvae by the
+
+459 
+
+> appearance of anterior spiracles. The relative ages of L3 larvae were inferred from
+
+460 
+
+> the animal's size. Thirty larvae were used in each group, and specimens were
+
+461 
+
+> analyzed by Image J.
+
+462 
+
+463 
+
+> Drug application in  Drosophila
+
+464 
+
+> JAK inhibitors (Baricitinib #16707, Oclacitinib #18722, Filgotinib #17669 - Cayman
+
+465 
+
+> Chemicals, Michigan, USA) were diluted in DMSO [100 mM]. For later application, the
+
+466 
+
+> inhibitors were diluted 1:10 in 100% EtOH. We used 20 μl of each diluted inhibitor for 2
+
+467 
+
+> ml of concentrated medium (5% yeast extract, 5% corn flour, 5% sucrose, 1% low-melt
+
+468 
+
+> agarose, 1 ml of 10% propionic acid, and 3 ml of 10% Nipagin). The eggs of each
+
+469 
+
+> crossing have been applied to the modified medium and kept at 20 °C until the larvae
+
+470 
+
+> reach the L2 stage. Afterwards, they were incubated at 30 °C for 2 days to induce the
+
+471 
+
+> btl-Gal4, UAS-GFP; tub-Gal80[ts]  (btl.ts )–driver. The trachea of L3 larvae were carefully
+
+472 
+
+> dissected from the posterior side of the body in PBS. The isolated trachea was
+
+473 
+
+> immersed in 50% glycerol, and digital images were captured every 15 minutes. 10
+
+474 
+
+> larvae were used for each group.
+
+475 
+
+476 
+
+> Experimental design for hypersensitivity pneumonitis in mice
+
+477 
+
+> Experimental  design  for  hypersensitivity  pneumonitis  contains  two  processes,
+
+478 
+
+> sensitization and challenge of mice with ovalbumin (Sigma Aldrich, A5503). The
+
+479 
+
+> protocol refers to the protocol that [56] is described with a few modifications. 8-
+
+480 
+
+> week-old Balb/C mice were sensitized with intraperitoneal injections of 20 μg of OVA
+
+481 
+
+> emulsified in aluminum hydroxide in a total volume of 1 ml on days 7 and 14, followed
+
+482 
+
+> by three consecutive challenges each day by exposure to OVA or PBS aerosol for 30
+
+483 
+
+> min. Mice were sacrificed 24 h following the final challenge. The left lungs were
+
+484 
+
+> collected for histological analysis, and the superior lobes were dissected for RNA
+
+485 
+
+> analysis. Six mice per group were used in this experiment and four mice were
+
+486 
+
+> randomly selected in each group for analyses. Genesky performed total mRNA
+
+487 
+
+> sequencing,  data  processing,  and  statistical  analysis  (Shanghai,  China).  The
+
+488 
+
+> experimental  protocols  were  approved  by  the  Animal  Care  and  Protection
+
+489 
+
+> Committee of Weifang Medical University (2021SDL418).
+
+490 
+
+491 
+
+> AB-PAS staining and immunofluorescence analysis of mouse lung
+
+492   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 15
+> Mice were sacrificed in an excess of CO 2 gas. The lungs of euthanized mice were
+
+493 
+
+> inflated by intratracheal injection of cold 4% paraformaldehyde and then fixed and
+
+494 
+
+> embedded in paraffin as described in [57]. AB-PAS staining and Immunofluorescence
+
+495 
+
+> analysis  were  supported  by  Servicebio  (Wuhan,  China).  All  sections  were
+
+496 
+
+> photographed using a microscope slide scanner (Pannoramic MIDI: 3Dhistech). The
+
+497 
+
+> materials  and  methods  could  be  found  at  the  following  link
+
+498 
+
+> https://www.servicebio.cn/data-detail?id=3040&code=MYYGSYBG  and
+
+499 
+
+> https://www.servicebio.cn/data-detail?id=35 95&code=RSSYBG. We list the primary
+
+500 
+
+> reagents here: AB-PAS solution set (Servicebio, G1049), Anti-CD11b (Servicebio,
+
+501 
+
+> GB11058), and DAPI (Servicebio, G1012-10ML).
+
+502 
+
+> Time-lapse microscopy
+
+503 
+
+> All images were acquired using a ZEISS Axio Image Z1 and a ZEISS LSM 880
+
+504 
+
+> fluorescent microscope (INST 257/591-1 FUGG). Embryos were dechorionated in 3%
+
+505 
+
+> sodium hypochlorite and immersed in Halocarbon oil 700 (Sigma Aldrich, 9002-83-9,
+
+506 
+
+> Deisenhofen, Germany). Then the embryos were imaged after stage 15 when the
+
+507 
+
+> tracheal tree formed at 3-hour intervals. 40 embryos were investigated in each
+
+508 
+
+> group.
+
+509 
+
+510 
+
+> Cigarette smoke and hypoxic exposure
+
+511 
+
+> All cigarette smoke exposure experiments were carried out in a smoking chamber,
+
+512 
+
+> attached to a diaphragm pump. Common research 3R4F cigarettes (CTRP, Kentucky
+
+513 
+
+> University, Lexington, USA) were used for all experiments. The vials containing
+
+514 
+
+> animals were capped with a monitoring grid to allow the cigarette smoke to diffuse
+
+515 
+
+> into the vial. For long-term smoke experiments, L2 larvae were exposed to smoke
+
+516 
+
+> thrice a day for 30 minutes each, on two consecutive days. For heavy smoke
+
+517 
+
+> experiments, L3 larvae were exposed to the smoke of 2 cigarettes for 45 min, which
+
+518 
+
+> led to about 35-50% mortality. To study the effects of hypoxia on the activity of
+
+519 
+
+> JAK/STAT signaling pathway, larvae were exposed to long-term and short-term
+
+520 
+
+> hypoxia separately. For long-term hypoxia experiments, L2 larvae were exposed to
+
+521 
+
+> 5% oxygen three times a day for 30 min each, on two consecutive days. L3 larvae were
+
+522 
+
+> exposed to 1% oxygen once for 5 hours for short-term hypoxia experiments. At least
+
+523 
+
+> 20 animals in 4 vials were investigated in each group. Cigarette smoke and hypoxia
+
+524 
+
+> exposure of adults was performed as described earlier [19] .
+
+525 
+
+526 
+
+527 
+
+> Immunohistochemistry of  Drosophila  trachea
+
+528 
+
+> Larvae were dissected by ventral filleting and fixed in 4% paraformaldehyde for 30
+
+529 
+
+> min. Embryos were staged according to Campos-Ortega and Hartenstein [58] and
+
+530 
+
+> fixed in 4% formaldehyde for 30 min. Immunostaining was performed following
+
+531 
+
+> standard protocols as described earlier[59, 60]. GFP signals were amplified by
+
+532 
+
+> immunostaining with polyclonal rabbit anti-GFP (used at 1:500, Sigma-Aldrich, Merck
+
+533   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 16
+> KGaA, Darmstadt, Germany, SAB4301138). 40-1a (used at 1:50, DSHB, Iowa City, USA)
+
+534 
+
+> was  used  to  detect  Beta-galactosidase.  Coracle  protein  was  detected  with  a
+
+535 
+
+> monoclonal mouse anti-coracle antibody (used at 1:200, DSHB, Iowa City, USA,
+
+536 
+
+> C566.9). Armadillo protein was detected with a monoclonal mouse anti-armadillo
+
+537 
+
+> antibody (DSHB, US, N2 7A1, used at 1:500). A monoclonal rabbit Cleaved Drosophila
+
+538 
+
+> Dcp1 (used at 1:200, Cell Signaling, Frankfurt/M, Germany, #9578) was used to detect
+
+539 
+
+> apoptotic cells. Secondary antibodies used were: Cy3-conjugated goat-anti-mouse,
+
+540 
+
+> Cy3-conjugated  goat-anti-rabbit,  Alexa488-conjugated  goat-anti-mouse  (used  at
+
+541 
+
+> 1:500, Jackson Immunoresearch, Dianova, Hamburg, Germany), Alexa488-conjugated
+
+542 
+
+> goat-anti-rabbit (used at 1:500, Cell signaling, Frankfurt/M, Germany, #9578). Tracheal
+
+543 
+
+> chitin was stained with 505 star conjugated chitin-binding probe (NEB, Frankfurt/M,
+
+544 
+
+> Germany, used at 1:300). Nuclei were stained with 4',6-Diamidino-2-Phenylindole,
+
+545 
+
+> Dihydrochloride  (DAPI)  (Roth,  Karlsruhe,  Germany,  6843).  30  specimens  were
+
+546 
+
+> investigated in each group. Specimens were analyzed and digital images were
+
+547 
+
+> captured using either a confocal microscope (Zeiss LSM 880, Oberkochen, Germany)
+
+548 
+
+> or a conventional fluorescence microscope (ZEISS Axio Imager Z1, Zeiss, Oberkochen,
+
+549 
+
+> Germany).
+
+550 
+
+551 
+
+> RNA isolation and RNA sequencing
+
+552 
+
+> For the gene expression analysis of 3rd instar larvae trachea, animals were dissected
+
+553 
+
+> in cold PBS, and the isolated trachea were transferred to RNA Magic (BioBudget,
+
+554 
+
+> Krefeld, Germany) and processed essentially as described earlier [19] with slight
+
+555 
+
+> modifications.  The  tissue  was  homogenized  using  a Bead  Ruptor  24  (BioLab
+
+556 
+
+> products, Bebensee, Germany), and the RNA was extracted with the PureLink RNA
+
+557 
+
+> Mini Kit (Thermo Fisher, Waltham, MA, USA) for phase separation with the RNA
+
+558 
+
+> Magic reagent. An additional DNase treatment was performed following the on-
+
+559 
+
+> column PureLink DNase treatment protocol (Thermo Fisher, Waltham, MA, USA).
+
+560 
+
+> Sequencing libraries were constructed using the TruSeq stranded mRNA kit (Illumina,
+
+561 
+
+> San Diego, USA) and 50 bp single-read sequencing was performed on an Illumina
+
+562 
+
+> HiSeq 4000 with 16 samples per lane. Resulting sequencing reads were trimmed for
+
+563 
+
+> low-quality  bases  and  adapters  using  the  fastq  Illumina  filter
+
+564 
+
+> (http://cancan.cshl.edu/labmembers/gordon  /fastq_illumina_filter/)  and  cutadapt
+
+565 
+
+> (version 1.8.1)[61]. Transcriptomics analysis, including gene expression values and
+
+566 
+
+> differential expression analysis, was done using CLC Genomics Workbench. The
+
+567 
+
+> detailed  protocols  can  be  obtained  from  the  CLC  Web  site  (http://www.
+
+568 
+
+> clcbio.com/products/clc-genomics-workbench).  Drosophila  melanogaster  reference
+
+569 
+
+> genome (Release 6)[62] was used for mapping in this research. RNAseq data are
+
+570 
+
+> deposited in the GEO database (GSE212132). Mouse and human orthologs of the
+
+571 
+
+> Drosophila DEGs were identified using the DIOPT program package[32].
+
+572 
+
+> The transcription factor binding site enrichment and the Gene Ontology enrichment
+
+573 
+
+> analyses  of  the  differentially  expressed  genes  were  carried  out  using  Pscan
+
+574   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 17
+> (http://159.149.160.88/pscan/)  and  online  GO  enrichment  analysis
+
+575 
+
+> (http://geneontology. org/), respectively. We chose -450- 50 bases of the annotated
+
+576 
+
+> transcription start site of the genes as the transcription factor binding sites for
+
+577 
+
+> enrichment analysis. The analysis used the TFBS matrices available in the JASPAR
+
+578 
+
+> databases (version Jaspar 2018_NR). Data were visualized using the Circos software
+
+579 
+
+> (http://circos.ca/software/).
+
+580 
+
+581 
+
+> Statistics and reproducibility
+
+582 
+
+> We did not use statistical methods to predetermine sample sizes, but the sample
+
+583 
+
+> sizes used in this study are similar to or higher than those used in previous studies
+
+584 
+
+> [29, 63]. Specific approaches to randomly allocate samples to groups were not used,
+
+585 
+
+> and the experiments were not performed in a blinded design. No data were excluded
+
+586 
+
+> from the analysis. Prism (GraphPad version 7) was used for statistical analyses, and
+
+587 
+
+> the corresponding tests used are listed in the figure legends.
+
+588 589 
+
+> Acknowledgments
+
+590 
+
+> We  thank  Britta  Laubenstein  and  Christiane  Sandberg  for  excellent  technical
+
+591 
+
+> assistance, Maria Leptin and Norbert Perrimon for flies.
+
+592 
+
+593 
+
+> Funding
+
+594 
+
+> This work was funded by the DFG as part of CRC 1182 and by the CLSM (INST 257/591-1
+
+595 
+
+> FUGG). Xiao Niu received funds from the Chinese Scholarship Council and Weifang
+
+596 
+
+> Medical University, and Leizhi Shi received funds from the Linyi People’s Hospital.
+
+597 
+
+598 
+
+> Data availability
+
+599 
+
+> RNAseq  data  are  deposited  in  the  GEO  database  (GSE212132).  Any  additional
+
+600 
+
+> information required to reanalyze the data reported in this paper is available from
+
+601 
+
+> the lead contact upon request.
+
+602 
+
+603 
+
+604 
+
+605 
+
+> References
+
+606 
+
+607 
+
+> 1.  Di YP, Kuhn JM, Mangoni ML:  Lung antimicrobial proteins and peptides: from host defense to
+
+608 
+
+> therapeutic strategies . Physiol Rev  2024,  104 (4):1643–1677.
+
+609 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+18 
+
+> 2.  Bao Y, Chen Q, Shi B, Zhu X:  The epithelial barrier: a Janus-faced regulator in allergic airway
+
+610 
+
+> diseases from defense to inflammation . Frontiers in Allergy  2025,  Volume 6 - 2025 .
+
+611 
+
+> 3.  Whitsett JA, Alenghat T:  Respiratory epithelial cells orchestrate pulmonary innate immunity .
+
+612 
+
+> Nature immunology  2015,  16 (1):27–35.
+
+613 
+
+> 4.  Hewitt RJ, Lloyd CM:  Regulation of immune responses by the airway epithelial cell landscape .
+
+614 
+
+> Nature Reviews Immunology  2021,  21 (6):347–362.
+
+615 
+
+> 5.  Brightling CE, Marone G, Aegerter H, Chanez P, Heffler E, Pavord ID, Rabe KF, Uller L, Dorscheid
+
+616 
+
+> D:  The epithelial era of asthma research: knowledge gaps and future direction for patient care .
+
+617 
+
+> Eur Respir Rev  2024,  33 (174).
+
+618 
+
+> 6.  Brightling CE, Bafadhel M, Han MK, Papon JF, Rabe KF, Rogliani P, Singh D:  A translational view
+
+619 
+
+> of airway epithelial dysfunction in COPD . Eur Respir Rev  2025,  34 (178).
+
+620 
+
+> 7.  He Q, Li P, Han L, Yang C, Jiang M, Wang Y, Han X, Cao Y, Liu X, Wu W:  Revisiting airway
+
+621 
+
+> epithelial dysfunction and mechanisms in chronic obstructive pulmonary disease: the role of
+
+622 
+
+> mitochondrial damage . Am J Physiol Lung Cell Mol Physiol  2024,  326 (6):L754–l769.
+
+623 
+
+> 8.  Kiu H, Nicholson SE:  Biology and significance of the JAK/STAT signalling pathways . Growth
+
+624 
+
+> Factors  2012,  30 (2):88–106.
+
+625 
+
+> 9.  Villarino AV, Kanno Y, O'Shea JJ:  Mechanisms and consequences of Jak-STAT signaling in the
+
+626 
+
+> immune system . Nat Immunol  2017,  18 (4):374–384.
+
+627 
+
+> 10.  Yew-Booth L, Birrell MA, Lau MS, Baker K, Jones V, Kilty I, Belvisi MG:  JAK-STAT pathway
+
+628 
+
+> activation in COPD . Eur Respir J  2015,  46 (3):843–845.
+
+629 
+
+> 11.  Hu X, Li J, Fu M, Zhao X, Wang W:  The JAK/STAT signaling pathway: from bench to clinic . Signal
+
+630 
+
+> Transduct Target Ther  2021,  6(1):402.
+
+631 
+
+> 12.  Tadokoro T, Wang Y, Barak LS, Bai Y, Randell SH, Hogan BLM:  IL-6/STAT3 promotes regeneration
+
+632 
+
+> of airway ciliated cells from basal stem cells . Proceedings of the National Academy of Sciences
+
+633 
+
+> 2014,  111 (35):E3641–E3649.
+
+634 
+
+> 13.  Major J, Crotta S, Llorian M, McCabe TM, Gad HH, Priestnall SL, Hartmann R, Wack A:  Type I and
+
+635 
+
+> III interferons disrupt lung epithelial repair during recovery from viral infection . Science  2020,
+
+636 
+
+> 369 (6504):712–717.
+
+637 
+
+> 14.  Jin H, Ciechanowicz AK, Kaplan AR, Wang L, Zhang PX, Lu YC, Tobin RE, Tobin BA, Cohn L, Zeiss CJ
+
+638 
+
+> et al : Surfactant protein C dampens inflammation by decreasing JAK/STAT activation during
+
+639 
+
+> lung repair . Am J Physiol Lung Cell Mol Physiol  2018,  314 (5):L882–L892.
+
+640 
+
+> 15.  Makris S, Paulsen M, Johansson C:  Type I Interferons as Regulators of Lung Inflammation . Front
+
+641 
+
+> Immunol  2017,  8:259.
+
+642 
+
+> 16.  Pandey UB, Nichols CD:  Human disease models in Drosophila melanogaster and the role of the
+
+643 
+
+> fly in therapeutic drug discovery . Pharmacol Rev  2011,  63 (2):411–436.
+
+644 
+
+> 17.  Roeder T, Isermann K, Kallsen K, Uliczka K, Wagner C:  A Drosophila asthma model - what the fly
+
+645 
+
+> tells us about inflammatory diseases of the lung . Adv Exp Med Biol  2012,  710 :37–47.
+
+646 
+
+> 18.  Bossen J, Uliczka K, Steen L, Neugebauer P, Mai MM, Fink C, Stracke F, Heine H, Roeder T:  Driver
+
+647 
+
+> mutations in major lung cancer oncogenes can be analyzed in Drosophila models . ALTEX  2021,
+
+648 
+
+> 38 (2):235–244.
+
+649 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+19 
+
+> 19.  Prange R, Thiedmann M, Bhandari A, Mishra N, Sinha A, Hasler R, Rosenstiel P, Uliczka K, Wagner
+
+650 
+
+> C, Yildirim AO  et al : A Drosophila model of cigarette smoke induced COPD identifies Nrf2
+
+651 
+
+> signaling as an expedient target for intervention . Aging (Albany NY)  2018,  10 (8):2122–2135.
+
+652 
+
+> 20.  Levine BD, Cagan RL:  Drosophila Lung Cancer Models Identify Trametinib plus Statin as
+
+653 
+
+> Candidate Therapeutic . Cell Rep  2016,  14 (6):1477–1487.
+
+654 
+
+> 21.  Roeder T, Isermann K, Kabesch M:  Drosophila in asthma research . Am J Respir Crit Care Med
+
+655 
+
+> 2009,  179 (11):979–983.
+
+656 
+
+> 22.  Brown S, Hu N, Hombria JC:  Identification of the first invertebrate interleukin JAK/STAT
+
+657 
+
+> receptor, the Drosophila gene domeless . Curr Biol  2001,  11 (21):1700–1705.
+
+658 
+
+> 23.  Perrimon N, Mahowald AP:  l(1)hopscotch, A larval-pupal zygotic lethal with a specific maternal
+
+659 
+
+> effect on segmentation in Drosophila . Dev Biol  1986,  118 (1):28–41.
+
+660 
+
+> 24.  Powers N, Srivastava A:  JAK/STAT signaling is involved in air sac primordium development of
+
+661 
+
+> Drosophila melanogaster . FEBS Lett  2019,  593 (7):658–669.
+
+662 
+
+> 25.  Zeidler MP, Bausek N:  The Drosophila JAK-STAT pathway . JAKSTAT  2013,  2(3):e25353.
+
+663 
+
+> 26.  Arbouzova NI, Zeidler MP:  JAK/STAT signalling in Drosophila: insights into conserved regulatory
+
+664 
+
+> and cellular functions . Development  2006,  133 (14):2605–2616.
+
+665 
+
+> 27.  McGuire SE, Mao Z, Davis RL:  Spatiotemporal gene expression targeting with the TARGET and
+
+666 
+
+> gene-switch systems in Drosophila . Sci STKE  2004,  2004 (220):pl6.
+
+667 
+
+> 28.  Wagner C, Isermann K, Roeder T:  Infection induces a survival program and local remodeling in
+
+668 
+
+> the airway epithelium of the fly . FASEB J  2009,  23 (7):2045–2054.
+
+669 
+
+> 29.  Wagner C, Uliczka K, Bossen J, Niu X, Fink C, Thiedmann M, Knop M, Vock C, Abdelsadik A, Zissler
+
+670 
+
+> UM  et al : Constitutive immune activity promotes JNK- and FoxO-dependent remodeling of
+
+671 
+
+> Drosophila airways . Cell Rep  2021,  35 (1):108956.
+
+672 
+
+> 30.  Bossen J, Knop M, Niu X, Thiedmann M, Prange R, Tahanzadeh N, Franzenburg S, Bruchhaus I,
+
+673 
+
+> Heine H, Roeder T:  Chronic airway inflammation in Drosophila lacking the A20-like protein
+
+674 
+
+> Trabid . Front Immunol  2025,  16 :1564386.
+
+675 
+
+> 31.  Wagner C, Isermann K, Fehrenbach H, Roeder T:  Molecular architecture of the fruit fly's airway
+
+676 
+
+> epithelial immune system . BMC Genomics  2008,  9:446.
+
+677 
+
+> 32.  Hu Y, Flockhart I, Vinayagam A, Bergwitz C, Berger B, Perrimon N, Mohr SE:  An integrative
+
+678 
+
+> approach to ortholog prediction for disease-focused and other functional studies . BMC
+
+679 
+
+> Bioinformatics  2011,  12 :357.
+
+680 
+
+> 33.  El-Husseini ZW, Khalenkow D, Lan A, van der Molen T, Brightling C, Papi A, Rabe KF, Siddiqui S,
+
+681 
+
+> Singh D, Kraft M  et al : An epithelial gene signature of trans-IL-6 signaling defines a subgroup of
+
+682 
+
+> type 2-low asthma . Respiratory Research  2023,  24 (1):308.
+
+683 
+
+> 34.  Herrera SC, Bach EA:  JAK/STAT signaling in stem cells and regeneration: from Drosophila to
+
+684 
+
+> vertebrates . Development  2019,  146 (2):dev167643.
+
+685 
+
+> 35.  Liongue C, O'Sullivan LA, Trengove MC, Ward AC:  Evolution of JAK-STAT Pathway Components:
+
+686 
+
+> Mechanisms and Role in Immune System Development . PLOS ONE  2012,  7(3):e32777.
+
+687 
+
+> 36.  Fortelny N, Farlik M, Fife V, Gorki A-D, Lassnig C, Maurer B, Meissl K, Dolezal M, Boccuni L, Ravi
+
+688 
+
+> Sundar Jose Geetha A  et al : JAK-STAT signaling maintains homeostasis in T cells and
+
+689 
+
+> macrophages . Nature Immunology  2024,  25 (5):847–859.
+
+690 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+20 
+
+> 37.  D'Amico S, Shi J, Martin BL, Crawford HC, Petrenko O, Reich NC:  STAT3 is a master regulator of
+
+691 
+
+> epithelial identity and KRAS-driven tumorigenesis . Genes Dev  2018,  32 (17-18):1175–1187.
+
+692 
+
+> 38.  Piairo P, Moura RS, Baptista MJ, Correia-Pinto J, Nogueira-Silva C:  STATs in Lung Development:
+
+693 
+
+> Distinct Early and Late Expression, Growth Modulation and Signaling Dysregulation in
+
+694 
+
+> Congenital Diaphragmatic Hernia . Cell Physiol Biochem  2018,  45 (1):1–14.
+
+695 
+
+> 39.  Whitsett JA, Alenghat T:  Respiratory epithelial cells orchestrate pulmonary innate immunity .
+
+696 
+
+> Nat Immunol  2015,  16 (1):27–35.
+
+697 
+
+> 40.  Pernis AB, Rothman PB:  JAK-STAT signaling in asthma . J Clin Invest  2002,  109 (10):1279–1283.
+
+698 
+
+> 41.  Gao H, Guo RF, Speyer CL, Reuben J, Neff TA, Hoesel LM, Riedemann NC, McClintock SD, Sarma
+
+699 
+
+> JV, Van Rooijen N  et al : Stat3 activation in acute lung injury . J Immunol  2004,  172 (12):7703–
+
+700 
+
+> 7712.
+
+701 
+
+> 42.  Milara J, Ballester B, Morell A, Ortiz JL, Escrivá J, Fernández E, Perez-Vizcaino F, Cogolludo A,
+
+702 
+
+> Pastor E, Artigues E  et al : JAK2 mediates lung fibrosis, pulmonary vascular remodelling and
+
+703 
+
+> hypertension in idiopathic pulmonary fibrosis: an experimental study . Thorax  2018,  73 (6):519–
+
+704 
+
+> 529.
+
+705 
+
+> 43.  Liu RY, Zeng Y, Lei Z, Wang L, Yang H, Liu Z, Zhao J, Zhang HT:  JAK/STAT3 signaling is required for
+
+706 
+
+> TGF-β-induced epithelial-mesenchymal transition in lung cancer cells . Int J Oncol  2014,
+
+707 
+
+> 44 (5):1643–1651.
+
+708 
+
+> 44.  Traves PG, Murray B, Campigotto F, Galien R, Meng A, Di Paolo JA:  JAK selectivity and the
+
+709 
+
+> implications for clinical inhibition of pharmacodynamic cytokine signalling by filgotinib,
+
+710 
+
+> upadacitinib, tofacitinib and baricitinib . Ann Rheum Dis  2021,  80 (7):865–875.
+
+711 
+
+> 45.  Hu X, li J, Fu M, Zhao X, Wang W:  The JAK/STAT signaling pathway: from bench to clinic . Signal
+
+712 
+
+> Transduction and Targeted Therapy  2021,  6(1):402.
+
+713 
+
+> 46.  Gadina M, Johnson C, Schwartz D, Bonelli M, Hasni S, Kanno Y, Changelian P, Laurence A, O'Shea
+
+714 
+
+> JJ:  Translational and clinical advances in JAK-STAT biology: The present and future of jakinibs . J
+
+715 
+
+> Leukoc Biol  2018,  104 (3):499–514.
+
+716 
+
+> 47.  Roeder T, Isermann K, Kabesch M:  Drosophila in Asthma Research . American Journal of
+
+717 
+
+> Respiratory and Critical Care Medicine  2009,  179 (11):979–983.
+
+718 
+
+> 48.  Georas SN, Donohue P, Connolly M, Wechsler ME:  JAK inhibitors for asthma . J Allergy Clin
+
+719 
+
+> Immunol  2021,  148 (4):953–963.
+
+720 
+
+> 49.  Bach EA, Ekas LA, Ayala-Camargo A, Flaherty MS, Lee H, Perrimon N, Baeg GH:  GFP reporters
+
+721 
+
+> detect the activation of the Drosophila JAK/STAT pathway in vivo . Gene Expr Patterns  2007,
+
+722 
+
+> 7(3):323–331.
+
+723 
+
+> 50.  Brand AH, Perrimon N:  Targeted gene expression as a means of altering cell fates and
+
+724 
+
+> generating dominant phenotypes . Development  1993,  118 (2):401–415.
+
+725 
+
+> 51.  Liu L, Johnson WA, Welsh MJ:  Drosophila DEG/ENaC pickpocket genes are expressed in the
+
+726 
+
+> tracheal system, where they may be involved in liquid clearance . Proc Natl Acad Sci U S A  2003,
+
+727 
+
+> 100 (4):2128–2133.
+
+728 
+
+> 52.  Harrison DA, Binari R, Nahreini TS, Gilman M, Perrimon N:  Activation of a Drosophila Janus
+
+729 
+
+> kinase (JAK) causes hematopoietic neoplasia and developmental defects . EMBO J  1995,
+
+730 
+
+> 14 (12):2857–2865.
+
+731 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+21 
+
+> 53.  Fink C, Hoffmann J, Knop M, Li Y, Isermann K, Roeder T:  Intestinal FoxO signaling is required to
+
+732 
+
+> survive oral infection in Drosophila . Mucosal Immunol  2016,  9(4):927–936.
+
+733 
+
+> 54.  Bosch JA, Tran NH, Hariharan IK:  CoinFLP: a system for efficient mosaic screening and for
+
+734 
+
+> visualizing clonal boundaries in Drosophila . Development  2015,  142 (3):597–606.
+
+735 
+
+> 55.  Chen F, Krasnow MA:  Progenitor outgrowth from the niche in Drosophila trachea is guided by
+
+736 
+
+> FGF from decaying branches . Science  2014,  343 (6167):186–189.
+
+737 
+
+> 56.  Daubeuf F, Frossard N:  Acute Asthma Models to Ovalbumin in the Mouse . Curr Protoc Mouse
+
+738 
+
+> Biol  2013,  3(1):31–37.
+
+739 
+
+> 57.  Baligar P, Pokhrel S, Mukhopadhyay A:  Experimental Liver Fibrosis and Intrasplenic
+
+740 
+
+> Transplantation of CD45+ Bone Marrow Cells . Bio-protocol  2016,  6(20):e1972.
+
+741 
+
+> 58.  Campos-Ortega JA, Hartenstein V:  The Embryonic Development of Drosophila melanogaster :
+
+742 
+
+> Springer-Verlag Berlin Heidelberg; 1997.
+
+743 
+
+> 59.  Jeon M, Nguyen H, Bahri S, Zinn K:  Redundancy and compensation in axon guidance: genetic
+
+744 
+
+> analysis of the Drosophila Ptp10D/Ptp4E receptor tyrosine phosphatase subfamily . Neural Dev
+
+745 
+
+> 2008,  3:3.
+
+746 
+
+> 60.  Levi BP, Ghabrial AS, Krasnow MA:  Drosophila talin and integrin genes are required for
+
+747 
+
+> maintenance of tracheal terminal branches and luminal organization . Development  2006,
+
+748 
+
+> 133 (12):2383–2393.
+
+749 
+
+> 61.  Martin M:  Cutadapt Removes Adapter Sequences From High-Throughput Sequencing Reads .
+
+750 
+
+> EMBnetjournal  2011,  17 :10–12.
+
+751 
+
+> 62.  Hoskins RA, Carlson JW, Wan KH, Park S, Mendez I, Galle SE, Booth BW, Pfeiffer BD, George RA,
+
+752 
+
+> Svirskas R  et al : The Release 6 reference sequence of the Drosophila melanogaster genome .
+
+753 
+
+> Genome Res  2015,  25 (3):445–458.
+
+754 
+
+> 63.  Proske A, Bossen J, von Frieling J, Roeder T:  Low-protein diet applied as part of combination
+
+755 
+
+> therapy or stand-alone normalizes lifespan and tumor proliferation in a model of intestinal
+
+756 
+
+> cancer . Aging (Albany NY)  2021,  13 (21):24017–24036.
+
+757 
+
+758 
+
+759 
+
+> Table 1: Genes that were highly upregulated in response to  Hop.CA  overexpression.
+
+760 
+
+Name Maximum group mean Fold change FDR p-value 
+
+CG16772 11.85  135.44  0hop 286.06  35.43  0CG14570 42.21  35.37  0CG14147 55.31  32.88  0Hsp70Bb 161.51  29.99  0Ubx 200.46  23.51  0pre-mod(mdg4)-I 1.12  18.67  2.22648E-06 IM14 11.46  15.14  3.80132E-07 IM4 26.43  14.97  1.74645E-12 
+
+.CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+22 CG14569 1576.88  14.73  0IM2 7.26  14.47  2.01792E-06 CG5791 1.79  13.80  2.90502E-05 CG9121 3.41  11.54  0IM1 7.16  10.97  7.52122E-05 CG11413 35.70  10.64  3.44242E-07 CG16710 2.13  10.32  1.72352E-07 CG31960 267.26  10.05  0CG16789 1.45  9.46  5.58576E-09 CG6034 6.92  8.47  4.7943E-11 Ace 2.06  8.19  0CG13059 9.90  7.58  1.33893E-06 CG31809 8.64  7.39  0CG7203 9.41  7.21  8.66989E-09 Vha14-2 2.51  7.05  2.31024E-07 wb 7.35  6.69  0Drs 8166.47  6.64  0CG5778 3.20  6.61  0.000294835 CG3457 2.69  6.34  2.38755E-06 Lcp65Ad 9.93  5.79  2.58249E-08 lectin-22C 29.06  5.67  6.88538E-06 fuss 3.97  5.67  0CG43333 2.39  5.63  1.48392E-09 CG18336 2.96  5.49  5.52167E-05 CG32563 3.06  5.35  0.000696584 FASN2 1.65  5.34  2.95545E-10 Cyp4d21 45.70  5.31  0Obp57d 1.80  5.28  0.000102926 CG17560 2.31  5.22  0.000766701 CG5888 68.16  5.20  0
+
+> p < 1×10 -4 , fold change > 5, maximum group mean > 1. The list is restricted to 39 genes.
+
+761 
+
+762 
+
+> Table 2: Transcription factor-binding site motifs enriched in 41 highly upregulated
+
+763 
+
+> genes
+
+.764 
+
+Matrix ID Matrix name P-value 
+
+MA0023.1 dl (var.2) 0.000443261 MA0022.1 dl 0.00407113 
+
+.CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+23 MA0532.1 STAT92E 0.00794732 MA0450.1 hkb 0.00811969 MA0197.2 nub 0.0154201 MA0242.1 Bgb::run 0.0371696 MA0204.1 Six4 0.0443521 MA0444.1 CG34031 0.0488169 
+
+> A total of 133 transcription factor profiles were used.
+
+765 766 767 768 
+
+.CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+> 24
+
+Figures 769 
+
+770 
+
+> Figure 1: The activation of the JAK/STAT signaling pathway in the respiratory system
+
+771 
+
+> of  Drosophila . The activation of the JAK/STAT signaling pathway was detected using
+
+772 
+
+> a STAT92E-GFP  reporter (A), which includes  LacZ  expression under control of  btl-Gal4
+
+773 
+
+> (btl-Gal4 , STAT92E -GFP ; UAS-LacZ.nls).  (B-E) STAT92E activity pattern (green) in the
+
+774 
+
+> larval trachea. JAK/STAT activity is present in most tracheal parts (B). Only the
+
+775 
+
+> posterior part of the trachea (dorsal trunk (DT) of Tr 10, white dashed line in C)
+
+776 
+
+> showed  decreased  JAK/STAT  signaling  activity  (and  high  btl  expression;  red)
+
+777 
+
+> compared to other tracheal epithelial cells. Conversely, some regions, like the
+
+778 
+
+> spiracular branch (SB; D, white arrow) and the dorsal branch (DB) in Tr 2 (E, white
+
+779 
+
+> arrow), showed increased JAK/STAT signaling activity compared to the tracheal
+
+780 
+
+> epithelial cells with  btl  expression. (F) STAT92E activity pattern in the adult trachea.
+
+781 
+
+> Scale bar: 50 μm.
+
+782 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+25 
+
+783 
+
+> Figure  2:  Blocking  JAK/STAT  signaling  induces  epithelial  cell  apoptosis.
+
+784 
+
+> JAK/STAT signaling was blocked in the trachea by expressing  UAS-Dome.DN  under the
+
+785 
+
+> control of  btl-Gal4;UAS-GFP  (A). (B) The developmental viability in response to
+
+786 
+
+> JAK/STAT blockade is indicated by the percentage of embryos that hatched. (****p <
+
+787 
+
+> 0.0001 by Student’s t-test). (C)  Blockade of JAK/STAT signaling induced major
+
+788 
+
+> impairments of the embryonic tracheal structure (arrows). (D) Surviving larvae
+
+789 
+
+> showed visible defects indicated by liquid-filled regions (arrows). (E) Blocking of the
+
+790 
+
+> JAK/STAT pathway by expressing  Dome.DN  in the trachea led to changes in cell
+
+791 
+
+> morphology (E’ and E’’, green arrows) and subsequent disintegration (E’’’, green
+
+792 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+26 
+
+> arrow). Scale bar: 20 μm. (F-G) Fluorescence micrographs of the tracheal cells of
+
+793 
+
+> control  vvl-coin.ts  larvae (F), and the tracheal cells of  vvl-coin.ts>Dome.DN  larvae (G)
+
+794 
+
+> stained for cleaved Dcp-1 (red, on day 2 after induction). Scale bar: 50 μm. (H)
+
+795 
+
+> Lifespan analysis under control conditions and cigarette smoke exposure (CS).
+
+796 
+
+> Median lifespan is indicated in brackets; n=76-103; Log-rank (Mantel-Cox) test. (I, J)
+
+797 
+
+> Short-term (H; n=6; unpaired t-test) and long-term (I; n=8-9; Mann-Whitney test)
+
+798 
+
+> hypoxia treatment. * p < 0.05, *** p < 0.001, **** p < 0.0001.
+
+799 
+
+800 
+
+801 
+
+802 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+27 
+
+803 
+
+804 
+
+> Figure 3: The JAK/STAT signaling pathway in the trachea was activated by external
+
+805 
+
+> stimuli.  (A, C) Fluorescence micrographs of the trachea from  STAT92E -GFP  larvae (A)
+
+806 
+
+> and adults (C) under control conditions and exposed to external stimuli, which
+
+807 
+
+> included hypoxia, cold air (cold), and cigarette smoke exposure (CSE). The external
+
+808 
+
+> stimuli induced the activity of STAT92E, which could be observed and quantified
+
+809 
+
+> through fluorescent intensity (A’ and C’). (B, D) Fluorescence micrographs of the
+
+810 
+
+> trachea from  upd3 -Gal4 ; UAS-GFP  larvae (B) and adults (D) under control conditions
+
+811 
+
+> and exposed to external stimuli. The expression of  upd3  induced by the external
+
+812 
+
+> stimuli could be observed and quantified through fluorescent intensity (B’ and D’).
+
+813 
+
+> The fluorescence signal induced by hypoxia in larval trachea was quantified in flies
+
+814 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+28 
+
+> concurrently driving  upd2 -RNAI (E) or  upd3 -RNAi (F). **  p < 0.01, ***  p < 0.001, ****
+
+815 
+
+> p < 0.0001 by Student’s t-test. Scale bar: 100 μm.
+
+816 
+
+817 
+
+.CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+29 
+
+818 
+
+> Figure 4: Ectopic JAK/STAT signaling activation in the trachea induced structural
+
+819 
+
+> changes.  Ectopic activation ( Hop.CA  or  upd3 ) of epithelial JAK/STAT signaling was
+
+820 
+
+> achieved by ectopic activation of the pathway (A). (B, C) Signaling pathway activation
+
+821 
+
+> during development ( btl>Hop.CA  or  btl >upd3 ) induced lethality. The percentage of
+
+822   
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila
+> 30
+> embryos that hatched (B) and the percentage of larvae that developed into pupae
+
+823 
+
+> (C)  are  shown.  (D-E)  Incomplete  tracheal  development  during  tracheal
+
+824 
+
+> morphogenesis. (F, G) Micrographs of DT8 of  vvl-FLP , CoinFLP-Gal4, UAS-EGFP  (vvl-
+
+825 
+
+> coin )>Hop.CA  larvae. Scale bar: 20 μm. The thickening of the tracheal epithelium is
+
+826 
+
+> observed in those cells that express  Hop.CA  (arrows). A narrowing of the airspace
+
+827 
+
+> was observed in the affected epithelial cells (G; dotted lines indicate the airway
+
+828 
+
+> boundaries), whereas unaffected cells remained inconspicuous (F). (H) Ectopic
+
+829 
+
+> activation of the pathway either by upd3 or Hop.CA overexpression for 2 days or 4
+
+830 
+
+> days using the Target system by switching the temperature in the larval stage from
+
+831 
+
+> 19°C to 30°C. Epithelial cells express GFP. Scale bar: 20 μm. (I) Quantification of the
+
+832 
+
+> epithelial thickness (DT8) in response to upd3-, Hop.CA-, or Dome.DN overexpression
+
+833 
+
+> for different times. (K) Quantitative evaluation of epithelial thicknesses of affected
+
+834 
+
+> regions of the trachea following repeated chronic smoke exposure. (L) Evaluation of
+
+835 
+
+> the thickening phenotype using the mosaic-inducing vvl system (green are affected
+
+836 
+
+> cells), unaffected cells remained normal. (M-P) Localization of the membrane-
+
+837 
+
+> associated proteins armadillo (arm) and Coracle (cora) in control epithelial cells and
+
+838 
+
+> those  showing  strong  JAK/STAT activation.  (M,  N)  Armadillo  staining  showed
+
+839 
+
+> accumulation in the cell of the immunoreactivity (arrow). (O, P) Similar localization
+
+840 
+
+> errors are shown for Coracle staining (arrow). ns = not significant, *  p < 0.05, **  p <
+
+841 
+
+> 0.01, ***  p < 0.001, ****  p < 0.0001; Student’s t-test.
+
+842 
+
+843 
+
+844 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+31 
+
+845 
+
+.CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+> 32
+> Figure 5: Analysis of genes differentially expressed between control trachea and
+
+846 
+
+> those ectopically activated by Hop.CA overexpression.  (A) Schematic overview of
+
+847 
+
+> the DEGs that are up- or downregulated in response to Hop.CA expression. (B) Venn
+
+848 
+
+> diagram showing DEGs in response to Hop.CA overexpression compared with those
+
+849 
+
+> following Trabid-KO, tracheal infection, or ectopic activation of the IMD pathway
+
+850 
+
+> (PGRP-LC overexpression). (C) Using DIOPT to identify mouse orthologs of the
+
+851 
+
+> Hop.CA DEGs from (A), these orthologs were compared with DEGs from lungs
+
+852 
+
+> subjected to acute and chronic asthma models. (D) Key chemokines and chemokine
+
+853 
+
+> receptors induced by OVA aerosol are involved in the JAK/STAT signaling pathway.
+
+854 
+
+> (E) Analysis of the genes commonly regulated between Hop. CA-induced genes and
+
+855 
+
+> those from the acute and chronic asthma models. (F) DIOPT-assisted identification of
+
+856 
+
+> transformation of Hop.CA DEGs into human orthologs, which were compared with
+
+857 
+
+> genes differentially expressed in human airway epithelial cells exposed to IL-6 trans-
+
+858 
+
+> signaling.  The  common  genes  were  analyzed  regarding  GO  categories  in  the
+
+859 
+
+> biological processes group and through a string analysis of these data (G). ***  p <
+
+860 
+
+> 001; Fisher’s exact test.
+
+861 
+
+862 
+
+863 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+33 
+
+864 
+
+> Figure 6: Pharmacological rescue of  the epithelial thickening phenotype  and
+
+865 
+
+> concluding model of the JAK/STAT action in airway epithelial cells.
+
+866 
+
+> (A, B) Changes in tracheal epithelial thickness could be rescued by applying specific
+
+867 
+
+> JAK inhibitors. (A) Microscopy images of the tracheal epithelium (3 rd  instar larvae) of
+
+868 
+
+> Control  (btl.ts>w 1118
+> ) compared  to  activated  JAK/STAT  signaling  pathway
+
+869 
+
+> (btl.ts>Hop.CA ).  Scale  bar:  50  μm.  (B)  Quantification  of  epithelial  thickness
+
+870 
+
+> (highlighted in red) in JAK inhibitor treatment groups compared to the DMSO
+
+871 
+
+> control. **  p < 0. 01; Student’ s t-test. (C) Schematic characterization of JAK/STAT
+
+872 
+
+> signaling under homeostatic conditions and in response to chronic stress leading to
+
+873 
+
+> or prolonged overactivation (D).
+
+874 
+
+875 
+
+876 
+
+877 
+
+> .CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint
+
+Niu et al. JAK/STAT signaling in maintaining airway homeostasis in Drosophila 
+
+34 
+
+878 
+
+879 
+
+880 
+
+881 
+
+882 
+
+883 
+
+884 
+
+885 
+
+886 
+
+887 
+
+888 
+
+.CC-BY 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made The copyright holder for this preprint (which this version posted April 1, 2026. ;https://doi.org/10.1101/2025.05.20.655050 doi: bioRxiv preprint

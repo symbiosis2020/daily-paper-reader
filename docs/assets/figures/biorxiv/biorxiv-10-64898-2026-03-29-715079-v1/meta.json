@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-001.webp",
+      "caption": "Figure 1. Fluorescence light microscopy live-cell imaging of autophagosome biogenesis in Atg2-PM4 cells and imaging of Atg8 and Vps8-positive structures. a) Representative live-cell fluorescence microscopy images of cells expressing Atg2 (Atg2WT) or the Atg2-PM4 mutant along with mCherry-Atg8 (W303 strain). Images were acquired after 1 h of nitrogen starvation. b) Quantifications of data shown in panel a. The relative number of Atg8 puncta and autophagosomal/phagophore structures (APs) per cell of indicated strains was analyzed. (n=4; 200 structures analyzed in total/strain). T-test. c) Quantification of live-cell timelapse fluorescent images of cells expressing Atg2-WT or the Atg2-PM4 mutant along with mCherry-ATG8. Images were acquired after 1 h of nitrogen starvation. Durationtotal describes the time from nucleation until fusion with the vacuole, as described previously (Dabrowski et al., 2023). (n=2; 10 events/strain). T-test. P-values for all Quantifications: *** p<0.0002; **** p>0.0001. d) The snf7Δ atg2Δ strain (BY) expressing GFP-Atg8 and Vps8mScarlet (RGY1381,) was transformed with an empty vector (pRS416; atg2Δ) or plasmids expressing Atg2 or Atg2-PM4 mutant. Transformed cells were cultured in SD-URA to early log phase and transferred into SD-N starvation medium for 2 h to induce autophagy before being analyzed by live-cell imaging. e) Percentage of GFP-Atg8-labelled PAS associated with Vps8mScarlet foci in the experiment shown in panel d). Black asterisk highlights significant differences between atg2Δ and Atg2 cells and grey asterisk indicates significant difference between Atg2 and Atg2-PM4 cells, significant meaning p < 0.05. Quantification in panel b) represents the average of three independent experiments ±SD. DIC, differential interference contrast. Scale bars: 1 µm (panel a) 4 µm (panel d).",
+      "page": 30,
+      "index": 1,
+      "width": 943,
+      "height": 736
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-002.webp",
+      "caption": "Figure 4: Quantification of morphological features in phagophores. a) Illustration of segmentation showing the analyzed parts of phagophore morphology. b) Representative two-dimensional segmentations of the Atg2-WT (brown), Atg2-PM4 ‘enlarged’ (orange) and Atg2-PM4 ‘thin’ (green) through phagophore rim. Tip represents the c) Box plot comparing the intermembrane distance of ‘backbone’ phagophore between the Atg2-WT, Atg2-PM4 enlarged and Atg2-PM4 thin. d) Box plot comparing mean phagophore tip width of all the segmented phagophores. e) Box plot comparing the maximum absolute curvature of all the segmented phagophore tips across the Atg2-WT, Atg2-PM4 enlarged and Atg2 PM4-thin",
+      "page": 34,
+      "index": 2,
+      "width": 943,
+      "height": 1152
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-003.webp",
+      "caption": "Figure 3: Tomogram slices of phagophore ultrastructures in Atg2-PM4 cells. a)-i*) Tomographic slices of multiple tomograms from Atg2-PM4 mutant yeast cells, denoised with IsoNet (Liu et al., 2022). Red arrows indicate elongated densities spanning from the phagophore membrane to the ER or lipid droplets, measured lengths of such densities are listed in Table 2. h*) Enlarged view of tomogram slice shown in panel h (orange box). i*) Enlarged view from a different tomographic z-slice from the tomogram shown in panel i (dashed orange box). Phagophores are indicated with P, lipid droplets with LD, endoplasmic reticulum with ER, vacuole with V, nucleus with N, and the cell wall with W. Asterisks indicate vesicles of unknown origin. Scale bars are 200 nm.",
+      "page": 33,
+      "index": 3,
+      "width": 908,
+      "height": 1154
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-004.webp",
+      "caption": "Figure 5: Tomographic slices of phagophore rims in proximity to cytosolic vesicles in Atg2-PM4 cells. a)-e) Vesicles proximal to phagophore rims are presented in tomographic slices. f) Size distribution of vesicles. Diameters and circularity values can be found in Table 3. Scale bars are 200 nm. Tomographic slices were denoised with IsoNet (Liu et al., 2022). h) Threedimensional isosurface rendering of the segmented phagophore in panel g) with vesicles putatively fusing to the phagophore rims.",
+      "page": 35,
+      "index": 4,
+      "width": 895,
+      "height": 854
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-005.webp",
+      "caption": "Figure 6: Vesicle fusion can contribute to phagophore expansion. a) Current phagophore expansion model in wild-type Atg2 cells. Atg2-WT spatially coupled with Atg9 is localized to the phagophore rim and transfers lipids (purple arrows) from the donor membrane to the phagophore rim. Atg9 transfers lipids to the inner leaflet of the phagophore membrane by its scramblase activity (dark green arrows). As a result of the Atg2-Atg9 lipid transfer-scramblase activities, the phagophore grows. b) Proposed model of delayed phagophore expansion activity in Atg2-PM4 cells: through mislocalization of Atg2 (large red arrows) and decoupled Atg9 scramblase activity (small red arrows) growth of phagophore membrane is delayed. Cellular vesicles can provide additional lipids for its expansion (orange arrows). c) During autophagosome biogenesis, small Atg9 vesicles fuse at the phagophore assembly site during early stages to form a nascent phagophore. Once the phagophore has established the corresponding membrane contact sites with the ER/ERES, the phagophore membrane expands by lipid transfer from the donor membrane and a possible contribution of vesicle fusion at the phagophore rims.",
+      "page": 36,
+      "index": 5,
+      "width": 943,
+      "height": 596
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-006.webp",
+      "caption": "Table 3: Vesicle sizes and vesicle circularity*.",
+      "page": 37,
+      "index": 6,
+      "width": 942,
+      "height": 642
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-007.webp",
+      "caption": "Table 1: Summary of cryo-electron tomography data collection",
+      "page": 37,
+      "index": 7,
+      "width": 943,
+      "height": 206
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-008.webp",
+      "caption": "Table 2: Length of densities tethering phagophore and putative donor membranes in both Atg2-WT and Atg2-PM4 cells",
+      "page": 37,
+      "index": 8,
+      "width": 745,
+      "height": 243
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-03-29-715079-v1/fig-009.webp",
+      "caption": "Figure 2: Visualization of yeast phagophores by correlative light and electron microscopy. a) Schematic representation of autophagosome biogenesis including phagophore closure mediated by Snf7 that was deleted for the analysis. b) SEM image of yeast cellular lamella used to characterize wild-type phagophore elongation in snf7Δ cells. c) Same lamella as in panel b imaged in a fluorescence microscope under cryogenic conditions. Signal shown in blue represents Atg9-3xmTagBFP2 and signal shown in red originates from polystyrene (PS) fiducial beads. d) TEM overview of the same lamella as shown in panels b and c. e) TEM overview of lamella (panel d) correlated with the fluorescence image of same lamella (panel c). Region on which tilt series was acquired is indicated by orange box. f) Tomographic slice of multiple tomograms showing phagophore, acquired from the region indicated in panel e. g)i) Tomographic slices of phagophores from snf7Δ yeast cells, denoised with IsoNet (Liu et al., 2022). g*)-i*) represent enlarged views of regions from panels g) to i) marked with orange",
+      "page": 31,
+      "index": 9,
+      "width": 943,
+      "height": 1098
+    }
+  ]
+}

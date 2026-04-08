@@ -1,0 +1,512 @@
+Title: In situ visualization of autophagy suggests vesicle fusion can contribute to phagophore expansion
+
+URL Source: https://www.biorxiv.org/content/10.64898/2026.03.29.715079v1.full.pdf
+
+Number of Pages: 43
+
+Markdown Content:
+1
+
+In situ visualization of autophagy suggests vesicle fusion can contribute to phagophore expansion 
+
+Claire Ortmann de Percin Northumberland (ORCID: 0000-0002-2989-1463) 1,2 , Mariya Licheva (ORCID: 0000-0001-7722-7340) 3, Rahel Dabrowski (ORCID: 0000-0002-3309-3851) 5, Rubén Gómez-Sánchez (ORCID: 0000-0002-8274-3259) 6, Sabrina Berkamp (ORCID: 0000-0002-9639-9698) 1,2 , Philipp Schönnenbeck (ORCID: 0000-0002-6553-7517) 1,2 , Martin Graef (ORCID: 0000-0002-6820-1533) 5,7 , Claudine Kraft (ORCID: 0000-0002-3324-4701) 3,4 , Carsten Sachse (ORCID: 0000-0002-1168-5143) 
+
+> 1,2
+
+*
+
+> 1
+
+Ernst-Ruska Centre for Microscopy and Spectroscopy with Electrons, ER-C-3/Structural Biology, Forschungszentrum Jülich, 52425 Jülich, Germany. 
+
+> 2
+
+Department of Biology, Heinrich Heine University, Universitätsstr. 1, 40225 Düsseldorf, Germany. 
+
+> 3
+
+Institute of Biochemistry and Molecular Biology, ZBMZ, Faculty of Medicine, University of Freiburg, Stefan-Meier-Str. 17, 79104 Freiburg, Germany 
+
+> 4
+
+CIBSS-Centre for Integrative Biological Signalling Studies, University of Freiburg, Schänzlestr. 18, 79104 Freiburg, Germany 
+
+> 5
+
+Max Planck Research Group of Autophagy and Cellular Ageing, Max Planck Institute for Biology of Ageing, Cologne, Germany 
+
+> 6
+
+Department of Biomedical Sciences, University of Groningen, University Medical Center Groningen, A. Deusinglaan 1, 9713 AV Groningen, The Netherlands 
+
+> 7
+
+Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY, USA * Correspondence: c.sachse@fz-juelich.de (C.S.) 
+
+Keywords : autophagy, autophagosome biogenesis, phagophore expansion, Atg2, lipid transfer, cryo-electron microscopy, correlative light and electron microscopy, membrane analysis 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+2
+
+Abstract 
+
+The autophagy core machinery mediates the enclosure of cytosolic cargo destined for degradation in the lysosome. The Atg9-Atg2-Atg18 complex coordinates phagophore expansion via directed lipid transfer until closure of the phagophore rim. Using an Atg2 variant (Atg2-PM4) as a model of decelerated autophagosome biogenesis, we visualized the morphological states prior to autophagosome closure by cryogenic correlative light and electron microscopy in S. cerevisiae . Using in situ cryo-electron tomography, we find an enlarged rim morphology of an expanding phagophore in Atg2-PM4 cells in comparison with Atg2 wildtype condition. Analysis of segmented rim membrane features as well as surrounding and attached vesicles suggest that the enlarged rims are a result of cytosolic vesicles fusing with the growing phagophore. High-resolution imaging in this study shows that, apart from the initial nucleation phase, vesicle fusion can also contribute to phagophore expansion during later stages of autophagosome biogenesis. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+3
+
+Introduction 
+
+Autophagy is a conserved homeostatic process that recycles molecular components of cellular material such as damaged organelles and protein aggregates by delivering them to the yeast and plant vacuole or the mammalian lysosome (Takeshige et al., 1992; Wen and Klionsky, 2016). The autophagic process can be triggered in response to cellular stresses such as nutrient deprivation (Takeshige et al., 1992). There are three main types of autophagy: macroautophagy, microautophagy, and chaperone-mediated autophagy (Xie and Klionsky, 2007). The morphological hallmark of macroautophagy (hereafter autophagy) is the de novo formation of a double-membrane compartment, the autophagosome, enclosing the autophagic cargo (Wen and Klionsky, 2016). By now, over 40 autophagy-related (Atg) proteins have been identified, initially in Saccharomyces (S.) cerevisiae (Tsukada and Ohsumi, 1993) 
+
+while approximately 18 belong to the core autophagy machinery (Kawabata and Yoshimori, 2020; Nakatogawa, 2020). The autophagy machinery is organized in the following six evolutionarily conserved protein complexes: Atg1 complex (Atg1, Atg13, Atg17, Atg29, Atg31), phosphatidylinositol (PI)-3 kinase complex (Atg6, Atg14, Vps34, Vps15, Atg38), Atg9, Atg2-Atg18 complex, Atg12-Atg5 conjugation system (Atg12, Atg7, Atg10, Atg5, Atg16), and Atg8 conjugation system (Atg8, Atg7, Atg3, Atg4) (Suzuki and Ohsumi, 2010; Noda, 2023; Nakatogawa, 2020). Autophagosome biogenesis temporally proceeds in five stages: phagophore initiation, nucleation, expansion, closure into an autophagosome, and autophagosome fusion with the vacuole or lysosome (Wen and Klionsky, 2016). After initiation in S. cerevisiae , the Atg1 complex forms the phagophore assembly site (PAS) at the surface of the vacuole to nucleate downstream assemblies of PI3-kinase and Atg9-Atg2-Atg18 complexes (Fujioka et al., 2020; Hollenstein et al., 2019). Atg9 is stored in Golgi-derived cytosolic vesicles prior to fusion at the PAS (Noda et al., 2000; Yamamoto et al., 2012). At the early stages of autophagy during nucleation, a subset of Atg9 vesicles localizes to the PAS and constitutes an initial membrane seed to form a phagophore (Sawa-Makarska et al., 2020; Olivas et al., 2023; Mari et al., 2010). COPII vesicles have also been implicated in the lipid supply to the phagophore (Graef et al., 2013; Shima et al., 2019). The growing phagophore (also called isolation 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+4membrane) is derived from a cup-shaped membrane cisterna (Bieber et al., 2022; Shibutani and Yoshimori, 2014). During intermediate stages of autophagosome biogenesis, the core autophagy proteins Atg2 and Atg9 contribute to phagophore expansion: Atg2 by establishing membrane contact sites between the ER/ERES and the growing phagophore (together with TRAPPIII complex) and mediating lipid transfer from a donor membrane (Gómez-Sánchez et al., 2025, 2018; Kotani et al., 2018), and Atg9 by facilitating their distribution across both membrane leaflets (Chumpen Ramirez et al., 2023; Maeda et al., 2019; Matoba et al., 2020; Valverde et al., 2019). Atg9 is the only integral transmembrane protein among the core autophagy machinery components (Matoba et al., 2020; Noda et al., 2000) and was found to trimerize. The scramblase activity of Atg9 essential for autophagy (Maeda et al., 2020; Matoba et al., 2020) is likely to contribute to maintaining previously reported lipid asymmetry in autophagic membranes, with higher phosphatidylinositol-3-phosphate (PI3P) levels in the luminal leaflets of both the outer and inner membranes than in the cytoplasmic leaflet of the outer membrane or the inner leaflet of the inner membrane (Cheng et al., 2014). Atg2 is an elongated rod-shaped β-helix protein found to supply lipids by bridging the phagophore to donor membranes, e.g., ER, and providing a hydrophobic slide along its long axis that allows lipids to transfer from the N to the C-terminal end of the rod (Chowdhury et al., 2018; Valverde et al., 2019). It was shown that Atg2 has no lipid head-group transfer specificity (Osawa et al., 2019). A lipid transfer rate of 200 lipids per Atg2 molecule per second has been estimated in vivo using fluorescence microscopy (FM) to contribute to phagophore expansion (Dabrowski et al., 2023). It was also found that Vps13, a homologue of Atg2 supports the lipid transfer to phagophores to render it non-rate limiting (Dabrowski et al., 2023). While the biochemical activities of both Atg2 and Atg9 in the context of autophagy have been characterized, how their respective functions are spatially and temporally coordinated to achieve a unidirectional lipid transfer to the growing phagophore remains under investigation. Two hypotheses have been put forward; the first one involving the S. cerevisiae long chain fatty acyl-CoA synthetase 1 (Faa1) and the second is based on two human scramblases TMEM41B and VMP1. Faa1 was observed localizing to phagophores and generating acyl-CoA using ATP (Schütter et 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+5al., 2020). Subsequently, newly synthesized acyl-CoA is channeled to the phospholipid synthesizing enzymes of the ER for de novo lipid synthesis. Newly synthesized lipids are subsequently transferred to the phagophore by Atg2. It has been proposed that de novo lipid synthesis increases the chemical potential and thereby providing a driving force for the unidirectional lipid transfer from the ER into the phagophore (Schütter et al., 2020). The second hypothesis is based on the findings that deleting the two human scramblases TMEM41B and VMP1 resulted in depletion of autophagic flux (Morita et al., 2018) in addition to the described interaction with ATG2A at the ER (Ghanbarpour et al., 2021) providing a driver of unidirectional lipid transfer to the phagophore. In addition to the described mechanisms of lipid transfer, other cellular processes may contribute to phagophore growth. Phagophore expansion is further accompanied by the conjugation of ubiquitin-like Atg8 to the phagophore membrane. The responsible machinery is composed of Atg5-Atg12/Atg16 (Romanov et al., 2012) and acts like an E3 ligase complex to transfer Atg8 from Atg3 to membrane-resident phosphatidylethanolamine (Hanada et al., 2007). Phagophore expansion through lipids and Atg8 conjugation proceeds until the phagophore rims are ready to be fused to form a closed autophagosome. Deletion of 
+
+S. cerevisiae SNF7 as well as human CHMP2B and VPS4 led to an accumulation of unsealed autophagosomes and consistently impaired autophagosome completion (Takahashi et al., 2018; Zhou et al., 2019). Snf7 and CHMP2B belong to the family of ESCRT-III proteins enabling membrane fusion and/or fission while in this case they mediate the closure of phagophores into double-membrane autophagosomes. The interaction between Atg2 and Atg9 has also been shown to be essential for autophagic turn-over (Gómez-Sánchez et al., 2018). When disrupting the Atg2-Atg9 interaction using point mutations at the C-terminal region of Atg2 (named Atg2-PM4), both Atg9 and Atg2 still concentrate at the phagophore membrane, but in different locations. While Atg9 and Atg2 both localize to the phagophore rims, mutant Atg2-PM4 mislocalizes, showing distribution along the phagophore membrane distal from the rims (Gómez-Sánchez et al., 2018). It was suggested that as a result the association of ER and phagophore is altered (Gómez-Sánchez et al., 2018). Here, we 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+6characterized this mutant by live-cell fluorescence microscopy revealing delayed phagophore formation. Moreover, we visualized the native accumulated phagophores in the Atg2-PM4 mutant in S. cerevisiae using in situ cryogenic electron tomography (cryo-ET) coupled with cryogenic correlative light and electron microscopy (cryo-CLEM) and observed significantly enlarged phagophore rims upon disruption of the Atg2-Atg9 interaction. The tomograms provide evidence of vesicular fusion with the phagophore and suggest that this process can contribute to lipid growth at intermediate stages of autophagosome biogenesis during phagophore expansion. 
+
+Results 
+
+Phagophore formation is decelerated in Atg2-PM4 expressing cells 
+
+To better understand phagophore expansion and morphology, we focused on the Atg9-Atg2 interaction and turned to the previously characterized Atg2-PM4 mutant (Gómez-Sánchez et al., 2018) that carries five mutations in the C-terminal region, i.e. QKFST to AAAAA (1264-1268) (highlighted in AlphaFold 3 model; Fig. S1 ), disrupting the interaction of Atg2 with Atg9 at the phagophore. Therefore, we used live-cell fluorescence imaging to characterize autophagosome biogenesis and imaged phagophores using mCherry-Atg8 as described previously (Dabrowski et al., 2023) together with Atg2-WT-3xGFP and Atg2-PM4-3xGFP, respectively (Fig. 1a ). Interestingly, in Atg2-PM4 cells we were unable to detect Atg2-PM4 puncta as opposed to the Atg2-WT control, which is consistent with previous studies suggesting that Atg2-PM4 mutant distributes across the phagophore membrane rather than accumulates at the phagophore rims (Gómez-Sánchez et al., 2018). When counting the number of Atg8 puncta per cell, we observed a slight decrease for Atg2-PM4 cells while the overall variation is very similar to that of Atg2-WT cells ( Fig. 1b , left). More significantly, on average we found less than one closed phagophores per five cells, i.e., 0.2 phagophores per cell, in Atg2-PM4 compared with 0.7 per cell in Atg2-WT (Fig. 1b , right). These results indicate that the dynamic rates of autophagosome biogenesis are reduced in the Atg2-PM4 mutant. To confirm this hypothesis, we performed timelapse fluorescence microscopy and followed Atg8 puncta from nucleation until autophagosome fusion with the vacuole, for a maximum of 30 minutes (as previously described in (Dabrowski et al., 2023)). We observed an increase in the 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+7total lifetime of Atg8 positive structures in Atg2-PM4 mutant cells when compared with Atg2-WT cells, on average lasting a duration of 22 vs. 10 min in the Atg2-WT ( Fig. 1c ). Taken together, the fluorescence analyses of the Atg2-PM4 mutant revealed that autophagosome biogenesis was decelerated resulting in lower numbers of autophagosomes than in the Atg2-WT. 
+
+Establishing the snf7 Δ yeast strain to accumulate phagophores 
+
+In order to enrich phagophore expansion events for down-stream cryo-electron microscopy studies, we turned to a SNF7 deletion ( snf7 Δ) strain that was shown to accumulate open, i.e. unsealed phagophores at the vacuole (Zhou et al., 2019). At the same time, it had been characterized by vesicle trafficking defects and large endosomal structures named class E compartments (Raymond et al., 1992). We wanted to verify that these altered membrane dynamics did not affect phagophore biogenesis. To exclude this possibility, we therefore followed Vps8 foci to visualize class E compartments as it was shown to concentrate in these clusters upon ESCRT-III dysfunction (Russell et al., 2012). We turned to live-cell imaging to monitor Vps8-mScarlet foci alongside GFP-Atg8 in atg2 Δ, Atg2-WT, and Atg2-PM4 cells with snf7 Δ
+
+background, respectively ( Fig. 1d) . When we estimated the fraction of Vps8 spatially close to Atg8, we observed approximately 25 % of Atg8-positive structures associated with class E compartments between the different strains (showing 20, 32 and 23 % association for atg2 Δ, Atg2-WT, and Atg2-PM4 cells, respectively) ( Fig. 1e) . As expected, we observed the presence of larger GFP-Atg8 foci in both Atg2-WT and Atg2-PM4 cells, when compared with atg2 Δ cells, in line with previous studies (Gómez-Sánchez et al., 2018; Chumpen Ramirez et al., 2023). These differences in fluorescence intensity and clustering between Atg2-WT and Atg2-PM4 cells can be explained by the defective recruitment of Atg18 to the nascent phagophore in Atg2-PM4 cells (Gómez-Sánchez et al., 2018). Taken together, these live-cell imaging data indicate that the growing phagophores in the Atg2-PM4 mutant of the snf7 Δ strain do not show increased association with class E compartments supporting the conclusion that they present a suitable experimental model to further visualize phagophore biogenesis. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+8
+
+Visualization of phagophores in SNF7 deletion cells by in situ cryo-ET 
+
+In order to study expanding phagophores of S. cerevisiae at higher resolution, we employed in situ cryo-electron tomography and continued to work with the snf7 Δ strain (Fig. 2a ). To identify the region of interest for tomographic data acquisition, we were guided by Atg9-3xmTagBFP2 positive puncta using cryo-CLEM. When we detected a BFP signal to validate the presence of Atg9, we generated cellular lamellae with a focused ion beam milling scanning electron microscope (FIB-SEM) operated at cryogenic temperatures ( Fig. 2b ) and correlated in-chamber fluorescence images after milling ( Fig. 2c ) with TEM overview images ( Fig. 2d-e ). In this way, we acquired a total of 13 tomograms of approximately 150-200 nm thickness and visualized six sections through phagophores in the presence of common autophagy factors including wildtype Atg2 (Atg2-WT) ( Fig. 2f , Table 1 ). We observed characteristic phagophores of 300 – 400 nm in diameter with their closely apposed bilayers, in proximity to the ER and lipid droplets ( Fig. 2g-h ). Occasionally, extended densities were identified as membrane connections with approx. 20 to 24 nm in length ( Table 2 ) bridging the phagophore membrane to putative donor membranes, i.e., ER ( Fig. 2g *) and lipid droplet surfaces ( Fig. 2h *). These densities match the length of the mammalian Atg2 and yeast Vps13p molecules (Valverde et al., 2019; De et al., 2017). The phagophores imaged in the Atg2-WT snf7 Δ strain ( Fig. 2g-i ) are consistent with previously observed phagophore ultrastructures in ypt7 Δ cells with the characteristic cup-shaped membrane as well as protein-mediated membrane contact sites with the phagophore (Bieber et al., 2022). As phagophores accumulate in the cytosol of snf7 Δ cells and are prevented from fusing with the vacuole, we successfully observed multiple stages of phagophore expansion in Atg2-WT conditions of this otherwise highly transient process. 
+
+Phagophore morphology is altered in Atg2-PM4 mutant 
+
+Using the above described cryo-CLEM workflow with Atg2-PM4 snf7 Δ cells , we observed a striking Atg2-PM4 phenotype with respect to phagophore morphology: 16 out of 25 phagophore rims revealed an enlarged intermembrane spacing of 50 up to 200 nm when analyzed in z-section ( Fig. 3a-f ). The remaining 9 rims resembled the 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+9Atg2-WT phenotype with a small widening of close-to evenly distanced juxtaposed bilayers spaced apart approximately 10 to 20 nm (Fig. 3g-i ) as characterized previously (Bieber et al., 2022). Interestingly, when seen in cross-section, one specific phagophore had one enlarged rim region and the corresponding rim region on the other side of the same phagophore appears to be Atg2-WT-like (see Fig. 3b ). Others exhibited either uniformly Atg2-WT-like or two enlarged rims. When inspecting membrane contact sites, as in the Atg2-WT, we also detected connecting protein densities spanning from the phagophore to putative donor membranes ( Fig. 3j and 
+
+3h *). Notably, two of these tethering densities were 29 nm in length ( Table 2 ), which is 9 nm longer than mammalian ATG2 and Vps13 but corresponds to the predicted length of the yeast protein Csf1, another bridge-like lipid transfer protein (Toulmay et al., 2022; Valverde et al., 2019; De et al., 2017). Another extended density of 23 nm length tethering the phagophore to the lipid droplet surface is closer to the observed length of ATG2 and Vps13 (Valverde et al., 2019; De et al., 2017). Furthermore, we also observed a direct membrane contact site of the phagophore and lipid droplet not obviously bridged by protein density. The outermost bilayer of the phagophore was found touching the phospholipid monolayer of the lipid droplet surface giving up the otherwise close-to-ideal spherical shape and leaving an increased intermembrane distance of the phagophore at the region of contact ( Fig. 3i* ). Together, this Atg2-PM4 ultrastructural analysis revealed a remarkable Atg2-PM4 phenotype of enlarged phagophore rims while they also contain typical and some thus far unobserved protein-mediated membrane contact sites between phagophore and putative donor membranes. 
+
+Analysis of enlarged rims and associated membrane structures 
+
+To assess the morphological changes of the Atg2-PM4 phagophores in more detail, we specifically analyzed the phagophores from the cryo-tomograms using segmentation and grouped the Atg2-PM4 phagophore rim sections in ‘enlarged’ and ‘thin’ classes. As we analyzed representative 2D sections through the 3D phagophore we refer to the rim as tips. Subsequently, we computationally separated the tip region next to the backbone region of the phagophore making up the central portion of the phagophore ( Fig. 4a ). Comparison of membrane segmentations of the phagophore 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+10 rims from representative tomographic slices of the Atg2-PM4 enlarged class showed marked differences to the Atg2-WT and the Atg2-PM4 thin classes ( Fig. 4b ). While the intermembrane distances of the backbone region of Atg2-WT, Atg2-PM4 enlarged and thin phagophore classes shared similar widths of 135 ± 25, 119 ± 29 and 135 ± 29 Å, respectively ( Fig. 4c ), the intermembrane distance at the tip (tip width) of the Atg2-PM4 enlarged class is 284 ± 91 Å as opposed to 127 ± 10 and 131 ± 26 Å of Atg2-WT and Atg2-PM4 thin, respectively ( Fig. 4d ). Similarly, the average of the maximum absolute curvatures of the Atg2-PM4 enlarged tips is significantly higher than the ones of the Atg2-WT and Atg2-PM4 thin class at 1.6 x 10 -3 vs. 0.9 x 10 -3 and 0.9 x 10 -3 , respectively ( Fig. 4e ). Furthermore, the Atg2-PM4 enlarged tips have a lower percentage of pixels with lower absolute curvatures and more pixels with higher absolute curvatures than the Atg2-WT and Atg2-PM4 thin phagophore tips ( Fig. 4f ). In order to understand whether the changes observed at the phagophore rim are related to the progression of phagophore growth, the rim opening angle of every tip section was estimated and related to the average tip width. The rim opening angle has been proposed as a measure of phagophore growth (Bieber et al., 2022) whereby this angle ranges from close to 0° when the phagophore is barely cup-shaped, to 180° when the tips are nearly facing each other head-on before fusing with each other ( Fig. 4g ). When plotting the rim opening angle against the mean tip width, we detected a weak linear positive trend for Atg2-WT and the Atg2-PM4-thin tips between 60 and 160º in Atg9-3x BFP cells ( Fig. 4h ), which appears to differ from previous observations proposing a negative trend in WT cells with GFP-Atg8 background (Bieber et al., 2022). The analysis of the Atg2-PM4-enlarged tip class, however, clearly reveals wider rim opening angles between 0 and 140º and widely scattered tip width measurements between 150 – 450 Å supporting no clear trend. Taken together, the detailed distance, angle, and shape analysis based on membrane segmentation confirmed that the observed morphological changes are significantly different in the Atg2-PM4 enlarged class and restricted to the phagophore rim while the phagophore backbone appears similar to the Atg2-WT. When further inspecting our Atg2-PM4 tomographic data, we noticed the occurrence of vesicles in the proximity of up to 200 nm to phagophore rims (Fig. 5a-e ,
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+11 
+
+Supplementary Fig. 2 ). These phagophores were found in different stages of expansion varying in length and rim opening angles. Atg2-WT tomograms did not contain such vesicles. Atg2-PM4 vesicles varied in circularity and in size, with diameters ranging from 37 to 187 nm ( Table 3 ). Subsequently, in one particular tomogram we also observed one phagophore with rim sections as wide as typical vesicle diameters between 150 and 190 nm suggesting a possible fusion between phagophore rims and vesicles ( Fig. 5f, 5g ). After membrane segmentation of the tomographic reconstruction displayed as a 3D isosurface rendering ( Fig. 5h ), we observed an approximately 180 nm thick slab through the membrane phagophore while we discerned two ~200 nm wide distinct membrane entities that we believe to be two fusing vesicles attached to enlarged phagophore rims on opposite ends of the phagophore connected through a ~100 nm wide membrane stalk. In the 3D rendering of the segmentation, the vesicles do not appear completely closed, which can be attributed to the missing wedge, a known sampling problem in electron tomography (Förster and Briegel, 2024). Taken together, in one of the tomograms, we believe to have captured cellular vesicles attached to an expanding phagophore. As COPII coat proteins such as Sec13 and 31 have been observed by fluorescence microscopy to localize at the phagophore rims (Graef et al., 2013; Suzuki et al., 2013) and COPII vesicles have been identified as an important lipid source for autophagosome biogenesis in yeast (Shima et al., 2019), we therefore checked for the presence of characteristic protein lattice coats on the vesicles proximal to the phagophore rims ( Supplementary Fig. 2 ). In these cases, we could not identify typical features of clathrin, COPII or COPI lattice coatings, such as distinct triskelion of clathrin or the triangular Sec13/31 COPII (Bykov et al., 2017; Cheng et al., 2007; Zanetti et al., 2013). Moreover, typical COP vesicles surrounding the Golgi network have been found to be around 50 nm (Bykov et al., 2017; Donohoe et al., 2013) whereas many of the here observed vesicles are larger than 100 nm. Together, these vesicular features do not allow an assignment and leave the cellular origin of the here imaged vesicles open. The observed vesicles close to the phagophore rims are unlikely a result of the snf7 Δ strain of aberrant endosomal processing as they were not detected in Atg2 WT cells (see Fig. 1d, e ), but rather belong to membranous 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+12 structures of different subcellular identity. Taken together, the presence of medium-sized 40-200 nm vesicles close to the phagophore rims and in some cases enlarged rims of the same size suggest vesicle fusion to the rims of the phagophore in Atg2-PM4 cells. 
+
+Discussion 
+
+Using in situ cryo-ET guided by cryo-CLEM, we imaged and analyzed the natively preserved morphology of expanding phagophores of snf7 Δ S. cerevisiae strains. We observed multiple phagophore-membrane contact sites including direct lipid droplet contact and linkages mediated by bridge-like proteins. Using a previously characterized Atg2-PM4-mutant unable to interact with Atg9 (Gómez-Sánchez et al., 2018), we found an altered phagophore morphology. The Atg2-PM4 mutant revealed an about two-fold enlarged phagophore rim width while it also showed a significantly decelerated autophagosome biogenesis in live-cell imaging. As we observed the presence of 40 to 200 nm large vesicles in close proximity to phagophore rims and captured vesicles attached to a phagophore, we reason that the enlarged rims in our tomographic data represent an intermediate structure resulting from vesicular fusion to the phagophore rims in a lipid-transport impaired mutant. The disruption of the Atg2-Atg9 interaction caused by the alanine substitution in positions 1264-1268 in the Atg2-PM4 mutant clearly affected the observed phagophore morphology leading to enlarged phagophore rims. Due to the disrupted interaction with Atg9, Atg2 was found mislocalized across the entire phagophore in contrast to Atg9 and Atg18 that remained localized at the phagophore rims (Gómez-Sánchez et al., 2018). As a consequence of the disrupted Atg9 interaction by another mutant, a reduction of the human Atg2 in vitro lipid transfer activity has been reported (Van Vliet et al., 2022). Conversely, in vitro Atg2 lipid transfer was shown to increase in the presence of Atg18 and PI3P (Osawa et al., 2019). Therefore, the disruption of described Atg2 interactors is likely to have an overall attenuating effect on Atg2-mediated lipid supply to the phagophore. Given the close spatial coupling and proposed lipid channeling of Atg2 with Faa1 and Atg9 (Schütter et al., 2020; Van Vliet et al., 2022; Wang et al., 2025), the effective lipid transport and subsequent lipid 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+13 equilibration across the leaflets is likely to be altered in the Atg2-PM4 mutant. Under wildtype conditions, due to close spatial coupling Atg2 provides lipid substrates unidirectionally for the Atg9 scramblase ( Fig. 6a ). In the Atg2-PM4 mutant, the lack of unidirectional lipid substrate provision for Atg9 may affect the lipid turnover ( Fig. 6b 
+
+left) possibly leading to changes in the rim shape considering principal membrane geometry arguments (Frolov et al., 2011). A recent study tested a closely related Atg9-binding mutant, known as Atg2-PM1 that showed equal mislocalization of Atg2 and failed to perform rim aperture constriction also possibly due to changes in membrane geometry (Gómez-Sánchez et al., 2018; Shatz et al., 2024). Similarly, in our Atg2-PM4 mutant, we observed a disrupted correlation of mean rim width and rim opening angle of the Atg2-PM4 enlarged rims with respect to the wildtype-like rims. In line with a series of prior studies, our investigation further supports the requirement of precise temporal and spatial localization of Atg9-Atg2-Atg18 complexes at the phagophore for autophagosome biogenesis. The observation of a putative vesicle-phagophore fusion event to an expanding phagophore in cells with decelerated autophagosome biogenesis when compared with WT cells may arise from two possible scenarios. First, in Atg2-WT cells the fusion event may be too transient to be captured by our cryo-CLEM approach while it is slower and becomes detectable in the Atg2-PM4 mutant. Second, the Atg2-PM4 mutation is likely to attenuate the primary lipid supply mechanism to such an extent that the cell compensates by engaging alternative lipid delivery pathways to the phagophore ( Fig. 6b right). Interestingly, the cellular origin of the observed vesicles could not be fully clarified. Apart from the established phagophore vicinity to the ER and lipid droplets, we could not identify any other cellular compartment associated with the vesicles. In the absence of experimental support, it is tempting to speculate that the observed vesicles may be identical to the earlier characterized Golgi-derived Atg9 vesicles (Yamamoto et al., 2012). However, most of the vesicles visualized here in cells were about 90 – 180 nm in diameter, i.e. two to three-fold larger than the previously reported size of 30 – 60 nm of isolated Atg9 vesicles (Yamamoto et al., 2012). These smaller vesicles were also shown to occur in clusters and tubules at the initial stages of autophagy (Mari et al., 2010) not at an expanding phagophore as visualized here ( Fig. 6c ). 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+14 Our live-cell imaging data confirmed that the observed vesicles are not class E compartment derived and therefore not an artifact from the snf7 Δ strain. Furthermore, our data are consistent with previous reports showing that Atg8 clusters do not overlap with class E compartments in snf7 Δ as well as vps4 Δ ESCRT mutants, under both growing and nitrogen-starvation conditions (Zhou et al., 2019). The recent observation of membrane contact sites between the phagophore rim and the ERES by Atg2 and TRAPPIII complex (Gómez-Sánchez et al., 2025) may explain why COPII vesicles have been found colocalized with phagophore rims and identified as a membrane source previously (Graef et al., 2013; Shima et al., 2019; Suzuki et al., 2013). The diameters of canonical COPII vesicles were characterized in the size range 60 – 80 nm (Kim et al., 2005) while they can also be significantly larger up to 300 nm in the presence of cargo (Gorur et al., 2017). The resolution and available details in the yeast tomograms were not sufficient to assign the nature of the vesicles neither for COPI nor clathrin lattices. While the images reveal the vesicles attached to the phagophore rims rather than the back of the phagophore, it remains open what the specific mechanisms behind vesicle trafficking to the phagophores and signals for vesicle-phagophore fusion are. Regardless of our most striking observations on the phagophore morphology, we would also like to emphasize that about one third of phagophore rims in the Atg2-PM4 phenotype had a width resembling the Atg2-WT, which could be explained by the presence of alternative lipid transporters such as Vps13 or Csf1 (Dabrowski et al., 2023; Toulmay et al., 2022). Indeed, Vps13 has been shown to be a lipid transporter acting complementarily and non-rate limiting to Atg2 in autophagy (Dabrowski et al., 2023) possibly coordinated by a direct Atg9 interaction (Van Vliet et al., 2024). Csf1 has a putative length of 30 nm, which is consistent with the estimated lengths of densities observed tethering a phagophore with the ER close to the phagophore rim (see Fig. 3h* , Table 2 ). Moreover, it has recently been shown that Csf1 localizes at ER-plasma membrane and ER-mitochondrial contact sites (Toulmay et al., 2022). Furthermore, Csf1 has been suggested to act as a lipid transfer protein in phosphatidyl ethanolamine metabolism and lipid homeostasis (Toulmay et al., 2022; John Peter et 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+15 al., 2022). The occurrence of wildtype-like phagophore rims suggests that other lipid-transfer mechanisms exist that can take over some of the tasks typically performed by Atg2. Interestingly, we also observed a direct contact between lipid droplets and the phagophore. To our knowledge, the direct transfer of phospholipids from the phospholipid monolayer on the surface of a lipid droplet to the phagophore in this way has not been observed so far by electron microscopy. Further studies are required to disentangle the contributions of the multiple players, Atg2, Vps13, Atg9 and Atg18 involved in the delivery of lipids to the growing phagophore. Our tomographic observations suggest that vesicles are fusing with the rims of the phagophore rather than the sheet-like phagophore backbone. Given the high membrane curvature present at the phagophore rims, this geometry is likely to be favored for membrane fusion with spherical cellular vesicles. According to EM observations on the Golgi-apparatus, vesicles were also shown to primarily fuse with the rims rather the sheets (Donohoe et al., 2013). Together, our cryo-ET data recorded 
+
+in situ reveal vesicle fusion at the stage of expanding phagophores and adds to the cellular repertoire of processes contributing to phagophore expansion. 
+
+Materials and methods 
+
+Yeast strains 
+
+The yeast strains used in this study are listed in Supplementary Table 1 . Genomic deletions were characterized with respect to expression and autophagic flux as shown in Supplementary Fig. 4 . Yeast genomic insertions and tagging were performed according to Janke et al. (Janke et al., 2004), and multiple deletions were generated by PCR knockout, mating, and dissection. GFP-ATG8-containing strains were generated by crossing with yTB282 ( hi3 Δ1 leu2 Δ0 met15 Δ ura3 Δ0 atg8 ::GFP-ATG8 ), which had been generated by seamless tagging (Khmelinskii et al., 2011). The genotype of generated strain was confirmed by colony PCR and Western blot analysis. For live-cell imaging of Vps8 and Atg8, the ATG2 coding region was replaced with the 
+
+hygromycin-resistance gene (hphNT1) to create the atg2 Δ strain, using PCR primers 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+16 containing 60 bases of identity to the regions flanking the open reading frame (Janke et al., 2004). Gene knockout was verified by polymerase chain reaction (PCR) and Ape1 processing analysis (Mari et al., 2010). PCR-based integration of mScarlet tag at the 3’ end of VPS8 was used to generate a strain expressing C-terminal fusion protein under the control of the authentic promoter. The plasmid template for integration was pFA6-mScarlet-NatMX6. For live-cell imaging of Atg2 and Atg8, Δatg2::atg2 PM4 -3xGFP-CaURA3 strains were generated by assembling the following fragments via gap repair into a pRS315 plasmid backbone: (1) a 1000 bp long region 5’-upstream of the endogenous ATG2 locus, (2) full length atg2 PM4 C-terminally tagged with 3xGFP-CaURA3 derived from a pFA6a -link-3yEGFP-CaURA3 plasmid , and (4) a 1000 bp long region 3’-downstream of the endogenous ATG2 locus. Following isolation, the plasmid was sequenced and enzymatically digested using the restriction enzymes Spe I and Sal I. Next, the cut plasmid fragment was transformed into pRS304-mCherry -ATG8 Δatg19::His3MX6 
+
+Δatg2::NatMX6 cells. The Δ atg2::Nat3MX6 cassette was replaced with the atg2 PM4 -3xGFP-CaUraMX6 construct via homologous recombination at the endogenous ATG2 
+
+locus, resulting in the generation of pRS304-mCherry -ATG8 Δatg19::His3MX6 
+
+Δatg2::atg2 PM4 -3xGFP-CaURA3 cells. 
+
+Growth conditions 
+
+Strains were grown in rich (YPD) media containing 1 % yeast extract, 2 % peptone (BD) and 2 % glucose; or in synthetic drop-out media (-Leu, -Ura, or -Leu-Ura, Formedium) supplemented with 2 % glucose; or nitrogen starvation medium (SD-N) media containing 0.17 % yeast nitrogen base without amino acids or ammonium sulfate (ThermoFisher Scientific) and 2 % glucose to mid-log phase. Pre-cultures (10 ml) for vitrification in either YPD or synthetic drop-out media were inoculated with a single colony. Cells were cultured at 30°C for at least 14 hours to ensure cells would not be stressed. The O.D. 600 was monitored and as soon as it was between 0.55 and 0.8 the culture was used for starvation and plunge freezing. For nitrogen starvation, the cells were pelleted at 3000 x g for 5 minutes and washed three times with SD-N 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+17 media. Cells were incubated in SD-N media for a minimum of 2 hours and a maximum of 5 hours before vitrification. 
+
+Yeast cell transformation 
+
+Plasmids used in this work are listed in Supplementary Table 2 . Transformation procedures are described in (Gietz, 2014) as the ’Quick and Easy Transformation Protocol’ with minor modifications also known as the LiAc/SS Carrier DNA/PEG method. In brief, the transformation buffer was prepared in advance with 0.24 M Lithium acetate, 47% PEG 3350 (sterile filtered). The reaction mix was composed of 5 μl single stranded salmon sperm carrier DNA (Sigma Aldrich), 85 μl transformation buffer, 10 μl 1M DTT and 0.5 to 2 μl of the plasmid (300 to 500 ng/ μl concentration). The yeast patch was scraped off the agar with a sterile loop and mixed into the transformation reaction mix directly. This suspension was very briefly vortexed and incubated at 45°C for exactly 30 min. Finally, the reaction mix was plated out on the appropriate selection agar plate. 
+
+Detection of expression and autophagy flux 
+
+Yeast cell cultures were precipitated with 7% trichloroacetic acid (TCA) for 30 min on ice. Precipitated proteins were pelleted at 16,000 x g for 15 min at 4ºC, washed with 1 ml acetone, air-dried, resuspended in urea loading buffer (120 mM Tris-HCl pH 6.8, 5% glycerol, 8 M urea, 143 mM β-mercaptoethanol, 8% SDS), boiled and analyzed by SDS-PAGE followed by immunoblotting. 
+
+Antibodies 
+
+The following antibodies were used in this study: rabbit polyclonal anti-Snf7 (1:5,000, David Teis, Medical University Innsbruck), rabbit polyclonal anti-Ape1 (1:15,000), was generated by immunizing rabbits with a synthetic peptide corresponding to amino acids 168-182 (Papinski et al., 2014), mouse monoclonal anti-RFP (1:1,000, 6g6, Ref No. 6g6-100 Lot No51020014AB-05, Chromotek). 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+18 
+
+Live-cell fluorescence microscopy 
+
+Imaging of Vps8 and Atg8: To examine bulk autophagy, cells were grown in SD-URA medium before transferring them in SD-N medium for 2 hours. Cells were incubated with CellTracker™ Blue 7-amino-4-chloromethylcoumarin dye (CMAC, ThermoFisher Scientific, C2110) as previously described (Stefan and Blumer, 1999) for 10 minutes to stain the vacuolar lumen. Images were acquired with a DeltaVision Elite RT microscope system (GE Healthcare, Applied Precision), equipped with a UPLASPO 100 × oil/1.40 NA objective, a pco.edge 5.5 sCMOS camera (PCO) and a seven-colour InsightSSI solid-state illumination system (GE Healthcare, Applied Precision). Images were generated by collecting a Z-stack of 22 pictures with focal planes 0.20 μm apart to cover the entire volume of a yeast cell, and subsequently deconvolved using the SoftWoRx software (Applied Precision). A single focal plane is shown in the figures. Percentage of Atg8-positive structures associated to the Vps8 clusters was determined by analyzing 50 cells from three independent experiments. Data represent the average of three independent biological replicates ± standard deviation (SD). The shown data are those of a representative experiment. Data were statistically analyzed with GraphPad Prism 6 (GraphPad Software Inc.), using a two-tailed unpaired t-test with Welch’s correction. All comparisons with a p-value less than 0.05 ( p < 0.05) were considered statistically significant and indicated with a single asterisk. Imaging of Atg2 and Atg8: S. cerevisiae cells were imaged at room temperature after 1 hour of nitrogen starvation in 96-well glass-bottom microplates (Greiner Bio-One). Live-cell images and semi-three-dimensional time-lapse fluorescence images were taken using a Dragonfly 500 spinning disk microscope (Andor) attached to an inverted Ti2 microscope stand (Nikon) with a CFI Plan Apo Lambda 60Å~/1.4 oil immersion objective (Nikon) and a Zyla 4.2 sCMOS camera (Andor). Following acquisition, images were processed using Fiji version 2.1.0. The number of Atg8 puncta and expanded autophagosomal membranes including expanded tubular and ring-shaped structures was analyzed after 1 hour of nitrogen starvation, by randomly marking 50 cells with the Fiji multipoint tool. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+19 
+
+Cell vitrification 
+
+Nitrogen starved S. cerevisiae cells were applied to Quantifoil (Großlöbichau, Germany) grids (Cu 200 mesh, R2/1, either Carbon or SiO2 film). In some cases, carboxylate-modified microspheres (1 μm diameter crimson or 1 μm diameter blue, Invitrogen, ThermoFisher Scientific, Waltham, MA, US) were added to the cell suspension prior to plunge freezing. Cells were vitrified using a liquid ethane/propane mixture or liquid ethane at liquid nitrogen temperature and a Vitrobot Mark IV (ThermoFisher Scientific, Waltham, MA, USA). Back-side blotting was carried out by covering the paddle of the device on the side of the grid film with a Teflon disc (generous donation from Dr. Julia Mahamid). The paddle at the back side of the grid was covered with filter paper (Whatman 597, Maidstone, UK) as customary. For a given grid, 7 μl of cell suspension were applied and after one second wait time excess liquid was blotted away. The blot time ranged from 10 to 13 seconds. Blot force was kept consistently at -10, chamber humidity at 80 % and chamber temperature at 30 °C. After plunge-freezing the grids, they were usually clipped into autogrids (ThermoFisher Scientifc, Waltham, MA, USA) for further electron microscopy applications. 
+
+Lamella Preparation 
+
+For this work, the Aquilos 2 dual-beam FIB microscope (ThermoFisher Scientific, Waltham, MA, USA) was used. Grids were kept at approx. -195 °C during the entire milling procedure. FIB-milling procedures were carried out as for instance described in (Schaffer et al., 2017) with some modifications. Lamella were milled using the gallium beam at 30 kV (0.1 nA to 10 pA) with a typical milling angle of 10 ° (i.e. stage angle of 17 °). After setting eucentric height at the sites of interest, the grids were sputter-coated with platinum (30 mA, 0.1 mbar) for 15 seconds, then coated with an organometallic platinum layer using the gas injection system (GIS) for 90 to 105 seconds. Subsequently, another sputter-coating layer was applied (30 mA, 0.1 mbar) for 15 seconds. Most of the milling sessions were carried out using the automated milling software AutoTEM (ThermoFisher Scientific, Waltham, MA, USA), followed by manual polishing. Once the lamellae were at their final thickness, in some cases a 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+20 final sputter coat would be applied (30 mA, 0.1 mbar) for three seconds. Lamellae were imaged on the retro-fitted Meteor (Delmic BV, Delft, NL) bright-field cryo-fluorescence microscope with 50x 0.5 NA (Olympus LMPLFLN WD 10.6 mm) objective. The sample was kept at approx. -195 °C on the stage of the Aquilos 2 during measurements. Except for one tomogram ( Fig. 1i ), all tomographic data was collected based on FM-TEM correlation from images collected with the Meteor. 
+
+Cryo-electron tomography 
+
+After preparation and fluorescent imaging of the lamellae, the grids were transferred to the following transmission electron microscopes: a Talos Arctica (200keV, ThermoFisher Scientific, Waltham, MA, USA) microscope together with a K3 direct electron detector with Quantum GIF filter (Gatan Inc., Pleasanton, CA, USA) and Titan Krios (300 keV, ThermoFisher Scientific, Waltham, MA, USA) equipped with a Falcon 4 direct electron detector (ThermoFisher Scientific, Waltham, MA, USA). In both cases, cameras were operated in movie mode with 10 to 15 frames per movie. For data collection and correlation of TEM overview images with fluorescence data on the Talos Arctica, the software package SerialEM (Mastronarde, 2003) was used. For acquisition of lamella overview images and correlation with fluorescence data on the Titan Krios the Maps software (ThermoFisher Scientific, Waltham, MA, USA) was utilized. For automated acquisition of tilt series on the Titan Krios the Tomography software (ThermoFisher Scientific, Waltham, MA, USA) was used. Tilt series were acquired using the dose-symmetric acquisition scheme (Hagen et al., 2017) implemented in both SerialEM and Tomography over an angular range of -60° to +60° with 2° increments. The set defocus was -5 μm and cumulative dose was kept below 130 e -/Å. The pixel size ranged from 1.74 to 2.78 Å depending on the camera and camera operation mode. Only four tilt series were collected on the Titan Krios, these were tilt series of the Atg2-WT of which two tomographic slices are shown in Fig. 1g and h. All other tomographic data analyzed in this manuscript were acquired on the Talos Arctica. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+21 
+
+Tomographic image processing 
+
+For the tomographic data processing and analysis workflow, acquired tilt frames were preprocessed using WARP (Tegunov and Cramer, 2019). Patch-tracking guided tilt series alignment and tomogram reconstruction based on weighted back projection was done with IMOD (Mastronarde, 1997; Kremer et al., 1996) or AreTomo (Zheng et al., 2022). Denoising and missing wedge correction were carried out with the help of IsoNet (Liu et al., 2022). Segmentation was done with MemBrain v2 (Lamm et al., 2024) (an updated version from MemBrain (Lamm et al., 2022)) using its pretrained model (Version b from 10th Aug 2023) on the non-denoised data. Segmentations were subsequently manually corrected and completed using Dragonfly software, Version 2022.2 (Comet Technologies Canada Inc.). The data evaluation and quantification of the presented tomograms were carried out on tomographic slices in 2D with the help of CryoVIA (Schönnenbeck et al., 2025). Segmentations of regions of interest were manually separated, saved to individual .tif files and input into the toolkit. Prior to curvature measurements, a Gaussian filter (window size of 9 and sigma of 4) was applied in order to avoid overfitting curvature inaccuracies due to small errors in the segmentation. Subsequently a single pixel-wide skeleton of the membrane was generated. For each pixel of this skeleton, the curvature was determined by selecting the neighboring pixels in each direction along the skeleton up to 500 Å away from the pixel of interest. Next, a circle with the best possible fit through these pixels was generated. The inverse of this circle’s radius was defined as the curvature of the pixel of interest. For distance measurements, the single pixel skeleton was also used. A support vector machine was used to determine a line separating the two sides of the segmented rim sections, i.e. tips. The length of perpendicular lines (relative to the separation line) connecting individual pixels of each side of the tip were then determined and defined as the distance between the given two pixels. Circularity is defined here as ! × $ × %&'%  
+
+> ()*(+,-.*./(. !
+
+. Circularity of vesicles could only be determined for vesicles where the segmentation was complete and had no gaps, as the area was otherwise not clearly defined. Data analysis and plotting were carried out in Origin(Pro) 2023 (Version 10.0.0.154, OriginLab Corporation, Northampton, MA, USA). 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+22 
+
+Illustrations and figures 
+
+Fluorescence images from the Meteor bright-field cryo-fluorescence microscope were generated using the proprietary software Odemis (Delmic BV, Delft, NL). Figures of tomograms were made using IMOD (Kremer et al., 1996) and Dragonfly software, Version 2022.2 (Comet Technologies Canada Inc.). For live-cell imaging figure preparation, Fiji, Photoshop CC and Illustrator CC software (Adobe) were used. Some of the structural biology software used in this work, such as IMOD, AreTomo, IsoNet, and PyMOL was compiled and configured by SBGrid (Morin et al., 2013). 
+
+Data availability 
+
+Tomography data is available at the EMDB, accession number XXX. The remaining data is available upon request to the corresponding author. 
+
+Acknowledgements 
+
+We gratefully acknowledge the electron microscopy training, imaging and access time granted by the life science EM facility of the Ernst-Ruska Centre at Forschungszentrum Jülich. We thank Dr. Julio Ortiz for SerialEM training and support in setting up the SerialEM imaging settings. We also thank David Kartte for his help in setting up processing software and segmentation training. We thank Prof. Fulvio Reggiori (Department of Biomedicine, Aarhus University, Denmark) for reagents. The authors gratefully acknowledge the computing time granted by the JARA Vergabegremium and provided on the JARA Partition part of the supercomputer JURECA at Forschungszentrum Jülich (Thörnig, 2021). The authors acknowledge financial support through Gravitation grant “FLOW” (024.006.036) from the Dutch Ministry of Education, Culture, and Science (OCW) (R. G.-S.). The Kraft laboratory has received funding from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) Project-ID 450216812, Project ID 409673687, SFB 1381 (Project ID 403222702), under Germany's Excellence Strategy (CIBSS - EXC-2189-Project ID 390939984), from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme under grant 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+23 agreement No 769065. This work reflects only the authors’ view and the European Union's Horizon 2020 research and innovation programme is not responsible for any use that may be made of the information it contains. 
+
+Competing interests statement 
+
+The authors declare no competing interests. 
+
+Author contributions : C. O. P. N.: Conceptualization, EM sample preparation, EM data acquisition, EM data analysis, and manuscript preparation (original draft, review, and editing). M. L.: Generation of yeast strains, biochemical and fluorescence microscopy validation, conceptualization and scientific discussions, and manuscript review. R. D.: Generation of yeast strains, fluorescence microscopy, investigation, scientific discussions, and manuscript review. R. G.-S.: Generation of plasmids and yeast strain, fluorescence microscopy, investigation, scientific discussions, and manuscript review. S. B.: Training and technical support in CLEM sample preparation and EM data acquisition, scientific discussions, manuscript review. P. S.: Coding and running of evaluation software, and manuscript review. M. G.: Investigation, resources, scientific discussions, and manuscript review. C. K.: Investigation, resources, scientific discussions, and manuscript review and editing. C. S.: Conceptualization, investigation, funding acquisition, project administration, resources, supervision, and manuscript preparation (original draft, review, and editing). 
+
+References 
+
+Bieber, A., Capitanio, C., Erdmann, P.S., Fiedler, F., Beck, F., Lee, C.-W., Li, D., Hummer, G., Schulman, B.A., Baumeister, W., Wilfling, F., 2022. In situ structural analysis reveals membrane shape transitions during autophagosome formation. Proc. Natl. Acad. Sci. 119, e2209823119. https://doi.org/10.1073/pnas.2209823119 Bykov, Y.S., Schaffer, M., Dodonova, S.O., Albert, S., Plitzko, J.M., Baumeister, W., Engel, B.D., Briggs, J.A., 2017. The structure of the COPI coat determined within the cell. eLife 6, e32493. https://doi.org/10.7554/eLife.32493 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+24 Cheng, J., Fujita, A., Yamamoto, H., Tatematsu, T., Kakuta, S., Obara, K., Ohsumi, Y., Fujimoto, T., 2014. Yeast and mammalian autophagosomes exhibit distinct phosphatidylinositol 3-phosphate asymmetries. Nat. Commun. 5, 3207. https://doi.org/10.1038/ncomms4207 Cheng, Y., Boll, W., Kirchhausen, T., Harrison, S.C., Walz, T., 2007. Cryo-electron Tomography of Clathrin-coated Vesicles: Structural Implications for Coat Assembly. J. Mol. Biol. 365, 892–899. https://doi.org/10.1016/j.jmb.2006.10.036 Chowdhury, S., Otomo, C., Leitner, A., Ohashi, K., Aebersold, R., Lander, G.C., Otomo, T., 2018. Insights into autophagosome biogenesis from structural and biochemical analyses of the ATG2A-WIPI4 complex. Proc. Natl. Acad. Sci. 115. https://doi.org/10.1073/pnas.1811874115 Chumpen Ramirez, S., Gómez-Sánchez, R., Verlhac, P., Hardenberg, R., Margheritis, E., Cosentino, K., Reggiori, F., Ungermann, C., 2023. Atg9 interactions via its transmembrane domains are required for phagophore expansion during autophagy. Autophagy 19, 1459–1478. https://doi.org/10.1080/15548627.2022.2136340 Dabrowski, R., Tulli, S., Graef, M., 2023. Parallel phospholipid transfer by Vps13 and Atg2 determines autophagosome biogenesis dynamics. J. Cell Biol. 222, e202211039. https://doi.org/10.1083/jcb.202211039 De, M., Oleskie, A.N., Ayyash, M., Dutta, S., Mancour, L., Abazeed, M.E., Brace, E.J., Skiniotis, G., Fuller, R.S., 2017. The Vps13p–Cdc31p complex is directly required for TGN late endosome transport and TGN homotypic fusion. J. Cell Biol. 216, 425–439. https://doi.org/10.1083/jcb.201606078 Donohoe, B.S., Kang, B., Gerl, M.J., Gergely, Z.R., McMichael, C.M., Bednarek, S.Y., Staehelin, L.A., 2013. Cis ‐Golgi Cisternal Assembly and Biosynthetic Activation Occur Sequentially in Plants and Algae. Traffic 14, 551–567. https://doi.org/10.1111/tra.12052 Förster, F., Briegel, A. (Eds.), 2024. Cryo-Electron Tomography: Structural Biology in situ, Focus on Structural Biology. Springer International Publishing, Cham. https://doi.org/10.1007/978-3-031-51171-4 Frolov, V.A., Shnyrova, A.V., Zimmerberg, J., 2011. Lipid Polymorphisms and Membrane Shape. Cold Spring Harb. Perspect. Biol. 3, a004747–a004747. https://doi.org/10.1101/cshperspect.a004747 Fujioka, Y., Alam, J.Md., Noshiro, D., Mouri, K., Ando, T., Okada, Y., May, A.I., Knorr, R.L., Suzuki, K., Ohsumi, Y., Noda, N.N., 2020. Phase separation organizes the site of autophagosome formation. Nature 578, 301–305. https://doi.org/10.1038/s41586-020-1977-6 Ghanbarpour, A., Valverde, D.P., Melia, T.J., Reinisch, K.M., 2021. A model for a partnership of lipid transfer proteins and scramblases in membrane expansion and organelle biogenesis. Proc. Natl. Acad. Sci. 118. https://doi.org/10.1073/pnas.2101562118 Gietz, R.D., 2014. Yeast Transformation by the LiAc/SS Carrier DNA/PEG Method, in: Smith, J.S., Burke, D.J. (Eds.), Yeast Genetics. Springer New York, New York, NY, pp. 1–12. https://doi.org/10.1007/978-1-4939-1363-3_1 Gómez-Sánchez, R., Chumpen Ramirez, S., Vargas Duarte, P., Hu, Y., Mari, M., Olschewski, K., Hardenberg, R., Fromme, J.C., Ungermann, C., Reggiori, F., 2025. Establishment of the phagophore–ERES membrane contact site initiates 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+25 phagophore elongation. Nat. Struct. Mol. Biol. https://doi.org/10.1038/s41594-025-01621-6 Gómez-Sánchez, R., Rose, J., Guimarães, R., Mari, M., Papinski, D., Rieter, E., Geerts, W.J., Hardenberg, R., Kraft, C., Ungermann, C., Reggiori, F., 2018. Atg9 establishes Atg2-dependent contact sites between the endoplasmic reticulum and phagophores. J. Cell Biol. 217, 2743–2763. https://doi.org/10.1083/jcb.201710116 Gorur, A., Yuan, L., Kenny, S.J., Baba, S., Xu, K., Schekman, R., 2017. COPII-coated membranes function as transport carriers of intracellular procollagen I. J. Cell Biol. 216, 1745–1759. https://doi.org/10.1083/jcb.201702135 Graef, M., Friedman, J.R., Graham, C., Babu, M., Nunnari, J., 2013. ER exit sites are physical and functional core autophagosome biogenesis components. Mol. Biol. Cell 24, 2918–2931. https://doi.org/10.1091/mbc.e13-07-0381 Hagen, W.J.H., Wan, W., Briggs, J.A.G., 2017. Implementation of a cryo-electron tomography tilt-scheme optimized for high resolution subtomogram averaging. J. Struct. Biol. 197, 191–198. https://doi.org/10.1016/j.jsb.2016.06.007 Hanada, T., Noda, N.N., Satomi, Y., Ichimura, Y., Fujioka, Y., Takao, T., Inagaki, F., Ohsumi, Y., 2007. The Atg12-Atg5 Conjugate Has a Novel E3-like Activity for Protein Lipidation in Autophagy. J. Biol. Chem. 282, 37298–37302. https://doi.org/10.1074/jbc.C700195200 Hollenstein, D.M., Gómez-Sánchez, R., Ciftci, A., Kriegenburg, F., Mari, M., Torggler, R., Licheva, M., Reggiori, F., Kraft, C., 2019. Vac8 spatially confines autophagosome formation at the vacuole in S. cerevisiae. J. Cell Sci. 132, jcs235002. https://doi.org/10.1242/jcs.235002 Janke, C., Magiera, M.M., Rathfelder, N., Taxis, C., Reber, S., Maekawa, H., Moreno ‐
+
+Borchart, A., Doenges, G., Schwob, E., Schiebel, E., Knop, M., 2004. A versatile toolbox for PCR ‐based tagging of yeast genes: new fluorescent proteins, more markers and promoter substitution cassettes. Yeast 21, 947– 962. https://doi.org/10.1002/yea.1142 John Peter, A.T., van Schie, S.N.S., Cheung, N.J., Michel, A.H., Peter, M., Kornmann, B., 2022. Rewiring phospholipid biosynthesis reveals resilience to membrane perturbations and uncovers regulators of lipid homeostasis. EMBO J. 41, e109998. https://doi.org/10.15252/embj.2021109998 Kawabata, T., Yoshimori, T., 2020. Autophagosome biogenesis and human health. Cell Discov. 6, 33. https://doi.org/10.1038/s41421-020-0166-y Khmelinskii, A., Meurer, M., Duishoev, N., Delhomme, N., Knop, M., 2011. Seamless Gene Tagging by Endonuclease-Driven Homologous Recombination. PLoS ONE 6, e23794. https://doi.org/10.1371/journal.pone.0023794 Kim, J., Hamamoto, S., Ravazzola, M., Orci, L., Schekman, R., 2005. Uncoupled Packaging of Amyloid Precursor Protein and Presenilin 1 into Coat Protein Complex II Vesicles. J. Biol. Chem. 280, 7758–7768. https://doi.org/10.1074/jbc.M411091200 Kotani, T., Kirisako, H., Koizumi, M., Ohsumi, Y., Nakatogawa, H., 2018. The Atg2-Atg18 complex tethers pre-autophagosomal membranes to the endoplasmic reticulum for autophagosome formation. Proc. Natl. Acad. Sci. 115, 10363– 10368. https://doi.org/10.1073/pnas.1806727115 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+26 Kremer, J.R., Mastronarde, D.N., McIntosh, J.R., 1996. Computer Visualization of Three-Dimensional Image Data Using IMOD. J. Struct. Biol. 116, 71–76. https://doi.org/10.1006/jsbi.1996.0013 Lamm, L., Righetto, R.D., Wietrzynski, W., Pöge, M., Martinez-Sanchez, A., Peng, T., Engel, B.D., 2022. MemBrain: A deep learning-aided pipeline for detection of membrane proteins in Cryo-electron tomograms. Comput. Methods Programs Biomed. 224, 106990. https://doi.org/10.1016/j.cmpb.2022.106990 Lamm, L., Zufferey, S., Righetto, R.D., Wietrzynski, W., Yamauchi, K.A., Burt, A., Liu, Y., Zhang, H., Martinez-Sanchez, A., Ziegler, S., Isensee, F., Schnabel, J.A., Engel, B.D., Peng, T., 2024. MemBrain v2: an end-to-end tool for the analysis of membranes in cryo-electron tomography. Preprint BioRxiv. https://doi.org/10.1101/2024.01.05.574336 Liu, Y.-T., Zhang, H., Wang, H., Tao, C.-L., Bi, G.-Q., Zhou, Z.H., 2022. Isotropic reconstruction for electron tomography with deep learning. Nat. Commun. 13, 6482. https://doi.org/10.1038/s41467-022-33957-8 Maeda, S., Otomo, C., Otomo, T., 2019. The autophagic membrane tether ATG2A transfers lipids between membranes. eLife 8, e45777. https://doi.org/10.7554/eLife.45777 Maeda, S., Yamamoto, H., Kinch, L.N., Garza, C.M., Takahashi, S., Otomo, C., Grishin, N.V., Forli, S., Mizushima, N., Otomo, T., 2020. Structure, lipid scrambling activity and role in autophagosome formation of ATG9A. Nat. Struct. Mol. Biol. 1–8. https://doi.org/10.1038/s41594-020-00520-2 Mari, M., Griffith, J., Rieter, E., Krishnappa, L., Klionsky, D.J., Reggiori, F., 2010. An Atg9-containing compartment that functions in the early steps of autophagosome biogenesis. J. Cell Biol. 190, 1005–1022. https://doi.org/10.1083/jcb.200912089 Mastronarde, D.N., 2003. SerialEM: A Program for Automated Tilt Series Acquisition on Tecnai Microscopes Using Prediction of Specimen Position. Microsc. Microanal. 9, 1182–1183. https://doi.org/10.1017/S1431927603445911 Mastronarde, D.N., 1997. Dual-Axis Tomography: An Approach with Alignment Methods That Preserve Resolution. J. Struct. Biol. 120, 343–352. https://doi.org/10.1006/jsbi.1997.3919 Matoba, K., Kotani, T., Tsutsumi, A., Tsuji, T., Mori, T., Noshiro, D., Sugita, Y., Nomura, N., Iwata, S., Ohsumi, Y., Fujimoto, T., Nakatogawa, H., Kikkawa, M., Noda, N.N., 2020. Atg9 is a lipid scramblase that mediates autophagosomal membrane expansion. Nat. Struct. Mol. Biol. 1–9. https://doi.org/10.1038/s41594-020-00518-w Morin, A., Eisenbraun, B., Key, J., Sanschagrin, P.C., Timony, M.A., Ottaviano, M., Sliz, P., 2013. Collaboration gets the most out of software. eLife 2, e01456. https://doi.org/10.7554/eLife.01456 Morita, K., Hama, Y., Izume, T., Tamura, N., Ueno, T., Yamashita, Y., Sakamaki, Y., Mimura, K., Morishita, H., Shihoya, W., Nureki, O., Mano, H., Mizushima, N., 2018. Genome-wide CRISPR screen identifies TMEM41B as a gene required for autophagosome formation. J. Cell Biol. 217, 3817–3828. https://doi.org/10.1083/jcb.201804132 Nakatogawa, H., 2020. Mechanisms governing autophagosome biogenesis. Nat. Rev. Mol. Cell Biol. 21, 439–458. https://doi.org/10.1038/s41580-020-0241-0 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+27 Noda, N.N., 2023. Structural view on autophagosome formation. FEBS Lett. 1873-3468.14742. https://doi.org/10.1002/1873-3468.14742 Noda, T., Kim, J., Huang, W.-P., Baba, M., Tokunaga, C., Ohsumi, Y., Klionsky, D.J., 2000. Apg9p/Cvt7p Is an Integral Membrane Protein Required for Transport Vesicle Formation in the Cvt and Autophagy Pathways. J. Cell Biol. 148, 465– 480. https://doi.org/10.1083/jcb.148.3.465 Olivas, T.J., Wu, Y., Yu, S., Luan, L., Choi, P., Guinn, E.D., Nag, S., De Camilli, P.V., Gupta, K., Melia, T.J., 2023. ATG9 vesicles comprise the seed membrane of mammalian autophagosomes. J. Cell Biol. 222, e202208088. https://doi.org/10.1083/jcb.202208088 Osawa, T., Kotani, T., Kawaoka, T., Hirata, E., Suzuki, K., Nakatogawa, H., Ohsumi, Y., Noda, N.N., 2019. Atg2 mediates direct lipid transfer between membranes for autophagosome formation. Nat. Struct. Mol. Biol. 26, 281–288. https://doi.org/10.1038/s41594-019-0203-4 Papinski, D., Schuschnig, M., Reiter, W., Wilhelm, L., Barnes, C.A., Maiolica, A., Hansmann, I., Pfaffenwimmer, T., Kijanska, M., Stoffel, I., Lee, S.S., Brezovich, A., Lou, J.H., Turk, B.E., Aebersold, R., Ammerer, G., Peter, M., Kraft, C., 2014. Early Steps in Autophagy Depend on Direct Phosphorylation of Atg9 by the Atg1 Kinase. Mol. Cell 53, 471–483. https://doi.org/10.1016/j.molcel.2013.12.011 Raymond, C.K., Howald-Stevenson, I., Vater, C.A., Stevens, T.H., 1992. Morphological classification of the yeast vacuolar protein sorting mutants: evidence for a prevacuolar compartment in class E vps mutants. Mol. Biol. Cell 3, 1389–1402. https://doi.org/10.1091/mbc.3.12.1389 Romanov, J., Walczak, M., Ibiricu, I., Schüchner, S., Ogris, E., Kraft, C., Martens, S., 2012. Mechanism and functions of membrane binding by the Atg5-Atg12/Atg16 complex during autophagosome formation: Role of Atg5-Atg12/Atg16 during autophagy. EMBO J. 31, 4304–4317. https://doi.org/10.1038/emboj.2012.278 Russell, M.R.G., Shideler, T., Nickerson, D.P., West, M., Odorizzi, G., 2012. Class E compartments form in response to ESCRT dysfunction in yeast due to hyperactivity of the Vps21 Rab GTPase. J. Cell Sci. jcs.111310. https://doi.org/10.1242/jcs.111310 Sawa-Makarska, J., Baumann, V., Coudevylle, N., Bülow, S. von, Nogellova, V., Abert, C., Schuschnig, M., Graef, M., Hummer, G., Martens, S., 2020. Reconstitution of autophagosome nucleation defines Atg9 vesicles as seeds for membrane formation. Science 369. https://doi.org/10.1126/science.aaz7714 Schaffer, M., Mahamid, J., Engel, B.D., Laugks, T., Baumeister, W., Plitzko, J.M., 2017. Optimized cryo-focused ion beam sample preparation aimed at in situ structural studies of membrane proteins. J. Struct. Biol. 197, 73–82. https://doi.org/10.1016/j.jsb.2016.07.010 Schindelin, J., Arganda-Carreras, I., Frise, E., Kaynig, V., Longair, M., Pietzsch, T., Preibisch, S., Rueden, C., Saalfeld, S., Schmid, B., Tinevez, J.-Y., White, D.J., Hartenstein, V., Eliceiri, K., Tomancak, P., Cardona, A., 2012. Fiji: an open-source platform for biological-image analysis. Nat. Methods 9, 676–682. https://doi.org/10.1038/nmeth.2019 Schönnenbeck, P., Junglas, B., Sachse, C., 2025. CryoVIA: An image analysis toolkit for the quantification of membrane structures from cryo-EM micrographs. Structure S0969212625000139. https://doi.org/10.1016/j.str.2025.01.013 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+28 Schütter, M., Giavalisco, P., Brodesser, S., Graef, M., 2020. Local Fatty Acid Channeling into Phospholipid Synthesis Drives Phagophore Expansion during Autophagy. Cell 180, 135-149.e14. https://doi.org/10.1016/j.cell.2019.12.005 Shatz, O., Fraiberg, M., Isola, D., Das, S., Gogoi, O., Polyansky, A., Shimoni, E., Dadosh, T., Dezorella, N., Wolf, S.G., Elazar, Z., 2024. Rim aperture of yeast autophagic membranes balances cargo inclusion with vesicle maturation. Dev. Cell S153458072400073X. https://doi.org/10.1016/j.devcel.2024.02.002 Shibutani, S.T., Yoshimori, T., 2014. A current perspective of autophagosome biogenesis. Cell Res. 24, 58–68. https://doi.org/10.1038/cr.2013.159 Shima, T., Kirisako, H., Nakatogawa, H., 2019. COPII vesicles contribute to autophagosomal membranes. J. Cell Biol. 218, 1503–1510. https://doi.org/10.1083/jcb.201809032 Stefan, C.J., Blumer, K.J., 1999. A Syntaxin Homolog Encoded by VAM3 Mediates Down-regulation of a Yeast G Protein-coupled Receptor. J. Biol. Chem. 274, 1835–1841. https://doi.org/10.1074/jbc.274.3.1835 Suzuki, K., Akioka, M., Kondo-Kakuta, C., Yamamoto, H., Ohsumi, Y., 2013. Fine mapping of autophagy-related proteins during autophagosome formation in 
+
+Saccharomyces cerevisiae . J. Cell Sci. jcs.122960. https://doi.org/10.1242/jcs.122960 Suzuki, K., Ohsumi, Y., 2010. Current knowledge of the pre ‐autophagosomal structure (PAS). FEBS Lett. 584, 1280–1286. https://doi.org/10.1016/j.febslet.2010.02.001 Takahashi, Y., He, H., Tang, Z., Hattori, T., Liu, Y., Young, M.M., Serfass, J.M., Chen, L., Gebru, M., Chen, C., Wills, C.A., Atkinson, J.M., Chen, H., Abraham, T., Wang, H.-G., 2018. An autophagy assay reveals the ESCRT-III component CHMP2A as a regulator of phagophore closure. Nat. Commun. 9. https://doi.org/10.1038/s41467-018-05254-w Takeshige, K., Baba, M., Tsuboi, S., Noda, T., Ohsumi, Y., 1992. Autophagy in yeast demonstrated with proteinase-deficient mutants and conditions for its induction. J. Cell Biol. 119, 301–311. https://doi.org/10.1083/jcb.119.2.301 Tegunov, D., Cramer, P., 2019. Real-time cryo-electron microscopy data preprocessing with Warp. Nat. Methods 16, 1146–1152. https://doi.org/10.1038/s41592-019-0580-y Thörnig, P., 2021. JURECA: Data Centric and Booster Modules implementing the Modular Supercomputing Architecture at Jülich Supercomputing Centre. J. Large-Scale Res. Facil. JLSRF 7, A182. https://doi.org/10.17815/jlsrf-7-182 Toulmay, A., Whittle, F.B., Yang, J., Bai, X., Diarra, J., Banerjee, S., Levine, T.P., Golden, A., Prinz, W.A., 2022. Vps13-like proteins provide phosphatidylethanolamine for GPI anchor synthesis in the ER. J. Cell Biol. 221, e202111095. https://doi.org/10.1083/jcb.202111095 Tsukada, M., Ohsumi, Y., 1993. Isolation and characterization of autophagy ‐defective mutants of Saccharomyces cerevisiae. FEBS Lett. 333, 169–174. https://doi.org/10.1016/0014-5793(93)80398-E Valverde, D.P., Yu, S., Boggavarapu, V., Kumar, N., Lees, J.A., Walz, T., Reinisch, K.M., Melia, T.J., 2019. ATG2 transports lipids to promote autophagosome biogenesis. J. Cell Biol. 218, 1787–1798. https://doi.org/10.1083/jcb.201811139 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+29 Van Vliet, A.R., Chiduza, G.N., Maslen, S.L., Pye, V.E., Joshi, D., De Tito, S., Jefferies, H.B.J., Christodoulou, E., Roustan, C., Punch, E., Hervás, J.H., O’Reilly, N., Skehel, J.M., Cherepanov, P., Tooze, S.A., 2022. ATG9A and ATG2A form a heteromeric complex essential for autophagosome formation. Mol. Cell 82, 4324-4339.e8. https://doi.org/10.1016/j.molcel.2022.10.017 Van Vliet, A.R., Jefferies, H.B.J., Faull, P.A., Chadwick, J., Ibrahim, F., Skehel, M.J., Tooze, S.A., 2024. Exploring the ATG9A interactome uncovers interaction with VPS13A. J. Cell Sci. 137, jcs261081. https://doi.org/10.1242/jcs.261081 Wang, Y., Dahmane, S., Ti, R., Mai, X., Zhu, L., Carlson, L.-A., Stjepanovic, G., 2025. Structural basis for lipid transfer by the ATG2A–ATG9A complex. Nat. Struct. Mol. Biol. 32, 35–47. https://doi.org/10.1038/s41594-024-01376-6 Wen, X., Klionsky, D.J., 2016. An overview of macroautophagy in yeast. J. Mol. Biol. 428, 1681–1699. https://doi.org/10.1016/j.jmb.2016.02.021 Xie, Z., Klionsky, D.J., 2007. Autophagosome formation: core machinery and adaptations. Nat. Cell Biol. 9, 1102–1109. https://doi.org/10.1038/ncb1007-1102 Yamamoto, H., Kakuta, S., Watanabe, T.M., Kitamura, A., Sekito, T., Kondo-Kakuta, C., Ichikawa, R., Kinjo, M., Ohsumi, Y., 2012. Atg9 vesicles are an important membrane source during early steps of autophagosome formation. J. Cell Biol. 198, 219–233. https://doi.org/10.1083/jcb.201202061 Zanetti, G., Prinz, S., Daum, S., Meister, A., Schekman, R., Bacia, K., Briggs, J.A., 2013. The structure of the COPII transport-vesicle coat assembled on membranes. eLife 2, e00951. https://doi.org/10.7554/eLife.00951 Zheng, S., Wolff, G., Greenan, G., Chen, Z., Faas, F.G.A., Bárcena, M., Koster, A.J., Cheng, Y., Agard, D.A., 2022. AreTomo: An integrated software package for automated marker-free, motion-corrected cryo-electron tomographic alignment and reconstruction. J. Struct. Biol. X 6, 100068. https://doi.org/10.1016/j.yjsbx.2022.100068 Zhou, F., Wu, Z., Zhao, M., Murtazina, R., Cai, J., Zhang, A., Li, R., Sun, D., Li, W., Zhao, L., Li, Q., Zhu, J., Cong, X., Zhou, Y., Xie, Z., Gyurkovska, V., Li, L., Huang, X., Xue, Y., Chen, L., Xu, Hui, Xu, Haiqian, Liang, Y., Segev, N., 2019. Rab5-dependent autophagosome closure by ESCRT. J. Cell Biol. 218, 1908– 1927. https://doi.org/10.1083/jcb.201811173 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+1
+
+Figure 1. Fluorescence light microscopy live-cell imaging of autophagosome biogenesis in Atg2-PM4 cells and imaging of Atg8 and Vps8-positive structures. a) Representative live-cell fluorescence microscopy images of cells expressing Atg2 (Atg2-WT) or the Atg2-PM4 mutant along with mCherry-Atg8 (W303 strain). Images were acquired after 1 h of nitrogen starvation. b) Quantifications of data shown in panel a. The relative number of Atg8 puncta and autophagosomal/phagophore structures (APs) per cell of indicated strains was analyzed. (n=4; 200 structures analyzed in total/strain). T-test. c) Quantification of live-cell timelapse fluorescent images of cells expressing Atg2-WT or the Atg2-PM4 mutant along with mCherry-ATG8 . Images were acquired after 1 h of nitrogen starvation. Duration total 
+
+describes the time from nucleation until fusion with the vacuole, as described previously (Dabrowski et al., 2023). (n=2; 10 events/strain). T-test. P-values for all Quantifications: *** 
+
+p<0.0002; **** p>0.0001. d) The snf7 Δ atg2 Δ strain (BY) expressing GFP-Atg8 and Vps8-mScarlet (RGY1381,) was transformed with an empty vector (pRS416; atg2 Δ) or plasmids expressing Atg2 or Atg2-PM4 mutant. Transformed cells were cultured in SD-URA to early log phase and transferred into SD-N starvation medium for 2 h to induce autophagy before being analyzed by live-cell imaging. e) Percentage of GFP-Atg8-labelled PAS associated with Vps8-mScarlet foci in the experiment shown in panel d). Black asterisk highlights significant differences between atg2 Δ and Atg2 cells and grey asterisk indicates significant difference between Atg2 and Atg2-PM4 cells, significant meaning p < 0.05. Quantification in panel b) represents the average of three independent experiments ±SD. DIC, differential interference contrast. Scale bars: 1 μm (panel a) 4 μm (panel d). 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+2
+
+Figure 2: Visualization of yeast phagophores by correlative light and electron microscopy. a) Schematic representation of autophagosome biogenesis including phagophore closure mediated by Snf7 that was deleted for the analysis. b) SEM image of yeast cellular lamella used to characterize wild-type phagophore elongation in snf7 Δ cells. c) Same lamella as in panel b imaged in a fluorescence microscope under cryogenic conditions. Signal shown in blue represents Atg9-3xmTagBFP2 and signal shown in red originates from polystyrene (PS) fiducial beads. d) TEM overview of the same lamella as shown in panels b and c. e) TEM overview of lamella (panel d) correlated with the fluorescence image of same lamella (panel c). Region on which tilt series was acquired is indicated by orange box. f) Tomographic slice of multiple tomograms showing phagophore, acquired from the region indicated in panel e. g)-
+
+i) Tomographic slices of phagophores from snf7 Δ yeast cells, denoised with IsoNet (Liu et al., 2022). g* )-i* ) represent enlarged views of regions from panels g) to i) marked with orange 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+3boxes. Red arrows in panels g) to i*) show densities spanning from a donor membrane to the phagophore membrane, measured lengths listed in Table 2. Phagophores are indicated with P, lipid droplets with LD, endoplasmic reticulum with ER, vacuole with V, nucleus with N. Scale bars b)-c) 10 μm, d)-e) 3 μm, f)-i) 200 nm, and g*)-i*) 100nm. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+4
+
+Figure 3: Tomogram slices of phagophore ultrastructures in Atg2-PM4 cells. a)-i* ) Tomographic slices of multiple tomograms from Atg2-PM4 mutant yeast cells, denoised with IsoNet (Liu et al., 2022). Red arrows indicate elongated densities spanning from the phagophore membrane to the ER or lipid droplets, measured lengths of such densities are listed in Table 2. h* ) Enlarged view of tomogram slice shown in panel h (orange box). i* )Enlarged view from a different tomographic z-slice from the tomogram shown in panel i (dashed orange box). Phagophores are indicated with P, lipid droplets with LD, endoplasmic reticulum with ER, vacuole with V, nucleus with N, and the cell wall with W. Asterisks indicate vesicles of unknown origin. Scale bars are 200 nm. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+5
+
+Figure 4: Quantification of morphological features in phagophores. a) Illustration of segmentation showing the analyzed parts of phagophore morphology. b)Representative two-dimensional segmentations of the Atg2-WT (brown), Atg2-PM4 ‘enlarged’ (orange) and Atg2-PM4 ‘thin’ (green) through phagophore rim. Tip represents the c) Box plot comparing the intermembrane distance of ‘backbone’ phagophore between the Atg2-WT, Atg2-PM4 enlarged and Atg2-PM4 thin. d) Box plot comparing mean phagophore tip width of all the segmented phagophores. e) Box plot comparing the maximum absolute curvature of all the segmented phagophore tips across the Atg2-WT, Atg2-PM4 enlarged and Atg2 PM4-thin 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+6phenotype. f) Distribution of percentage of pixels of segmented phagophore tips across different absolute curvature values with Gauss curve fits. g) Schematic representation of the rim opening angle as proposed by (Bieber et al., 2022). h) Relationship of rim opening angle and mean tip width. The R-square (coefficient of determination) and the adjusted R-square of the fitted curves are shown in the table below the graph. 
+
+Figure 5: Tomographic slices of phagophore rims in proximity to cytosolic vesicles in Atg2-PM4 cells. a)-e) Vesicles proximal to phagophore rims are presented in tomographic slices. f) Size distribution of vesicles. Diameters and circularity values can be found in Table 3. Scale bars are 200 nm. Tomographic slices were denoised with IsoNet (Liu et al., 2022). h) Three-dimensional isosurface rendering of the segmented phagophore in panel g) with vesicles putatively fusing to the phagophore rims. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+7
+
+Figure 6: Vesicle fusion can contribute to phagophore expansion. a) Current phagophore expansion model in wild-type Atg2 cells. Atg2-WT spatially coupled with Atg9 is localized to the phagophore rim and transfers lipids (purple arrows) from the donor membrane to the phagophore rim. Atg9 transfers lipids to the inner leaflet of the phagophore membrane by its scramblase activity (dark green arrows). As a result of the Atg2-Atg9 lipid transfer-scramblase activities, the phagophore grows. b) Proposed model of delayed phagophore expansion activity in Atg2-PM4 cells: through mislocalization of Atg2 (large red arrows) and decoupled Atg9 scramblase activity (small red arrows) growth of phagophore membrane is delayed. Cellular vesicles can provide additional lipids for its expansion (orange arrows). c) During autophagosome biogenesis, small Atg9 vesicles fuse at the phagophore assembly site during early stages to form a nascent phagophore. Once the phagophore has established the corresponding membrane contact sites with the ER/ERES, the phagophore membrane expands by lipid transfer from the donor membrane and a possible contribution of vesicle fusion at the phagophore rims. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+8
+
+Table 1: Summary of cryo-electron tomography data collection 
+
+Total tomograms collected 
+
+Tomograms containing phagophore rims 
+
+Acceleration voltage (keV) 
+
+Cell culture batch 
+
+Total 30 17 
+
+Atg2-WT 13 2 200 Batch 1 
+
+4 300 Batch 2 
+
+Atg2-PM4 17 4 200 Batch 1 
+
+7 200 Batch 2 
+
+Table 2: Length of densities tethering phagophore and putative donor membranes in both Atg2-WT and Atg2-PM4 cells 
+
+Phenotype Measured length (nm) Figure 
+
+Atg2-WT 
+
+20 Fig. 2g* (top) 
+
+21 Fig. 2g* (bottom) 
+
+24 Fig. 2h* (top) 
+
+23 Fig. 2h* (bottom) 
+
+Atg2-PM4 
+
+29 Fig. 3h* (top) 
+
+29 Fig. 3h* (bottom) 
+
+23 Fig. 3j 
+
+Table 3: Vesicle sizes and vesicle circularity*. 
+
+Vesicle Nr. Diameter (nm) 
+
+Circularity 
+
+1 115 0.88 
+
+2 110 0.89 
+
+3 125 0.89 
+
+4 122 0.89 
+
+5 37 0.88 
+
+6 67 0.9 
+
+7 113 0.9 
+
+8 66 0.9 
+
+9 124 0.81 
+
+10 147 0.78 
+
+11 149 N/A 
+
+12 169 N/A 
+
+13 188 N/A 
+
+14 189 N/A 
+
+15 168 N/A 
+
+*Circularity is defined here as ! × $ × %&'%  
+
+> ()*(+,-.*./(. !
+
+. Vesicle numbering as shown in Supplementary Figure 1. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+9
+
+Supplementary Figure 1: AlphaFold 3 prediction of S. cerevisiae Atg2. a) Predicted model shown in ribbon representation with pLDDT (predicted local distance difference test) score for each residue shown with the following color code; pLDDT > 90 dark blue, pLDDT > 70 light blue, pLDDT > 50 yellow, pLDDT < 50 orange. Prediction and illustration were generated using the AlphaFold 3 server with the protein sequence from UniProt (ID: P53855). b) PAE (predicted aligned error) score plot as generated by the AlphaFold 3 server (Abramson et al., 2024). c) The residues mutated in the Atg2-PM4 AF3 model are highlighted in blue. The β-sheets characteristic for the bridge-like lipid transfer protein family are shown in orange. Donor and phagophore membrane are illustrated at the N and C-terminus of Atg2, respectively. 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+10 
+
+Supplementary Figure 2: Tomographic slices of the Atg2-PM4 mutant cells. 
+
+Vesicles proximal to phagophore rims are zoomed in slices of tomograms presented in Fig. 2, Fig.4 and Movie 1. Panels f)-g) show the fusion of vesicles with two phagophore rims. Circularity is defined here as ! × $ × %&'% 
+
+> ()*(+,-.*./(. !
+
+. Diameters and circularity values can be found in Table 3. Scale bars 200 nm. 
+
+.CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint 11 
+
+Supplementary Figure 3: Comparison of detailed vesicle surface features with reference COPII vesicles. a) – b) Example vesicles from the Atg2-PM4 mutant. Yellow arrow heads indicate the side from which the cross section in panels a* and b* were taken. a* )-b* ) Cross-section of the region above the vesicles where a protein coat lattice should be visualizable. c) – d)Subtomogram average map projection from S. cerevisiae COPII protein coat generated by (Hutchings et al., 2021), low pass filtered to 20 Å and contrast inverted. Map was obtained from the EMDB (Entry: EMD-11199). 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+12 
+
+Supplementary Figure 4: Characterization of Atg2-PM4 expression and autophagy flux. 
+
+Western blot against Ape1 and Atg2 of lysate from wild type and atg2 Δ (complemented with Atg2-3xmScarlet and Atg2-PM4-3xmScarlet) used in this study in synthetic media and under condition of 6 hours nitrogen starvation. 
+
+.CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint 13 
+
+Supplementary Table 1: S. cerevisiae strains used in this study 
+
+Name Genotype Source 
+
+yML123 BY474x his3 Δ1 leu2 Δ0 met15 Δ0 ura3 Δ0 atg9::KAN atg2::NAT snf7 Δ::KAN 
+
+This work 
+
+yML65 BY474x his3 Δ1 leu2 Δ0 met15 Δ0 ura3 Δ0 ATG9 -3xmEGFP:NAT snf7 Δ::KAN 
+
+This work 
+
+yCK566 BY474x his3 Δ1 leu2 Δ0 met15 Δ0 ura3 Δ0 This work 
+
+yML164 BY474x his3 Δ1 leu2 Δ0 met15 Δ ura3 Δ0 GFP-ATG8 snf7 Δ::kan M. Licheva 
+
+YMG2858 W303 ATG2 -3xyEGFP-Ca URA3 pRS304-mCherry-ATG8 
+
+atg19 Δ::HIS3MX6 
+
+This work 
+
+YMG2891 W303 pRS304-mCherry-ATG8 atg19 Δ::His3MX6 
+
+atg2 Δ:: atg2 PM4 -3x yEGFP -Ca URA3 
+
+This work 
+
+RGY1381 BY474x GFP– ATG8 snf7 Δ::KAN VPS8 –mScarlet::NatMX6 atg2 Δ::hphNT1 
+
+This work 
+
+Supplementary Table 2: Plasmids used in this study 
+
+Name Features Plasmid backbone 
+
+Source 
+
+pCO114 atg2-promoter-atg2-3xmScarlet pRS315 This work 
+
+pCO119 atg2-promoter-atg2 PM4 -3xmScarlet pRS315 This work 
+
+pCO118 atg9-promoter-atg9-3xmTagBFP2 pRS415 This work 
+
+pRS416 - pRS416 (Sikorski and Hieter, 1989) 
+
+pRGS277 atg2-promoter-atg2 pRS416 This work 
+
+pRGS278 atg2-promoter-atg2 PM4 pRS416 This work 
+
+EMG841 atg2 promoter-atg2 PM4 -3xGFP-CaUraMX6 pRS315 This work 
+
+> .CC-BY-NC 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.29.715079 doi: bioRxiv preprint
+
+14 
+
+References 
+
+Abramson, J., Adler, J., Dunger, J., Evans, R., Green, T., Pritzel, A., Ronneberger, O., Willmore, L., Ballard, A.J., Bambrick, J., Bodenstein, S.W., Evans, D.A., Hung, C.-C., O’Neill, M., Reiman, D., Tunyasuvunakool, K., Wu, Z., Žemgulyt ė, A., Arvaniti, E., Beattie, C., Bertolli, O., Bridgland, A., Cherepanov, A., Congreve, M., Cowen-Rivers, A.I., Cowie, A., Figurnov, M., Fuchs, F.B., Gladman, H., Jain, R., Khan, Y.A., Low, C.M.R., Perlin, K., Potapenko, A., Savy, P., Singh, S., Stecula, A., Thillaisundaram, A., Tong, C., Yakneen, S., Zhong, E.D., Zielinski, M., Žídek, A., Bapst, V., Kohli, P., Jaderberg, M., Hassabis, D., Jumper, J.M., 2024. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630. https://doi.org/10.1038/s41586-024-07487-w Bieber, A., Capitanio, C., Erdmann, P.S., Fiedler, F., Beck, F., Lee, C.-W., Li, D., Hummer, G., Schulman, B.A., Baumeister, W., Wilfling, F., 2022. In situ structural analysis reveals membrane shape transitions during autophagosome formation. Proc. Natl. Acad. Sci. 119, e2209823119. https://doi.org/10.1073/pnas.2209823119 Hutchings, J., Stancheva, V.G., Brown, N.R., Cheung, A.C.M., Miller, E.A., Zanetti, G., 2021. Structure of the complete, membrane-assembled COPII coat reveals a complex interaction network. Nat. Commun. 12, 2034. https://doi.org/10.1038/s41467-021-22110-6 Liu, Y.-T., Zhang, H., Wang, H., Tao, C.-L., Bi, G.-Q., Zhou, Z.H., 2022. Isotropic reconstruction for electron tomography with deep learning. Nat. Commun. 13, 6482. https://doi.org/10.1038/s41467-022-33957-8 Sikorski, R.S., Hieter, P., 1989. A system of shuttle vectors and yeast host strains designed for efficient manipulation of DNA in Saccharomyces cerevisiae. Genetics 122, 19–27. https://doi.org/10.1093/genetics/122.1.19

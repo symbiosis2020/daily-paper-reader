@@ -1,0 +1,650 @@
+Title: 37073160
+
+URL Source: https://www.biorxiv.org/content/10.64898/2026.03.26.714406v1.full.pdf
+
+Number of Pages: 43
+
+Markdown Content:
+1
+
+## Tubulin glycylation regulates microtubule-protein interactions that are key for ciliary stability and trafficking 
+
+Sanjana Mullick 1,2 , Chaya S uresh Kumar 1, Sucheta Dey 1,2 , Prajwal B Koushik 1† , Rayees Ganie 1,3 , Susobhan Mahanty 1, Minhaj uddin Sirajuddin 1, Sudarshan Gadadhar 1* 
+
+> 1
+
+Institute for Stem Cell Science and Regenerative Medicine (iBRIC-inStem), GKVK Campus, Bellary Road, Bangalore - 560065, Karnataka, India  
+
+> 2
+
+Regional Centre for Biotechnology (RCB), NCR Biotech Science Cluster, 3rd Milestone, Faridabad-Gurugram Expressway, Faridabad, 121001, Haryana (NCR Delhi), India.  
+
+> 3
+
+Manipal Academy of Higher Education University, Karnataka, 576104, India  
+
+> †
+
+Present address: Universität des Saarlandes, Geb. A2 4, 3rd floor, D-66123 Saarbrücken, Germany *Corresponding author: Sudarshan Gadadhar, Institute for Stem Cell Science and Regenerative Medicine, GKVK Post, Bellary Road, Bangalore 560065, India Telephone: +91 6194 8142; Email: sudarshang@instem.res.in Keywords: tubulin glycylation, tubulin posttranslational modifications, molecular motors, microtubule-associated proteins, kinesin, cilia Running title: Tubulin glycylation regulates ciliary motors and MAPs 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+2
+
+# Abstract 
+
+Tubulin glycylation, a cilia-specific posttranslational modification is emerging as a potentially key regulator of ciliary axonemal microtubules. However, insights into the functional consequences of glycylation have remained limited. Here, using in vitro reconstitution assays with unmodified or custom-glycylated tubulin, we provide a systematic mechanistic analysis of glycylation-dependent regulation of motors and microtubule-associated proteins .Our studies highlight that glycylation selectively enhances ciliary kinesin-2 motility while reducing kinesin-1 activity, suggesting a role in promoting efficient intraflagellar transport along axonemal microtubules. Moreover, glycylation protects microtubules from decay by suppressing the activities of the depolymerase MCAK and severing enzyme spastin, thereby enhancing stability. Notably, this regulation is dependent on the proportion of glycylation on the microtubule surface, coupled with concomitant reduction of glutamylation. Thus, by generating microtubule surfaces with distinct biochemical states, we establish that combinatorial modification patterns define functional microtubule properties especially in cilia. Together, our findings provide the first comprehensive mechanistic framework for tubulin glycylation in regulating molecular motors and MAPs in cilia, establishing glycylation as a key determinant of motor selectivity and microtubule stability within the axoneme. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+3
+
+# Introduction 
+
+Microtubules perform a plethora of functions within the eukaryotic cytoskeleton, and a major contributor to this functional heterogeneity is the tubulin code 1,2 . Mammals have 9 α- and 9 β-tubulin isotypes (https://www.genenames.org/data/genegroup/#!/group/778) differentially expressed in a cell and tissue-specific manner, where the isotype diversity majorly resides on the unstructured Carboxy-terminal tails (CTT). Both α- and β-tubulin undergo diverse tubulin posttranslational modifications (PTMs; reviewed in 1,2 ). Apart from phosphorylation, methylation and acetylation that occur on the core globular structure of tubulin, all other PTMs are confined to the CTTs 1–3 .The tubulin code fine-tunes microtubule-associated protein (MAP) interactions, specifically those governed by tubulin PTMs, based on the location and pattern of modifications. Axoneme, the microtubule-based ciliary core is one of the diverse specialised microtubules enriched with many of these PTMs. Cilia and flagella regulate myriad cellular functions and hence organ physiology and the axonemes are conserved structurally across evolution. The microtubules forming the axonemes are enriched in two key tubulin modifications, glutamylation and glycylation, with glycylation uniquely observed so far only on cilia and flagella 3–7 . Both these modifications are catalysed by tubulin tyrosine-ligase like (TTLL) family of enzymes that have both substrate (α- or β-tubulin) and reaction specificities (mono- vs poly-modification; reviewed in 2,3 ) and compete for the same modification sites on both α- and β-tubulin. So far, glutamylation has been demonstrated to fine-tune microtubule-MAP interactions using in vitro 
+
+analyses, where different kinesin motors exhibited differential sensitivity to microtubules with regulated patterns of glutamylation 8. Spastin and katanin are also similarly regulated either by the length of the glutamate chain 9,10 or their specificity for either α- or β-tubulin tails 11 .
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+4
+
+Glycylation, on the other hand is the most understudied and underappreciated modification. It is involved in controlling motility in different model organisms 12–16 as well as stabilizing the axonemes and regulating primary cilia length 17 . Its importance in physiology is highlighted by the fact that absence of this modification can result in ciliopathies like male subfertility 13 , retinal degeneration 18 and colorectal cancer 19 . However, an in-depth molecular understanding of the regulation of ciliary microtubule-MAP interactions by glycylation is missing. So far, the only available evidence of its regulation of motors and MAPs is of its control of axonemal dyneins in sperm 13 , established through structural analyses and its antagonism to glutamylation in regulating katanin activity in vitro 11 . Cilia and flagella biogenesis, maintenance, and functions depend on intraflagellar transport (IFT), which helps in carrying the cargoes into and out of the cilia using molecular motors, kinesins and dyneins 
+
+> 20–22
+
+, as well as the MAPs that maintain ciliary length all of which intricately interact with axonemal microtubules. Glycylation, being exclusive to the axonemes of cilia and flagella, can potentially regulate these interactions, and understanding how this is achieved can provide key molecular insights to the importance of glycylation in ciliated cells. Isolating axonemal microtubules to understand glycylation and its regulation of microtubule-protein interactions is challenging, and the amount of tubulin obtained is limiting even for in vitro analyses. Hence, here we devised an approach to generate homogeneous, unmodified or custom-glycylated tubulin and tested it against the most important readers of the tubulin code, the molecular motors and microtubule-stabilising MAPs 1,23,24 . Our studies show that glycylation differentially affects kinesin-1 and kinesin-2, with gliding velocities of glycylated MT on kinesin-1 slower than on kinesin-2, independent of their binding affinities to these MTs. The specific enhancement of kinesin-2 motor activity emphasises the impact of glycylation in cilia as kinesin-2 is a motor involved in ciliary intraflagellar transport (IFT) and hence, glycylation may provide a favourable molecular surface for IFT within the cilia. Furthermore, 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+5
+
+we also show that glycylation reduces the kinetics of spastin and the depolymerising mitotic centromere-associated kinesin (MCAK; kinesin-13). While loss of glycylation was shown to impact axonemal dynein interactions, and thus sperm motility defects 13 , our in vitro study establishes that increased glycylation also perturbs motor and MAP interactions. Hence, this establishes that an optimal level of both glycylation and glutamylation is essential for fine regulation of ciliary MAPs and optimal motor activity. Any deviations from these levels can perturb these interactions, thus impacting ciliary functions. 
+
+# Results 
+
+Development of a toolbox of custom-modified tubulins and molecular motors 
+
+Most in vitro microtubule-MAP studies utilise the purified brain tubulin, which is highly enriched in diverse tubulin PTMs, especially glutamylation. While this acts as our highly glutamylated tubulin fraction in our assays, it was also an internal control to assess the veracity of our assays. Since we wanted to establish the impact of glycylation specifically, we needed microtubules that lacked either glutamylation or glycylation (unmodified), as well as microtubules with only glycylation. Our need for such unmodified and tubulin custom-modified with only glycylation was fulfilled by purifying them from Lenti-X TM 293T (Lenti-X) cells (Fig. S1A). Microtubules in Lenti-X cells undergo very low levels of glutamylation and glycylation 17,25 and hence, serve as an excellent source for unmodified tubulin. A stable Lenti-X cell line expressing mCherry-TTLL3 was engineered to generate the custom-modified glycylated tubulin ( see methods for details) . Both the Lenti-X and Lenti-X-mCherry-TTLL3 cells were grown as suspension cultures for purifying adequate amounts of tubulin. Purification of all the different tubulins was carried out using repeated cycles of polymerisation at 30 °C and depolymerisation on ice at 4 °C 25 (see methods for details ). The purity was assessed using 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+6
+
+SDS-PAGE and Coomassie blue staining (Fig. S1B-D). Every purification cycle yields ~300 mg brain tubulin, ~600 μg of unmodified tubulin and ~500 μg of glycylated tubulin. Immunoblot analyses of each of these purified tubulins revealed a distinct pattern, which matched our expectations (Fig. S1E). The glycylated tubulin we purified also showed increased glycylation predominantly on β-tubulin with some degree of glycylation on α-tubulin, since TTLL3 preferentially modifies β-tubulin over α-tubulin 26 .In the study we tested two different cargo-carrying motors, human kinesin-1 (KIF5B) and 
+
+C. elegans kinesin-2 (Osm3) based on their well-characterised motility properties in vitro 
+
+> 27,28
+
+. The truncated dimeric versions of these motors were used in our assays ( see methods for details) . We also tested the depolymerising kinesin-13, MCAK and severing protein, spastin both implicated to have roles in primary cilia 29,30 . All these were expressed and purified from bacteria either as 10x-His tag proteins or as GST tag proteins. The purity of the proteins was determined by SDS-PAGE and Coomassie blue staining (Fig. S1F). Kinesin-1 is a multimeric motor and the presence of multiple bands in the purified protein (Fig. S1F) likely reflects different forms of the motor expressed in the bacterial system. To enhance the active motor fraction, the purified motors were additionally enriched through a microtubule bind-and-release step (Fig. S1G-H). 
+
+Increased β-tubulin glycylation reduces the kinetics of kinesin-1, but not kinesin-2 
+
+We first tested how the molecular motors behave in presence of MTs either unmodified or enriched with glutamylation or glycylation. Our purified GFP-tagged KIF5B consisted of the N-terminal 560 amino acids, corresponding to the motor domain (K560 31 ). We first tested how K560-GFP interacts with brain MTs, unmodified, and glycylated MTs by TIRF-based assessment of MT gliding on anchored K560-GFP motors (Fig. 1A). We observed that among 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+7
+
+the three microtubules, unmodified MTs showed the fastest gliding with a median velocity of ~270 nm s -1 followed by brain MTs at 184 nm s -1 , and the glycylated MTs being the slowest at 103 nm s -1 (Fig. 1B, C; Fig. S2A, Movie S1, Table 1, Table S1). While kinesin-1 is predominantly a cytoplasmic motor, kinesin-2 is a key player involved in intraflagellar transport within the cilia 32 , specifically in anterograde IFT 33 . Glycylation being a modification exclusive to the cilia, we tested how a ciliary motor would interact with microtubules having only glycylation. Our MT gliding assays showed that contrary to what we observed for kinesin-1, the addition of glycine enhanced the median velocity of Osm3ΔH2-GFP at 506 nm s -1 , with brain MTs gliding at 364 nm s -1 similar to what has already been reported earlier 34 , while the unmodified MTs glide ~2.85-fold slower at 177 nm s -1 (Fig. 1D, E; Fig. S2C Movie S2, Table 1, Table S2). This suggests that kinesin-2 depends on both glutamylation and glycylation for optimum activity, with a slightly higher preference for glycylation. To further understand whether this difference in activities was driven solely by the motor activity or also influenced by the binding of the motor to the different MTs, we tested the binding of the GFP-tagged motors in our in vitro reconstitution system. K560–GFP exhibited differential binding affinities, with the strongest binding to brain-derived MTs and aconcentration-dependent loss of binding to glycylated MTs (Fig S2B). Notably, any concentration less than 56 nmol of K560 failed to bind glycylated MTs while maintaining substantial binding to both brain and unmodified MTs. In contrast, Osm3 displayed minimal difference in binding to either brain MTs or glycylated MTs, with much lesser binding observed to unmodified MTs (Fig S2D). These indicate that glycylation may enhance kinesin-2 (Osm3) 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+8
+
+association with MTs, while counteracting the kinesin-1 binding, which may underlie the differences in the MT gliding observed between the two motors on glycylated MTs. In summary, tubulin glycylation enhances Osm3 motility, reflected in elevated velocity. The higher binding of Osm3 to glycylated MTs further highlights improved microtubule-motor interactions. Both support a mechanistic role for glycylation in promoting efficient kinesin-2 driven transport along ciliary axonemal microtubules, thus suggesting why robust intraflagellar transport within cilia requires glycylation. 
+
+Tubulin glycylation negatively regulates depolymerising and severing MAPs 
+
+Microtubules undergo constant polymerisation and depolymerisation, which help regulate various aspects of cellular dynamics. While this dynamics is slower within the cilia, the axonemal MTs also show regulation of their length by the depolymerising and severing MAPs. Since glycylation is suggested to stabilise the cilia 17,35 and increased glycylation leads to increased cilia length 17 , we tested the impact of glycylation on both the depolymerising and severing MAPs. Among these, the predominant ones regulating cilia dynamics are the kinesin-13 family motors and the severing enzymes spastin and katanin 30,36–39 .Within the kinesin-13 family motors, MCAK is well characterised 40,41 and the predominant depolymeriser implicated with a key role in ciliogenesis, where excessive accumulation of MCAK at the basal bodies can negatively impact cilia formation 37 . We tested the rate of depolymerisation induced by MCAK on the three microtubule variants (Fig. 2A). Our analyses showed that glycylated MTs were depolymerised much slower than brain MTs (Fig. 2B,C, Movie S3). When the depolymerisation rates were quantified, we observed that the median depolymerisation rate of the glycylated MTs, was at 0.08 μm min -1 which is lower than 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+9
+
+unmodified MTs, which depolymerised at 0.22 μm min -1 . The highly glutamylated brain MTs depolymerised at 0.33 μm min -1 , which matches what has been reported earlier 42 . Thus, the glycylated MTs were depolymerizing at ~2.75-fold lower than unmodified MTs and ~4-fold lower rate than brain MTs (Fig. 2D Fig. S3, Table 1, Table S3). The distribution plot further shows that most of the glycylated MTs were depolymerised by MCAK at ≤ 0.1 μm min -1, 
+
+whereas brain MTs were depolymerised at 0.3-0.4 μm min -1, with many having rates ≥ 0.5 μm min -1 (Fig. 2E, Table S3). Though MCAK favours the plus-end of the MTs, it can depolymerise from both ends in an in vitro assay 43 . We observed similar results with the brain MTs and to some degree, even the unmodified MTs, while with the glycylated MTs, the depolymerisation was predominantly confined to one end of the MTs (Fig. 2C, Movie S3), because the overall rate of MCAK activity is much slower on glycylated MTs. The other class of MAPs that regulate MT stability is the severing enzymes. Among these, katanin has been implicated in regulating cilia across species 38,44–46 and its activity is tightly regulated by the levels of glutamylation and glycylation of MTs 11 . A similar AAA-ATPase, spastin has also been implicated in regulating primary cilia dynamics in neural stem cells thus regulating neuron development, suggesting that it has a key role in cilia maintenance as well 30,47 . Considering spastin depends on glutamylation for its activity 9,10 , we wanted to understand whether glycylation has an antagonistic effect to glutamylation on spastin similar to that on katanin 11 .Our investigations on the dependence of spastin on specific modifications (Fig. 3A) showed that similar to earlier reports 9,48 , brain MTs were severed by spastin efficiently. On the other hand, both the unmodified and glycylated MTs showed fewer severing events (Fig. 3B,C, Movie S4). The kymographs established that the severing and MT catastrophe was slower with 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+10 
+
+unmodified MTs and more so with glycylated MTs (Fig. 3C). Quantifying the extent of severing revealed that brain MTs were severed much faster with 15% severing by 75 s, reaching to ~62% by 5 min (Fig. 3D, Fig. S4, Movie S4, Table 1, Table S4). Contrary to this, the unmodified MTs as well as the glycylated MTs had very low severing with only 31 % severing observed for the unmodified MTs even after 5 min, and ~22 % for the glycylated MTs (Fig. 3D, Fig. S4, Movie S4, Table 1, Table S4). Moreover, not only the extent of severing, but also the rate of MT severing was drastically reduced for glycylated MTs (Fig. 3E), where glycylated MTs were severed at a rate of 0.61 events μm -1 min -1 , the unmodified and brain MTs were severed at a rate of 1 event μm -1 min -1 and 1.23 events μm -1 min -1 respectively. These suggest that while spastin depends on a graded level of glutamylation 10 , higher levels of glycylation in the absence of glutamylation dramatically reduces MT severing by spastin. Overall, these studies show that glycylation acts to reduce the efficacy of MCAK and spastin, and as proposed earlier 11,49 , this could potentially be one of the molecular reasons for increased stability and cilia length when glycylation is increased in cells 17 and why cilia shorten in the absence of glycylation 18 .
+
+Motors and MAPs depend on balanced levels of glutamylation and glycylation 
+
+Our in vitro studies show how microtubules with only glycylation can varyingly impact certain ciliary motors and MAPs. However, both the PTMs share modification sites and manipulating one modification can influence the other 13,18,26 . Moreover, across species cilia have been shown to always have a combination of both these PTMs (reviewed in 1,2,49 ) with glutamylation suggested to precede glycylation in multiciliated cells 35 . Hence to understand how motors and MAPs can be influenced by a combination of different levels of these modifications, we tested 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+11 
+
+the same set of motors and MAPs with MTs having different proportions of glutamylation and glycylation. To study this, apart from using brain MTs and glycylated MTs, we prepared MTs with gradients of glycylation by mixing brain tubulin and glycylated tubulin at molar ratios corresponding to final glycylation proportions of 50% and 70%. We confirmed the increasing glycylation and reducing glutamylation in these MTs by immunoblots for both the modifications (Fig. 4A) and used these four MT variants for our assays. Our analyses with Osm3 revealed that as we increased the proportion of glycylated tubulin, we observed an increase in MT gliding velocities (Fig. 4B, Fig. S5A, Movie S5, Table 1, Table S5), which increased from 257 nm s -1 
+
+for brain MTs to 396 nm s -1 for 70% glycylated MTs and 579 nm s -1 for glycylated MTs. This strongly suggests that the ciliary kinesin depends on glycylation for maximum activity. We next tested the same set of MTs with MCAK and we observed that as we increased the concentration of glycylated MTs, there was a concomitant reduction in the rate of depolymerisation with 50% glycylated MTs showing a 1.5-fold reduction, 70% glycylated with 2-fold reduction and 4-fold reduction of the rate when the MTs are only glycylated (Fig. 4C, Fig. S5B, Movie S6, Table 1, Table S5). Similarly, with spastin as well, we observed that as glycylation levels increased, the severing activity reduced with 50 % glycylated MTs showing a ~1.3-fold reduction and glycylated MTs a ~4-fold reduction in severing by spastin compared to brain MTs (Fig. 4E, Fig. S6, Movie S7, Table 1, Table S5). The severing rates also reduced with increasing glycylation, from 1.3 events μm -1 min -1 to 0.87 events μm -1 min -1 (50% glycylated MTs), 0.63 event μm -1 min -1 (70% glycylated MTs) and 0.5 events μm -1 min -1 for only glycylated MTs (Fig. 4D, Fig. S6, Movie S7, Table 1, Table S5). 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+12 
+
+Overall, these results emphasise our earlier observations that increasing glycylation, with a concomitant reduction in glutamylation, negatively regulates most proteins except the ciliary kinesin-2, Osm3. Interestingly even at equimolar concentrations of both brain MTs and glycylated MTs, there is an impact on the activities of motors and MAPs. This could be due to some degree of glycylation inherently present in brain MTs, which also influences the overall kinetics of these MAPs. 
+
+# Discussion 
+
+Regulation of microtubule function depends on microtubule interactions with various microtubule-associated proteins that include molecular motors, severing enzymes and regulatory proteins. The tubulin code has emerged as one of the pivotal fine-modulators of these intricate molecular interactions, with tubulin posttranslational modifications playing key roles in microtubule-protein interactions. Among these, tubulin acetylation is the most studied and is implicated in diverse microtubule functions. But there is some uncertainty over how it influences the binding and transport of kinesin motors 50–53 . The other majorly studied modification, tyrosination/detyrosination influences the activity of motors and MAPs differently: kinesin-1 is tyrosination-dependent, while kinesin-2 prefers detyrosinated tubulin 
+
+> 8,51
+
+. While dynein alone is unaffected by the tyrosination status, dynein-dynactin-BICD2 requires α-tubulin tyrosination for its initial loading onto the MTs 54 . Even the microtubule depolymerising kinesin-13, MCAK prefers tyrosinated MTs, with detyrosination suppressing its activity 8,40,55–57 . Among the microtubule severing enzymes, spastin is unaffected by the tyrosination status of MTs 10 , while katanin requires tyrosinated MTs for enhanced severing as its regulatory domain interacts with tyrosinated MTs 11 .
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+13 
+
+While mammalian cilia and flagella are both acetylated and detyrosinated, the axonemes are also enriched in two competing modifications occurring on the CTTs, glutamylation and glycylation which are suggested to play key roles in fine-regulation of cilia and flagella function (reviewed in 1). While there is evidence suggesting that modulating glutamylation impacts IFT motors 8,58 and the interaction and activities of specific MAPs 8–10 , how glycylation regulates either of them is still unclear. Here, we demonstrate that enhanced glycylation of β-tubulin CTT, with some level of glycylation on α-tubulin CTT can regulate motor proteins distinctly. Not only this, but the modification also negatively regulates spastin-induced severing. We demonstrate that this regulation depends not only on the level of glycylation, but also on the complimentary levels of glutamylation on the microtubules. Kinesin-1, the founding member of the kinesin superfamily and KIF5B is a highly processive motor involved in transport of organelles, vesicles, mRNA and other cargos in the cell cytoplasm 32 . Despite ubiquitously expressed, with high abundance in the neurons 59 it is not known to localise to cilia, thus unlikely to be exposed to glycylation. The impact of glycylation on kinesin-1 activity is inverse to that observed for kinesin-2, which is intriguing. This could be potentially due to two major possibilities: β-tubulin C-terminal tail (CTT) and the extent of its glutamylation is essential for optimal velocity of Kinesin-1 8. Since TTLL3 preferentially glycylated β-tubulin CTT 12,26 , reducing the levels of glutamylation as both modifications share common modification sites, this could lead to lesser velocity of the motor. Second, positively charged patches on kinesin-1 aids the motor's processivity through electrostatic interactions with the negatively charged CTTs of tubulin 31,60,61 . This suggests that the kinesin-1 prefers polyglutamylated microtubules over glycylated microtubules, as glycylation neutralises the negative charges of the Carboxy-terminal tail glutamates. Hence, the binding and the gliding rates are lower with the glycylated tubulin. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+14 
+
+Among the different kinesins involved in cilia function (reviewed in 62 ) the kinesin-2 superfamily plays a central role in anterograde intraflagellar transport (IFT), facilitating the movement of cargo from the ciliary base to the tip. Unlike kinesin-1 which depends only on modifications of β-tubulin C-terminal tail (β-CTT), kinesin-2 is influenced by contributions from both α- and β-CTTs 8. While its activity is increased by glutamylation, possibly through electrostatic effects, our data suggests that glycylation has a more enhancing effect both on the binding and the velocity of Osm3. Specifically, the addition of neutral glycine residues to pre-existing glutamate side chains may decrease electrostatic interactions along the microtubule lattice, thereby potentially facilitating faster motor stepping as proposed for diverse kinesin family proteins 63,64 .Additionally, tyrosination of α-tubulin has a strong inhibitory effect on Osm3 activity 8.Considering both our unmodified and glycylated MTs differ only in their level of glycylation among all PTMs (Fig. S1E), we believe that like glutamylation, even glycylation can overcome this inhibitory effect of tyrosination leading to enhanced Osm3 motor activity and why unmodified MTs have lower binding and activity with Osm3. Moreover, it has been shown earlier that Osm3 activity is regulated by glutamylation and detyrosination 65 , both highly prevalent PTMs in cilia. We now provide another layer of regulation of ciliary IFT motors where even short chain glycylation enhances kinesin-2 motility. Considering optimal IFT is essential for appropriate ciliary signalling in response to environmental cues, whether all these PTMs are acting in concert to provide optimal kinesin-2 activity is an interesting aspect that needs further investigation. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+15 
+
+Cilia are dynamic organelles that undergo assembly and disassembly, dependent on cell cycle re-entry (reviewed in 66 ). Cilia disassembly is enhanced by increased levels of tubulin glutamylation or reduced glycylation 12,35,58,67,68 . On the contrary, cilia length and stability is enhanced when glycylation is increased 17 . Since the molecular interactions between the axonemal microtubules with diverse PTMs and the MAPs regulating ciliary stability are not well established, we focussed on testing this using two prominent MT destabilisers, the kinesin-13 motors 29,37 like MCAK, a well-characterised depolymerizer 69,70 and the MT severing enzyme, spastin 30 . Both the proteins have been shown to be influenced by glutamylation levels 8–10 . Glycylation was recently established to be antagonistic to glutamylation in regulating katanin-based severing 11 . With our custom-modified tubulin variants, we broadened this understanding to MCAK and spastin and observed that like katanin, both MCAK and spastin activities are dramatically reduced in presence of glycylation. This reduction in the activity of the proteins was dependent on the levels of glycylation present within the MT sample as those with ~10% glycylation showed maximum severing while MTs with 50% glycylation already showed a 1.5 to 1.8-fold reduction in activities. This would again be due to the possibility of a change in charge on the CTT as well as as possible change in the conformation of the CTT to a more compact, collapsed conformation 11,71 . This could be one possible mechanism by which glycylation controls cilia stability, which needs to be validated with in vivo analyses. Interestingly, the unmodified tubulin behaves distinct to either of the modified tubulins with each of these proteins as observed earlier 8,72 . These studies showed the need for glutamylation for optimal activity of these proteins, and we build on this to emphasize the regulatory role of glycylation in controlling the activity of the motors and MAPs, specifically in the context of 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+16 
+
+regulating cilia and flagella suggesting that there is a fine regulation of these proteins by individual PTMs. 
+
+## Limitations of the study 
+
+Most of our studies have been performed with tubulin predominantly glycylated at β-tubulin, though there is some degree of glycylation also present on α-tubulin C-terminal tails. The effects we thus observe could be a combinatorial effect of glycylation of both tubulin, which is difficult to elucidate with the current custom-variant of glycylated tubulin. Second, the stoichiometries we have used for glutamylated and glycylated microtubule mixtures may not reflect those present in different types of cilia. However, the effects we observe here could still be observed with actual axonemal MTs with different levels of these PTMs, though the exact magnitudes may differ. Third, our unmodified and custom-modified tubulin isolated from HEK cells are also predominantly tyrosinated (Fig. S1E) and tyrosination enhances depolymerisation by MCAK 8. We do not observe such enhanced activity with HEK tubulin, probably because these MTs exhibit some degree of detyrosination. Finally, the concentrations of most of the motors and MAPs we have used are similar to what is observed in vivo . However, in cells, the distribution of these PTMs, the presence of other motors, MAPs, and other ciliary proteins, makes regulation more complex, thereby influencing the overall outcome of these interactions and activities. 
+
+## Potential Impact 
+
+Our in vitro reconstitution studies build on the expanding notion that the ‘tubulin code’ is one of the key regulators of MT-MAP interactions. We establish that glycylation, a cilia-specific PTM, plays an important role in manoeuvring the motors and MAPs on microtubules. While loss of glycylation was shown to impact axonemal dynein activity 13 , this study highlights that 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+17 
+
+MT-protein interactions are not only influenced by loss of glycylation, but that even excessive glycylation can also affect these interactions. This establishes that glycylation needs to be finely controlled in cells for optimal ciliary function. This study further raises some interesting questions. First, kinesin-1 is required for diverse transport processes within the cells with high degree of processivity and accuracy 32 , which depends on subtle regulation by both polyglutamylation and expression of specific tubulin isotypes 8. However, the negative regulation by glycylation is an exciting and an interesting aspect of PTM distribution and control in cells that needs further study. Second, our in vitro results are confined to glycylation mediated by TTLL3, predominantly a β-tubulin specific glycylase. Whether what we observe is confined to β-tubulin-dependent activities or it is independent of which CTT is modified is also an aspect that needs further analysis by establishing MTs modified by TTLL8, the α-tubulin specific glycylase. Third, considering glycylation can overcome some of the inhibitory effects of tyrosination, suggests that there appears to be a crosstalk between these PTMs that in turn subtly regulates MT-MAP interactions, which is intriguing. These open avenues for future mechanistic studies on the roles of these two PTMs in regulating MT-MAPs within the cilia and advance our understanding of the so-far-barely explored biological roles of glycylation within the cilia. Overall, our work establishes glycylation as a central regulatory element of the tubulin code that orchestrates ciliary microtubule function. This work lays the foundation and provides important insights into the regulation of MT-MAP interactions in cilia by tubulin glycylation, and into its potential impact on cilia stability and function. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+18 
+
+# Acknowledgements: 
+
+S. Gadadhar acknowledges the support from iBRIC-inStem, DBT/Wellcome Trust India Alliance Intermediate Fellowship (IA/I/22/1/506238) and the start-up research grant (SRG/2023/000847) from the Science and Engineering Research Board (SERB), Department of Science and Technology, India. M. Sirajuddin acknowledges funding support from iBRIC-inStem core grants from the Department of Biotechnology, India, DBT/Wellcome Trust India Alliance Senior Fellowship (IA/S/22/2/506502), EMBO Young Investigator Programme award, and ANRF-CRG grant (CRG/2023/005854) from the Department of Science and Technology (DST), India. S. Mullick and S. Dey are supported by the Research fellowship of the Department of Biotechnology, India. R. Ganie is supported by a CSIR-SRF and S. Mahanty is supported by the M.K Bhan Young Research Fellow program (HRD-16016/10/2025-HRD-DBT) from the Department of Biotechnology, India. We would also like to thank M. Singh (Indian Institute of Science, Bangalore, India) for insightful discussions and critical analyses. 
+
+# Conflict of interest 
+
+The authors declare no competing financial interests. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+19 
+
+# Author Contributions 
+
+Conceptualization: S. Gadadhar, M. Sirajuddin 
+
+Methodology: S. Mullick, S. Chaya, PB. Koushik, M. Sirajuddin, S. Gadadhar 
+
+Investigation: S. Mullick, S. Chaya, S. Dey, PB. Koushik, M. Sirajuddin and S. Gadadhar 
+
+Visualization: S. Mullick, S. Chaya, S. Dey, R. Ganie, S. Mahanty and S. Gadadhar 
+
+Validation: S. Mullick, S. Chaya, and S. Gadadhar 
+
+Data curation: S. Mullick, S. Chaya, and S. Gadadhar 
+
+Formal Analysis : S. Mullick, S. Chaya, S. Dey, R. Ganie, S. Mahanty and S. Gadadhar 
+
+Supervision: M. Sirajuddin and S. Gadadhar 
+
+Project administration: S. Gadadhar 
+
+Resources: M. Sirajuddin and S. Gadadhar 
+
+Software: M. Sirajuddin and S. Gadadhar 
+
+Funding acquisition: S. Gadadhar 
+
+Writing – original draft: S. Mullick and S. Gadadhar 
+
+Writing – review & editing: S. Mullick and S. Gadadhar with inputs from all authors 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+20 
+
+# Materials and methods 
+
+Purification of diverse custom-modified tubulins: 
+
+brain tubulin: 
+
+Isolation of tubulin from goat brain was carried out as described earlier 25 . Briefly, three freshly isolated brains whose meninges and white matter were removed, were homogenized and lysed in BRB80 (80 mM PIPES/KOH pH 6.8, 1 mM EGTA, 1 mM MgCl 2, 1 mM β-mercaptoethanol, 1 mM PMSF and 1X Protease inhibitor cocktail). The lysate was clarified by centrifugation at 5,000 g for 30 min at 4 °C (JLA 8.100, Beckmann Coulter) and the clarified supernatant was subjected to three cycles of polymerisation at 37 °C (with 33% glycerol and 0.2 mM GTP in BRB80) and depolymerisation at 4 °C (with BRB80), with subsequent centrifugation at 150,000 g for 30 min after every polymerisation-depolymerisation. The second cycle of polymerisation was performed under a high salt concentration (BRB80 containing 1 M PIPES/KOH pH 6.8, 33% glycerol, 2 mM GTP) to remove all the MAPs. The resultant tubulin free from all MAPs was used for the downstream assays. 
+
+unmodified and custom-modified tubulin: 
+
+Tubulin from HEK cells was purified using as per established protocol 25,73 . Briefly, Lenti-X cells or stable mCherry-TTLL3 Lenti-X cells were grown as a starter culture in 50 ml Dulbecco's Modified Eagle's Medium (DMEM; Gibco # 11965092) containing 10 % fetal bovine serum (FBS; Thermo Scientific # A5256701). Once the culture was confluent, it was inoculated into four 1 litre cultures and cultured in suspension for 14 days at 37 °C, 5 % CO 2
+
+on a shaker rotating at 110 rpm. Thereafter, the cells were centrifuged at 250 g for 15 min at 4 °C. The cells were washed once in phosphate buffered saline (PBS pH 7.2; Gibco # 14190144) with centrifugation at 250 g for 15 min at 4 °C. The pellet was resuspended in equal volume of lysis buffer (BRB80 with 0.1% Triton-X-100) pipetted for 30 min on ice till the entire 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+21 
+
+membrane integrity was lost and the lysate was centrifuged at 150,000 g for 30 min at 4 °C. The supernatant was subjected to two cycles of polymerisation at 37 °C (BRB80 containing 33 % glycerol and 2 mM GTP) and depolymerisation at 4 °C in BRB80. The tubulin retrieved in the final supernatant was confirmed to be free of MAPs and used for the downstream assays. 
+
+Microtubule labelling 
+
+200 μM goat brain tubulin was polymerized for 1 h at 37 °C with 2 mM MgCl 2, 2 mM GTP, 33 % glycerol in BRB80. The polymerized tubulin was layered onto a high pH glycerol cushion (100 mM HEPES pH 8.6, 1mM MgCl 2, 1 mM EGTA, 60 % glycerol) and centrifuged at 115,000 g at 37 °C for 40 min. The pellet, containing the MTs was resuspended in the labelling buffer (100 mM HEPES pH 8.6, 1 mM MgCl 2, 2 mM GTP, 1 mM EGTA, 40 % glycerol containing 30 mM Alexa Fluor™ 647 NHS succinimidyl ester (Invitrogen #A20006) and pipetted once every 5 min for 20 min at 37 °C. This mix was then layered onto 2.4 ml of low pH cushion (BRB80 pH 6.8, 60 % Glycerol) supplemented with 2 mM GTP and centrifuged at 278,000 g at 37 °C for 20 min to remove any free Alexa Fluor™ 647 label. The pellet containing the labelled MTs was resuspended in BRB80 and centrifuged at 80,000 g for 10 min at 4 °C. The supernatant was collected and volume made up to 1.5 ml with BRB80 pH 6.8 containing 2 mM MgCl 2, 1 mM GTP and 33 % glycerol and allowed to polymerize for 30 min at 37 °C. This mix was centrifuged at 80,000 g for 30 min at 37 °C. The pellet was washed with warm BRB80 and resuspended in ice-cold BRB80 for 10 min at 4 °C to allow depolymerisation. Further centrifugation at 80,000 rpm for 12 min at 4 °C retrieved the labelled tubulin in supernatant that was aliquoted in smaller volumes, snap frozen and stored at -80 °C. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+22 
+
+Microtubule polymerisation for in vitro assays: 
+
+50 μM brain tubulin was polymerised with 1.8 μM Alexa-Fluor 647 labelled tubulin, while 10 μM of either the unmodified or glycylated tubulin were polymerized with 0.4 μM Alexa-Fluor 647 labelled tubulin in BRB80 pH 6.8 containing 2 mM GTP and 20 μM taxol (Sigma Aldrich #PHL89806) at 37 °C for 16 h to ensure less than 3 % labelled tubulin in each of the distinct variants of the MTs used in the assays. 
+
+Purification of microtubule-associated proteins: 
+
+All the plasmids for motor purification (K560-GFP, Osm3ΔH2-GFP, Pf-MCAK, mSpastin_390) were a kind gift from Prof. Sirajuddin lab, iBRIC-inStem. The plasmid for ATPase-mutant kinesin (pET28-mKif5B_mut1_N1665) and spastin (pGEX-6P-mSpastin_C389) were a kind gift from Dr. Carsten Janke, Institut Curie, Paris. The motor proteins and the severing enzyme, spastin were purified from bacterial expression system. 
+
+purification of 10x-His tagged proteins 
+
+The ATPase-mutant kinesin (mKif5B_N1665-mut1), human kinesin-1 (K560-GFP), C. elegans 
+
+kinesin-2 (Osm3ΔH2-GFP), and P. falciparum MCAK were purified as 6x-Histidine tag proteins using the HisTrap HP TM (Cytiva, #17524701) affinity columns. Briefly, E.coli BL21 cells transformed with the respective plasmids were grown in 500 ml Luria Bertini (LB) broth containing 50 μg/ml kanamycin at 37 °C, 180 rpm till the optical density reached 0.6-0.7 nm. The cultures were subsequently induced with 0.5 mM IPTG to allow protein expression at 16 °C overnight. The cells were pelleted by centrifugation at 3500 g, 10 min, 4 °C and resuspended in lysis buffer containing protease inhibitor cocktail and 1 mM PMSF ( see Table S6 for buffer details ) and sonicated using a 5 sec ON / 8 sec OFF cycle for 3 min at 38 % amplitude to ensure proper lysis. The supernatant with the protein of interest was retrieved by 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+23 
+
+centrifuging the lysed cells at 15,000g for 15 min at 4 °C and filtered through a 0.45 μm syringe filter (BioFil #FPV403030) before purification. To purify the protein, the sample was incubated for 30 min on HisTrap HP agarose column at 4 °C. The protein was allowed to bind for 30 min, non-specific proteins washed with wash buffer and the bound protein eluted using a high imidazole elution buffer (see Table S6 for more details). The eluted proteins were concentrated using protein concentrators with 10 kDa molecular weight cut off (Sigma Aldrich, #UFC901024) and desalted to remove the imidazole by centrifugation at 2800 g for 20 min at 4 °C. The concentrated, purified proteins were snap-frozen in liquid nitrogen and stored at -80 °C. To ensure that the purified motors were active, the entire purification pipeline was completed within 3 h. For K560-GFP and Osm3ΔH2-GFP, an additional microtubule binding and release was performed to retrieve only the active proteins. 
+
+microtubule bind-and-release to enrich active motor proteins 
+
+To enrich the active motors from the purified fractions of K560-GFP and Osm3ΔH2-GFP, the motors were subjected to microtubule bind-and-release step. First, we polymerised 100 μM of brain tubulin in BRB80 containing 2 mM GTP and 40 μM taxol for 30 min at 37 °C. The polymerised MTs were layered on 400 μl of 60 % glycerol cushion and centrifuged at 80,000 g for 10 min at 37 °C. The pelleted polymerised MTs were resuspended in 100 μl of BRB80 and mixed with 100 μl of the purified motors, incubated for 15 min at 37 °C. The mix was then supplemented with 100 mM NaCl and 10 mM ATP, layered on a 60 % glycerol cushion and centrifuged at 80,000 g for 10 min at 37 °C. The supernatant obtained post centrifugation contains the active motors, which were collected, snap frozen and stored at -80 °C. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+24 
+
+purification of GST-Spastin 
+
+Spastin was expressed with a GST tag at C-terminus was purified using the GSTrap column (Cytiva, #17528101). Briefly, the BL21 cells transformed with pGEX-6P-mSpastin_C389 was grown in 500 ml LB broth containing 100 μM ampicillin at 37 °C, 180 rpm in a shaker incubator till it reached an optical density of 0.6-0.7 nm. It was then induced with 0.5 mM IPTG to allow protein expression at 16 °C for 4 h. The cells were subsequently pelleted by centrifugation at 3500 g for 10 min at 4 °C and resuspended in the lysis buffer containing protease inhibitor cocktail and 1 mM PMSF ( see Table S6 for buffer details ) and sonicated using a 5 sec ON / 8 sec OFF cycle for 3 min at 38 % amplitude to ensure proper lysis. The cell lysate was centrifuged at 15,000g, for 15 min at 4°C, the supernatant collected and filtered through a 0.45 μm filter. The supernatant containing GST-spastin was allowed to bind to the column for 30 min, after which the column was washed to remove non-specific proteins and spastin eluted using a reduced glutathione-based elution buffer ( see Table S6 for details on buffer compositions ). The eluted protein was concentrated using the 10 kDa protein concentrator, desalted by centrifugation at 2800 g for 20 min at 4 °C. The purified protein was snap-frozen in liquid nitrogen and stored at -80 °C. 
+
+Microtubule gliding assays 
+
+The microtubule gliding assay was performed as described earlier 8. Briefly, the purified K560-GFP or Osm3ΔH2-GFP were immobilized on motility chambers prepared on acid-washed coverslips and washed with BRB80 buffer to remove all the unbound motors. Previously polymerized, labelled microtubules flushed into the motility chambers, incubated for 5 min to allow the MTs to bind to the respective motor followed by washing with BRB80 containing 20 μM taxol and 1 mg/mL β-casein (Sigma Aldrich, #C6905). Finally, a motility 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+25 
+
+mix of BRB80 containing 20 μM taxol, 1 mg/ml β-casein, 2 mM ATP and the oxygen-scavenging mix (4.5 mg/mL glucose, 0.2 mg/mL glucose oxidase (Sigma Aldrich #G2133), 80 μg/mL catalase (SRL chemicals #42168)) was added and the gliding of MTs was visualized with the Nikon Ti-2 inverted spinning disk confocal laser scanning microscope equipped with the 100x TIRF objective (oil immersion; N.A 1.49) at RT. Images were acquired with the ORCA-Flash 4.0 v3 sCMOS camera (Hamamatsu) at 100 ms exposure for 3 min with a frame interval of 2 s. The videos were further processed and analysed using Fiji v2.16.0. 
+
+Microtubule binding assays 
+
+The motility chambers were washed once with the desalting buffer (25 mM PIPES pH 6.8, 100 mM KCl, 5 mM MgCl 2) and the ATPase-mutant KIF5B motor was perfused into the chamber and incubated for 5 min. The different Alexa647-labelled MT variants were then flowed into the coated chambers and incubated for 5 min to allow attachment followed by washing with BRB80 buffer containing 20 μM taxol and 1mg/ml β-casein. Once the labelled MTs were visualised, the chambers were flushed with GFP-tagged motors at the desired concentrations ranging from 14-15 nmoles to 280-300 nmoles (diluted in their respective desalting buffers; 
+
+see Table S6 for buffer details ) and allowed to bind to MTs for 5-15 min at RT. Images were acquired at 500 ms for the GFP-tagged motors and 100 ms for the labelled MTs on the Nikon Ti-2 inverted spinning disk confocal laser scanning microscope equipped with the 100x TIRF objective (oil immersion; N.A 1.49) at RT using the ORCA-Flash 4.0 sCMOS camera. The images were further processed and analysed using Fiji v2.16.0. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+26 
+
+Microtubule depolymerisation by MCAK 
+
+The motility chambers were washed once with the desalting buffer (25 mM PIPES pH 6.8, 100 mM KCl, 5 mM MgCl 2) for ATPase-mutant kinesin and the inactive Kif5B motor was perfused into the chamber twice and incubated for 5 min. The MTs were then flowed into the coated chambers and incubated for 5 min to allow attachment followed by washing with BRB80 buffer containing 20 μM taxol and 1mg/mL β-casein. Once the labelled MTs were visualised, the chambers were flushed with MCAK assay buffer containing BRB80 with 1mg/mL β-casein, oxygen scavenging mix, 1mM ATP and 50 nM Pf MCAK. Images were acquired at 100 ms exposure for 5 min with a frame interval of 5 sec on the Nikon Ti-2 inverted spinning disk confocal laser scanning microscope equipped with the 100x TIRF objective (oil immersion; N.A 1.49) at RT using the ORCA-Flash 4.0 sCMOS camera. The videos were further processed and analysed using Fiji v2.16.0. 
+
+Microtubule severing by spastin 
+
+The motility chambers were perfused with ATPase mutant Kif5B and MTs, similar to the assay conditions used for Pf MCAK. The spastin severing buffer contained BRB80 with 0.1 % β-mercaptoethanol, 1mg/mL β-casein, 50 mM KCl, 1 % Pluronic F127, oxygen scavenging mix, 1 mM ATP and 8 nM GST-spastin. As soon as spastin was flushed in, the chambers were imaged at 100 ms exposure, with a frame interval of 5 sec for 5 min on the Nikon Ti-2 inverted spinning disk confocal laser scanning microscope equipped with the 100x TIRF objective (oil immersion; N.A 1.49) at RT using the ORCA-Flash 4.0 sCMOS camera. The videos were further processed and analysed using Fiji v2.16.0. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+27 
+
+Image Analysis and Quantification 
+
+For microtubule velocity, depolymerisation and severing rate measurements, individual microtubules were manually tracked using the segmented line tool in Fiji v2.16.0 over the microtubule undergoing such events. From the kymographs, the motor velocities, rate of depolymerisation were calculated and the graphs for velocity distribution, rate of depolymerisation were generated using GraphPad Prism version 9.0. Motor velocities were quantified from maximum intensity projections of time-lapse image sequences. The trajectory of individual microtubules (MTs) was traced using a segmented line tool, and kymographs were generated via the reslice operation. Motor velocity was calculated from the slope of the kymograph, defined by the initial and final positions along the trajectory. For depolymerisation assays, kymographs were generated using the same approach, and the MT end displaying the steepest slope, which usually corresponds to the plus-end of the MTs was used to determine the depolymerisation rate. For the MT severing, images at specific time points were analysed for the extent of MT length remaining compared to the 0 min time and this was plotted using GraphPad Prism version 9.0. P-values were calculated via one-way ANOVA using the Kruskal-Wallis non-parametric test corrected for multiple comparisons using the Dunn's statistical hypothesis test. All the quantifications from individual experiments are listed in Tables S1-S5. 
+
+Image and video processing 
+
+Immunoblots and SDS gels were treated with Adobe Photoshop. Intensities were adjusted uniquely in a linear manner, and no additional image treatments were performed. All images and graphs were prepared in Adobe Illustrator. For mounting the composite videos, the still panels were prepared in Adobe Illustrator and then subsequently mounted onto the individual video compositions in Adobe After Effects. Each 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+28 
+
+composition was rendered as a QuickTime movie with Adobe Media Encoder and exported as 1280 Î720 pixel videos with QuickTime Player v10.4. 
+
+# References 
+
+1. Janke, C. & Magiera, M. M. The tubulin code and its role in controlling microtubule properties and functions. Nat. Rev. Mol. Cell Biol. 21 , 307–326 (2020). 2. Gadadhar, S., Bodakuntla, S., Natarajan, K. & Janke, C. The tubulin code at a glance. J. Cell Sci. 130 , 1347–1353 (2017). 3. Janke, C. The tubulin code: Molecular components, readout mechanisms, and functions. J. Cell Biol. 206 , 461–472 (2014). 4. Adoutte, A., Claisse, M., Maunoury, R. & Beisson, J. Tubulin evolution: Ciliate-specific epitopes are conserved in the ciliary tubulin of metazoa. J. Mol. Evol. 22 , 220–229 (1985). 5. Adoutte, A. et al. Microtubule diversity in ciliated cells: evidence for its generation by post‐translational modification in the axonemes of Paramecium and quail oviduct cells. Biol. Cell 71 , 227–245 (1991). 6. Redeker, V. et al. Polyglycylation of Tubulin: a Posttranslational Modification in Axonemal Microtubules. Science 266 , 1688–1691 (1994). 7. Gaertig, J. & Wloga, D. Chapter 4 Ciliary Tubulin and Its Post-Translational Modifications. in Ciliary function in Mammalian Development (ed. Yoder, B. K.) vol. 85 83– 113 (Elsevier, 2008). 8. Sirajuddin, M., Rice, L. M. & Vale, R. D. Regulation of microtubule motors by tubulin isotypes and post-translational modifications. Nat. Cell Biol. 16 , 335–344 (2014). 9. Lacroix, B. et al. Tubulin polyglutamylation stimulates spastin-mediated microtubule severing. J. Cell Biol. 189 , 945–954 (2010). 10. Valenstein, M. L. & Roll-Mecak, A. Graded Control of Microtubule Severing by Tubulin Glutamylation. Cell 164 , 911–921 (2016). 11. Szczesna, E. et al. Combinatorial and antagonistic effects of tubulin glutamylation and glycylation on katanin microtubule severing. Dev. Cell 57 , 2497-2513.e6 (2022). 12. Wloga, D. et al. TTLL3 Is a Tubulin Glycine Ligase that Regulates the Assembly of Cilia. Dev. Cell 16 , 867–876 (2009). 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+29 
+
+13. Gadadhar, S. et al. Tubulin glycylation controls axonemal dynein activity, flagellar beat, and male fertility. Science 371 , eabd4914 (2021). 14. Gadadhar, S., Hirschmugl, T. & Janke, C. The tubulin code in mammalian sperm development and function. Semin. Cell Dev. Biol. 137 , 26–37 (2023). 15. Kubo, T., Sasaki, R. & Oda, T. Tubulin glycylation controls ciliary motility through modulation of outer-arm dyneins. Mol. Biol. Cell 35 , ar90 (2024). 16. Alvarez Viar, G. et al. Protofilament-specific nanopatterns of tubulin post-translational modifications regulate the mechanics of ciliary beating. Curr. Biol. 34 , 4464-4475.e9 (2024). 17. Gadadhar, S. et al. Tubulin glycylation controls primary cilia length. J. Cell Biol. 216 ,2701–2713 (2017). 18. Grau, M. B. et al. Alterations in the balance of tubulin glycylation and glutamylation in photoreceptors leads to retinal degeneration. J. Cell Sci. 130 , 938–949 (2017). 19. Rocha, C. et al. Tubulin glycylases are required for primary cilia, control of cell proliferation and tumor development in colon. EMBO J. 33 , 2247–2260 (2014). 20. Wingfield, J. L. et al. In vivo imaging shows continued association of several IFT A, B and dynein complexes while IFT trains U-turn at the tip. J. Cell Sci. 134 , (2021). 21. Kozminski, K. G., Johnson, K. A., Forscher, P. & Rosenbaum, J. L. A motility in the eukaryotic flagellum unrelated to flagellar beating. Proc. Natl. Acad. Sci. 90 , 5519–5523 (1993). 22. Hao, L. & Scholey, J. M. Intraflagellar transport at a glance. J. Cell Sci. 122 , 889–892 (2009). 23. Bodakuntla, S., Jijumon, A. S., Villablanca, C., Gonzalez-Billault, C. & Janke, C. Microtubule-Associated Proteins: Structuring the Cytoskeleton. Trends Cell Biol. 29 , 804– 819 (2019). 24. Roll-Mecak, A. The Tubulin Code in Microtubule Dynamics and Information Encoding. 
+
+Dev. Cell 54 , 7–20 (2020). 25. Souphron, J. et al. Purification of tubulin with controlled post-translational modifications by polymerization–depolymerization cycles. Nat. Protoc. 14 , 1634–1660 (2019). 26. Rogowski, K. et al. Evolutionary Divergence of Enzymatic Mechanisms for Posttranslational Polyglycylation. Cell 137 , 1076–1087 (2009). 27. S., T., Kurt, A., U., Jeffrey & D., V., Ronald. Engineering the processive run length of the kinesin motor. J Cell Biol 151 , 1093–100 (2000). 28. Imanishi, M., Endres, N. F., Gennerich, A. & Vale, R. D. Autoinhibition regulates the motility of the C. elegans intraflagellar transport motor OSM-3. J. Cell Biol. 174 , 931–937 (2006). 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+30 
+
+29. Miyamoto, T. et al. The Microtubule-Depolymerizing Activity of a Mitotic Kinesin Protein KIF2A Drives Primary Cilia Disassembly Coupled with Cell Proliferation. Cell Rep. 
+
+10 , 664–673 (2015). 30. Jeong, B. et al. Spastin Contributes to Neural Development through the Regulation of Microtubule Dynamics in the Primary Cilia of Neural Stem Cells. Neuroscience 411 , 76–85 (2019). 31. Thorn, K. S., Ubersax, J. A. & Vale, R. D. Engineering the Processive Run Length of the Kinesin Motor. J. Cell Biol. 151 , 1093–1100 (2000). 32. Hirokawa, N., Noda, Y., Tanaka, Y. & Niwa, S. Kinesin superfamily motor proteins and intracellular transport. Nat. Rev. Mol. Cell Biol. 10 , 682–696 (2009). 33. Pan, X. et al. Mechanism of transport of IFT particles in C. elegans cilia by the concerted action of kinesin-II and OSM-3 motors. J. Cell Biol. 174 , 1035–1045 (2006). 34. Chen, G. et al. Kinesin-2 autoinhibition requires elbow phosphorylation. eLife 13 ,RP103648 (2025). 35. Grau, M. B. et al. Tubulin glycylases and glutamylases have distinct functions in stabilization and motility of ependymal cilia. J. Cell Biol. 202 , 441–451 (2013). 36. Reilly, M. L. & Benmerah, A. Ciliary kinesins beyond IFT: Cilium length, disassembly, cargo transport and signalling. Biol. Cell 111 , 79–94 (2019). 37. Schweiggert, J. et al. SCFFbxw5 targets kinesin‐13 proteins to facilitate ciliogenesis. 
+
+EMBO J. 40 , EMBJ2021107735 (2021). 38. Sharma, N. et al. Katanin regulates dynamics of microtubules and biogenesis of motile cilia. J. Cell Biol. 178 , 1065–1079 (2007). 39. Thazhath, R., Liu, C. & Gaertig, J. Polyglycylation domain of β-tubulin maintains axonemal architecture and affects cytokinesis in Tetrahymena. Nat. Cell Biol. 4, 256–259 (2002). 40. Leticia, P. et al. Motor-dependent microtubule disassembly driven by tubulin tyrosination. J Cell Biol 185 , 1159–66 (2009). 41. Cooper, J. R., Wagenbach, M., Asbury, C. L. & Wordeman, L. Catalysis of the microtubule on-rate is the major parameter regulating the depolymerase activity of MCAK. 
+
+Nat. Struct. Mol. Biol. 17 , 77–82 (2010). 42. McHugh, T. et al. The depolymerase activity of MCAK shows a graded response to Aurora B kinase phosphorylation through allosteric regulation. J. Cell Sci. 132 , jcs228353 (2018). 43. Hunter, A. W. et al. The Kinesin-Related Protein MCAK Is a Microtubule Depolymerase that Forms an ATP-Hydrolyzing Complex at Microtubule Ends. Mol. Cell 11 , 445–457 (2003). 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+31 
+
+44. Dymek, E. E., Lefebvre, P. A. & Smith, E. F. PF15p Is the Chlamydomonas Homologue of the Katanin p80 Subunit and Is Required for Assembly of Flagellar Central Microtubules. 
+
+Eukaryot. Cell 3, 870–879 (2004). 45. Dymek, E. E. & Smith, E. F. PF19 encodes the p60 catalytic subunit of katanin and is required for assembly of the flagellar central apparatus in Chlamydomonas. J. Cell Sci. 125 ,3357–3366 (2012). 46. Hu, W. F. et al. Katanin p80 Regulates Human Cortical Development by Limiting Centriole and Cilia Number. Neuron 84 , 1240–1257 (2014). 47. Park, S. M., Jang, H. J. & Lee, J. H. Roles of Primary Cilia in the Developing Brain. 
+
+Front. Cell. Neurosci. 13 , 218 (2019). 48. Eddé, B. et al. Polyglutamylated alpha-tubulin can enter the tyrosination/detyrosination cycle. Biochemistry 31 , 403–10 (1992). 49. McKenna, E. D., Sarbanes, S. L., Cummings, S. W. & Roll-Mecak, A. The Tubulin Code, from Molecules to Health and Disease. Annu. Rev. Cell Dev. Biol. 39 , 331–361 (2023). 50. Reed, N. A. et al. Microtubule Acetylation Promotes Kinesin-1 Binding and Transport. 
+
+Curr. Biol. 16 , 2166–2172 (2006). 51. Kaul, N., Soppina, V. & Verhey, K. J. Effects of α-Tubulin K40 Acetylation and Detyrosination on Kinesin-1 Motility in a Purified System. Biophys. J. 106 , 2636–2643 (2014). 52. Hammond, J. W. et al. Posttranslational Modifications of Tubulin and the Polarized Transport of Kinesin-1 in Neurons. Mol. Biol. Cell 21 , 572–583 (2010). 53. Walter, W. J., Beránek, V., Fischermeier, E. & Diez, S. Tubulin Acetylation Alone Does Not Affect Kinesin-1 Velocity and Run Length In Vitro. PLoS ONE 7, e42218 (2012). 54. McKenney, R. J., Huynh, W., Vale, R. D. & Sirajuddin, M. Tyrosination of α‐tubulin controls the initiation of processive dynein–dynactin motility. EMBO J. 35 , 1175–1185 (2016). 55. Liao, S. et al. Molecular basis of vasohibins-mediated detyrosination and its impact on spindle function and mitosis. Cell Res. 29 , 533–547 (2019). 56. Ferreira, L. T. et al. α-Tubulin detyrosination impairs mitotic error correction by suppressing MCAK centromeric activity. J. Cell Biol. 219 , e201910064 (2020). 57. Lopes, D., Seabra, A. L., Orr, B. & Maiato, H. α-Tubulin detyrosination links the suppression of MCAK activity with taxol cytotoxicity. J. Cell Biol. 222 , e202205092 (2022). 58. Hong, S.-R. et al. Spatiotemporal manipulation of ciliary glutamylation reveals its roles in intraciliary trafficking and Hedgehog signaling. Nat. Commun. 9, 1732 (2018). 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+32 
+
+59. Su, Y.-Y. et al. KIF5B promotes the forward transport and axonal function of the voltage-gated sodium channel Nav1.8. J. Neurosci. : Off. J. Soc. Neurosci. 33 , 17884–96 (2013). 60. Okada, Y. & Hirokawa, N. Mechanism of the single-headed processivity: Diffusional anchoring between the K-loop of kinesin and the C terminus of tubulin. Proc. Natl. Acad. Sci. 
+
+97 , 640–645 (2000). 61. Lakämper, S. & Meyhöfer, E. The E-Hook of Tubulin Interacts with Kinesin’s Head to Increase Processivity and Speed. Biophys. J. 89 , 3223–3234 (2005). 62. He, M., Agbu, S. & Anderson, K. V. Microtubule Motors Drive Hedgehog Signaling in Primary Cilia. Trends Cell Biol. 27 , 110–125 (2017). 63. Lessard, D. V. et al. Polyglutamylation of tubulin’s C-terminal tail controls pausing and motility of kinesin-3 family member KIF1A. J. Biol. Chem. 294 , 6353–6363 (2019). 64. Grant, B. J. et al. Electrostatically Biased Binding of Kinesin to Microtubules. PLoS Biol. 
+
+9, e1001207 (2011). 65. O’Hagan, R. et al. Glutamylation Regulates Transport, Specializes Function, and Sculpts the Structure of Cilia. Curr. Biol. 27 , 3430-3441.e6 (2017). 66. Sánchez, I. & Dynlacht, B. D. Cilium assembly and disassembly. Nat. Cell Biol. 18 , 711– 717 (2016). 67. He, K. et al. Axoneme polyglutamylation regulated by Joubert syndrome protein ARL13B controls ciliary targeting of signaling molecules. Nat. Commun. 9, 3310 (2018). 68. Pathak, N., Austin, C. A. & Drummond, I. A. Tubulin Tyrosine Ligase-like Genes ttll3 and ttll6 Maintain Zebrafish Cilia Structure and Motility*. J. Biol. Chem. 286 , 11685–11695 (2011). 69. Wagenbach, M., Vicente, J. J., Ovechkina, Y., Domnitz, S. & Wordeman, L. Functional characterization of MCAK/Kif2C cancer mutations using high-throughput microscopic analysis. Mol. Biol. Cell 31 , 580–588 (2020). 70. Moore, A. T. et al. MCAK associates with the tips of polymerizing microtubules. J. Cell Biol. 169 , 391–397 (2005). 71. Roll-Mecak, A. & Vale, R. D. The Drosophila Homologue of the Hereditary Spastic Paraplegia Protein, Spastin, Severs and Disassembles Microtubules. Curr. Biol. 15 , 650–655 (2005). 72. Chen, J. & Roll-Mecak, A. Glutamylation is a negative regulator of microtubule growth. 
+
+Mol. Biol. Cell 34 , ar70 (2023). 73. Kesarwani, S. et al. Genetically encoded live-cell sensor for tyrosinated microtubules. J. Cell Biol. 219 , e201912107 (2020). 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+33 
+
+.CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint 34 
+
+# Figure Legends: 
+
+Figure 1: Regulation of kinesin motors by tubulin glycylation. A. Schematic depiction of the TIRF microscope-based in vitro microtubule gliding of the three MT variants, with either kinesin-1 (K560) or kinesin-2 (Osm3). The motility chambers coated with the respective motors are incubated with the different microtubule variants and the MT gliding is assessed in presence of ATP. The gliding visualized using TIRF microscopy is then analysed by building the kymographs and analysing motor velocity to determine the speed of motor activity on each of the different MTs. The yellow stars indicate the start and the end points of the kymographs, the slope of which was used to calculate the velocity. 
+
+B. In-vitro MT gliding assay on K560-GFP shows that the velocity of the K560 is reduced when the MTs are heavily glycylated. The violin plot represents a mean of 3 independent experiments where the numbers and solid line denote the median velocity and dashed lines the 25th and 75th quartiles. The graph shows that the gliding velocities for glycylated MTs reduces by ~2.6-fold and ~1.7-fold compared to unmodified and brain MTs. Individual experiments are shown in Fig. S2A. 
+
+C. Representative kymographs of for brain MTs, HEK MTs and glycylated MTs gliding on K560 that were used to quantify the gliding velocity of each MTs. The x-axis depicts time (s) and the y-axis distance of gliding (μm). 
+
+D. In-vitro MT gliding assay on Osm3ΔH2-GFP shows that contrary to kinesin-1, the velocity of MT gliding on Osm3 is enhanced when the MTs are glycylated. The violin plot of the gliding velocities shows that the glycylated MTs had a median velocity of 506 nm s -1 , which is ~1.4-fold higher than brain MTs (~364 nm s -1 ) and ~2.85-fold higher than unmodified MTs (~177 nm s -1 ). The graph represents a mean (± SEM) of 3 independent experiments with the 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+35 
+
+numbers and solid line denoting the median value and the dashed lines, the 25th and 75th quartiles. Individual experimental replicates are shown in Fig. S2B. 
+
+E. Representative kymographs of for brain MTs, HEK MTs and glycylated MTs gliding on Osm3ΔH2 that were used to quantify the gliding velocity of each MTs. The slope of the kymographs indicates the velocities with the x-axis depicting time (s) and y-axis, the distance of gliding (μm). 
+
+Figure 2: Microtubule depolymerisation by kinesin-13 (MCAK) is reduced on glycylated MTs. A. Schematic depiction of the TIRF microscope-based in vitro microtubule depolymerisation assay with kinesin-13 (MCAK). The motility chambers coated with ATPase-dead Kif5B are incubated with the different PTM variant MTs and subsequently flushed with the motility mix consisting of ATP and 25nM MCAK. The MT depolymerisation is imaged using the 100x TIRF objective and the videos analysed, kymographs established and the rate of MT depolymerisation determined from these kymographs. 
+
+B. Snapshots of the kinetics of MCAK-induced depolymerisation of the different MTs. From the still images, we observe that brain MTs begin to depolymerise by 75s, and by 300 s the length has reduced by ≥50%. The glycylated MTs, on the other hand remain substantially intact even after 300 s and there is only a marginal change in their length, predominantly from only one end of the MTs. Unmodified MTs show that they are in a state in between the two modified versions of MTs. Yellow arrowheads point to the two ends of the microtubule that are undergoing depolymerisation. 
+
+C. Representative kymographs obtained from the videos of MT depolymerisation show that the brain MTs have a rapid reduction in their length with time, with both the ends depolymerising almost at similar rates. Unmodified tubulin also undergoes a quick 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+36 
+
+depolymerisation. Glycylated MTs show reduced levels of depolymerisation, but only from one of the ends of the MTs. 
+
+D. Violin plot of the rate of MT depolymerisation of the different MT variants quantified from the in vitro reconstitution assays. The graph shows that the median rate of MCAK-induced MT depolymerisation for glycylated MTs was 0.08 μm min -1 which is ~4-fold lower than brain MTs (0.33 μm min -1 ) and ~2.75-fold lower than unmodified MTs (0.22 μm min -1 ). The dashed lines represent the 25th and 75th quartiles. The graph represents a median (±SEM) of three independent experiments with images from multiple chambers quantified from each experiment. The individual experiment data can be found in Fig. S3. 
+
+E. Non-linear regression curve for the number of depolymerisation events of a particular rate for each of the MT variants. The distribution curve shows that most glycylated MTs depolymerised between 0.01 - 0.1 μm min -1 while unmodified MTs had maximum MTs with a rate between 0.2-0.3 μm min -1 and brain MTs had the maximum MTs between 0.3-0.6 μm min -1 .
+
+Figure 3: Glycylation negatively regulates spastin-induced MT severing A. Schematic depiction of the TIRF microscope-based in vitro spastin-induced MT severing of each of the MTs with distinct PTM pattern. The imaging chambers coated with ATPase-mutant Kif5B are incubated with either of the MTs with specific PTMs or unmodified MTs, followed by introducing 8 nM spastin and ATP in the imaging motility buffer. Immediately, the MTs are visualized in TIRF to record the severing activity of spastin. Subsequently, kymographs are established and the rate of MT severing and extent of severing quantified. 
+
+B. Snapshots of the kinetics of spastin-induced severing of the MTs with different PTM patterns. The images at 0 s, 75 s 150 s and 300 s establish that brain MTs experience rapid 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+37 
+
+severing with multiple severing events observed even at 75 s. Once severed, the MTs undergo catastrophe, leading to complete depolymerisation by 300 s. The unmodified MTs and glycylated MTs showed much less severing events and extent of severing even after 300 s. Yellow arrowheads indicate the positions on the MTs undergoing severing. 
+
+C. Representative kymographs of MTs being severed by spastin, which depict that after the severing, the MTs undergo rapid catastrophe. The kymographs reveal that among the three MTs, brain MTs show multiple severing-induced catastrophe events, while the activity and extent of severing is highly reduced for both unmodified MTs as well as the TTLL3-glycylated MTs. The x-axis depicts the time (s) and y-axis the MT length (μm). 
+
+D. Violin plots of the quantification of the extent of spastin-induced severing shows that the extent of severing of glycylated MTs is ~22 % even after 300 s, compared to 62 % for brain MTs. Unmodified MTs were severed to ~31% by 300 s. Even at the earlier time point of 75 s, the glycylated MTs had ~2.5-fold lower than brain MTs and the unmodified MTs were reduced by ~1.3-fold. The graph represents a mean (±SEM) with the numbers and solid line denoting the median value of three independent experiments with multiple chambers imaged and quantified for each experiment. The dashed lines represent the 25th and 75th quartiles. Individual experiments are shown in Fig. S4. 
+
+E. Scatter plot showing the rate of MT severing by spastin per μm per min, for each of the PTM variant MTs and unmodified MTs. Glycylated MTs had the slowest rate of severing with a mean of 0.61 events μm -1 min -1 which was approximately ~1.7-fold and ~2-fold slower than unmodified MTs (1.02 events μm -1 min -1 ) and brain MTs (1.23 events μm -1 min -1 ) respectively. 
+
+Figure 4: Motor and MAP activity is fine-regulated by levels of MT glutamylation and glycylation 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+38 
+
+A. Our custom-generated mixture of glutamylated and glycylated MTs were subjected to SDS-PAGE and Western blot analysis to confirm the levels of both the PTMs in the mixed MTs. The immunoblots for polyglutamylation and glycylation show the levels of glycylation increasing and glutamylation reducing proportionately as we titrate the molar ratios of tubulin. Blot for α-tubulin levels shows the equal tubulin load in all the lanes. 
+
+B. Violin plot of the distribution of gliding velocities of MTs with gradient levels of glycylation as obtained from the in-vitro MT gliding on Osm3ΔH2. The graph shows that the velocity increased in a graded manner with increasing glycylation from a median velocity of 257 nm s -1 
+
+for brain MTs to 396 nm s -1 for 70% glycylated and 579 nm s -1 for glycylated MTs. The graph represents a mean (±SEM) of three independent experiments with the solid line being the median and the dashed lines representing the 25th and 75th quartiles. Individual experiments are shown in Fig. S5A. 
+
+C. Quantification of the rate of depolymerisation of the different gradient MTs by MCAK is represented as a violin plot with the solid line and number representing the median rate and the dashed lines, the 25th and 75th quartiles. The graph highlights the gradient reduction of the depolymerisation rate with increase in glycylation in the polymerised MTs. Brain MTs, which are 90% glutamylated have a rate of 0.41 μm min -1 which decreases by ~1.5-fold, ~2-fold and ~4-fold 50%-, 70%- and glycylated MTs. The graph is a median of three independent experiments. Individual replicates are shown in Fig. S5B. 
+
+D. Scatter plot of the quantification of the rate of severing by spastin for the 4 different MT mixtures of glutamylated and glycylated tubulin. The plot shows that the mean rate of severing drops from 1.3 events μm -1 min -1 for brain MTs to 0.87, 0.63 and 0.49 events μm -1 min -1 for 50 % glycylated, 70 % glycylated and only glycylated MTs respectively. Graph is representing a mean (±SEM) of three independent experiments where images were acquired from multiple chambers for each experiment. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
+
+39 
+
+E. Violin plot for the quantification of the severing activity of spastin after 75. s, 150 s and 300 s of imaging of each of the 4 different MT mixtures of glutamylated and glycylated tubulin. The graph highlights the gradual reduction in the extent of MT severing as the molar concentration of glycylated tubulin was increasing. The numbers and solid lines indicate the median value and the dashed lines represent the 25th and 75th quartiles. From the plots, it is evident that the extent of severing of brain MTs increases from 24% at 75 s to 64% by 300 s, while the 50 % glycylated, 70 % glycylated and only glycylated MTs show a ~1.3-fold, ~2.5-fold and ~4-fold reduction in severing at every time point of imaging and quantification. The plot is a mean (±SEM) of three independent experiments with images acquired from multiple chambers for each experiment. Individual experiment data is represented in Fig. S6 
+
+Table 1: Kinetic parameters of the different motors and MAPs on MTs with diverse PTM patterns 
+
+Values representing the gliding velocities, depolymerisation rates and severing activities are the mean (± SEM) and n represent the total number of measurements. For kinesin-1 and kinesin-2, the n represents number of gliding MTs analysed. For MCAK activity, n is the number of microtubules ends analysed. For the extent of severing by spastin, the n indicates the number of MTs undergoing both severing and depolymerisation analysed, while for the rate of severing, n is the number of MTs showing clear severing events during imaging. For all the proteins, the values are combined from 3 individual biological experiments, wherein for each experiment, the MTs from multiple imaging chambers were analysed. 
+
+> .CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint ababababababababababab
+
+Mullick, et al., Figure 1 
+
+## - +
+
+> abababababababababababababababababababababab
+
+direction of motor walking microtubule gliding kinesin-1 kinesin-2 dynamics of motor activity time (s) distance (μm)  kymograph A in vitro reconstitution and TIRF analysis of MT gliding on kinesin motors B
+
+0200 184 270 103 400 600 800 190 227 238 no. of MTs 150 138 132 no. of MTs 
+
+p<0.0001 
+
+brain tubulin unmodified tubulin glycylated tubulin 
+
+brain MTs unmodified MTs glycylated MTs 
+
+MT gliding velocities on kinesin-1 (K560-GFP) 
+
+p<0.0001 p<0.0001 
+
+C kymographs of MT gliding on kinesin-1 brain tubulin unmodified tubulin glycylated tubulin 
+
+p<0.0001 p<0.0001 p<0.0001 
+
+D MT gliding velocities on kinesin-2 (OSM3-GFP) 
+
+0250 500 750 1000 1250 364 177 506 
+
+**
+
+10 s 1 μm brain MTs unmodified MTs glycylated MTs 
+
+E kymographs of MT gliding on kinesin-2 
+
+10 s 2 μm MT gliding velocity (nm s -1 )MT gliding velocity (nm s -1 )
+
+.CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint Mullick, et al., Figure 2 
+
+## - +
+
+direction of motor walking ATPase-dead kinesin-1 MCAK dynamics of motor activity time (s) MT length (μm) 
+
+kymograph A in vitro reconstitution and TIRF analysis of MT depolymerisation by MCAK B kinetics of in vitro MT depolymerisation by MCAK C
+
+> bababababababababababababababababababababababababab
+
+0 s 75 s 150 s 300 s 
+
+> brain tubulin unmodified tubulin glycylated tubulin
+
+unmodified tubulin glycylated tubulin kymographs for microtubule depolymerisation by MCAK E frequency distribution of depolymerisation rate D rate of MT depolymerisation by MCAK 
+
+10 s 1μm 
+
+brain tubulin 
+
+0.0 0.2 0.4 0.6 0.8 1.0 number of depolymerisation events 0.33 0.22 0.08 
+
+brain tubulin unmodified tubulin glycylated tubulin 
+
+p<0.0001 p<0.0001 p<0.0001 
+
+050 100 150 
+
+0-0.1 0.1-0.2 0.2-0.3 0.3-0.4 0.4-0.5 0.5-0.6 0.6-0.7 >0.7 MT depolymerisation rate (μm/min) brain MTs unmodified MTs glycylated MTs 
+
+2 μm 
+
+2 μm 
+
+2 μm 
+
+215 193 197 no. of MTs 
+
+> MT depolymerisation rate (μm min -1 )
+
+.CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint 0 s 75 s 150 s 300 s 
+
+> brain tubulin unmodified tubulin glycylated tubulin
+
+2 μm 
+
+2 μm 
+
+2 μm 
+
+> abababababababababababababababababab
+
+Mullick, et al., Figure 3 
+
+time (s) MT length (μm) 
+
+extent of severing by spastin A in vitro reconstitution and TIRF analysis of MT severing by spastin 
+
+## - +
+
+ATPase-dead kinesin-1 Spastin severing activity of spastin 
+
+> bababababbababa
+
+B kinetics of in vitro MT severing by spastin C kymographs of spastin-induced MT severing D Eextent of MT severing by spastin rate of MT severing by spastin 
+
+025 50 75 100 extent of MT severing (%) 
+
+brain tubulin unmodified tubulin glycylated tubulin brain tubulin unmodified tubulin glycylated tubulin brain tubulin unmodified tubulin glycylated tubulin 
+
+75 s 15% 19% 6% 22% 11% 40% 8% 31% 62% 150 s 300 s p<0.0001 p=0.8205 p=0.0011 p<0.0001 p=0.0242 p<0.0001 p<0.0001 p=0.0072 p<0.0001 severing events μm -1 min -1 
+
+20 s 2 μm 
+
+unmodified tubulin glycylated tubulin brain tubulin brain tubulin unmodified tubulin glycylated tubulin 
+
+59 58 66 no. of MTs 
+
+89 80 69 no. of MTs Time 01234p<0.0001 p=0.0034 p=0.1149 1.23 1.02 0.61 
+
+.CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint brain tubulin 50% glycyl. tubulin 70% glycyl. tubulin glycylated tubulin 
+
+Mullick, et al., Figure 4 
+
+E extent of MT severing by spastin - inhibition by extent of glycylation 
+
+75 s 150 s 300 s p<0.0001 p<0.0001 p<0.0001 p=0.0033 p=0.1003 p=0.0569 p<0.0001 p<0.0001 p<0.0001 p=0.0082 
+
+brain tubulin 50% gly tubulin 70% gly tubulin glycyl. tubulin brain tubulin 50% gly tubulin 70% gly tubulin glycyl. tubulin brain tubulin 50% gly tubulin 70% gly tubulin glycyl. tubulin 
+
+025 50 75 100 Time extent of MT severing (%) 24% 20% 9% 5% 50% 40% 16% 10% 64% 49% 26% 17% 
+
+A Immunoblot of MTs with different levels of glutamylation and glycylation 
+
+α-tubulin β-tubulin 
+
+polyglutamylation 
+
+50 
+
+α-tubulin 
+
+glycylation 
+
+50 
+
+tubulin 
+
+50 
+
+α-tubulin brain 50% glycyl. 70% glycyl. 
+
+custom tubulin composition 
+
+glycyl. 
+
+B MT gliding velocities on kinesin-2 (OSM3-GFP) 
+
+257 234 396 579 
+
+brain tubulin 50% glycyl. tubulin 70% glycyl. tubulin glycylated tubulin 
+
+0250 500 750 1000 p<0.0001 p<0.0001 p<0.0001 p<0.0001 p=0.0887 p<0.0001 
+
+C rate of MT depolymerisation by MCAK 
+
+> MT depolymerisation rate (μm min -1 )
+
+0.41 0.26 0.20 0.10 
+
+brain tubulin 50% glycyl. tubulin 70% glycyl. tubulin glycylated tubulin 
+
+0.0 0.2 0.4 0.6 0.8 1.0 p<0.0001 p<0.0001 p<0.0001 p<0.0001 p<0.0001 p<0.0001 p<0.0001 p<0.0001 p=0.0002 p=0.1061 severing events μm -1  min -1 
+
+1.3 0.87 0.63 0.49 
+
+D severing rate of MT with increasing glycylation 
+
+174 176 180 178 no. of MTs 60 49 67 60 no. of MTs 
+
+60 51 59 59 no. of MTs 
+
+60 60 67 60 no. of MTs 
+
+0246p<0.0001 p=0.0098 p=0.0186 p=0.2237 p<0.0001 p<0.0001 MT gliding velocity (nm s -1 )
+
+.CC-BY-NC-ND 4.0 International license perpetuity. It is made available under a preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in The copyright holder for this this version posted March 30, 2026. ;https://doi.org/10.64898/2026.03.26.714406 doi: bioRxiv preprint
