@@ -1,0 +1,493 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-10T20:10:23.339499+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 3,
+    "deep_cap": 6,
+    "deep_selected": 3,
+    "quick_candidates": 8,
+    "quick_skim_target": 11,
+    "quick_selected": 8
+  },
+  "deep_dive": [
+    {
+      "id": "biorxiv-10-1101-2025-08-11-669754-v3",
+      "source": "biorxiv",
+      "title": "A population-scale atlas of blood and tissue in lupus nephritis",
+      "abstract": "One Sentence SummaryA single-cell atlas of paired blood and tissue samples from Lupus Nephritis patients and healthy controls identified stromal and immune populations within renal tissue, including the scar-associated macrophage populations, which correlate with and may drive renal disease activity.\n\nLupus nephritis (LN), a severe manifestation of Systemic Lupus Erythematosus (SLE), is a heterogeneous disease driven by diverse immune and tissue cell types. We obtained 538K single-cell and 140K single-nuclear profiles from kidney biopsies of 155 LN patients and 30 pre-implantation transplant biopsy controls, along with 325K single-cell blood profiles overlapping many of these patients. We identified key tissue cell types and cell states, and immune cell states; we were able to determine cell states that were tissue specific, and those that were present in the blood. We observed that LN pathological features are significantly associated with cell states using differential gene expression and Covarying Neighborhood Analysis (CNA). These analyses revealed broad changes in cell states associated with irreversible chronic tissue damage. After controlling for the effects of ongoing tissue damage, we observed that expansion of key glomerular and Scar Associated Macrophages (SAMs) populations tracked with increasing inflammatory disease activity. SAMs appear to drive LN fibrosis and, in active disease, infiltrate the glomeruli more than other myeloid cells. These observations strongly support that therapeutic targeting of myeloid populations may offer an as-of-yet unproven strategy to prevent renal inflammation and ongoing kidney damage in LN.",
+      "authors": [
+        "Sugiarto, N. W.",
+        "Gurajala, S.",
+        "Curtis, M.",
+        "Eisenhaure, T. M.",
+        "Arazi, A.",
+        "Fava, A.",
+        "Xiao, Q.",
+        "Mears, J.",
+        "Rovin, B.",
+        "Berthier, C. C.",
+        "Zhao, Y.",
+        "Izmirly, P. M.",
+        "Barnas, J. L.",
+        "Hoover, P. J.",
+        "Peters, M.",
+        "Raychowdhury, R.",
+        "Horisberger, A.",
+        "Sakaue, S.",
+        "Furie, R. A.",
+        "Belmont, H. M.",
+        "Hildeman, D. A.",
+        "Woodle, E. S.",
+        "Dall'Era, M.",
+        "Putterman, C.",
+        "Kamen, D. L.",
+        "McMahon, M. A.",
+        "Grossman, J.",
+        "Kalunian, K. C.",
+        "Hodgin, J. B.",
+        "Payan-Schober, F.",
+        "Apruzzese, W.",
+        "Perlman, H.",
+        "Cuda, C. M.",
+        "Wofsy, D.",
+        "Guthridge, J. M.",
+        "Anolik, J. H.",
+        "James, J. A.",
+        "Accelerating Medicines Partnerships Rheumatoid Arthritis/Systemic Lu"
+      ],
+      "primary_category": "molecular biology",
+      "categories": [
+        "molecular biology"
+      ],
+      "published": "2026-04-02T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2025.08.11.669754v3.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Single-cell atlas of lupus nephritis identifying immune and tissue cell states in kidney biopsies",
+      "llm_evidence_cn": "狼疮性肾炎单细胞图谱，识别肾活检中的免疫和组织细胞状态",
+      "llm_evidence": "狼疮性肾炎单细胞图谱，识别肾活检中的免疫和组织细胞状态",
+      "canonical_evidence": "狼疮性肾炎单细胞图谱，识别肾活检中的免疫和组织细胞状态",
+      "llm_tldr_en": "Provides a comprehensive single-cell atlas of lupus nephritis, highlighting immune-tissue interactions.",
+      "llm_tldr_cn": "提供了狼疮性肾炎的全面单细胞图谱，突出了免疫与组织间的相互作用。",
+      "llm_tldr": "提供了狼疮性肾炎的全面单细胞图谱，突出了免疫与组织间的相互作用。",
+      "llm_tags": [
+        "query:q6"
+      ],
+      "matched_query_tag": "query:q6",
+      "matched_query_text": "immune system interactions and injury in podocyte diseases",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "biorxiv-10-1101-2023-12-23-572573-v3",
+      "source": "biorxiv",
+      "title": "Neutrophil Extracellular Traps Drive Inflammation in Local Skin and Distant Kidneys in UVB-Irradiated Lupus-Prone Mice",
+      "abstract": "Sunlight is a primary environmental trigger for systemic lupus erythematosus (SLE). However, the mechanisms linking cutaneous inflammation to internal organ damage remain unclear. Here, we identify a critical role for neutrophil extracellular trap (NET) formation in a pathogenic skin-kidney axis that drives UVB-induced lupus flares. In asymptomatic lupus-prone mice, UVB irradiation elicited concurrent skin and kidney inflammation, characterized by neutrophil infiltration, NET formation, release of NET-associated cytokines and complement C3, and proteinuria. Importantly, targeting nuclear envelope rupture[-]a critical structural step enabling nuclear chromatin release during NETosis[-]through Pkc genetic deletion significantly attenuated NET formation, skin and kidney inflammation, and proteinuria in UVB-irradiated MRL/lpr;Pkc-/-mice. Beyond local NETosis, UVB primed skin-infiltrating neutrophils to express the migration receptor CXCR4 alongside proinflammatory cytokines and C3. Using spatiotemporal tracking via photoconversion, we revealed that a subset of non-NETting, CXCR4-expressing neutrophils migrated from the skin to the kidneys, where they underwent NETosis to release their pre-expressed cytokines and C3, thereby driving renal inflammation and injury. Genetic Cxcr4 deficiency impaired this inter-organ trafficking, attenuating renal neutrophil infiltration and proteinuria in UVB-irradiated kikGR;Cxcr4+/- mice. Pharmacological CXCR4 inhibition further validated the therapeutic potential of blocking this migratory axis, attenuating lupus skin and kidney inflammation in UVB-irradiated lupus-prone mice. By linking environmental UVB exposure to systemic lupus outcomes through PKC-driven nuclear envelope rupture for proinflammatory NET release and CXCR4-mediated neutrophil trafficking for systemic dissemination, this work provides strong mechanistic evidence for a skin-kidney axis in SLE. These findings identify nuclear envelope regulation and neutrophil trafficking as previously underexplored therapeutic targets for photosensitive SLE.\n\nSIGNIFICANCEThis study explores a mechanistic skin-kidney axis in SLE, revealing a causal link between UVB-induced cutaneous inflammation and systemic disease exacerbations. We demonstrate that PKC-driven nuclear envelope rupture is critical for the release of proinflammatory NETs, while CXCR4-mediated trafficking of non-NETting neutrophils represents a critical route for systemic dissemination. These findings delineate how neutrophils transition from local initiators of skin inflammation to systemic effectors of renal injury by propagating NET-driven inflammatory cascades. This work proposes a shift in the therapeutic paradigm toward precise regulation of neutrophil migration and NETosis kinetics. By uncovering these underexplored pathways, the study provides a molecular framework for intercepting the progression of photosensitive SLE, with the potential to mitigate irreversible end-organ damage and improve clinical outcomes.",
+      "authors": [
+        "Lyu, X.",
+        "Yi, M.",
+        "Li, M.",
+        "Zhang, P. L.",
+        "Wei, W.",
+        "Werth, V. P.",
+        "Liu, M.-L."
+      ],
+      "primary_category": "pathology",
+      "categories": [
+        "pathology"
+      ],
+      "published": "2026-04-03T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2023.12.23.572573v3.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "NETs drive inflammation and kidney injury with proteinuria in lupus mice",
+      "llm_evidence_cn": "中性粒细胞胞外陷阱驱动狼疮小鼠炎症、肾损伤及蛋白尿",
+      "llm_evidence": "中性粒细胞胞外陷阱驱动狼疮小鼠炎症、肾损伤及蛋白尿",
+      "canonical_evidence": "中性粒细胞胞外陷阱驱动狼疮小鼠炎症、肾损伤及蛋白尿",
+      "llm_tldr_en": "Identifies a skin-kidney axis where NETs drive inflammation and proteinuria in lupus-prone mice.",
+      "llm_tldr_cn": "揭示了中性粒细胞胞外陷阱在狼疮小鼠中驱动皮肤-肾脏轴炎症和蛋白尿的机制。",
+      "llm_tldr": "揭示了中性粒细胞胞外陷阱在狼疮小鼠中驱动皮肤-肾脏轴炎症和蛋白尿的机制。",
+      "llm_tags": [
+        "query:q6"
+      ],
+      "matched_query_tag": "query:q6",
+      "matched_query_text": "immune system interactions and injury in podocyte diseases",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "biorxiv-10-1101-2023-12-23-572573-v4",
+      "source": "biorxiv",
+      "title": "Neutrophil Extracellular Traps Drive Inflammation in Local Skin and Distant Kidneys in UVB-Irradiated Lupus-Prone Mice",
+      "abstract": "Sunlight is a primary environmental trigger for systemic lupus erythematosus (SLE). However, the mechanisms linking cutaneous inflammation to internal organ damage remain unclear. Here, we identify a critical role for neutrophil extracellular trap (NET) formation in a pathogenic skin-kidney axis that drives UVB-induced lupus flares. In asymptomatic lupus-prone mice, UVB irradiation elicited concurrent skin and kidney inflammation, characterized by neutrophil infiltration, NET formation, release of NET-associated cytokines and complement C3, and proteinuria. Importantly, targeting nuclear envelope rupture[-]a critical structural step enabling nuclear chromatin release during NETosis[-]through Pkc genetic deletion significantly attenuated NET formation, skin and kidney inflammation, and proteinuria in UVB-irradiated MRL/lpr;Pkc-/-mice. Beyond local NETosis, UVB primed skin-infiltrating neutrophils to express the migration receptor CXCR4 alongside proinflammatory cytokines and C3. Using spatiotemporal tracking via photoconversion, we revealed that a subset of non-NETting, CXCR4-expressing neutrophils migrated from the skin to the kidneys, where they underwent NETosis to release their pre-expressed cytokines and C3, thereby driving renal inflammation and injury. Genetic Cxcr4 deficiency impaired this inter-organ trafficking, attenuating renal neutrophil infiltration and proteinuria in UVB-irradiated kikGR;Cxcr4+/- mice. Pharmacological CXCR4 inhibition further validated the therapeutic potential of blocking this migratory axis, attenuating lupus skin and kidney inflammation in UVB-irradiated lupus-prone mice. By linking environmental UVB exposure to systemic lupus outcomes through PKC-driven nuclear envelope rupture for proinflammatory NET release and CXCR4-mediated neutrophil trafficking for systemic dissemination, this work provides strong mechanistic evidence for a skin-kidney axis in SLE. These findings identify nuclear envelope regulation and neutrophil trafficking as previously underexplored therapeutic targets for photosensitive SLE.\n\nSIGNIFICANCEThis study explores a mechanistic skin-kidney axis in SLE, revealing a causal link between UVB-induced cutaneous inflammation and systemic disease exacerbations. We demonstrate that PKC-driven nuclear envelope rupture is critical for the release of proinflammatory NETs, while CXCR4-mediated trafficking of non-NETting neutrophils represents a critical route for systemic dissemination. These findings delineate how neutrophils transition from local initiators of skin inflammation to systemic effectors of renal injury by propagating NET-driven inflammatory cascades. This work proposes a shift in the therapeutic paradigm toward precise regulation of neutrophil migration and NETosis kinetics. By uncovering these underexplored pathways, the study provides a molecular framework for intercepting the progression of photosensitive SLE, with the potential to mitigate irreversible end-organ damage and improve clinical outcomes.",
+      "authors": [
+        "Lyu, X.",
+        "Yi, M.",
+        "Li, M.",
+        "Zhang, P. L.",
+        "Wei, W.",
+        "Werth, V. P.",
+        "Liu, M.-L."
+      ],
+      "primary_category": "pathology",
+      "categories": [
+        "pathology"
+      ],
+      "published": "2026-04-08T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2023.12.23.572573v4.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "NET formation in skin-kidney axis driving proteinuria and kidney inflammation in lupus",
+      "llm_evidence_cn": "中性粒细胞胞外陷阱在皮肤-肾脏轴中驱动狼疮性肾炎和蛋白尿",
+      "llm_evidence": "中性粒细胞胞外陷阱在皮肤-肾脏轴中驱动狼疮性肾炎和蛋白尿",
+      "canonical_evidence": "中性粒细胞胞外陷阱在皮肤-肾脏轴中驱动狼疮性肾炎和蛋白尿",
+      "llm_tldr_en": "Identifies NETs as a key driver of kidney injury and proteinuria in a lupus-prone model.",
+      "llm_tldr_cn": "揭示了中性粒细胞胞外陷阱在狼疮模型中驱动肾脏损伤和蛋白尿的关键作用。",
+      "llm_tldr": "揭示了中性粒细胞胞外陷阱在狼疮模型中驱动肾脏损伤和蛋白尿的关键作用。",
+      "llm_tags": [
+        "query:q6"
+      ],
+      "matched_query_tag": "query:q6",
+      "matched_query_text": "immune system interactions and injury in podocyte diseases",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "biorxiv-10-64898-2026-04-01-715811-v1",
+      "source": "biorxiv",
+      "title": "A non-invasive approach for understanding localized force generation in 3D tissues",
+      "abstract": "The development, maintenance and repair of epithelial tissues critically rely on adhesion complexes that ensure structural integrity while enabling dynamic remodeling. Such tissue remodeling underpins both physiological morphogenesis and pathological transformation. Central to these processes are mechanical forces, which tightly couple cytoskeletal organization to adhesion dynamics. Despite extensive investigations in two-dimensional (2D) systems, how these interactions are orchestrated within polarized three-dimensional (3D) epithelia remains largely unresolved. Here, we introduce a new, non-invasive strategy to probe localized force generation within 3D epithelial tissues. We engineered elastic polyacrylamide (PAAm) microbeads with cell-mimetic size and mechanical properties, enabling their seamless integration. In contrast to conventional bead injection approaches, these PAAm microbeads were spontaneously engulfed by the tissue, thereby establishing an intrinsic interface through which bead deformation can be directly correlated with local cytoskeletal architecture and adhesion organization, as visualized through high-resolution imaging combined with quantitative 3D computational reconstruction. Using this approach, we demonstrated that localized mechanical perturbations trigger pronounced cytoskeletal remodelling while preserving global tissue polarity. We further identified the extracellular matrix composition as key determinant of bead-tissue interactions, with collagen-I coating promoting robust adhesion and efficient incorporation. At the bead-cell interface, cells assembled tension-bearing focal adhesions and organized actin stress fibers, revealing the emergence of active cortical stress. Strikingly, quantitative analysis of bead deformation revealed a previously unrecognized mechanical duality: spatially segregated regions of pulling and pushing forces coexisted at the microscale, directly correlated with local cytoskeleton dynamics. This finding challenges the prevailing view of homogenous force application and instead supports a model in which cells deploy highly coordinated and spatially patterned force-generating strategies. Altogether, this integrative and non-invasive strategy offers a comprehensive pipeline for dissecting the dynamic interplay between cellular processes and tissue mechanics during morphogenesis in 3D model systems.",
+      "authors": [
+        "Gouirand, N.",
+        "Ibrahimi, M.",
+        "Valotteau, C.",
+        "Lecouffe, B.",
+        "Le Bivic, A.",
+        "Massey Harroche, D.",
+        "Rico, F.",
+        "Merkel, M.",
+        "Delacour, D.",
+        "Bazellieres, E."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-04-02T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715811v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Probing localized force generation and cytoskeletal organization in 3D epithelial tissues",
+      "llm_evidence_cn": "探测3D上皮组织中的局部力产生和细胞骨架组织",
+      "llm_evidence": "探测3D上皮组织中的局部力产生和细胞骨架组织",
+      "canonical_evidence": "探测3D上皮组织中的局部力产生和细胞骨架组织",
+      "llm_tldr_en": "Develops a method to study mechanical forces and cytoskeletal dynamics in 3D epithelial structures.",
+      "llm_tldr_cn": "开发了一种研究3D上皮结构中机械力和细胞骨架动力学的方法。",
+      "llm_tldr": "开发了一种研究3D上皮结构中机械力和细胞骨架动力学的方法。",
+      "llm_tags": [
+        "query:q9"
+      ],
+      "matched_query_tag": "query:q9",
+      "matched_query_text": "signaling networks and cytoskeletal regulation in podocyte function and dysfunction",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-1101-2024-12-06-627285-v2",
+      "source": "biorxiv",
+      "title": "Spatial Organellomics Maps Cell State Diversity and Metabolic Adaptation in Tissues",
+      "abstract": "Cell state diversity drives tissue adaptability, repair, and disease resilience, but fully capturing this cellular complexity remains a challenge. Most current approaches rely on transcriptional profiling and often overlook functional insights embedded in organelle structure, key indicators of cellular metabolism and stress. Here, we introduce spatial Organellomics (sOrganellomics), an imaging workflow integrating automated segmentation with machine learning to classify and spatially map cell states based on multi-organelle features. Across metabolically specialized organs, these features distinguish organ-specific cellular identities. In the liver, sOrganellomics reveals a previously unrecognized hepatocyte organization: different hepatocyte states form intermixed communities rather than classical homogeneous graded zones, a pattern disrupted by nutritional stress. Intravital imaging further links fasting-associated architectural remodeling to altered mitochondrial membrane potential and bioenergetic heterogeneity in vivo. This approach maps metabolic transitions and early disease progression, establishing organelle architecture as a scalable readout of functional cell state diversity in tissues.",
+      "authors": [
+        "Adhikari, R.",
+        "Hillsley, A.",
+        "Johnson, A. D.",
+        "Gao, S. M.",
+        "Espinosa-Medina, I.",
+        "Funke, J.",
+        "Feliciano, D."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-04-09T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.12.06.627285v2.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Imaging workflow for mapping cell states based on organelle structure and stress",
+      "llm_evidence_cn": "基于细胞器结构和应激映射细胞状态的成像工作流",
+      "llm_evidence": "基于细胞器结构和应激映射细胞状态的成像工作流",
+      "canonical_evidence": "基于细胞器结构和应激映射细胞状态的成像工作流",
+      "llm_tldr_en": "Introduces sOrganellomics to map cell states via organelle features, useful for studying cellular stress in disease.",
+      "llm_tldr_cn": "引入空间细胞器组学，通过细胞器特征映射细胞状态，可用于研究疾病中的细胞应激。",
+      "llm_tldr": "引入空间细胞器组学，通过细胞器特征映射细胞状态，可用于研究疾病中的细胞应激。",
+      "llm_tags": [
+        "query:profile-1:composite"
+      ],
+      "matched_query_tag": "query:profile-1:composite",
+      "matched_query_text": "Papers central to 找足细胞病的机制研究, especially work that connects or combines: podocyte disease mechanisms; podocyte injury mechanisms; podocyte cytoskeleton structure and function; podocyte apoptosis pathways; podocyte autophagy regulation; immune system interactions and injury in podocyte diseases; molecular and cellular mechanisms underlying podocyte injury and disease; pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis; signaling networks and cytoskeletal regulation in podocyte function and dysfunction.",
+      "matched_requirement_id": "req-composite-profile-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-04-01-715956-v1",
+      "source": "biorxiv",
+      "title": "Early impact of gestational protein restriction on nephrogenesis in male mouse offspring: Role of Autophagy and Apoptosis Mechanisms",
+      "abstract": "BackgroundMaternal protein restriction results in a 28% reduction in nephrogenic cells and nephron units in rodent offspring by the 17th day of gestation compared to adequate protein intake.\n\nAimsThe present study investigates the association between growth factor expression and some developmental pathways that contribute to nephron reduction during embryonic and fetal development.\n\nExperimental DesignPregnant C57BL/6-Tg and C57BL/6J mice were assigned to either normal protein intake (NP-17%) or low protein intake (LP-6%) groups. Body weight of male offspring and kidney growth factor expression were assessed on gestation days (GD) 14 and 18.\n\nResultsOn GD 14, LP pups exhibited a 4% higher body mass (0.1035 g) compared to NP pups (0.0995 g, p = 0.005). By GD 18, LP pups demonstrated a 4% decrease in body mass (0.939 g, p = 0.03) and a 10% increase in the number of cells per metanephric cap area. Three genes (Csf2, Il1b, Il2) were downregulated, while seven genes (Bmp2, Csf3, Fgf8, Gdnf, Bmp7, Fgf3, Ntf3) were upregulated. By GD 14, phagophores and autophagosomes in the ureteric bud increased by 197%, with further increases observed by GD 18. Bcl-2 expression increased significantly in ureteric bud cells, and mTOR activity was elevated by GD 18.\n\nConclusionEarly gestational protein restriction modifies renal growth factor gene expression, influencing cell proliferation and autophagy, and may contribute to reduced nephron numbers by the 18th day of gestation.\n\nHIGHLIGHTSO_LIThis study examines the effects of a low-protein diet during pregnancy in mice and demonstrates a significant reduction in embryo-fetal body weight between gestational days 14 and 18.\nC_LIO_LIProtein restriction induces a distinct cellular pattern in the mesonephros, with a 21% increase in CAP cells at gestational day 14 (GD14), followed by a decrease by gestational day 18 (GD18) compared to offspring from mothers on a normal protein diet.\nC_LIO_LIAdditionally, increased expression levels of key growth factors essential for kidney development were observed at GD 14, comparing LP with NP intake during pregnancy.\nC_LIO_LISeven genes were upregulated (Gdnf, Bmp2, Bmp7, Tgf, Fgf8, Fgf3, Csf3, Ntf3), while three genes were downregulated (Csf2, Il1b, Il2).\nC_LIO_LIOverall, these findings indicate that gene regulation, autophagy, and mTOR signaling mechanisms significantly influence nephron numbers in response to gestational protein restriction beyond the 18th day of gestation.\nC_LI",
+      "authors": [
+        "Rocha, J. A.",
+        "Boer, P. A.",
+        "Folguieri, M. S.",
+        "Calsa, B."
+      ],
+      "primary_category": "developmental biology",
+      "categories": [
+        "developmental biology"
+      ],
+      "published": "2026-04-05T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.01.715956v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "autophagy and apoptosis mechanisms in nephron reduction and kidney development",
+      "llm_evidence_cn": "肾单位减少和肾脏发育中的自噬与凋亡机制",
+      "llm_evidence": "肾单位减少和肾脏发育中的自噬与凋亡机制",
+      "canonical_evidence": "肾单位减少和肾脏发育中的自噬与凋亡机制",
+      "llm_tldr_en": "Examines how autophagy and apoptosis pathways contribute to nephron reduction during gestational protein restriction.",
+      "llm_tldr_cn": "研究妊娠期蛋白质限制期间自噬和凋亡通路如何导致肾单位减少。",
+      "llm_tldr": "研究妊娠期蛋白质限制期间自噬和凋亡通路如何导致肾单位减少。",
+      "llm_tags": [
+        "query:profile-1:composite"
+      ],
+      "matched_query_tag": "query:profile-1:composite",
+      "matched_query_text": "Papers central to 找足细胞病的机制研究, especially work that connects or combines: podocyte disease mechanisms; podocyte injury mechanisms; podocyte cytoskeleton structure and function; podocyte apoptosis pathways; podocyte autophagy regulation; immune system interactions and injury in podocyte diseases; molecular and cellular mechanisms underlying podocyte injury and disease; pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis; signaling networks and cytoskeletal regulation in podocyte function and dysfunction.",
+      "matched_requirement_id": "req-composite-profile-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-1101-2025-10-13-682065-v3",
+      "source": "biorxiv",
+      "title": "Analysis of multicellular anatomical structures from spatial omics data using sosta",
+      "abstract": "Spatial omics technologies enable high-resolution, large-scale quantification of molecular features while preserving the spatial context within tissues. Existing analysis methods largely focus on spatial arrangements of single cells, whereas biological function often emerges from multicellular arrangements. Here, we introduce structure-based analysis of spatial omics data, which focuses on the direct analysis of multicellular, anatomical structures. We illustrate this type of analysis using two publicly available datasets and provide sosta, an open-source Bioconductor package for broad community use.",
+      "authors": [
+        "Gunz, S.",
+        "Crowell, H. L.",
+        "Robinson, M. D."
+      ],
+      "primary_category": "bioinformatics",
+      "categories": [
+        "bioinformatics"
+      ],
+      "published": "2026-04-07T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.1101/2025.10.13.682065v3.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Spatial omics analysis of multicellular anatomical structures in tissues",
+      "llm_evidence_cn": "组织中多细胞解剖结构的空间组学分析",
+      "llm_evidence": "组织中多细胞解剖结构的空间组学分析",
+      "canonical_evidence": "组织中多细胞解剖结构的空间组学分析",
+      "llm_tldr_en": "Introduces a tool for analyzing multicellular structures in spatial omics data, applicable to kidney tissue.",
+      "llm_tldr_cn": "介绍了一种分析空间组学中多细胞结构的工具，可应用于肾脏组织研究。",
+      "llm_tldr": "介绍了一种分析空间组学中多细胞结构的工具，可应用于肾脏组织研究。",
+      "llm_tags": [
+        "query:profile-1:composite"
+      ],
+      "matched_query_tag": "query:profile-1:composite",
+      "matched_query_text": "Papers central to 找足细胞病的机制研究, especially work that connects or combines: podocyte disease mechanisms; podocyte injury mechanisms; podocyte cytoskeleton structure and function; podocyte apoptosis pathways; podocyte autophagy regulation; immune system interactions and injury in podocyte diseases; molecular and cellular mechanisms underlying podocyte injury and disease; pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis; signaling networks and cytoskeletal regulation in podocyte function and dysfunction.",
+      "matched_requirement_id": "req-composite-profile-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-04-05-716233-v1",
+      "source": "biorxiv",
+      "title": "Regulation of Nucleus Pulposus Cell Phenotype Through RhoA Signaling and Microenvironment",
+      "abstract": "Intervertebral disc degeneration is associated with loss of nucleus pulposus (NP) cell phenotype and extracellular matrix, both processes linked to changes in cytoskeletal contractility and cell shape. Here, we tested whether microenvironment-specific modulation of RhoA signaling can restore NP-like morphology and gene expression in NP cells cultured in 2D and in 3D alginate. In 2D monolayer culture, where cells are spread and mechanically activated, pharmacologic inhibition of RhoA with CT04 reduced RhoA activity, decreased actomyosin contractility gene expression, and shifted morphology toward a smaller, more circular phenotype. Bulk RNA sequencing showed that CT04 treatment increased expression of NP phenotypic and matrix-related genes including ACAN, GDF5, CHST3, and MUSTN1 while decreasing expression of catabolic and fibroblast-associated genes including ADAMTS1/9 and COL1, consistent with enrichment of extracellular matrix pathways. In contrast, RhoA activation with CN03 in 2D culture increased actin and phosphorylated myosin light chain intensity but produced limited phenotypic improvement. In 3D alginate, which minimizes integrin-mediated adhesion, baseline actomyosin markers were reduced relative to 2D culture. In alginate, RhoA activation with CN03 increased the amount of actin, phosphorylated myosin light chain, and actomyosin gene expression, yet also promoted a more compact, circular morphology and increased NP markers, including ACAN and KRT19 with repeated dosing. Across culture conditions, increased cell roundness was consistently associated with increased ACAN expression, indicating strong coupling between cytoskeletal state, morphology, and NP matrix programs. Together, these findings demonstrate that RhoA pathway perturbation can promote NP phenotypic gene expression in both 2D and 3D culture, but the direction of optimal modulation depends on the microenvironment, supporting RhoA signaling as a context-dependent therapeutic target for disc regeneration.",
+      "authors": [
+        "Bond, G.",
+        "Kim, M. K. M.",
+        "Lisiewski, L.",
+        "Jacobsen, T.",
+        "Chahine, N."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-04-07T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.05.716233v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "RhoA signaling modulation of cytoskeletal contractility and cell morphology",
+      "llm_evidence_cn": "RhoA信号调节细胞骨架收缩力和细胞形态",
+      "llm_evidence": "RhoA信号调节细胞骨架收缩力和细胞形态",
+      "canonical_evidence": "RhoA信号调节细胞骨架收缩力和细胞形态",
+      "llm_tldr_en": "Investigates how RhoA signaling and microenvironment regulate cytoskeletal structure and cell phenotype.",
+      "llm_tldr_cn": "研究RhoA信号和微环境如何调节细胞骨架结构和细胞表型。",
+      "llm_tldr": "研究RhoA信号和微环境如何调节细胞骨架结构和细胞表型。",
+      "llm_tags": [
+        "query:q9"
+      ],
+      "matched_query_tag": "query:q9",
+      "matched_query_text": "signaling networks and cytoskeletal regulation in podocyte function and dysfunction",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-03-31-715459-v1",
+      "source": "biorxiv",
+      "title": "Synthetic budding morphogenesis by optogenetic receptor tyrosine kinase signaling",
+      "abstract": "The mammalian kidney relies on a branched network of collecting ducts for fluid transport and homeostasis. Replicating this network in vitro would parallelize function in synthetic replacement kidneys, yet current organoids have limited branching capacity. Here, we establish a developmentally-informed strategy to control organoid budding through optogenetic control of a receptor tyrosine kinase, RET. We first show pharmacological manipulation of RET signaling controls the extent of branching in mouse embryonic kidneys and human stem cell-derived kidney organoids. Next, we develop an optogenetic RET receptor (optoRET) that signals in a ligand-independent manner via blue light-mediated clustering. Epithelial cells expressing optoRET reproduce stereotyped RET signaling, scattering, and symmetry breaking in response to blue light. Human kidney organoids undergo budding with controllable orientation in response to spatially patterned optoRET stimulation. Our results establish ligand-free optogenetic control of branching and inspire new synthetic biology strategies for epithelial organoid design.\n\nHighlightsGDNF-RET controls branching and tip cell state in mouse and human kidney tissues.\n\nOptoRET reproduces endogenous RET signaling and morphogenesis in cell lines.\n\nOptoRET enables ligand-free budding in human renal epithelial organoids.\n\nSpatially patterned optoRET stimulation controls budding orientation.",
+      "authors": [
+        "Prahl, L. S.",
+        "Canlla, R.",
+        "Huang, A. Z.",
+        "Alber, D. S.",
+        "Shefter, S. L.",
+        "Davis, S. N.",
+        "Grindel, S. H.",
+        "Huang, Z.",
+        "Mumford, T. R.",
+        "Benman, W.",
+        "Bugaj, L. J.",
+        "McCracken, K.",
+        "Hughes, A. J."
+      ],
+      "primary_category": "bioengineering",
+      "categories": [
+        "bioengineering"
+      ],
+      "published": "2026-04-02T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.03.31.715459v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "optogenetic control of kidney organoid morphogenesis and signaling",
+      "llm_evidence_cn": "肾脏类器官形态发生和信号传导的光遗传学控制",
+      "llm_evidence": "肾脏类器官形态发生和信号传导的光遗传学控制",
+      "canonical_evidence": "肾脏类器官形态发生和信号传导的光遗传学控制",
+      "llm_tldr_en": "Uses optogenetics to control kidney organoid branching, offering a tool for studying kidney development and disease.",
+      "llm_tldr_cn": "利用光遗传学控制肾脏类器官分支，为研究肾脏发育和疾病提供了工具。",
+      "llm_tldr": "利用光遗传学控制肾脏类器官分支，为研究肾脏发育和疾病提供了工具。",
+      "llm_tags": [
+        "query:profile-1:composite"
+      ],
+      "matched_query_tag": "query:profile-1:composite",
+      "matched_query_text": "Papers central to 找足细胞病的机制研究, especially work that connects or combines: podocyte disease mechanisms; podocyte injury mechanisms; podocyte cytoskeleton structure and function; podocyte apoptosis pathways; podocyte autophagy regulation; immune system interactions and injury in podocyte diseases; molecular and cellular mechanisms underlying podocyte injury and disease; pathogenic pathways in podocytopathies and focal segmental glomerulosclerosis; signaling networks and cytoskeletal regulation in podocyte function and dysfunction.",
+      "matched_requirement_id": "req-composite-profile-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-04-07-717016-v1",
+      "source": "biorxiv",
+      "title": "Systematic analysis of RhoGAP expression and function in border cell morphology and migration",
+      "abstract": "Rho family GTPases are central hubs in the signaling and cytoskeletal networks that govern cell morphology and behavior. GTPase-activating proteins (GAPs) inactivate them by accelerating GTP hydrolysis. However, a systematic analysis of GAPs in cell migration is lacking. Here, we report screens for RhoGAP expression and function in migratory Drosophila border cells. Constitutively active Cdc42, Rac, or Rho causes defects, demonstrating that negative regulation is critical. Integrating single-cell RNAseq with published datasets reveals that most of the 22 RhoGAPs are expressed in border cells. RNAi knockdown shows most RhoGAPs are functionally required. We developed automated image analysis tools to sensitively and objectively classify border cell morphologies, defining a normal morphological phase space. RhoGAP perturbations push clusters outside this range. In-depth analysis of RhoGAPp190 reveals that loss-of-function resembles Rho hyperactivation and gain-of-function resembles myosin II inhibition. Thus, complex spatiotemporal sculpting of RhoGTPase activities requires diverse RhoGAPs within a single cell type to control morphology and motility in vivo.",
+      "authors": [
+        "Mishra, A. K.",
+        "Gemmil, E.",
+        "Campanale, J. P.",
+        "Mondo, J.",
+        "Lisi, V.",
+        "Kosik, K. S.",
+        "Montell, D. J."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-04-08T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.07.717016v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "RhoGAP signaling networks in cytoskeletal regulation and cell morphology",
+      "llm_evidence_cn": "RhoGAP信号网络在细胞骨架调节和细胞形态中的作用",
+      "llm_evidence": "RhoGAP信号网络在细胞骨架调节和细胞形态中的作用",
+      "canonical_evidence": "RhoGAP信号网络在细胞骨架调节和细胞形态中的作用",
+      "llm_tldr_en": "Systematically analyzes RhoGAPs as central hubs in signaling and cytoskeletal networks.",
+      "llm_tldr_cn": "系统分析了RhoGAP作为信号传导和细胞骨架网络核心枢纽的作用。",
+      "llm_tldr": "系统分析了RhoGAP作为信号传导和细胞骨架网络核心枢纽的作用。",
+      "llm_tags": [
+        "query:q9"
+      ],
+      "matched_query_tag": "query:q9",
+      "matched_query_text": "signaling networks and cytoskeletal regulation in podocyte function and dysfunction",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "biorxiv-10-64898-2026-04-08-717201-v1",
+      "source": "biorxiv",
+      "title": "In Situ Landscape of Focal Adhesions and Cytoskeletal Integration Revealed by Cryo-Electron Tomography",
+      "abstract": "Focal adhesions (FAs) are dynamic hubs for mechanotransduction, linking the extracellular matrix to actin fibers, intermediate filaments, and microtubules. Using cryo-electron tomography combined with 3-dimensional segmentation and subtomogram averaging, we visualize in situ the structural architecture of the FA environment at the leading edge of human fibroblasts. Our analysis reveals a rich architectural diversity within the FA landscape, where the spatial organisation and interplay of FA protein clusters, actin, vimentin, and microtubules change from the actin bundle core to its tip and across adjacent regions. Notably, we reveal diverse arrangements and connections of vimentin filaments, supporting their multifaceted role in the control and mechanics of adhesions. Together, these findings establish a structural framework for FA maturation and cytoskeletal integration, extending classical lamellipodial adhesion models and providing mechanistic insight into how FAs coordinate force transmission during cell migration.",
+      "authors": [
+        "Yu, P.",
+        "Zhao, L.",
+        "Al-Amoudi, A.",
+        "Arold, S. T."
+      ],
+      "primary_category": "cell biology",
+      "categories": [
+        "cell biology"
+      ],
+      "published": "2026-04-08T00:00:00+00:00",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.04.08.717201v1.full.pdf",
+      "tags": [
+        "keyword:足细胞病",
+        "query:足细胞病"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "structural architecture of focal adhesions and cytoskeletal integration",
+      "llm_evidence_cn": "局灶粘附和细胞骨架整合的结构体系",
+      "llm_evidence": "局灶粘附和细胞骨架整合的结构体系",
+      "canonical_evidence": "局灶粘附和细胞骨架整合的结构体系",
+      "llm_tldr_en": "Visualizes the in situ structural landscape of focal adhesions and their cytoskeletal links.",
+      "llm_tldr_cn": "可视化了局灶粘附及其与细胞骨架连接的原位结构图谱。",
+      "llm_tldr": "可视化了局灶粘附及其与细胞骨架连接的原位结构图谱。",
+      "llm_tags": [
+        "query:q3"
+      ],
+      "matched_query_tag": "query:q3",
+      "matched_query_text": "podocyte cytoskeleton structure and function",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

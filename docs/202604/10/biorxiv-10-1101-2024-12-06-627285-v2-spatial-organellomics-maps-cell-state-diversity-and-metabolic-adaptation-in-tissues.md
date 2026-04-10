@@ -1,0 +1,24 @@
+---
+title: Spatial Organellomics Maps Cell State Diversity and Metabolic Adaptation in Tissues
+title_zh: 空间细胞器组学绘制组织中的细胞状态多样性与代谢适应图谱
+authors: "Adhikari, R., Hillsley, A., Johnson, A. D., Gao, S. M., Espinosa-Medina, I., Funke, J., Feliciano, D."
+date: 2026-04-09
+pdf: "https://www.biorxiv.org/content/10.1101/2024.12.06.627285v2.full.pdf"
+tags: ["query:profile-1"]
+score: 6.0
+evidence: 基于细胞器结构和应激映射细胞状态的成像工作流
+tldr: 组织中的细胞状态多样性驱动适应性、修复和疾病恢复力，但全面捕捉这种复杂性仍是挑战。现有方法多依赖转录谱而忽视反映代谢功能的细胞器结构信息。本研究提出“空间细胞器组学”成像流程，结合自动分割与机器学习，基于多器官特征对组织内的功能细胞状态进行分类与空间定位。应用发现，在肝脏中肝细胞并非按经典梯度带均匀分布，而是形成不同状态的混合群落；营养应激会破坏此模式。活体成像证实禁食引起的结构重塑与体内线粒体膜电位及生物能量异质性变化相关。该方法能绘制代谢转变与早期疾病进程，确立了以亚细胞器架构作为组织中功能多样性可扩展性指标的新范式。
+source: biorxiv
+selection_source: fresh_fetch
+figures_json: "[{\"url\": \"assets/figures/biorxiv/biorxiv-10-1101-2024-12-06-627285-v2/fig-001.webp\", \"caption\": \"Fig. 5. Organelle remodeling during fasting links structural state transitions to functional adaptation in vivo. (A) PCA visualization of hepatocyte categories from control and fasted livers,\", \"page\": 26, \"index\": 1, \"width\": 993, \"height\": 1000}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-1101-2024-12-06-627285-v2/fig-002.webp\", \"caption\": \"Fig. 3. sOrganellomics reveals sub-zonal diversity and putative metabolic specialization of hepatocyte states. (A) Schematic of the classical model of liver zonation with three zones along\", \"page\": 22, \"index\": 2, \"width\": 995, \"height\": 1260}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-1101-2024-12-06-627285-v2/fig-003.webp\", \"caption\": \"Fig. 6. Organelle signatures enable predictive modeling of hepatocyte states and disease progression. (A) Schematic of the multilayer perceptron (MLP) architecture used to predict\", \"page\": 28, \"index\": 3, \"width\": 985, \"height\": 1166}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-1101-2024-12-06-627285-v2/fig-004.webp\", \"caption\": \"Fig. 1. sOrganellomics quantifies multi-organelle architecture to define cell states across metabolic organs. (A) Schematic illustrating how multiple layers of cellular regulation shape\", \"page\": 19, \"index\": 4, \"width\": 1004, \"height\": 648}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-1101-2024-12-06-627285-v2/fig-005.webp\", \"caption\": \"Fig. 4. Nutritional perturbations remodel sub-zonal hepatocyte heterogeneity across the PV– CV axis. (A–C) Representative confocal images of liver acini from control-fed (A), overnight-\", \"page\": 24, \"index\": 5, \"width\": 974, \"height\": 1300}, {\"url\": \"assets/figures/biorxiv/biorxiv-10-1101-2024-12-06-627285-v2/fig-006.webp\", \"caption\": \"Fig. 2. Single-cell mapping of organelle architecture reveals hepatocyte heterogeneity beyond\", \"page\": 20, \"index\": 6, \"width\": 974, \"height\": 1177}]"
+motivation: 当前方法主要依赖转录谱分析，常常忽略了嵌入在细胞器结构中的功能性信息，而后者是细胞代谢和应激的关键指标。
+method: 研究者开发了名为空间细胞器组学（sOrganellomics）的成像工作流程，该方法结合了自动分割与机器学习，以基于多细胞器特征对细胞状态进行分类和空间定位。
+result: 在肝脏中，该方法揭示了一种先前未被识别的肝细胞组织形式：不同的肝细胞状态形成了相互混合的群落，而非经典的同质梯度带；这种模式在营养应激下会被破坏。活体成像进一步将禁食相关的结构重塑与体内线粒体膜电位及生物能量异质性的改变联系起来。
+conclusion: 该研究确立了细胞器结构可作为组织中功能细胞状态多样性的可扩展性指标，为理解代谢适应和早期疾病进展提供了新视角。
+---
+
+## 摘要
+细胞状态多样性驱动着组织的适应性、修复与疾病恢复力，但全面捕捉这种细胞复杂性仍是一项挑战。当前大多数方法依赖于转录谱分析，往往忽视了嵌入细胞器结构中的功能信息，而这些结构是细胞代谢与应激的关键指标。本文提出空间细胞器组学（sOrganellomics），这是一种将自动分割与机器学习相结合的成像工作流程，基于多细胞器特征对细胞状态进行分类和空间定位。在代谢特化器官中，这些特征能区分器官特异性的细胞身份。在肝脏中，sOrganellomics揭示了一种先前未被认识的肝细胞组织结构：不同的肝细胞状态形成了相互混合的群落，而非经典的均质梯度分区模式；这种模式在营养应激下会被破坏。活体成像进一步将禁食相关的结构重塑与体内线粒体膜电位及生物能量异质性的改变联系起来。该方法可绘制代谢转变和早期疾病进展图谱，从而确立细胞器结构作为组织中功能性细胞状态多样性的可扩展读数。
+
+## Abstract
+Cell state diversity drives tissue adaptability, repair, and disease resilience, but fully capturing this cellular complexity remains a challenge. Most current approaches rely on transcriptional profiling and often overlook functional insights embedded in organelle structure, key indicators of cellular metabolism and stress. Here, we introduce spatial Organellomics (sOrganellomics), an imaging workflow integrating automated segmentation with machine learning to classify and spatially map cell states based on multi-organelle features. Across metabolically specialized organs, these features distinguish organ-specific cellular identities. In the liver, sOrganellomics reveals a previously unrecognized hepatocyte organization: different hepatocyte states form intermixed communities rather than classical homogeneous graded zones, a pattern disrupted by nutritional stress. Intravital imaging further links fasting-associated architectural remodeling to altered mitochondrial membrane potential and bioenergetic heterogeneity in vivo. This approach maps metabolic transitions and early disease progression, establishing organelle architecture as a scalable readout of functional cell state diversity in tissues.
