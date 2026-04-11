@@ -1,0 +1,2066 @@
+Title: Neutrophil Extracellular Traps Drive Inflammation in Local Skin and Distant Kidneys in UVB-Irradiated Lupus-Prone Mice
+
+URL Source: https://www.biorxiv.org/content/10.1101/2023.12.23.572573v4.full.pdf
+
+Number of Pages: 50
+
+Markdown Content:
+1
+
+Neutr ophil Extracellular Traps Drive Inflammation in  Local  Skin and  Distant  Kidneys 
+
+in UVB -Irradiated Lupus -Prone Mice 
+
+Xing Lyu 1,2, 4, Minghui Yi 1,2, , Minghui Li 1,2, 4, Ping  L.  Zhang 3, Wei Wei ,4, Victoria P. 
+
+Werth 1,2 *, Ming -Lin Liu 1,2*  
+
+> 1
+
+Corporal Michael J. Crescenz VAMC, Philadelphia, PA, USA  
+
+> 2
+
+Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, 
+
+Philadelphia, PA, USA  
+
+> 3
+
+Division of Anatomic Pathology, Beaumont Laboratories, Beaumont Health, Royal Oak, 
+
+Michigan 48073, USA  
+
+> 4
+
+Department of  Rheumat ology  and Immunology,  Tianjin  Medical University General 
+
+Hospital,  Tianjin, China 
+
+Short title : NETosis drives UVB -induced lupus skin and kidney inflammation 
+
+Correspondence to: Ming -Lin Liu, M BBS , PhD , and  Victoria P. Werth, MD,  Department of 
+
+Dermatology, Perelman School of Medicine, University of Pennsylvania, and Philadelphia 
+
+Veterans Administration Medical center. Room B414, 3900 Woodland Avenue, Philadelphia, 
+
+PA 19104, eMAIL:  lium 1@pennmedicine.upenn.edu ; werth@pennmedicine.upenn.edu 
+
+Key words : SLE,  NET osis , PKC α, CXCR4 , Skin -kidney  communication, 
+
+Word count 
+
+Main text : 6 423 
+
+Abstract: 255
+
+Significance: 1 17 
+
+Figures: 7 
+
+Suppl Figures: 3
+
+References: 66 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+2
+
+ABSTRACT 
+
+Sunlight is a primary environmental trigger for systemic lupus erythematosus (SLE) . However, 
+
+the mechanisms linking cutaneous inflammation to internal organ damage remain poorly 
+
+defined . Here, we identify a critical role for neutrophil extracellular trap (NET) formation in a 
+
+pathogenic skin -kidney axis that drives UVB -induced lupus skin and kidney inflammation . In
+
+asymptomatic lupus -prone mice , UVB irradiation elicited concurrent skin and kidney 
+
+inflammation , characterized by neutrophil infiltration, NET formation , release of NET -
+
+associated cytokines and complement C3 , and proteinuria . Important ly, targ eting nuclear 
+
+envelope rupture ―a critical structural step enabling nuclear chromatin release during 
+
+NETosis ―through Pkc α genetic deletion significantly attenuat ed NET formation, skin and 
+
+kidney inflammation , and proteinuria in UVB -irradiated MRL/ lpr; Pkc α-/- mice. Beyond local 
+
+NETosis , UVB primed skin -infiltrating neutrophils to express the migrat ion receptor CXCR4 
+
+along side proinflammatory cytokines and C3. Using spatiotemporal tracking via 
+
+photoconversion , we revealed that non -NET ting, CXCR4 -expressing neutrophils migrated 
+
+from the skin to the kidneys , where they subsequently underwent NET osi s to release their pre -
+
+expressed cytokin es and C3 , thereby driv ing renal inflammation and injury . Genetic Cxcr4 
+
+deficiency impair ed this inter -organ trafficking , attenuating renal neutrophil infiltration and 
+
+proteinuria in UVB -irradiated kikGR ;Cxcr 4+/ - mice . Pharmacological CXCR4 inhibition 
+
+further validated the therapeutic potential of blocking this migratory axis, attenuat ing lupus 
+
+skin and kidney inflammation in UVB -irradiated lupus -prone mice. By linking environmental 
+
+UVB exposure to systemic lupus outcomes through PKCα -driven nuclear envelope rupture for 
+
+proinflammatory NET release and CXCR4 -mediated neutrophil trafficking for systemic 
+
+dissemination , this work provide s strong mechanistic evidence for a skin -kidney axis in SLE .
+
+These findings identify nuclear envelope reg ulation and neutrophil trafficking as previously 
+
+underexplored therapeutic targets for photosensitive SLE .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+3
+
+SIGNIFICANCE 
+
+This study explore s a  mechanistic  skin -kidney axis  in  SLE , revealing  a causal  link between 
+
+UV B-induced  cutaneous inflammation and  systemic  disease  exacerbations . We  demonstrat e
+
+that  PKCα -driven  nuclear envelope rupture  is critical  for  the  release of  proinflammatory NET s,
+
+while  CXCR4 -mediate d trafficking  of  non -NETting neutrophil s represents  a pivotal  route  for 
+
+systemic dissemination . T he se  findings  delineate  how neutrophils transition from  local 
+
+initiato rs of  skin  inflammation  to systemic effectors of renal  injury  by  propagatin g NET -driven 
+
+inflammat ory cascades . This work  suggests  a shift  in  the therapeutic paradigm toward  precise 
+
+regulation of  neutrophil migration  and  NETosis kinetics . By uncovering these underexplored 
+
+pathways, the study  provide s a molecular framework  for  intercept ing  UVB -induced  systemic 
+
+exacerbation  in  photosensitive SLE,  with the potential  to  mitigate  irreversible end -organ 
+
+damage .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+4
+
+INTRODUCTION 
+
+Systemic lupus erythematosus (SLE)  is a systemic autoimmune dis ease  characterized by 
+
+inflammatory damage to multiple organs,  such as the skin and kidneys.  The pathogenesis of 
+
+SLE involves  the  accumulation of immune cells, cytokines, immune complexes (ICs),  and 
+
+complement , which  driv es  inflammat ory responses  and  irreversible  tissue da mage  (1).  While 
+
+the etiology  remains  a complex interplay of  genetic, epigenetic, and environmental factors  (1, 
+
+2) , the discordance  of  SLE  in  monozygotic twins,  who share  nearly identical DNA,  highlight s
+
+the crucial  role  of  environmental  trig gers  (1). 
+
+Since the 1960s, sunlight ha s been recognized as a primary env ironmental trigger for 
+
+lupus flare s (3) . Over 70% of patients with cutaneous lupus erythematosus (CLE) are 
+
+photosensitive (4) , where ultraviolet B (UVB) overexposure exacerbat es both local skin 
+
+inflammation and systemic symptoms, such as lupus nephritis , in SLE patients and 
+
+autoimmune mice (5 -8) . Epidemiological s tud ies from regions with high sun exposure further 
+
+confirm a seasonal pattern for severe manifestations like lupus nephritis (9,10) . Despite this 
+
+clear clinical link, the precise mechanisms by which cutaneous UVB exposure leads to 
+
+systemic inflammation and distant internal organ injury remain a critical knowledge gap in 
+
+SLE pathogenesis .
+
+Neutrophils are the first circ ulating leukocytes to infiltra te the skin following UVB 
+
+overexposure (11) and act as the primary initiator immune cells in the pre -lesion al skin, driving 
+
+the development of early spontaneous CLE lesions in a new lupus mouse model (12). We
+
+previously demonstra te d that UVB irradiation trigger s skin inflammation and neutrophil 
+
+infiltration , with a fraction of these cells undergo ing NET osi s―the release of neutrophil 
+
+extracellular traps (NETs) (13,14) . Notably, NET osi s play s an important role in the 
+
+pathogenesis of skin lupus (15,16) and lupus nephritis (17, 18) . NETs are potent induce rs of 
+
+type I interferon (IFN -I) (14,19) , a primary driver of lupus pathogenesis (20) . Furthermore, 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+5
+
+both NETs and IFN -I can induce B cell activation and proliferation (21,22), leading to 
+
+autoantibod y production and IC formation (23) . NETs also serve as critical scaffolds for 
+
+complement activation, amplifying tissue damage and driving lupus inflammation (24,25). 
+
+Thus , the deposition of ICs and C3 in the skin (26) or kidneys (27) contributes to inflammat ory 
+
+responses and tissue damage in the se organs . Importantly, accumulating evidence indicates that 
+
+histone s can directly induce NETosis (28) , and that NET -releasing neutrophils can induce 
+
+secondary NET osis in nearby naive neutrophils, thereby amplif ying inflammatory signal ing 
+
+(29). Consistent with this , recent in vivo work demonstrat ed a delayed second wave of NET 
+
+formation in the liver , driven by residual NET component s from the first wave several days 
+
+after LPS injection (30) . Thus , neutrophil NETs function not only as effectors but also as self -
+
+propagating mediators of inflammation . This self -sustaining natur e underscores the central role 
+
+of NETosis in the systemic autoimmune cascades characteristic of SLE. 
+
+Building on our establish ed model of UVB -induced skin inflammation with NET 
+
+formation (13,14), we investigate d NETosis in systemic lupus inflammation using 
+
+asymptomatic , young female lupus -prone mice . UVB triggered concurrent skin and kidney 
+
+inflammation , characterized by NET formation , release of NET -associated cytokines and 
+
+complement , and proteinuria. This model mimic s sunlight -triggered lupus flares in patients (6). 
+
+Notably , UVB induce s skin production of platelet -activating factor (PAF) (31), which triggers 
+
+PKC α activation in neutrophils (32 ). Based on our discovery that PKCα drives nuclear 
+
+envelope rupture ―a critical structural step required for NET release via nuclear lamina 
+
+phosphorylation and disassembly (13) ―we investigated whether targeting nuclear envelope 
+
+rupture through Pkc α deletion could attenuate UVB -induced skin and kidney inflammation in 
+
+lupus -prone mice . Moreover , UVB primed skin -infiltrating neutrophil s to express CXCR4 ,
+
+enabling the transmigrat ion of non -NETting neutrophils from skin to kidneys . Using in vivo 
+
+spatiotemporal photoconver sion tracking , we showed that genetic Cxcr 4 deletion blocked 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+6
+
+neutrophil transmigration from  inflam ed  skin  to the  kidney s,  reducing  renal  inflammation  in  a
+
+non -lupus  strain . Pharmacological CXCR4 inhibition  confirmed the se  findings  in  UVB -
+
+irradiated  lupus -prone mice. 
+
+By elucidating  mechanistic evidence for  a skin -kidney axis  driven  by PKCα -mediated 
+
+NETosis and CXCR4 -guided neutrophil transmigration, this study  links  environmental trigger s
+
+to systemic lupus pathogenesis. These findings identify nuclear envelope  mod ulation and 
+
+neutrophil  trafficking  as therapeutic targets for preventing sunlight -triggered systemic  lupus 
+
+exacerbation , she dding  light on  previously  underexplored  mechanism s and  offering new 
+
+therapeutic  strategies  for  photosensitive  SLE .
+
+RESULTS 
+
+UVB exposure triggered concurrent skin and kidney inflammation with neutrophil 
+
+infiltration and NET release in asymptomatic young female lupus -prone mice . Expos ure 
+
+of asymptomatic , young female lupus -prone mice to UVB (Fig 1A) elicited skin inflammation ,
+
+characterized by increased epidermal and dermal thickness and substantial inflammatory cell 
+
+infiltration (quantified as nucleated cell count) (Fig 1B -E) compared to non -irradiated sham 
+
+controls. Remarkably , this loca l skin UVB irradiation also triggered a systemic response, 
+
+manifesting as acute renal injury with significant proteinuria and glomerular hypercellularity 
+
+(Fig 1 F-H) compared to sham controls. Further analyses demonstrated that UVB -induced skin 
+
+inflammation was characterized by robust neutrophil infiltration (Fig 1I) and NET formation 
+
+(Fig 1J,K) in MRL /lpr mice compared to sham controls. Notably , these skin -infiltrat ing 
+
+neutrophils and their released NETs were highly enriched with proinflammatory cytokines ,
+
+including IFNα, IFNγ, IL -17A, and C3 (Fig 1L -O), thereby establish ing NETs as critical 
+
+reservoirs of pro -inflammatory mediators in UVB -challenged skin of lupus -prone mice .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+7
+
+Crucially , we observe d a potent correlation between the magnitude of skin 
+
+inflammation and the severity of systemic disease. Specifically, the severity of cutaneous 
+
+inflammatory cell infiltration ( nucleated cell count ) correlated significantly with systemic renal 
+
+diseas e ( proteinuria severity, Fig 1 P). This systemic impact is further highlighted by the 
+
+correlation between skin neutrophil infiltration and proteinuria (Fig 1 Q). Collectively, t hese 
+
+finding s suggest that skin -infiltrating immune cells , particularly neutrophils , are not merely 
+
+local responders but critical pathogenic drivers of systemic disease progression, potentially 
+
+mediating an inflammat ory cascade from the skin to the kidneys .
+
+Although previous studies have implicated neutrophil s in systemic injury following 
+
+skin thermal burn s (33,34) or UVB exposure (35) , the molecular mechanisms linking cutaneous 
+
+UVB damage to distant organ damage remain unclear . Since neutrophil NETosis has been 
+
+shown to contribut e to both UVB -induced skin inflammation (13,14) and lupus -associated 
+
+nephritis (17,18) through the presentation of proinflammatory mediators , our finding s suggest 
+
+th at UVB -triggered neutrophil infiltration and NETosis play a critical role in bridg in g local 
+
+cutaneous injury and distant renal inflammation in lupus -prone mice . We therefore investigated 
+
+the specific role of neutrophil NETosis in mediating inflammation in the skin and kidney .
+
+Neutrophil NET osis drives acute kidney inflammation in lupus -prone mice follow in g
+
+UVB irradia tion . Beyond the cutaneous response (Fig 1I -O), we found that glomerular 
+
+neutrophil infiltration correlated with glomerular hypercellularity in the combined groups of 
+
+MRL/lpr mice without or with UVB irradiation (Suppl Fig 1A) . Th is suggests a contribution 
+
+of glomerular neutrophil infiltration to glomerular hypercellularity and renal inflammation. In 
+
+addition, UVB -irradiated MRL/ lpr mice exhibited significant glomerular neutrophil infiltration 
+
+and a robust accumulation of neutrophil NET s―marked by citrullinated H3 
+
+(citH3 )―compared to sham controls (Fig 2A-C). Crucially , these glomerular NETs act ed as 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+8
+
+potent drivers of acute renal injury , co -localizing with elevated glomerular levels of NET -
+
+associated proinflammatory cytokines ( IFNα, IFNγ, IL -17A ), and C3 (Fig 2D -H) . The 
+
+pathological relevance of this accumulation was underscored by potent positive correlation s
+
+between the levels of glomerular neutrophils, NETs , IFNα , IFNγ, IL -17A, and C3 and the 
+
+severity of proteinuri a in the combined group of MRL/ lpr mice (Fig 2I -K, Suppl Fig 1B -D).
+
+These results directly link these neutrophil NET s, their associated cytokines , and C3 to acute 
+
+renal inflammation and injury following UVB exposure .
+
+Thus, o ur findings highlight a key role f or infiltrat ing neutrophils and their released 
+
+NETs in driving multi -organ inflammation in the skin and kidney s following localized UVB 
+
+irradiat ion . Notably, through the release of NETs and associated inflammatory mediators ,
+
+neutrophils act as critical driv ers of coordinated inflammat ory responses in both the skin and 
+
+kidneys of asymptomatic lupus -prone mice . Taken toget he r, the coordinated response s of 
+
+neutrophil activation and NET formation observed in both organs (Fig s 1-2, Suppl Fig 1 )
+
+suggest s a direct mechanistic link between cutaneous and kidney in flammation .
+
+Target ing nuclear envelope rupture via PKC α genetic deletion attenuated NETosis and 
+
+UVB -induced lupus skin inflammation in MRL/ lpr mice with P kc α deficiency . NETosis 
+
+is an establish ed driver of lupus pathogenesis (15,36,37) ―including in UVB -triggered skin 
+
+and kidney infl ammation (Figs 1 -2) ―yet the upstream mechanism controlling NET release in 
+
+vivo remain s elusive. While peptidyl arginine deiminase 4 (PAD4) has bee n considere d a key 
+
+therapeutic target f or NETosis -related diseases , studies in lupus models challenge its necessity. 
+
+In MRL/ lpr mice, genetic Pad 4 deletion failed to mitigate systemic disease, nephritis , or skin 
+
+inflammation (38), indicating PAD 4-independent mechanisms . Our recent study identifie s that 
+
+PKCα -mediated nuclear lamin B phosphorylation and disassembly drive nuclear envelope 
+
+rupture , nuclear chromatin release, and subsequent NET formation (13,37) . Thus , the PKCα -
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+9
+
+Lamin B axis represents a fundamental mechanical requirement for nuclear chromatin release 
+
+during NETosis. Based on this mechanism (13) , we generated lupus -prone mice with a genetic 
+
+deletion of P kc α to investigate the effects of controlling NETosi s on UVB -induced lupus skin 
+
+and kidney inflammation .
+
+Following UVB irradiat ion, MRL/ lpr; Pkc α-/- mice (Fig 3A) exhibited a ma rked 
+
+reduction in lupus skin inflammation compared to MRL/lpr mice, as demonstrated by 
+
+significantly reduced epidermal and dermal skin thickness, lower nucleated cell counts , and 
+
+diminished neutrophil infiltration (Fig 3B -D). Notably , UVB irradiation triggered significantly 
+
+less neutrophil NETosis (Fig 3E) in Pkc α-deficient lupus -prone mice, which corresp onded with 
+
+a significant reduction in the accumulation of NET -associated proinflammatory factors, 
+
+including IFNα, IFNγ, IL -17A, and C3 , in the skin (Fig 3F -K). This model provides the first in 
+
+vivo evidence that regulating nuclear envelope integrity by abolishing PKCα effectively 
+
+suppresses NETosis and mitigates lupus -related tissue damage. The se findings also confirm 
+
+the critical role of neutrophil NETs and their associated proinflammatory mediators in driving 
+
+lupus cutaneous pathology , highlight ing nuclear envelope regulation as a novel and potent 
+
+therapeutic strategy for NETosis -driven lupus skin inflammation. 
+
+Targeting PKC α-nuclear envelope pathway  suppressed  NETosis  and  ameliorated  UVB -
+
+induced  acute  kidney inflammation in MRL/ lpr  mice . Beyond  its  cutaneous effects,  our 
+
+findings  demonstrate the profound  systemic  therapeutic potential of  modulating  nuclear 
+
+envelope  integrity . Genetically deleting PKC α to  stabilize  nuclear envelope  integrity  and 
+
+inhibit NETosis  significant ly decreased  UVB -induced acute kidney inflammation and 
+
+proteinuria  (Fig 4A -D) in lupus -prone mice. This novel intervention l ed to  marked  histological 
+
+improvement s, including  reduced glomerular hypercellularity  (Fig 4B -C)  and attenuated 
+
+neutrophil infi ltration in their  kidneys (Fig 4 D).  Critically , we observed  a profound  reduc tion 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+10 
+
+in glomerular deposition of neutrophil NETs and their associated pathogenic cargo ―including 
+
+IFNα, IFNγ, IL -17A, and C3 ―in the kidneys of UVB -irradiated MRL/ lpr ;Pkc α-/- mice 
+
+compared to MRL/ lpr mice (Fig 4E -I). These findings provide definiti ve genetic evidence that 
+
+the glomerular deposition of NET s and their associated pathogenic cargo are primary driv er s
+
+of kidney injury and proteinuria (Fig 2I -K) , establish ing targeted regulation of NETosis as a
+
+promising therapeutic avenue for photosensitive lupus . Our study demonstrates a novel 
+
+mechanistic paradigm by position ing nuclear envelope integrity as a promising therapeutic 
+
+target for NETosis and NET -related pathologies , in cluding lupus .
+
+While our  data confirm that NETotic neutrophils are essential end -effectors of kidney 
+
+injury,  prio r studies demonstrate that only  a portion  of neutrophils undergo NETosis  in vitro 
+
+(39,40)  and in the skin of UVB -irradiated mice  in vivo  (14).  This raises the possibil ity  that 
+
+surviving,  non -NETt ing  neutrophils  may  serve as  a migratory  cellular  bridge , facilitating 
+
+systemic  communication  between the inflamed skin and  distant  kidneys following UVB 
+
+irradiation  (35) . We the refore  sought to  deline ate  the mechanistic basis  of  th is  neutrophil -
+
+mediated cutaneous -renal  interaction , exploring how these cells orchestrate  NET  release with 
+
+pro -inflammatory cytokines/complement,  and  systemic inflammation  following UVB 
+
+irradiation .
+
+UVB irradiation induc ed a migratory and pro -inflammatory neutrophil phenotype in 
+
+lupus -prone mice . To address how local skin inflammation triggers distant organ injury , our 
+
+findings identify CXCR4 -expressing neutrophils as a critical cellular bridge to facilitate inter -
+
+organ communication dur in g thi s systemic e xacerb ation. As a chemokine receptor , CXCR4 is 
+
+known to facilitate communication between different organs by mediating the reverse 
+
+transmigration (RTM) of immune cells, including neutrophils (41,42). Moreover , increased 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+11 
+
+CXCR4 expression on immune cells in SLE patients and lupus -prone mouse models supports 
+
+its role in lupus development (43 -48). 
+
+Strikingly , we  observ ed  a systemic  elevat ion of  CXCR4 expressin g neutrophils 
+
+following UVB  irradiation  in  infiltrated  skin and kidney neutrophils  (regardless  of NETotic 
+
+states)  and  within  their released NETs  in  MRL/ lpr  mice , compared to  sham controls (Fig 5 A-
+
+D).  Importantly , the number  of CXCR4 -expressing neutrophils in  the  peripheral b lood of UVB -
+
+irradiated m ice was also  significantly elevated  (Fig 5 E,F ). Therefore , these  systemic  elevations 
+
+of  CXCR4 -expressing neutrophils  following UVB  irradiation suggest the critical role of 
+
+CXCR4 in  facilitating  communication between the  inflamed  skin and  the  kidneys. 
+
+To  better understand  this process , we exposed  isolated  neutrophils  from  these  MRL/ lpr 
+
+mice  directly to  UVB  or  stimulated  them  with  PAF,  a lipid  mediator  release d from 
+
+keratinocytes  after  UVB  irradiation  (31). We  observed  that  both  UVB and  PAF  upregulat ed 
+
+CXCR4  expression  in mouse neutrophils  in a dose -dependent manner  (Fig 5G) . This 
+
+upregulation  was accompanied by elevated expression of  key inflammatory mediators, 
+
+including  IFNγ,  IL -17A, and  C3, as well as  IFNα (in the presence of DNA -NETs , as  previously 
+
+characteriz ed  (13, 14) ) (Suppl Fig  2A-D). Crucial ly , a subset of these  primed  neutrophils  co -
+
+expressed  CXCR4  alongside  proinflammatory  mediators  (Fig  5H-O). Th ese data  demonstrate 
+
+that UVB  exposure― acting  both  directly and  indirectly  via PAF ―reprograms  skin -infiltrating 
+
+neutrophils , empowering  them  with  a dual migratory -inflammatory  capability .
+
+Therefore , the co -express ion of CXCR4 and cytokines /C3 enabl es specific neutrophil 
+
+subsets to mediate systemic migrat ion from inflamed skin to the kidneys . Recognizing that 
+
+only a fraction of neutrophils undergo es NETo sis ―both in vitro (39,40) and in vivo in the skin 
+
+of UVB -irradiated mice (14) ―we propose that UVB -primed neutrophils adopt functionally 
+
+distinct yet overlapping states that enable local inflammation and systemic dissemination. A
+
+subset of neutrophils undergo es terminal NETosis (13) to drive local skin inflammation via the 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+12 
+
+release of NET -associated cytokines/C3 . In parallel , the surviving , non -NET ting , CXCR4 -
+
+expressing neutrophils retain migratory capability, under go RTM to re -enter the circulation ,
+
+and are subsequently recruited to the kidneys , where CXCL12 levels are elevated ―either 
+
+following UVB irradiat ion (35) or intrinsically in various lupus -prone strains , including 
+
+MRL/ lpr mice (44) . Importantly, these phenotypic states are not mutually exclusive: CXCR4 
+
+expression is observed across neutrophils irrespective of NETotic status, and a proportion of 
+
+CXCR4⁺ cells also exhibit feature s of NETosis, indicating a continuum of activation rather 
+
+than a strictly binary fate decision. Once sequestered with in the glomerular microenvironment ,
+
+the se primed neutrophils subsequently undergo NETosis, releasing pre -expressed cytokines/C3 
+
+with NET s, thereby transducing a cutaneous insult into renal injury .
+
+Genetic deficiency of C xcr 4 impair ed UVB -induced neutrophil trans migration from the 
+
+skin to the kidneys . To definitively investigate the causal link between skin UVB exposure 
+
+and systemic renal injury, we employed a precise spatiotemporal photoconversion tracking 
+
+model. By crossing C xcr 4-deficient mice with the photoconvertible reporter kikGR -expressing 
+
+mice , we generated kikGR ;Cxcr 4+/ - mice (Fig 6A) that were able to "tag" neutrophils in the skin 
+
+with violet light and monitor their migration across other organ systems. These mice allow ed 
+
+for precise spatiotemporal in vivo tracking of neutrophil migration (49) , providing a n approach 
+
+to directly observe the effect of CXCR4 absence on cellular trafficking . Sequential i rradiation 
+
+with both UVB and violet light triggered an inc rea se in photoconverted kikR + neutrophils in 
+
+the circulation , as detected by flow cytometry (Fig 6B) . Critical ly , Cxcr 4 deficiency 
+
+significantly reduced the number of circulating kikR + neutrophils in kikGR;Cxcr4 +/ - mice 
+
+compared to their controls (Fig 6B) , indicating the crucial role of CXCR4 in neutrophil RTM 
+
+from UVB -irradiated skin into the circulation .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+13 
+
+Importantly, direct histological analysis revealed a significant accumulation of ly6G +
+
+and kikR + neutrophils with in the glomerul i of UVB -irradiated control kikGR ;Cxcr 4flox mice 
+
+following violet light exposure (F ig 6 C, E,F ). However, the numbers of accumulated ly6G + and 
+
+kikR + neutrophil s in the glomeruli were significantly reduced in the Cxcr4 deficient 
+
+kikGR ;Cxcr 4+/ - mice (F ig 6 D,E ,F) . Th ese data provid e direct visual and quantitative evidence 
+
+that CXCR4 is a causal mediator guid ing neutrophil transmigration from a site of skin 
+
+inflam mation to the kidneys . Consequently, the decreased neutrophil transmigration resulted 
+
+in significantly reduced proteinuria in UVB -irradiated kikGR ;Cxcr 4+/ - mice compared to 
+
+control s (Fig 6G) . This finding functionally confirm s the role of CXCR4 -mediated skin -to -
+
+kidney neutrophil transmigration which drives acute kidney inflammation and renal injury .
+
+These findings provide mechanis tic evidence lin king UVB -induced acute skin 
+
+inflammation to systemic lupus exacerbation . We further elucidated that CXCR4 plays an 
+
+essential role in guiding the systemic spread of inflammatory signals from localized skin 
+
+lesion s to the kidney s. By identifying CXCR4 as the critical mediato r facilitating this skin -to -
+
+kidney trafficking, our study suggests a paradigm shift in the therapeutic strategy of 
+
+photosensitive SLE . Specifically, shifting from broad immunosuppression toward targeted 
+
+blockade of CXCR4 -mediated neutrophil dissemination offers a more precise strategy to 
+
+uncouple localized skin inflammation from systemic disease exacerbation , thereby in terrupt ing 
+
+the progression of skin inflammation -triggered internal organ injury in photosensitive SLE. 
+
+Pharmacological i nhibition of CXCR4 attenuated acute kidney inflammation in UVB -
+
+irradiated lupus -prone mice . Building upon our genetic evidence identifying CXCR4 as 
+
+primary driver of UVB -induced systemic inflammation in non -lupus mice (Fig 6) , we further 
+
+evaluat ed the tran slational potential of pharmacological inhibition of CXCR4 by using its 
+
+selective antagonist IT1t in UVB -irradiated lupus -prone mice (Fig 7A) . Crucially ,
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+14 
+
+pharmacological CXCR4 inhibition significantly suppressed the acute renal sequelae of UVB 
+
+exposure, as evidenced by marked reduction in proteinuria , glomerular hypercellularity, 
+
+glomerular infiltration of Ly6G -positive neutrophils, and CXCR4 -expressing neutrophils in 
+
+acute kidney inflammation triggered by UVB irradiat ion (Fig 7B-F). To elucidate the 
+
+underlying mechanism, we performed in vitro transwell migration experiments, which 
+
+demonstrated that IT1t significantly reduced migratory capacity of neutrophil s, thereby 
+
+validating its role in blocking recruitment to inflamed tissues (Fig 7G). 
+
+Our key mechanistic finding is that systemic CXCR4 pharmacological inhibition 
+
+significantly attenuat ed acute kidney inflammation in UVB -irradiated MRL/ lpr mice. This was 
+
+ev idenced by the reduction s in proteinuria and glomerular hypercellularity, and most 
+
+importantly the blockade of neutrophil infiltration into the kidneys. We further define a 
+
+pathogenic cascade by showing that CXCR4 inhibition not only reduced neutrophil influx but 
+
+also subsequently amelior at ed glomerular accumulation of NETs , and NET -associated 
+
+inflammatory mediators, including IFNα, IFNγ, IL -17A , and C3 (Fig 7H-M), compared to 
+
+control MRL/ lpr mice receiving normal saline . Furthermore , our findings demonstrate a novel 
+
+pathogenic link between UVB exposure and renal damage , highlighting that CXCR4 -mediated 
+
+neutrophil recruitment driv es acute lupus kidney inflammation via the induction of NETosis 
+
+and the release NET -associated inflammatory mediators .
+
+In addition , CXCR4 inhibition also attenuated dermal , but not epidermal (Suppl Fig 
+
+3A) , skin thickness and reduced nucleated cell counts in the skin (Suppl Fig 3B -D). This 
+
+involve d a significant decrease in the infiltration of Ly6G neutrophil s, NET formation , and 
+
+NET -associated IFNα and IL -17A in the skin of UVB -irradiated mice treated with IT1t (Suppl 
+
+Fig 3E,G,H,J). However, no significant differences were observed in CXCR4 -expressing 
+
+neutrophils , NET -associated IFNγ and C3 in the skin between IT1t -treated mice and control 
+
+mice that received normal saline administration (Suppl Fig 3F ,I,K). The efficacy of CXCR4 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+15 
+
+inhibition ―achieved via repeated systemic administration of IT1t― underscores a fundamental 
+
+role for CXCR4 in coordinating systemic inflammatory responses to UVB. These findings 
+
+align with previous report s demonstrating that CXCR4 inhibition attenuate s sunlight -induced 
+
+skin cancer by preventing the infiltration of mast cells in to the skin (50). 
+
+Collectively, our findings  elucidate  a novel  pathogenic  mechanism  that helps us 
+
+understand  UVB -induced  systemic  disease  flare s in  photosensitive  lupus . We  demonstrate that 
+
+this process is governed by the  CXCR4 -dependent recruitment of neutrophils,  which undergo 
+
+NETosis  to  release NET -associated proinflammatory cytokines and C3  with in  both local  skin 
+
+and  distant  kidneys . By  establish ing  this  causal  link , our work identifies  nuclear envelope 
+
+regulation and  the  CXCR4 pathway  as robust therapeutic  targets . These  specific, druggable 
+
+pathway s offer a  novel  framework for  uncoupl ing environmental triggers from  end -organ 
+
+damage, providing a high -precision strategy to  mitigat e acute  systemic  inflammation in 
+
+photosensitive  lupus .
+
+DISCUSSION 
+
+Sunlight  overexposure  exacerbates  lupus  by  inducing  localized  skin inflammation  and 
+
+promot ing  systemic  inflammation  in various  distant  organs , particular ly  kidneys, in  both 
+
+human s and lupus -prone mice  (5 -8) . Our study  elucidates  a novel  pathogenic  mechanism 
+
+underlying  UVB -trigger ed  lupus exacerbation,  identifying a critical  pathway  that  links 
+
+localized  skin inflammation to distant  kidney  injury.  Using  initially  asymptomatic, young 
+
+female lupus -prone mice,  we  demonstrated that  infiltrat ing  neutrophil s and  the ir released  NET s
+
+carry  proinflammatory cytokines and  cytotoxic  complement  C3 in  both  the skin and kidneys, 
+
+driving  inflammation  in these organs  and  the development of  proteinuria. 
+
+While n eutrophil NETosis is a recognized contributor to lupus pathogenesis (15, 36, 
+
+37) , it s role in the acute, environmentally triggered phase of the disease has remain ed unclear .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+16 
+
+These findings provide direct in vivo evidence identify ing neutrophil NET osi s as a ke y
+
+mediat or of UVB -induced acute inflammation in both the skin and kidney s. We demonstrate 
+
+that NETs decorated with pro -inflammatory cytokines (IFNα, IFNγ, IL -17A) and C3 are 
+
+deposited in both organs , and that their glomerular levels strongly correl ate with the severity 
+
+of kidney injury, specifically proteinuria. In UVB -irradiated lupus -prone mice, non -NET ting 
+
+neutrophils may secrete proinflammatory cytokines and C3 in to the extracellular space ,
+
+however , these cytokines and C3 are often quickly diffused in to the systemic circulation and 
+
+diluted by the bloodstream (14) . In contrast, neutrophil NETs serve as physical scaffold s that 
+
+sequester and present high concentrations of proinflammatory cytokines and cytotoxic C3 (14) 
+
+with in the skin and kidneys . These NET -associated cytokines and C3 not only drive further 
+
+recruitment of leukocytes but also exacerbate inflammation and tissue injury, particularly 
+
+proteinuria . This positions NETs and their associated cytokines and C3 not merely as 
+
+biomarkers but as potent pathogenic effectors that drive autoimmune inflammation and tissue 
+
+damage in lupus, establ ish ing a self -amplifying cycle ―a process potentially exacerbated by 
+
+the ability of NETotic neutrophils and their remnants to trigger secondary NETosis in naive 
+
+neutrophils in vitro (29) and in vivo (30) . Our findings thus extend the previously well -
+
+document ed pathogenic roles of NETosis in chronic CLE , SLE, lupus nephritis (1 5-18) , and 
+
+UVB -induced skin inflammation models (13, 14) to its roles in acute systemic responses to 
+
+UVB .
+
+Recent  mechanistic  insights identify  nuclear chromatin decondensation  and  nuclear 
+
+envelope rupture  as decisive  cellular events  required for  nuclear chromatin release and NET 
+
+formation  (37,51) . Historically, n uclear chromatin decondensation  via  peptidyl -arginine 
+
+deaminase 4 (PAD4) -mediated histone citrullination  has been the  primary focus  of  NETosis 
+
+research  (37,51) . Although  early  pharmacological  studies suggested PAD4  inhibition  could 
+
+attenuat e spontan eous  lupus skin and kidney inflammation in  aged  lupus -prone mice  (15) ,
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+17 
+
+subsequent  genetic  and  pharmacological  studies  with  PAD4 -targeted approaches  failed to 
+
+protect against  the development of  systemic  lupus  and  lupus  skin inflammation  in lupus -prone 
+
+mice , suggesting PAD4 -independent pathways  (38).  Additionally,  Pad 4 genetic deficiency did 
+
+not show significant protection in  a mouse model of arthritis (52).  These significant 
+
+discrepanc ies  underscore  a critical gap in  our  mechanistic understanding  of  NETosis  and 
+
+highlight the need  to  target more  fundamental , mandatory steps in the process of NET 
+
+formation. 
+
+Beyond chromatin decondensation , nuclear envelope rupture is a critical structural step 
+
+facilitating nuclear chromatin release and NET formation . A s the primary physical barrier 
+
+sequestering nuclear chromatin , the nuclear envelope relies on the structural integrity of the 
+
+nuclear lamina, which is composed of lamin A/C and B (37,51). Although neutrophil elastase 
+
+is a potent proteolytic enzyme and is involved in NET formation (40) , there is no evidence 
+
+identifying lamins as direct substrates of neutrophil elastase (53). In terestingly , we recently 
+
+identified that nuclear envelope rupture and NET formation are driven by PKC α-mediated 
+
+phosphorylation and subsequent disassembly of nuclear lamin B, rather than proteolytic 
+
+cleavage (13,14,37). This finding shifts the therapeutic focus toward regulating this 
+
+phosphorylation -dependent nuclear envelope rupture , thereby prevent ing the release of nuclear 
+
+chromatin and NET formation. 
+
+To test the therapeuti c potential of  targeting  nuclear envelope rupture  in vivo , we 
+
+investigat ed the effects of  Pkc α genetic de letion  on NETosis  and inflammation in the skin and 
+
+kidney of  lupus -prone  MRL/ lpr  mice . We generated  MRL/ lpr ;Pkc α-/- mice  by backcrossing  the 
+
+Pkc α deficiency  on to  the  MRL/ lpr  background for over  ten  generations  to ensure genetic 
+
+purity . Notably,  this genetic intervention  effectively  suppress ed  NETosis by  preserving  nuclear 
+
+envelope integrity , which  significantly  ameliorat ed  skin and kidney inflammation  follow in g
+
+UVB  irradiat ion in  MRL/ lpr ;Pkc α-/- mice compared to  control  MRL/ lpr  mice . Mechanistically, 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+18
+
+these findings are particularly significant as  UVB triggers PAF production in the skin (31), a 
+
+lipid mediator known  to prime n eutrophils (54) and induce PKCα activation (32).  This 
+
+signaling cascade, in turn, drive s the nuclear envelope rupture  that is  structurally  required  for 
+
+NET formation in UVB -irradiated mice  (13).  To the best of our knowledge , our  findings 
+
+provide  the first  mechanistic  evidence  supporting  the novel concept  that  nuclear envelope 
+
+regulation  represent s a viable strategy  to  mitigat e NET osis -driven pathology in lupus.  They 
+
+further  highlight  NETosis  as a n important  therapeutic target  in  acute  flares  in photosensitive 
+
+lupus , and  introduce  nuclear envelope  regulation  as  a potential  strategy for  lupus  treat ment .
+
+A skin -kidney connection in the pathological context has long been suggested by 
+
+clinical observations, such as proteinuria following skin thermal burn s (55) , emerging evidence 
+
+suggest s activated neutrophil s contribute to this process, potentially through the releas e of 
+
+neutrophil gelatinase -associated lipocalin (34) . This link is supported by a recent mouse study 
+
+where a single high -dose treatment with UVB caused transient proteinuria and demonstrated 
+
+the transmigration of neutrophils from the inflamed skin to the kidneys (35). Collectively, these 
+
+studies across various settings have highlighted a critical role for neutrophils in linking acute 
+
+skin inflammation to subsequent kidney injury (34,35) , indicating dermal -renal communica -
+
+tions across different scenarios. Building on thi s paradigm , our study provides direct correlati ve 
+
+evidence that strengthens this link in the context of lupus. We found that the severity of skin 
+
+inflammation (measured by nucleated cell count and neutrophil infiltration ) strongly correlated 
+
+with the renal injury and proteinuria . This coordinated exacerbation strongly suggest s a
+
+systemic connection between the two organs rather than two independent disease processes, 
+
+positioning neutrophils as a crucial mediator for this skin -renal communica tion .
+
+To address the mechanisms of inter -organ communication, we found that UVB 
+
+irradiation primed skin -infiltrating neutrophils to express transmigrat ory CXCR4 . This 
+
+receptor acts as a potent mediator for transmigration of various cell types, including 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+19 
+
+neutrophils, and facilitates their trafficking between different organs (41,42) . This finding 
+
+provides a crucial mechanistic link to the CXCR4/CXCL12 axis , a pathway increasingly 
+
+recognized for its role in the systemic progression of lupus (43 -48). The recruit ment of 
+
+CXCR4 -expressing immune cells, including neutrophils, into the kidneys , is driven by the 
+
+localized expression of the ligand CXCL12 , which is highly express ed in the kidneys of both 
+
+lupus nephritis patients and lupus -prone mice (43 -45,48). Furthermore , CXC R4 -expressing 
+
+immune cells are recruited to the kidneys with CXCL12 expression in mice with ischemic -
+
+renal injury (56) and with UVB -induced acute kidney injury (35) . These observations identify 
+
+UVB -induced CXCR4 upregulation as a functional checkpoint that converts a local ized skin 
+
+environmental insult into a systemic, organ -targeting threat . Our findings thus underscor e the 
+
+critical role of immune cell infiltration , particularly neutrophils, in initiatin g lupus kidney 
+
+inflammation and driving the development of lupus nephritis (57). 
+
+A previously unrecognized finding of  th is  study  is the  co -expression of CXCR4 , pro -
+
+inflammatory  cytokines  (IFNα, IFNγ, IL -17A) , and  C3  with in  infiltrat ing  neutrophils  and  their 
+
+associated  NET s in  both  the  skin and kidneys of UVB -irradiated lupus -prone mice. 
+
+Mechanistically , UVB ―either directly  or indirectly through  PAF  (54) ―primes  skin -
+
+infiltrating neutrophils  to  concurrent ly upregulat e the  transmigratory  CXCR4 and pathogenic 
+
+proinflammatory mediators , pos ition ing  neutrophils as a critical cellular bridge  linking 
+
+localized skin inflammation to systemic kidney injury . Consistent with prior  in vitro  and  in 
+
+vivo  observations  (39,40,58) , as well as  our recent work in UVB -irradiated mice  (14),  only a 
+
+portion of  neutrophils undergo es  NETosis . In this study,  we  found  that  NETotic neutrophils in 
+
+the  skin  releas e their  pre -expressed  proinflammatory  cytokines  and  C3  to  fuel  local  skin 
+
+inflammation . On the other hand , the  surviving,  non -NET ting  neutrophils  utilize  upregulated 
+
+CXCR4  for RTM  from  the  inflamed skin  back  in to the circulation  (41,42) , and  are  subsequently 
+
+recruited  to  the  kidneys of UVB -irradiated MRL/ lpr  mice , a process  likely driven  by  renal 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+20 
+
+CXCL12 expression observed both intrinsically in various lupus -prone strains and in UVB -
+
+irradiate d WT mice (35,44). 
+
+Once sequestered in the kidneys, the se primed neutrophils subsequently undergo 
+
+NETosis to release their pre -expressed cytokines and C3, thereby driving acute local 
+
+inflammat ion , kidney injury , and proteinuria in UVB -triggered systemic exacerb ation . While 
+
+most studies report that NETosis typically occurs within 2 -3 hours of stimulation (13,14,37) ,
+
+the literature also supports delayed NETosis occurring 4-6 hours after UVB irradiation (13) 
+
+and even up to 24 -48 hours following stimulation with PMA , LPS, or G -CSF (59) . This 
+
+temporal flexibility is further evidenced by a second wave of NETosis in the liver occurring 
+
+several days after LPS injection, triggered by vascular NET remnants from the initial wave 
+
+(30). This temporal framework explains our current findings, in which primed , non -NET ting 
+
+neutrophils migrate from the skin to the kidneys , where they subsequent ly undergo NET osis to 
+
+releas e their pre -expressed cytokines and C3 , thereby driving the systemic lupus exacerbation 
+
+in UVB -irradiat ed mice .
+
+Utilizing  the  unique spatiotemporal  in vivo  tracking technique  inherent in  the 
+
+kikGR ;Cxcr 4+/ - mouse model , our study  defini tive ly  delineates  the  causal  role of CXCR4  in 
+
+orchestrating the systemic  propagation  of inflammation via  neutrophil  RTM  (41,42) . Our 
+
+results  provide  direct  in vivo  evidence that CXCR4  governs  the  egress of  activated neutrophils 
+
+from the  site of  primary  skin  inflam mation  (UVB -irradiated skin)  back  in to the circulation , a
+
+process  essential  for the  subsequent  pathological  sequestr ation  of neutrophils  in  distant organs, 
+
+specifically  the kidney glomeruli . Mechanistically,  the  significantly  decreased  numbers of 
+
+kikR + neutrophils  observed  in both the circulation and  renal compartments  of  kikGR ;Cxcr 4+/ -
+
+mice , compared  to  kikGR ;Cxcr4 flox  controls , unequivocally demonstrates that  Cxcr 4 deficiency 
+
+profoundly disrupts  neutrophil mobilization  and redistribution.  This  finding  advances  the 
+
+emerging paradig m that  demonstrates  the involvement of  the  CXCR4 -CXCL12  axis  in 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+21 
+
+neutrophil re -entry into the circulation and re -dep osition in the kidneys. Our genetic deficiency 
+
+approach thus positions CXCR4 as the key molecular determinant controlling access to this 
+
+systemic circuit. While focused on UVB -induced acute effects, our findings are in line with 
+
+previous clinical and animal studie s that the CXCR4 -CXCL12 axis contributes broadly to SLE 
+
+pathogenesis, including increased CXCR4 expression on immune cells and elevated CXCL12 
+
+expression in the kidneys in both SLE patients and lupus -prone mouse strains (43 -46,48). 
+
+Our study indicates localized skin inflammation from a self -limiting event into a critical 
+
+driver of distant organ injury by identifying a non -redundant role of CXCR4 in orchestrating 
+
+neutrophil RTM in photosensitive lupus . Th rough definitive genetic loss -of -function studies, 
+
+we demonstrate that Cxcr 4 deficiency creates a functional blockage that prevents activated 
+
+neutrophils from re -enterin g the circulation, thereby depleting the systemic pool of primed 
+
+pathogenic effectors . This establish es a clear causal chain from cutaneous UVB exposure to 
+
+renal neutrophil accumulation , subsequent NET formation, and proteinuria . We further 
+
+translate this mechanistic insight into a potential therapeutic strategy us ing the selective 
+
+CXCR4 antagonist IT1t , which provide d significant therapeutic benefits in UVB -irradiated 
+
+lupus -prone mice. Interestingly , IT1t also reduced dermal skin thickness and neutrophil 
+
+infiltration and NET deposition specifically within the dermis, without affecting the epidermis .
+
+This compartment -specific effect confirms th at CXCR4 signaling is essential for immune cell 
+
+migration into the skin derm is , consistent with prior reports (50) . While previous studies 
+
+identified CXCR4 as a negative regulator of TLR7 -mediated IFN -I signaling in plasmacytoid 
+
+dendritic cells (60), our work expands this framework by showing that CXCR4 inhibition also 
+
+block s neutrophil transmigration to the kidneys. 
+
+Ultimately, these findings support a n integrated two -step model of disease propagation :
+
+UVB induces skin -infiltrating neutrophil NETosis and promot es the transmigration of non -
+
+NET ting neutrophil s from the skin to the kidneys , where they subsequently undergo NETosis 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+22 
+
+to  propagat e kidney inflammation and injury.  By elucidat ing  the requirements for  PKCα -driven 
+
+nuclear envelope rupture  during  NET release  and  CXCR4 -mediated  neutrophil  trafficking , this 
+
+study  suggests a  shift  in  ther apeutic  strategy  to ward  the  targeted inhibition of  these non -
+
+redundant steps . Specifically,  PKCα  inhibition to control terminal NETosis and  CXCR4 
+
+blockade  to preven t neutrophil  transmigration  offer  a high -precis ion  strategy  to neutralize 
+
+systemic lupus inflammation and  protect  against  distant  end -organ  damage  from cutaneous 
+
+environmental triggers  in  photosensitive SLE. 
+
+METHODS 
+
+Sex as a biological variable . Given the profound female bias in human lupus (⁓90% patients) 
+
+and the accelerated disease kinetics in female MRL/ lpr lupus -prone mice , all experiments 
+
+within the lupus context exclusively utiliz ed female mice . However, for experiments studying 
+
+in vivo neutrophil transmigration using Cxcr4 deficient strains on a non -lupus background , both 
+
+sexes were included .
+
+Mice . MRL/ lpr  lupus -prone  mice  and  Pkc α-deficient mice (B6;129 -Prkca  tm1Jmk /J mice, JAX 
+
+#009068) (61) , along with  their corresponding littermate controls, were purchased from  the 
+
+Jackson Laboratory , and housed in a pathogen -free environment, and  provided  food and wa ter 
+
+ad libitum . To generate  the  MRL/ lpr ;P kc α-/-, lupus -prone mice with  Pkc α deficiency , Pkc α-/-
+
+mice  were  backcrossed  on to  the  MRL/ lpr  genetic background for at least 10 generations.  For 
+
+in vivo  spatiotemporal  tracking  of  neutrophil  transmigration  from the  skin to the kidneys, we 
+
+generated  kikGR ;Cxcr 4+/ - (Kikume Green -Red)  mice , as homozygous  Cxcr4  deficiency results 
+
+in  perinatal lethality.  Briefly,  Cxcr4 flox  mice  (JAX, #008767 ) were crossed  with  CMV -Cre  mice 
+
+(JAX, #006054 ) to  create  Cxcr 4-deficient mice, which  were then crossed with  kikGR -
+
+expressing mice  (JAX, #035393)  (49) . This  model  enabled  the  visualization  of neutrophil 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+23 
+
+trafficking via k ikGR fluorescence , with kikGR ;Cxcr 4flox mice serv ing as control s. All animal 
+
+experiments were approved by the Institutional Animal Care and Use Committee (IACUC) of 
+
+the Philadelphia VA Medical Center. 
+
+UVB exposure and sample harvest . The dorsal skins of 8 -week -old , asymptomatic young 
+
+female MRL/ lpr or MRL/ lpr;P kc α-/- mice were subjected to UVB irradiation (150 mJ/cm 2/day) 
+
+or not ( sham control) for 5 consecutive days under anesthetization , as previous ly described (13, 
+
+14,62). In separate pharmacological studies , eight -week -old asymptomatic female MRL/ lpr 
+
+mice received daily intraperitoneal injections of either the CXCR4 selective antagonist IT1t 
+
+(10 mg/kg/day) or a sterile normal saline ( vehicle control) . Pharmacological t reatment began 
+
+one day prior to the 5 -day UVB regimen and continued for 6 consecutiv e days . Each 
+
+experimental cohort consist ed of 5-10 mice. 
+
+To enable the spatiotemporal tracking of neutrophils migration in vivo from the skin 
+
+and their infiltration to the kidneys, kikGR ;Cxcr4 +/ - and kikGR ;Cxcr4 flox control mice were 
+
+subjected to a sequential UVB irradiation and violet light photoconversion over five 
+
+consecutive days. Each day, the shaved dorsal skin was first exposed to UVB irradiation (150 
+
+mJ/cm 2/day (13,14). Th en , the k ikGR green protein expressing in the infiltrating neutrophils 
+
+was converted to red fluorescence by applying violet light (405 nm) as described (35) . The 
+
+violet -blue light was supplied by a 50 W LED lamp (0.37 numerical aperture fiber, Mightex) 
+
+at 100 mW , illuminating round skin spots (∼2cm in diameter ) on the marked area of UVB -
+
+irradiated dorsal skin for approximately 15 min per exposure. This sequential exposure 
+
+converts the kikGR protein from green to red fluorescence, enabling the in vivo spatiotemporal 
+
+tracking of UVB -activated neutrophils as they migrate from the skin to the kidneys. 
+
+One day after the last UVB exposure, all mice w ere  anesthetized and  the  systemic 
+
+circulation perfused with EDTA -PBS (50 units/ml) via left -sided cardiac puncture (63). Then 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+24 
+
+the  perfused  kidneys and dorsal skin  were harvested  for following experiments. For histologic 
+
+studies,  the  skin or kidney tissues were fixed in 4% paraformaldehyde (PFA) for 24h before 
+
+paraffin -embedded sectioning to 5 μm thick sections for all mice (13, 14).  Proteinuria  score 
+
+was measured  for all mice  before sacrifice using  Chemstrip 2GP (Roche, Indianapolis, IN). A 
+
+scale of 0 –3 was used  to  correspond to  the following total urinary protein  levels: 0 (negative) ,
+
+5–20 mg/dL  (trace ), 30 mg/dL  (+) , 100 mg/dL  (++) , and 500 mg/dL  (+++) .
+
+Cell Culture and Treatment . Mouse bone marrow (BM) neutrophils from the  femur  and  tibia 
+
+BM of MRL/ lpr  mice were isolated as described in our  previous  publications (13,14), and were 
+
+purified with a neutrophil isolation kit (Milteny i Biotec ). All of the above primary mouse 
+
+neutrophils were treated without or with 5 or10 μM  PAF , or irradiated without or with UVB at 
+
+30 -60 mJ/cm 2, and cultured for 20h  (13,14)  for analys is of neutrophil expression of IFNγ and 
+
+IL -17A cytokines, complement  C3  (C3c) , or CXCR4. For induction of IFNα  in neutrophils ,
+
+above  neutrophil s were  co -incubated  with  purified  DNA -NETs that were prepared and isolated 
+
+as described  before  (13, 14). Then, neutrophils were fixed with 2% PFA and stored at  -20 °C 
+
+for later anal ysis. 
+
+Flow cytometry analysis . To  detect  UVB -induced  neutrophil expression of  CXCR4,  IFNα, 
+
+IFNγ, IL -17A,  and  C3,  primary MRL/ lpr  mouse  neutrophils were treated without or with  PAF 
+
+(10 μM PAF) or UVB (60 mJ/cm 2), and incubated for 20h , follow ed  by fixation with 2% PFA. 
+
+Then these cells  were first  permeabilized with 0.1%  Tween -20 and  co -stained by PE -labeled 
+
+anti -mouse  Ly6G,  FITC -labeled anti -mouse  IFNα,  IFNγ, I L-17A, or  C3,  and APC -labeled anti -
+
+mouse CXCR4. Analys es of expression s of  CXCR4, and/or  cytokines,  C3  in neutrophils were 
+
+based on gated cells that were  Ly6G positive cells. Flow cytometry  analyses  were conducted 
+
+by FACS  Canto , and data were analyzed by Flowjo  software  as described before (14) .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+25 
+
+Transmigration Assays . To study the effects of CXCR4 -CXCL12 signaling pathway on 
+
+neutrophil migration in the context of UVB, the transmigration ability of primary neutrophils 
+
+from MRL/ lpr mice was examined by using Boyden chamber as previously described (13,14, 
+
+44) . Primary neut rophils from MRL/ lpr mice were first stimulated by 10 μM PAF for 20h to 
+
+induce their CXCR4 expression. To study the effects of CXCR4 inhibitor, neutrophils (4 x 
+
+10 5) from MRL/ lpr mice with PAF pretreatment were treated or not by 10 μM IT1t, a selective 
+
+CX CR4 antagonist, for 30 min before adding to the upper chamber with 3 μm pore inserts of 
+
+24 -well trans -well plates, followed by stimulation with CXCL12 (300 ng/ml) in the bottom 
+
+well for 5h. The pore transmigration ability was expressed as relative transmig ration compared 
+
+to that in control neutrophils of the mice without treatment as described before (14) .
+
+Immunohistochemistry analys es of the skin and kidneys . The paraffin -embedded skin or kidney 
+
+tissue sections of all mice were stained either by hematoxylin and eosin (H&E) or by 
+
+fluorescent staining as described before (13,14) . Infiltration of inflammatory cells in skin of all 
+
+mice was counted for the nucleated cel ls in the epidermis, dermis, or fat of the H&E stained 
+
+skin sections as described in our published works (13,14) . The glomerular cellularity, including 
+
+podocytes, endothelial cells, mesangial cells, and infiltrated cells of the kidney cross sections 
+
+of all mice, was counted as described before with modifications (64) . In fluorescent staining, 
+
+the neutrophil markers PE -labeled anti -ly6G or Alexa -647 -labeled myeloperoxidase (MPO) 
+
+were used for detection of neutrophils and NETosis in combination with FITC -labeled citH3 ,
+
+and DNA staining with DAPI as described before (13) . FITC -labeled anti -mouse antibodies 
+
+against IFNα, IFNγ, IL -17A, C3 , or CXCR4 were used to stain the corresponding molecules in 
+
+the skin or kidneys. The fluorescent ly matched isotype control immunoglobulins were used as 
+
+isotype control staining. Slides were mounted with Gold Antifade Mountant (Invitrogen). 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+26 
+
+The fluorescent images were analyzed with an Olympus Fluoview 1000 confocal 
+
+microscope or Leica fluorescent microscope. To analyze images for molecular quantification 
+
+in IHC analyses, the 2D high resolutio n fluorescent images from at least 5 -6 random non -
+
+adjacent areas of dermis per skin section, or 20 random glomeruli per mouse kidney section, 
+
+were captured with an Olympus confocal or Leica fluorescent microscopes and saved as .tiff 
+
+files. The images were analyzed with NIH ImageJ software by following step -by -step 
+
+workflow according to the published protocols (65,66) . Quantification of the molecules of 
+
+interest, i.e. neutrophils, NETs, cytokines, or C3, and CXCR4 were based on an automatic 
+
+threshold analysis of immunofluorescence images to automatically identify the top brightest 
+
+structures of each image as described in our published work (13,14) .
+
+Statistical analyses . GraphPad Prism 6 was used to perform statist ical analysis. Normally 
+
+distributed data are shown as means ± standard deviations (SD). Comparisons between two 
+
+groups were conducted with student 's T test. Comparisons amongst three or more groups were 
+
+performed using ANOVA, followed by Student -Newman -Keu ls (SNK) test. Pearson ’s 
+
+correlation coefficient was used for analyses of a linear association between two variables .
+
+Statistical significance was considered at a level of P-value < 0.05. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+27 
+
+AUTHOR CONTRIBUTIONS 
+
+The research was conducted at the University of Pennsylvania and VAMC in Philadelphia . Liu 
+
+conceived and designed the study. Lyu, Li, Yi, and Liu performed the laboratory experiments 
+
+and acquired the experimental data. For the microscopic image analysis , Lyu, Liu, Yi took the 
+
+images, Lyu and Li conducted further quantification and statistical analysis. Liu and Lyu 
+
+analyzed and interpreted the data and finalized the paper. Lyu, Li, Zhang, Wei, Werth and Liu 
+
+were involved in the investigation, preparation and revision of the manuscript. All authors read 
+
+and approved the final manuscript. 
+
+ACKNOWLEDGEMENTS 
+
+The authors would like to acknowledge Penn Skin Biology and Diseases Resource -based 
+
+Center for their skin histology service. The authors would thank Debra A. Pawlowski ( animal 
+
+facility, Philadelphia VA Medical Center) for her kindly help with our animal experiments. 
+
+This work was supported by Lupus Research Alliance ( 416805) and NIH R21AI144838 (to 
+
+MLL), Veterans Affairs Merit Review Award (1I01BX005921 ) and NIH R01 5R01AR076766 
+
+(to VPW) , NIH 1R41AR082749 -01 (to Werth, Liu) .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+28 
+
+FIGURE LEGENDS 
+
+Figure 1. UVB irradiation triggered acute skin and kidney inflammation , neutrophil 
+
+infiltration and NET formation in young female lupus -prone mice . A. Asymptomatic 
+
+young female MRL/ lpr mice were irradiated by UVB (150 mJ/cm 2/day) for 5 days , with urine, 
+
+skin and kidney samples collected on day 6 . B-E. Representative H&E images (B) and 
+
+summary data showing increased epiderm al (C), derm al (D) skin thickness , and inflammatory 
+
+cell infiltration (E, nucleated cell count ) in the skin of MRL/ lpr mice without (sham) or with 
+
+UVB irradiation. F-H. Summary of proteinuria scores ( F) and glomerular cellularity (H) with 
+
+representative glomerular H&E images (G) in asymptomatic young female MRL/ lpr mice 
+
+without or with UVB irradiation. I-O. Summary analysis of skin neutrophils (I) , citH3 + NETs 
+
+(J,K) , and NET -associated IFNα, IFNγ, IL -17A, and C3 (L -O) in the skin of MRL/ lpr mice 
+
+without or with UVB - irradiation. In panel s I-O, neutrophils, NETs and NET -associated IFNα, 
+
+IFNγ, IL -17A, and C3 in kidney sections from all mice were stained with PE -labeled anti -ly6G, 
+
+FITC -labeled antibodies against citH3, IFNα, IFNγ, IL -17A, C3, and DAPI for DNA. Yellow 
+
+arrows indicate neutrophi l NETs (K). P-Q. Pearson c orrelations between dermal nucleated cell 
+
+count ( P) or neutrophil infiltration (Q) and proteinuria scores . Scale bars, 100 μm (B,K) , and 
+
+50 μm (G). Results represent 5 biological replicates per group. Panels C,D -F,H -J,L -O display 
+
+means ± SD, P<0.05 or <0.01 were determined by student’s t -test for two -group comparisons. 
+
+Figure 2. Neutrophil infiltration and NET formation drives acute kidney inflammation 
+
+in asymptomatic young female lupus -prone mice with UVB irradiat ion . A-H. Summary 
+
+analysis and r epresentative images of neutrophil s (A) , citH3 + NETs (B -C) , and NET -associated 
+
+IFNα, IFNγ, IL -17A, and C3 (D -H) , in the kidney s of MRL/ lpr mice without or with UVB 
+
+irradiation . Sections were stained with PE -labeled anti -ly6G, FITC -labeled antibodies against 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+29 
+
+citH3 , IFNα, IFNγ, IL -17A , C3 , and DAPI for DNA . In panels B and H, y ellow arrows indicate 
+
+NETs, and l ight blue arrows indicate intact non -NET ting neutrophils. Scale bars, 50 μm . I-K.
+
+Pearson correlations between renal NETs, NET -associated IFNα and C3 deposition in kidneys 
+
+and proteinuria scores in combined groups of mice. Results represent 5 biological replicates 
+
+per group. Panels A ,C -G display mean ± SD, P<0.05 or P<0.01 were determined by student’s 
+
+t-test. 
+
+Figure 3 . Controll ing NETosis via nuclear envelope regulation reduc ed UVB -induc ed 
+
+lupus skin inflammation in MRL/ lpr ;Pkc α-/- mice.  A. Asymptomatic  female  MRL/ lpr  and 
+
+MRL/ lpr ;Pkc α-/- mice  receiv ed UVB  irradiation  (150 mJ/cm 2/day , 5 days ), then urine, skin and 
+
+kidney samples were  harvested  on  day 6 following cardiac perfusion.  B-D. Histological 
+
+quantification  of skin thickness of epidermis (B), dermis (C), and proinflammatory cell 
+
+infiltration (D, nucleated cells) in MRL/ lpr  vs  MRL/ lpr ;Pkc α-/- mice without or with  UVB 
+
+irradiation.  E-K. Analyses of  skin  neutrophils (E),  and NET -associated IFNα  (F -H) , IFNγ,  IL -
+
+17A, and C3  (I-K) . Skin  sections  were stained with PE -labeled anti -ly6G, FITC -labeled 
+
+antibodies against  IFNα, IFNγ, IL -17A, or C3, and DAPI for DNA. Scale bars, 100 μm.  Data 
+
+represent 5 -10 biological replicates.  Panels B -F and  I-K display mean ± SD ; P<0.01  or P<0.001 
+
+by  one -way  ANOVA  with  SNK  post -hoc  test. 
+
+Figure 4. Inhibiti ng NETosis through nuclear envelope regulation attenuated acute 
+
+kidney inflammation in UVB -irradiated MRL/ lpr ;Pkc α-/- mice.  A-C. Quantification  of 
+
+proteinuria scores (A) or glomerular cellularity (B) , with  representative glomerular images (C) 
+
+for  MRL/ lpr  vs  MRL/ lpr ;Pkc α-/- mice without  or with  UVB  irradiation . D-I. Analysis  of 
+
+glomerular  neutrophils  (D) , and  NET -associated IFN α (E,F) , IFN γ, IL -17A, C3 ( G-I) in 
+
+MRL/ lpr  vs  MRL/ lpr ;Pkc α-/- mice without  or with  UVB  irradiation.  Kidney sections  were 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+30 
+
+stained with PE -labeled anti -ly6G, FITC -labeled antibodies against IFN α, IFN γ, IL -17A, or 
+
+C3, and DAPI for DNA. Scale bars, 50 μm. Results represent 5 -10 biological replicates. Panels 
+
+A,B,D ,F-I display mean ± SD ; P<0.05, P<0.01 , and P<0.001 by one -way ANOVA with SNK 
+
+post -hoc test. 
+
+Figure 5. UVB -induced CXCR4 upregulation and co -expression with cytokines and C3 
+
+in primary neutrophils from lupus -prone mice . A-D. Immunofluorescence images and 
+
+summary analysis of MPO and CXCR4 co -expression and deposition of neutrophil NETs in 
+
+the inflamed skin and kidneys of UVB -irradiated MRL/ lpr mice. Skin and kidney sections were 
+
+stained with Alexa 647 -labeled MPO, FITC -labeled antibodies against CXCR4, and DAPI for 
+
+DNA. E,F. Flow cytometry histogram s of CXCR4 expression in peripheral blood neutrophils 
+
+from MRL/ lpr mice without or with UVB irradiation (E,F). Peripheral blood neutrophils were 
+
+stained with PE -labeled anti -mouse ly6G and APC -labeled rat anti -mouse CXCR4 or APC -
+
+labeled rat IgG2b isotype control . G-O. Representative histogram and summary analyses of
+
+flow cytometry data for primary neutrophils from MRL/ lpr mice stimulated in vitro with PAF 
+
+(10 μM PAF) or UVB (60 mJ/cm 2) and incubated for 20h . Panels show neutrophil expression 
+
+of CXCR4 (G) , and cytokines IFNα ( H,I ), IFNγ ( J,K ), IL -17A (L,M ), and C3 (N,O ). Cells were 
+
+stained with PE -labeled anti -mouse ly6G, APC -labeled anti -mouse CXCR4, and FITC -labeled 
+
+anti -mouse IFNα, IFNγ, IF -17A, or C3 . All neutrophils in panels E-O were gated on ly6G +
+
+cells. Data represent 4-6 biological replicates. Panels B, D,F, H-O display means ± SD, P<0.05, 
+
+P<0.01, P<0.001 determined by student’s t -test for two -group comparisons. 
+
+Figure 6. Cxcr 4 genetic deficiency in pair ed neutrophil transmigration from skin to 
+
+kidneys follow in g UVB irradiat ion. A. Young kikGR ;Cxcr4 +/ - and kikGR ;Cxcr4 flox control 
+
+mice express ing a photo -convertible reporter were irradiated by UVB (150 mJ/cm 2/day) and 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+31 
+
+violet light for 5 days , then urine, skin and kidney samples were harvested on day 6. B. Flow 
+
+cytometry analys is of peripheral blood kikR + neutrophils from kikGR ;Cxcr4 flox and 
+
+kikGR ;Cxcr4 +/ - mice without or with UVB and violet light irradiation . Analysis was performed 
+
+to assess systemic circulation, gat ing on Ly6G + cells (PE -labeled anti -mouse ly6G) that had 
+
+photoconverted from kikG + to kikR +. C-F. Immunofluorescence and summary analys is of 
+
+photoconverted kikR + neutrophil infiltration in to kidneys . Kidney sections were stained with 
+
+Pacific Blue labeled anti -mouse ly6G, and Alexa 647 -labeled CXCR4. Blue arrows indicate 
+
+glomeruli with deposition of photoconverted kikR + neutrophils , while yellow arrows denote 
+
+deposition of neutroph il NET -like structures in glomeruli . Scale bars, 50 μm. G. Quantification 
+
+of proteinuria scores in control kikGR ;Cxcr4 flox and kikGR ;Cxcr4 +/ - mice without or with UVB 
+
+and violet light irradiation . Data represent 6 biological replicates in each group (3 male and 3 
+
+female mice) . Panels E-G display mean ± SD, P<0.05, P<0.01 , and P<0.0 01 determined by 
+
+one -way ANOVA with SNK post -hoc test. 
+
+Figure 7. Pharmacological CXCR4 inhibition attenuated acute kidney inflammation in 
+
+lupus -prone mice irradiated by UVB . A. Asymptomatic female MRL/ lpr mice irradiated by 
+
+UVB (150 mJ/cm 2/day , 5 days ), with intraperitoneal administration of CXCR4 antagonist IT1t 
+
+(10 mg/kg/day , 6 days ) beg an one day prior to the first session of UVB irradiation Then , urine, 
+
+skin and kidney samples were harvest ed on day 6 post cardiac perfusion. B-F. Quantification 
+
+of proteinuria scores (B ), glomerular cellularity (C ,D ), renal Ly6G -neutrophils ( E) and 
+
+CXCR4 -expressing neutrophils ( F) in UVB -irradiated MRL/ lpr mice without ( control ) or with 
+
+IT1t admin istration . G. Relative migration analysis of mouse neutrophils with CXCR4 
+
+expression , induced by 10 μM PAF stimulation for 20h , was conducted using a Boyden 
+
+chamber. Cells were pretreated without or with IT1t , and then stimulat ed with CXCL12 at 300 
+
+ng/ml . H-M. Analyses of glomerular deposition of neutrophil NETs, and NET -associated 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+32 
+
+IFNα, IFNγ, IL -17A, or C3 in glomeruli of  UVB -irradiated MRL/ lpr  mice without (control) or 
+
+with  IT1t  pre -administration.  Sections  (E,F,H -M) were  immuno stained with PE -labeled anti -
+
+ly6G, FITC -labeled antibodies against  CXCR4,  citH3, IFNα, IFNγ, IL -17A,  or  C3, and DAPI 
+
+for DNA.  Scale bars,  50  μm  (D), and  100 μm  (I) . Data  represent 3 -5 biological replicates. 
+
+Panels B ,C ,E-H,J-M display means ± SD,  P<0.05, P<0.01 by  student’s t -test for two -group 
+
+comparisons. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+33 
+
+Figure 1 
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint 34 
+
+Figure 2. 
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint 35 
+
+Figure 3 .
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint 36 
+
+Figure 4 .
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint 37 
+
+Figure 5 .
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint 38 
+
+Figure 6 .
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint 39 
+
+Figure 7 .
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint 40 
+
+REFERENCES 
+
+1. Tsokos GC (2020) Autoimmunity and organ damage in systemic lupus erythematosus. 
+
+Nature immunology 21(6):605 -614. 
+
+2. Dai C , et al. (2014) Genetics of systemic lupus erythematosus: immune responses and 
+
+end organ resistance to damage. Current opinion in immunology 31:87 -96. 
+
+3. Baer RL & Harber LC (1965) Photobiology of lupus erythematosus. Arch ives of 
+
+dermatology 92(2):124 -128. 
+
+4. Foering K , et al. (2013) Characterization of clinical photosensitivity in cutaneous lupus 
+
+erythematosus. J Am Acad Dermatol 69(2):205 -213. 
+
+5. Ansel JC, Mountz J, Steinberg AD, DeFabo E, & Green I (1985) Effects of UV r adiation 
+
+on autoimmune strains of mice: increased mortality and accelerated autoimmunity in 
+
+BXSB male mice. The Journal of investigative dermatology 85(3):181 -186. 
+
+6. Schmidt E, Tony HP, Brocker EB, & Kneitz C (2007) Sun -induced life -threatening lupus 
+
+neph ritis. Annals of the New York Academy of Sciences 1108:35 -40. 
+
+7. He J, Guo Y, Chen J, Xu J, & Zhu X (2025) Exploring the correlation between UVB 
+
+sensitivity and SLE activity: Insights into UVB -driven pathogenesis in lupus 
+
+erythematosus. Journal of autoimmu nity 153:103393. 
+
+8. Sim JH , et al. (2021) Immune Cell -Stromal Circuitry in Lupus Photosensitivity. J
+
+Immunol 206(2):302 -309. 
+
+9. Chiche L , et al. (2012) Seasonal variations of systemic lupus erythematosus flares in 
+
+southern France. European journal of inter nal medicine 23(3):250 -254. 
+
+10. Abdelaziz TS , et al. (2023) Seasonal variation of lupus nephritis in a cohort of Egyptian 
+
+patients. Clin Rheumatol 42(4):1013 -1018. 
+
+11. Hawk JL, Murphy GM, & Holden CA (1988) The presence of neutrophils in human 
+
+cutaneous ul traviolet -B inflammation. The British journal of dermatology 118(1):27 -30. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+41 
+
+12. Han X , et al. (2019) PD -1H (VISTA) -mediated suppression of autoimmunity in systemic 
+
+and cutaneous lupus erythematosus. Science translational medicine 11(522). 
+
+13. Li Y , et al. (2020) Nuclear envelope rupture and NET formation is driven by PKCα‐ 
+
+mediated lamin B disassembly. EMBO reports 21(e48779). 
+
+14. Li M, Lyu X, Liao J, Werth VP, & Liu ML (2022) Rho Kinase regulates neutrophil NET 
+
+formation that is involved in UVB -induced skin inflammation. Theranostics 12(5):2133 -
+
+2149. 
+
+15. Knight JS , et al. (2015) Peptidylarginine deiminase inhibition disrupts NET formation 
+
+and protects against kidney, skin and vascular disease in lupus -prone MRL/lpr mice. 
+
+Annals of the rheumatic diseases 74(12 ):205365. 
+
+16. Safi R, Al -Hage J, Abbas O, Kibbi AG, & Nassar D (2019) Investigating the presence of 
+
+neutrophil extracellular traps in cutaneous lesions of different subtypes of lupus 
+
+erythematosus. Exp Dermatol 28(11):1348 -1352. 
+
+17. Westhorpe CL , et al. (2017) In Vivo Imaging of Inflamed Glomeruli Reveals Dynamics 
+
+of Neutrophil Extracellular Trap Formation in Glomerular Capillaries. The American 
+
+journal of pathology 187(2):318 -331. 
+
+18. Pieterse E , et al. (2017) Neutrophil Extracellular Traps Drive Endoth elial -to -
+
+Mesenchymal Transition. Arteriosclerosis, thrombosis, and vascular biology 37(7):1371 -
+
+1379. 
+
+19. Lindau D , et al. (2013) TLR9 independent interferon alpha production by neutrophils on 
+
+NETosis in response to circulating chromatin, a key lupus autoan tigen. Annals of the 
+
+rheumatic diseases .
+
+20. Barrat FJ, Crow MK, & Ivashkiv LB (2019) Interferon target -gene expression and 
+
+epigenomic signatures in health and disease. Nature immunology 20(12):1574 -1583. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+42 
+
+21. Kiefer K, Oropallo MA, Cancro MP, & Marshak -Rot hstein A (2012) Role of type I 
+
+interferons in the activation of autoreactive B cells. Immunology and cell biology 
+
+90(5):498 -504. 
+
+22. Gestermann N , et al. (2018) Netting Neutrophils Activate Autoreactive B Cells in Lupus. 
+
+J Immunol 200(10):3364 -3371. 
+
+23. Bertelli R , et al. (2021) Neutrophil Extracellular Traps in Systemic Lupus Erythematosus 
+
+Stimulate IgG2 Production From B Lymphocytes. Front Med (Lausanne) 8:635436. 
+
+24. Leffler J , et al. (2012) Neutrophil extracellular traps that are not degraded in syste mic 
+
+lupus erythematosus activate complement exacerbating the disease. J Immunol 
+
+188(7):3522 -3531. 
+
+25. Yuen J , et al. (2016) NETosing Neutrophils Activate Complement Both on Their Own 
+
+NETs and Bacteria via Alternative and Non -alternative Pathways. Frontiers in 
+
+immunology 7:137. 
+
+26. Helm KF & Peters MS (1993) Deposition of membrane attack complex in cutaneous 
+
+lesions of lupus erythematosus. J Am Acad Dermatol 28(5 Pt 1):687 -691. 
+
+27. Zhao Y, Wei W, & Liu ML (2020) Extracellular vesicles and lupus nephritis - New 
+
+insights into pathophysiology and clinical implications. Journal of 
+
+autoimmunity :102540. 
+
+28. Shrestha B , et al. (2019) Recombinant Thrombomodulin Suppresses Histone -Induced 
+
+Neutrophil Extracellular Trap Formation. Frontiers in immunology 10:2535. 
+
+29. De ng P , et al. (2024) Auto -amplification and spatial propagation of neutrophil 
+
+extracellular traps. Commun Biol 7(1):386. 
+
+30. Santocki M, Such A, Drab D, Burczyk G, & Kolaczkowska E (2025) NETs persisting in 
+
+vasculature undergo self -renewal with consequences for subsequent infection: a mouse 
+
+model study. Blood 145(18):2070 -2085. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+43 
+
+31. Marathe GK , et al. (2005) Ultraviolet B radiation generates platelet -activating factor -like 
+
+phospholipids underlying cutaneous damage. The Journal of biological chemistry 
+
+280(42): 35448 -35457. 
+
+32. Gay JC & Stitt ES (1988) Platelet -activating factor induces protein kinase activity in the 
+
+particulate fraction of human neutrophils. Blood 71(1):159 -165. 
+
+33. Yavuz S , et al. (2014) Neutrophil gelatinase associated lipocalin as an indicato r of acute 
+
+kidney injury and inflammation in burned children. Burns 40(4):648 -654. 
+
+34. Niculae A , et al. (2022) Burn -Induced Acute Kidney Injury -Two -Lane Road: From 
+
+Molecular to Clinical Aspects. International journal of molecular sciences 23(15). 
+
+35. Skop elja -Gardner S , et al. (2021) Acute skin exposure to ultraviolet light triggers 
+
+neutrophil -mediated kidney inflammation. Proceedings of the National Academy of 
+
+Sciences of the United States of America 118(3). 
+
+36. Mutua V & Gershwin LJ (2020) A Review of Ne utrophil Extracellular Traps (NETs) in 
+
+Disease: Potential Anti -NETs Therapeutics. Clinical reviews in allergy & immunology .
+
+37. Singh J , et al. (2023) Moonlighting chromatin: when DNA escapes nuclear control. Cell 
+
+death and differentiation :1 -15. 
+
+38. Gordon RA , et al. (2017) Lupus and proliferative nephritis are PAD4 independent in 
+
+murine models. JCI insight 2(10). 
+
+39. Sorensen OE & Borregaard N (2016) Neutrophil extracellular traps - the dark side of 
+
+neutrophils. The Journal of clinical investigation 126(5) :1612 -1620. 
+
+40. Yipp BG & Kubes P (2013) NETosis: how vital is it? Blood 122(16):2784 -2794. 
+
+41. De Filippo K & Rankin SM (2018) CXCR4, the master regulator of neutrophil 
+
+trafficking in homeostasis and disease. European journal of clinical investigation 48 
+
+Suppl 2:e12949. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+44 
+
+42. Wang J , et al. (2017) Visualizing the function and fate of neutrophils in sterile injury and 
+
+repair. Science (New York, N.Y 358(6359):111 -116. 
+
+43. Chong BF & Mohan C (2009) Targeting the CXCR4/CXCL12 axis in systemic lupus 
+
+erythemat osus. Expert opinion on therapeutic targets 13(10):1147 -1153. 
+
+44. Wang A , et al. (2009) CXCR4/CXCL12 hyperexpression plays a pivotal role in the 
+
+pathogenesis of lupus. J Immunol 182(7):4448 -4458. 
+
+45. Wang A , et al. (2010) Dysregulated expression of CXCR4/C XCL12 in subsets of 
+
+patients with systemic lupus erythematosus. Arthritis and rheumatism 62(11):3436 -3446. 
+
+46. Zhao LD , et al. (2017) Contribution and underlying mechanisms of CXCR4 
+
+overexpression in patients with systemic lupus erythematosus. Cellular & m olecular 
+
+immunology 14(10):842 -849. 
+
+47. Jang SH , et al. (2024) Mitochondria Activity and CXCR4 Collaboratively Promote the 
+
+Differentiation of CD11c(+) B Cells Induced by TLR9 in Lupus. Immune Netw 
+
+24(4):e25. 
+
+48. Hu HM , et al. (2025) Dual blockade of DPP -4 and CXCL12/CXCR4 axes synergistically 
+
+protects podocytes in lupus nephritis. Frontiers in pharmacology 16:1732243. 
+
+49. Griswold SL, Sajja KC, Jang CW, & Behringer RR (2011) Generation and 
+
+characterization of iUBC -KikGR photoconvertible transgenic mice for live time -lapse 
+
+imaging during development. Genesis 49(7):591 -598. 
+
+50. Sarchio SN , et al. (2014) Pharmacologically antagonizing the CXCR4 -CXCL12 
+
+chemokine pathway with AMD3100 inhibits sunlight -induced skin cancer. The Journal 
+
+of investigative dermatology 134(4):1091 -1100. 
+
+51. Liu ML, Lyu X, & Werth VP (2021) Recent progress in the mechanistic understanding 
+
+of NET formation in neutrophils. The FEBS journal 10.1111/febs.16036. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+45 
+
+52. Rohrbach AS, Hemmers S, Arandjelovic S, Corr M, & Mowen KA (2012) PAD4 is not 
+
+essential for disease in the K/BxN murine autoantibody -mediated model of arthritis. 
+
+Arthritis research & therapy 14(3):R104. 
+
+53. Jerke U , et al. (2015) Neutrophil serine proteases exert proteolytic activity on endothelial 
+
+cells. Kidney international 88(4) :764 -775. 
+
+54. Metzemaekers M, Gouwy M, & Proost P (2020) Neutrophil chemoattractant receptors in 
+
+health and disease: double -edged swords. Cellular & molecular immunology 17(5):433 -
+
+450. 
+
+55. Jackson SH, Farmer AW, Slater RJ, & Dewolfe MS (1961) The resolutio n of urinary or 
+
+serum proteins by chromatography on DEAE cellulose columns with particular reference 
+
+to urinary proteins after thermal burns. Can J Biochem Physiol 39:881 -889. 
+
+56. Togel F, Isaac J, Hu Z, Weiss K, & Westenfelder C (2005) Renal SDF -1 signals 
+
+mobilization and homing of CXCR4 -positive cells to the kidney after ischemic injury. 
+
+Kidney international 67(5):1772 -1784. 
+
+57. Jamaly S, Rakaee M, Abdi R, Tsokos GC, & Fenton KA (2021) Interplay of immune and 
+
+kidney resident cells in the formation of tert iary lymphoid structures in lupus nephritis. 
+
+Autoimmunity reviews 20(12):102980. 
+
+58. Phillipson M & Kubes P (2011) The neutrophil in vascular inflammation. Nature 
+
+medicine 17(11):1381 -1390. 
+
+59. Kolman JP , et al. (2022) NET Release of Long -Term Surviving Ne utrophils. Frontiers in 
+
+immunology 13:815412. 
+
+60. Smith N , et al. (2019) Control of TLR7 -mediated type I IFN signaling in pDCs through 
+
+CXCR4 engagement -A new target for lupus treatment. Sci Adv 5(7):eaav9019. 
+
+61. Braz JC , et al. (2004) PKC -alpha regulates cardiac contractility and propensity toward 
+
+heart failure. Nature medicine 10(3):248 -254. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+46 
+
+62. Li Y, Travers JB, Werth VP, & Liu ML (2018) PKCα deficiency protected mice from 
+
+UVB induced -Skin Inflammation through attenuation of neutrophil NETosis. Arthritis 
+
+Rheumatol 70(suppl 9). 
+
+63. Zhao J , et al. (2013) P2X7 blockade attenuates murine lupus nephritis by inhibiting 
+
+activation of the NLRP3/ASC/caspase 1 pathway. Arthritis and rheumatism 
+
+65(12):3176 -3185. 
+
+64. Zhang PL, Herrera GA, & Liu B (2020) Monoclonal glomerulopathy with features of 
+
+cryoglobulinemic glomerulopathy in murine multiple myeloma model. Ultrastruct 
+
+Pathol 44(4 -6):387 -394. 
+
+65. Guirado R, Carceller H, Castillo -Gomez E, Castren E, & Nacher J (2018) Automated 
+
+analysis of images for molecular quantification in immunohistochemistry. Heliyon 
+
+4(6):e00669. 
+
+66. Rebollo E, Boix -Fabres J, & Arbones ML (2019) Automated Macro Approach to 
+
+Quantify Synapse Density in 2D Confocal Images from Fixed Immunolabeled N eural 
+
+Tissue Sections. Methods in molecular biology (Clifton, N.J 2040:71 -97. 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+47 
+
+Supplemental Methods and Data 
+
+for 
+
+Neutrophil Extracellular Traps  Drive  Inflammation in  Local  Skin and  Distant  Kidney s
+
+in  UVB -Irradiated Lupus -Prone Mice 
+
+Xing Lyu 1,2,4 , Minghui Yi 1,2, , Minghui Li 1,2, 4, Ping L. Zhang 3, Wei Wei ,4 , Victoria P. 
+
+Werth 1,2* , Ming -Lin Liu 1,2*  
+
+> 1
+
+Corporal Michael J. Crescenz VAMC, Philadelphia, PA, USA  
+
+> 2
+
+Department of Dermatology, Perelman School of Medicine, University of Pennsylvania, 
+
+Philadelphia, PA, USA  
+
+> 3
+
+Division of Anatomic Pathology, Beaumont Laboratories, Beaumont Health, Royal Oak, 
+
+Michigan 48073, USA  
+
+> 4
+
+Department of  Rheumat ology  and Immunology,  Tianjin  Medical University General 
+
+Hospital,  Tianjin, China 
+
+Short title : NETosis drives UVB -induced lupus skin and kidney inflammation 
+
+Correspondence to: Ming -Lin Liu, MBBS, PhD , and Victoria P. Werth, MD,  Department of 
+
+Dermatology, Perelman School of Medicine, University of Pennsylvania, and Philadelphia 
+
+Veterans Administration Medical center. Room B414, 3900 Woodland Avenue, Philadelphia, 
+
+PA 19104, eMAIL:  lium1 @pennmedicine.upenn.edu ; werth@pennmedicine.upenn.edu 
+
+Key words : SLE,  NETosis,  PKC α, CXCR4 , Skin -kidney  communication, 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+48 
+
+Supplemental Data 
+
+Suppl Fig 1. Renal neutrophil infiltration and NET -associated cytokines correlate with 
+
+proteinuria in acute kidney inflammation in lupus -prone mice triggered by UVB . A. 
+
+Correlation between glomerular neutrophil infiltration and glomerular cellularity. B-D.
+
+Correlation between glomerular neutrophils, NET -associated IFNγ, IL -17A with proteinuria in 
+
+combined experimental groups. All data were analy zed using Pearson correlation coefficients .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+49 
+
+Suppl Fig 2. UVB induced expression of cytokines and C3 in vitro in primary neutrophils 
+
+from lupus -prone mice . A-D. Representative histogram of IFNα, IFNγ, IL -17A, or C3 
+
+expression in primary neutrophils from lupus -prone mice . Cells were stimulated without 
+
+(control) or with 10 μM PAF, or 30 -60 mJ/cm 2 UVB irradiation, and incubated for 20h, then 
+
+processed and immuno stained as de tail ed in methods and Fig 5 .
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 8, 2026. ;https://doi.org/10.1101/2023.12.23.572573 doi: bioRxiv preprint
+
+50 
+
+Suppl Fig 3. Effects of pharmacological CXCR4 inhibition on acute skin and kidney 
+
+inflammation in UVB -irradiated lupus -prone mice . A-K. Summary analyses or 
+
+representative H&E images of epiderm al (A) and derm al (B) thickness , inflammatory cell 
+
+infiltration ( C-D, nucleated cells), neutrophils (E) , CXCR4 -expressing neutrophils (F) , NETs 
+
+(G) , and NET -associated IFNα (H) , IFNγ (I) , IL -17A (J) , or C3 (K) in skin of UVB -irradiated 
+
+MRL/ lpr mice without (lpr UVB) or with IT1t administration (lpr IT1t+UVB). Scale bars, 100 
+
+μm. Results represent 4 -5 biological replicates. Panels A,B,D-K display means ± SD 
+
+determined by student’s t -test for two -group comparisons.

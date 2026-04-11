@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "extractor": "pdffigures2",
+  "figures": [
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-001.webp",
+      "caption": "Figure 4: Loss of pes-8 causes ovulation and fertility phenotypes. A) Diagrammatic representation of pes-8 mutants including the entire pes-8 deletion xb7, ZP-like domain deletion xb14, and the cytoplasmic tail deletion xb13. B) Percentages of spermathecae occupied by an oocyte in a GCaMP expressing strain with control (empty vector and plc-1 RNAi), pes-8 RNAi, and alleles are shown. C) Number of mutants and pes-8 RNAi hatchlings, (n=20 for each). D) Phenotypes exhibited by pes-8 RNAi and mutant alleles. Representative DIC images displaying E) the egg-laying",
+      "page": 6,
+      "index": 1,
+      "width": 976,
+      "height": 1023
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-002.webp",
+      "caption": "Figure 8: PES-8 is required for the localization of the apical proteins AJM-1 and DLG-1. A and B) ACT-1::GFP and AJM-1::tagRFP expression in the spermatheca of control (empty vector RNAi) (A), pes-8 RNAi (B) animals. C and D) Discs large/DLG-1::GFP and Apical junction molecule/AJM-1::tagRFP expression in the spermatheca of control (empty vector RNAi) (C), pes-8 RNAi (D) animals. The arrow indicates DLG-1::GFP expressed in a developing embryo trapped in the spermatheca. Red punctae of AJM-1 around the embryo indicate the embryo remains enclosed in the spermatheca. E-L) Photos of confocal time-lapse of AJM-1 disruption (Movie S4), before oocyte entry (E), upon oocyte entry (F), beginning of expanding the fibers (G), rupture of AJM-1 fiber after oocyte entry (H), rupture of another AJM-1 fiber after oocyte entry (I), J-L) push back of fibers to one side after full oocyte entry. Scale bar, 20 μm.",
+      "page": 11,
+      "index": 2,
+      "width": 976,
+      "height": 750
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-003.webp",
+      "caption": "Figure 11: PES-8 regulates Ca2+ signaling in the spermatheca. A-C) Normalized Ca2+ traces and Ca2+ kymographs of control (empty vector RNAi) (A), pes-8 RNAi (B) and fln-1(tm545) (C) in GCaMP expressing animals. D= Distal and P= Proximal spermatheca. D) Ca2+ pulse quantification reveals higher number of peaks for pes-8 and fln-1(tm545) compared to control, reflecting the long duration of the embryo transits and the continual Ca2+ pulses. E-G) Heat map of the normalized Ca2+ traces of control (empty vector RNAi) (n=13) (E), pes-8 RNAi (n=5) (F) and fln-1(tm545) (n=5)",
+      "page": 15,
+      "index": 3,
+      "width": 675,
+      "height": 1209
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-004.webp",
+      "caption": "Figure 5: PES-8 anchors actin. A-D) Maximum intensity projections of phalloidin staining shows the occupied spermathecal actin network. A) The actin is organized into long bundles in WT. Phalloidin staining revealed disrupted actin localization in mutants xb7 (B), xb13 (C), and xb14 (D). E and F) Histone/H2b::mCherry and actin/ACT-1::GFP localization in the spermatheca of control (empty vector RNAi), and pes-8 RNAi knock down animals. Scale bar, 20 μm.",
+      "page": 7,
+      "index": 4,
+      "width": 976,
+      "height": 753
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-005.webp",
+      "caption": "Figure 7: PES-8 is required for anchorage of the actomyosin cytoskeleton and the localization of filamin. A-C) Actin/ACT-1::GFP alignment in the spermatheca of control (empty vector RNAi) (A), pes-8 RNAi (B), and fln-1 RNAi (C) knock down animals. D) Actin anisotropy quantification of cells treated with control, pes-8 and fln-1 RNAi. E) Actin/ACT-1::GFP alignment in the spermatheca of a 1:1 combination of pes-8 RNAi and fln-1 RNAi knock down animals. F) Phalloidin staining of disrupted actin localization in xb7 mutant with fln-1 RNAi. G) Actin labeled moeABD::mCherry alignment in the spermatheca of pes-8 RNAi knock down animals. H and I) Filamin/FLN-1::GFP arrangement in the spermatheca of control (empty vector RNAi) (H), and pes-8 RNAi (I) knock down animals. J-L) Actin labeled moeABD::mCherry and myosin/NMY-1::GFP bundle alignment in the spermatheca of control (empty vector RNAi) (J), pes-8 RNAi (K), and fln-1 RNAi (L) animals. M) Actin and myosin bundle anisotropy of cells treated with control, pes-8 and fln-1 RNAis. Scale bar, 20 μm.",
+      "page": 10,
+      "index": 5,
+      "width": 976,
+      "height": 793
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-006.webp",
+      "caption": "Table 2: A list of crRNAs",
+      "page": 18,
+      "index": 6,
+      "width": 990,
+      "height": 414
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-007.webp",
+      "caption": "Figure 10: PES-8 partially colocalizes with FLN-1 and AJM-1. Colocalization of PES-8 and actin, filamin and AJM-1. A) DLG-1::GFP and AJM-1::tagRFP expression as control shows high colocalization, Pearson’s R value=0.785. B) PES-8::GFP and moeABD::mCherry expression in the spermatheca of control, pes-8 RNAi knock down animals, Pearson’s R value=0.538. C) PES-8::GFP and FLN-1::RFP expression in the spermatheca of control, pes-8 RNAi knock down animals, Pearson’s R value=0.419. D) PES-8::GFP and AJM-1::tagRFP expression in the spermatheca of control, pes-8 RNAi knock down animals, Pearson’s R value=0.428. Scale bar, 20 μm.",
+      "page": 13,
+      "index": 7,
+      "width": 976,
+      "height": 552
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-008.webp",
+      "caption": "Figure 6: PES-8 anchors actin in the spermathecal bag and valve . A-C) Frames from a confocal time-lapse of actin organization in wild-type from second 10 to second 70 (Movie S2). D-I) Frames from a confocal time-lapse of actin disruption of animals treated with pes-8 RNAi. Actin bundles in the unoccupied spermatheca before ovulation (D), oocyte entering the spermatheca at second 15 (E), beginning of actin network disruption at second 25 (F) actin",
+      "page": 8,
+      "index": 8,
+      "width": 976,
+      "height": 1006
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-009.webp",
+      "caption": "Figure 2: PES-8 structure. A) The pes-8 gene spans ∼3.5 kb and is composed of 11 exons. B) PES-8 has a predicted signal peptide domain at the N-terminus, a ZP-like domain, a membrane domain in the middle, and an unstructured C-terminal tail. Models of the PES-8 (C), the PES-8 ZP-like domain and transmembrane domains (D), and the PES-8 cytoplasmic tail sequence (E) as predicted by SwissModel prediction tool (https://swissmodel.expasy.org/) (Schwede et al., 2003). F) PES-8 (blue, Q) and CUT-3 (yellow, T) are predicted to fold similarly. G) PES-8 (blue, Q) and a domain from the extracellular portion of TGFβ (yellow, T) are predicted to fold similarly. Sequence conservation is shown below the models (van Kempen et al., 2024).",
+      "page": 4,
+      "index": 9,
+      "width": 976,
+      "height": 949
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-010.webp",
+      "caption": "Table 1: A list of strains",
+      "page": 17,
+      "index": 10,
+      "width": 979,
+      "height": 429
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-011.webp",
+      "caption": "Figure 9: PES-8 is not required for the localization of cadherin, innexin, or spectrin. A and B) Localization of ECadherin/HMR-1::GFP in spermatheca of animals treated with control (empty vector RNAi) (A) and pes-8 RNAi (B). C and D) Innexin /INX-12::mApple and Actin/ACT-1::GFP localization in the spermatheca of control (empty vector RNAi) (C) and pes-8 RNAi (D) knock down animals. E and F) Innexin/INX-12::GFP and AJM-1::tagRFP expression in the spermatheca of control (empty vector RNAi) (E), pes-8 RNAi (F) knock down animals. G and H) Localization of Spectrin/SPC-1::mKate2 in the spermatheca of control (empty vector RNAi) (G) and pes-8 RNAi (H) knock down. Scale bar, 20 μm.",
+      "page": 12,
+      "index": 11,
+      "width": 976,
+      "height": 1006
+    },
+    {
+      "url": "assets/figures/biorxiv/biorxiv-10-64898-2026-04-08-717217-v1/fig-012.webp",
+      "caption": "Figure 3: PES-8 expression in C. elegans. A-C) pes-8p::PES-8::GFP expressed in the spermatheca (A), sp-ut valve and vulva (B) and uterus (C). D and E) PES-8::GFP is expressed on the basal (D) and lateral (E) sides of spermatheca (Movie S1). F) Diagram of Split GFP fused with PES-8. G) Expression of PES-8::Split GFP in spermatheca, sp-ut valve, and uterus. Scale bar, 20 μm in A, D, E. Scale bar, 30 μm in B, C, G.",
+      "page": 5,
+      "index": 12,
+      "width": 976,
+      "height": 602
+    }
+  ]
+}
